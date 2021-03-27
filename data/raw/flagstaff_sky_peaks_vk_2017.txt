@@ -1,0 +1,41 @@
+results	1	David	Sinclair	Flagstaff	AZ	25	M	1	49:44	98.41
+results	2	Jp	Donovan	Las Vegas	NV	30	M	2	51:07	94.09
+results	3	Mike	Popejoy	Flagstaff	AZ	31	M	3	52:59	97.49
+results	4	Catlow	Shipek	Tucson	AZ	39	M	4	57:46	92.69
+results	5	Nathan	Morgan	Casper	WY	23	M	5	1:00:03	84.28
+results	6	Skylar	Drakos	Gunnison	CO	19	M	6	1:01:10	83.96
+results	7	Chris	Kroger	Reno	NV	48	M	7	1:05:37	79.95
+results	8	Timberland	Henderson	Gunnison	CO	21	M	8	1:06:38	74.65
+results	9	Austin	Horn	Flagstaff	AZ	20	M	9	1:07:53	86.75
+results	10	Henry	Moore	Boise	ID	18	M	10	1:10:03	90.34
+results	11	Jason	Contino	Manitou Springs	CO	26	M	11	1:12:34	79.13
+results	12	Rya	Berrigan	Gunnison	CO	18	F	1	1:15:47	75.87
+results	13	Jax	Mariash	Park City	UT	37	F	2	1:18:24	86.08
+results	14	Kurt	Kroger	Reno	NV	50	M	12	1:18:51	62.26
+results	15	Roger	Moore	Boise	ID	6	M	13	1:19:23	62.66
+results	16	Rachel	Whitmore	Gunnison	CO	19	F	3	1:21:22	75.46
+results	17	Barrett	Wise	North Liberty	IA	19	M	14	1:21:57	60.7
+results	18	James	Schroder	Fallon	NV	64	M	15	1:22:03	67
+results	19	Jared	Campanella	Woodstock	GA	27	M	16	1:23:40	81.58
+results	20	Zachary	Duarte	Flagstaff	AZ	18	M	17	1:25:33	67.38
+results	21	Sadie	Stutzman	Las Vegas	NV	22	F	4	1:26:18	90.51
+results	22	Rob	Taylor	Anthem	AZ	46	M	18	1:27:27	68.24
+results	23	Alyson	Jay	Flagstaff	AZ	38	F	5	1:28:09	77.79
+results	24	Ricky Kim	Wrinkle	Silverton	CO	59	M	19	1:33:04	72.49
+results	25	Joshua	Rekittke	Gilbert	AZ	24	M	20	1:33:30	77.52
+results	26	Joe	Spangler	scottsdale	AZ	43	M	21	1:33:45	74.29
+results	27	Dylan	Fondry	phoenix	AZ	37	M	22	1:37:28	51.43
+results	28	Brian	Holterhaus	Phoenix	AZ	37	M	23	1:41:14	85.22
+results	29	Dalia	Pedro Trujillo	Casper	WY	23	F	6	1:42:10	75.9
+results	30	Eric	Stallcup	Phoenix	AZ	23	M	24	1:42:26	56.3
+results	31	Cassy	Campanella	Roswell	GA	26	F	7	1:42:39	87.31
+results	32	Tab	Ballantine	Anchorage	AK	62	M	25	1:45:32	59.97
+results	33	Rebecca	Martin	Lutterworth	NV	34	F	8	1:48:51	77.42
+results	34	Megan	Schendel-Dittmann	Phoenix	AZ	35	F	9	1:50:35	63.9
+results	35	Elizabeth	Wong	Mesa	AZ	36	F	10	2:06:56	59.71
+results	36	Amara	Brook	San Jose	CA	43	F	11	2:10:39	71.6
+results	37	David	Van Horsen	Monrovia	CA	57	M	26	2:22:34	53.73
+results	38	Todd	Trimble	Gilbert	AZ	46	M	27	2:24:14	55.11
+results	39	Judy	Allen	Tucson	AZ	50	F	12	2:31:45	49.94
+results	40	Tara	Skuse	Mesa	AZ	35	F	13	2:32:04	49.84
+results	41	Ingrid	Honzak	Phoenix	AZ	69	F	14	2:32:36	73.84

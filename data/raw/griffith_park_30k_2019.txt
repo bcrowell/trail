@@ -1,0 +1,58 @@
+results	1	Anthony	Fagundes	Fair Oaks	CA	29	M	1	2:05:12	95.64
+results	2	David	Miller	Las Vegas	NV	39	M	2	2:32:18	67.54
+results	3	Kate	Olson	 	 	33	F	1	2:37:32	96.92
+results	4	Brody	Ray	Mission Viejo	CA	20	M	3	2:37:51	87.26
+results	5	Travis	Gibson	San Diego	CA	35	M	4	2:41:58	80.51
+results	6	Brian	Pfeffer	Los Angeles	CA	39	M	5	2:47:04	88.81
+results	7	Austin	Youngman	Tustin	CA	23	M	6	2:53:41	80.44
+results	8	Kevin	Omalley	Hawthorne	CA	41	M	7	2:56:33	75.37
+results	9	Z	Zimmitti	 	 	17	F	2	3:03:17	87.59
+results	10	Max	Zellner	Los Angeles	CA	30	M	8	3:05:55	67.34
+results	11	Britt	Redick	Seattle	WA	35	F	3	3:06:03	89.88
+results	12	Katie	Le Dain	Los Angeles	CA	29	F	4	3:11:54	81.26
+results	13	Joshua	Patrick	Irvine	CA	39	M	9	3:17:49	60.43
+results	14	India	Harvey	Santa Monica	CA	23	F	5	3:18:50	76.98
+results	15	Philipp	Mai	Pforzheim	 	30	M	10	3:19:19	62.81
+results	16	Kerri	Marchionni	Laguna Niguel	CA	40	F	6	3:19:56	80.04
+results	17	Harriet	Hayes	Glendale	CA	43	F	7	3:27:24	68.03
+results	18	Rahel	Weber-Ingold	Los Angeles	CA	41	F	8	3:27:27	75.94
+results	19	Annette	Ramirez	Los Angeles	CA	40	F	9	3:28:10	89.78
+results	20	Daniel	La Chapelle	Santa Monica	CA	55	M	11	3:29:01	61.51
+results	21	Evan	McDowell	Torrance	CA	27	M	12	3:33:02	68.04
+results	22	Roy	Quinn	Fallbrook	CA	38	M	13	3:34:20	64.2
+results	23	Barry	Vince	Long Beach	CA	54	M	14	3:37:22	66.04
+results	24	Alberto	Guerrero	 	 	46	M	15	3:37:34	64.91
+results	25	Luis	Sandoval	San Fernando	CA	29	M	16	3:38:08	57.4
+results	26	Lloyd	Kerr	Mission Viejo	CA	51	M	17	3:43:09	67.73
+results	27	Jennifer	Reyes	Dana Point ca	CA	33	F	10	3:43:17	69.91
+results	28	Jose	Aguilar	Downey	CA	38	M	18	3:44:49	55.69
+results	29	Sean	Omalley	 	 	45	M	19	3:46:51	58.55
+results	30	David	Weary	 	 	60	M	20	3:47:51	63.45
+results	31	Esther	Park	Porter Ranch	CA	37	F	11	3:48:46	70.84
+results	32	Preston	Reed	Lakewood	CA	35	M	21	3:48:54	73.35
+results	33	Luis	Mora	South Gate	CA	37	M	22	3:49:23	67.17
+results	34	Donald	Caldwell	Sierra Madre	CA	75	M	23	3:50:08	67.6
+results	35	Jimmy	Honda	Long Beach	CA	54	M	24	3:51:34	56.78
+results	36	Andrew	Kim	Placentia	CA	48	M	25	3:52:33	63.84
+results	37	Steve	Salinda	Altadena	CA	62	M	26	3:56:14	54.22
+results	38	Darby	Aldaco	Los Angeles	CA	47	M	27	4:00:26	59.37
+results	39	Greg	Kimura	Ojai	CA	51	M	28	4:04:09	67.36
+results	40	Tracy	Wheeler	rancho santa margarita	CA	47	F	12	4:08:52	62.46
+results	41	James	Sintef	Sunland	CA	57	M	29	4:09:18	56.33
+results	42	Anthony	Papandrea	Branford	CT	40	M	30	4:14:47	60.1
+results	43	Alejandra	Campos	Pasadena	CA	41	F	13	4:17:18	60.94
+results	44	Kevin	Hirose	Los Angeles	CA	41	M	31	4:17:48	58.32
+results	45	Dennice	Raygoza	Ontario	CA	36	F	14	4:19:09	64.79
+results	46	Jin	Yang	 	 	48	M	32	4:20:00	52.14
+results	47	David	Webb	Ladera Ranch	CA	54	M	33	4:21:54	50.85
+results	48	Rob	Johnsen	Los Angeles	CA	49	M	34	4:35:13	61.58
+results	49	Lacey	McCall	San Diego	CA	37	F	15	4:40:37	74.51
+results	50	Alfredo	Salas	whittier	CA	55	M	35	4:45:39	51.93
+results	51	Rebecca	Patrick	Irvine	CA	39	F	16	4:51:00	53.45
+results	52	Gary	Burdorf	Pacific Palisades	CA	55	M	36	4:53:59	54.29
+results	53	Tamara	Premsrirath	Cerritos	CA	44	F	17	4:54:22	52.69
+results	54	Ruthi	Neujahr	La habra	CA	48	F	18	5:01:01	56.7
+results	55	Nancy	Switzler	Oxnard	CA	56	F	19	5:08:30	58.51
+results	56	Tiffany	Gomez	Los Angeles	CA	42	F	20	5:15:28	59.92
+results	57	John Vincent	Del Rosario	Los Angeles	CA	45	M	37	5:15:51	39.64
+results	58	Sindi	Torres	 	 	34	F	21	5:28:25	50.58

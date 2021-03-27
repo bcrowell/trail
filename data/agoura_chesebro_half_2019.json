@@ -1,0 +1,350 @@
+{"name":"Matthew Glynn","time":"01:22:10","sex":"1","age":"1","address":"AGOURA HILLS"}
+{"name":"Matthew Gulden","time":"01:23:51","sex":"M","age":"31","address":"MURRAY"}
+{"name":"Adam Brosh","time":"01:24:37","sex":"M","age":"27","address":"OAKLAND"}
+{"name":"Ignacio Diaz","time":"01:25:45","sex":"M","age":"38","address":"MONTEBELLO"}
+{"name":"David Schwartz","time":"01:26:36","sex":"2","age":"5","address":"LOS ANGELES"}
+{"name":"Andrew Tight","time":"01:27:55","sex":"M","age":"31","address":"TOLUCA LAKE"}
+{"name":"Alastair Murray","time":"01:28:21","sex":"M","age":"27","address":"CALABASAS"}
+{"name":"Todd Corley","time":"01:29:48","sex":"2","age":"8","address":"WESTLAKE VILLAGE"}
+{"name":"Jacob Erbes","time":"01:30:13","sex":"1","age":"9","address":"MOORPARK"}
+{"name":"Anthony Berkus","time":"01:30:59","sex":"M","age":"40","address":"CALABASAS"}
+{"name":"Chetan Singh","time":"01:33:13","sex":"3","age":"11","address":"WEST HILLS"}
+{"name":"Alan Squyres","time":"01:33:35","sex":"M","age":"38","address":"LANCASTER"}
+{"name":"Glimber Ayala","time":"01:34:17","sex":"M","age":"37","address":"SANTA ANA"}
+{"name":"Miguel Ramirez","time":"01:34:34","sex":"M","age":"44","address":"PARAMOUNT"}
+{"name":"Benjamin Hammersley","time":"01:34:35","sex":"M","age":"43","address":"MARINA DEL REY"}
+{"name":"Bryce Whitworth","time":"01:35:01","sex":"M","age":"17","address":"THOUSAND OAKS"}
+{"name":"Jorge Rangel","time":"01:35:02","sex":"M","age":"32","address":"SIMI VALLEY"}
+{"name":"Michael Mccallion","time":"01:35:25","sex":"1","age":"18","address":"MOORPARK"}
+{"name":"Mario Zarate","time":"01:35:34","sex":"M","age":"46","address":"SANTA ANA"}
+{"name":"Lucio Lirarosales","time":"01:36:36","sex":"M","age":"51","address":"LOS ANGELES"}
+{"name":"Rod Shorey","time":"01:36:50","sex":"M","age":"52","address":"AGOURA HILLS"}
+{"name":"Bryan Nemire","time":"01:37:22","sex":"M","age":"28","address":"CALABASAS"}
+{"name":"Jonathan Pinkerton","time":"01:38:45","sex":"M","age":"47","address":"CAMARILLO"}
+{"name":"Russell Mullin","time":"01:39:25","sex":"4","age":"24","address":"NEWBURY PARK"}
+{"name":"John Fiorito","time":"01:39:35","sex":"M","age":"55","address":"HERMOSA BEACH"}
+{"name":"Lane Desborough","time":"01:39:39","sex":"M","age":"51","address":"THOUSAND OAKS"}
+{"name":"Bernardo Salcido","time":"01:39:44","sex":"M","age":"39","address":"PISMO BEACH"}
+{"name":"John Hackbarth","time":"01:40:10","sex":"M","age":"35","address":"THOUSAND OAKS"}
+{"name":"Gabriel Cedillo","time":"01:41:22","sex":"M","age":"42","address":"SAN FERNANDO"}
+{"name":"Jeff Alvarez","time":"01:41:41","sex":"M","age":"40","address":"GRANADA HILLS"}
+{"name":"Tim Molnar","time":"01:42:22","sex":"M","age":"49","address":"THOUSAND OAKS"}
+{"name":"Ronald Uglow","time":"01:42:56","sex":"M","age":"32","address":"AGOURA HILLS"}
+{"name":"Christopher Heller","time":"01:43:02","sex":"M","age":"47","address":"LOS ANGELES"}
+{"name":"Michael Bellino","time":"01:43:04","sex":"M","age":"42","address":"AGOURA HILLS"}
+{"name":"Etienne Audras","time":"01:43:54","sex":"5","age":"35","address":"AGOURA HILLS"}
+{"name":"Seth Ruff","time":"01:44:56","sex":"M","age":"47","address":"NEW YORK"}
+{"name":"David Landon","time":"01:44:58","sex":"6","age":"37","address":"SIMI VALLEY"}
+{"name":"Aaron Mead","time":"01:45:06","sex":"M","age":"48","address":"NEWBURY PARK"}
+{"name":"Duwayne Kilbo","time":"01:45:12","sex":"M","age":"59","address":"OAK PARK"}
+{"name":"David Whitworth","time":"01:45:14","sex":"M","age":"51","address":"THOUSAND OAKS"}
+{"name":"Greg Hart","time":"01:45:18","sex":"1","age":"41","address":"PASADENA"}
+{"name":"Craig Paisley","time":"01:45:19","sex":"M","age":"44","address":"COSTA MESA"}
+{"name":"Ryan Thomas","time":"01:45:22","sex":"M","age":"34","address":"PASADENA"}
+{"name":"Socorro Loya","time":"01:45:55","sex":"F","age":"41","address":"HACIENDA HEIGHTS"}
+{"name":"Dean Hansen","time":"01:46:06","sex":"3","age":"45","address":"VENTURA"}
+{"name":"Joshua Hughes","time":"01:46:22","sex":"5","age":"46","address":"OAK PARK"}
+{"name":"Sandy Marmolejo","time":"01:46:25","sex":"F","age":"32","address":"RESEDA"}
+{"name":"Piyush Prakash","time":"01:46:28","sex":"7","age":"48","address":"SHERMAN OAKS"}
+{"name":"James Burks","time":"01:46:38","sex":"8","age":"49","address":"VALENCIA"}
+{"name":"Phil Howard","time":"01:47:05","sex":"4","age":"50","address":"VALENCIA"}
+{"name":"Gerald Harper","time":"01:47:06","sex":"10","age":"51","address":"CHATSWORTH"}
+{"name":"David Feingold","time":"01:47:46","sex":"M","age":"50","address":"WEST HILLS"}
+{"name":"Rembrandt Schaefer","time":"01:47:49","sex":"M","age":"42","address":"ALTADENA"}
+{"name":"Cesar Sanchez","time":"01:48:00","sex":"M","age":"45","address":"DOWNEY"}
+{"name":"Ivan Andalon","time":"01:48:05","sex":"M","age":"26","address":"SANTA PAULA"}
+{"name":"Michael West","time":"01:48:05","sex":"M","age":"39","address":"WEST HILLS"}
+{"name":"Timothy Attride","time":"01:48:07","sex":"8","age":"57","address":"VENTURA"}
+{"name":"Paul Moser","time":"01:48:17","sex":"M","age":"55","address":"PORTER RANCH"}
+{"name":"Ray Quon","time":"01:48:21","sex":"M","age":"43","address":"SHERMAN OAKS"}
+{"name":"Sam Gasowski","time":"01:48:48","sex":"M","age":"45","address":"WESTLAKE VILLAGE"}
+{"name":"Reuven Haviv","time":"01:48:50","sex":"M","age":"24","address":"THOUSAND OAKS"}
+{"name":"Cody Hosking","time":"01:48:51","sex":"M","age":"27","address":"THOUSAND OAKS"}
+{"name":"Mark Stolper","time":"01:48:55","sex":"M","age":"47","address":"BELL CANYON"}
+{"name":"Francois Appere","time":"01:48:59","sex":"M","age":"30","address":"VENTURA"}
+{"name":"Freek Matheij","time":"01:48:59","sex":"M","age":"31","address":"WASHINGTON"}
+{"name":"Sarah Wenner","time":"01:49:09","sex":"F","age":"26","address":"CAMARILLO"}
+{"name":"Jerry Knox","time":"01:49:22","sex":"M","age":"49","address":"CHINO HILLS"}
+{"name":"Ron Bijlsma","time":"01:49:26","sex":"M","age":"55","address":"EL SEGUNDO"}
+{"name":"Kevin Ronk","time":"01:49:42","sex":"13","age":"69","address":"WESTLAKE VILLAGE"}
+{"name":"Michael Farrell","time":"01:49:54","sex":"M","age":"33","address":"OAK PARK"}
+{"name":"Katie Salcido","time":"01:50:01","sex":"F","age":"39","address":"PISMO BEACH"}
+{"name":"Manuel Medina","time":"01:50:08","sex":"9","age":"72","address":"SIMI VALLEY"}
+{"name":"Charles Brown","time":"01:50:13","sex":"2","age":"73","address":"BATAVIA"}
+{"name":"Juvencio Garcia","time":"01:50:28","sex":"M","age":"56","address":"CANOGA PARK"}
+{"name":"Paul Jordan","time":"01:50:40","sex":"M","age":"60","address":"OAK PARK"}
+{"name":"Carey Larson","time":"01:50:45","sex":"M","age":"39","address":"SANTA BARBARA"}
+{"name":"Jason Lam","time":"01:50:59","sex":"12","age":"77","address":"MARINA DEL REY"}
+{"name":"Jennifer Azevedo","time":"01:51:02","sex":"F","age":"39","address":"VALENCIA"}
+{"name":"Ricardo Chavez","time":"01:51:31","sex":"M","age":"39","address":"SUNLAND"}
+{"name":"Jodi Broz","time":"01:51:34","sex":"F","age":"52","address":"STEVENSON RANCH"}
+{"name":"Cynthia Stults","time":"01:51:34","sex":"F","age":"35","address":"CANYON COUNTRY"}
+{"name":"Lupita Medina","time":"01:51:55","sex":"2","age":"82","address":"HACIENDA HEIGHTS"}
+{"name":"Oksana Obolkina","time":"01:51:58","sex":"4","age":"83","address":"VALENCIA"}
+{"name":"Kent Blankenship","time":"01:51:59","sex":"7","age":"84","address":"THOUSAND OAKS"}
+{"name":"Manuel Amor","time":"01:52:24","sex":"M","age":"48","address":"NEWBURY PARK"}
+{"name":"Paul Karpinski","time":"01:52:26","sex":"M","age":"48","address":"RESEDA"}
+{"name":"Steven Gonzalez","time":"01:52:38","sex":"M","age":"28","address":"HAWTHORNE"}
+{"name":"Courtney Andersen","time":"01:52:57","sex":"5","age":"88","address":"OAK PARK"}
+{"name":"Alex Kilbo","time":"01:52:58","sex":"M","age":"30","address":"BERKELEY"}
+{"name":"Tiffany Ahern","time":"01:53:00","sex":"F","age":"30","address":"SANTA MONICA"}
+{"name":"Dan Pearson","time":"01:53:20","sex":"M","age":"28","address":"WOODLAND HILLS"}
+{"name":"Ivan Sokolov","time":"01:53:23","sex":"M","age":"45","address":"LA CRESCENTA"}
+{"name":"Alejandro Granados","time":"01:53:30","sex":"M","age":"48","address":"OXNARD"}
+{"name":"Andrew Latimer","time":"01:53:43","sex":"M","age":"50","address":"DAVIS"}
+{"name":"Elizabeth Berrang","time":"01:53:44","sex":"F","age":"25","address":"LOS ANGELES"}
+{"name":"Mirna Livingstone","time":"01:54:04","sex":"F","age":"47","address":"SIMI VALLEY"}
+{"name":"Tim Barrett","time":"01:54:28","sex":"M","age":"34","address":"NEWBURY PARK"}
+{"name":"Janelle Bohl","time":"01:54:30","sex":"2","age":"98","address":"NEWBURY PARK"}
+{"name":"Eric Garcia","time":"01:54:34","sex":"M","age":"31","address":"GRANADA HILLS"}
+{"name":"Catherine Wuesthoff","time":"01:54:45","sex":"2","age":"100","address":"NEWBURY PARK"}
+{"name":"Jaime Weiss","time":"01:54:51","sex":"6","age":"101","address":"SIMI VALLEY"}
+{"name":"Eric Williams","time":"01:54:52","sex":"M","age":"46","address":"WESTLAKE VILLAGE"}
+{"name":"Dan Mcelvany","time":"01:54:56","sex":"M","age":"48","address":"THOUSAND OAKS"}
+{"name":"Andy Salinger","time":"01:54:58","sex":"9","age":"104","address":"OAK PARK"}
+{"name":"Christopher Grossman","time":"01:55:00","sex":"M","age":"34","address":"NEWBURY PARK"}
+{"name":"Matthew Engle","time":"01:55:19","sex":"M","age":"34","address":"LOMITA"}
+{"name":"Sara Kingman","time":"01:55:20","sex":"F","age":"25","address":"LOS ANGELES"}
+{"name":"Shelby Farrell","time":"01:55:30","sex":"F","age":"28","address":"VENTURA"}
+{"name":"Jamel Twigger","time":"01:55:58","sex":"M","age":"29","address":"SAN PEDRO"}
+{"name":"Justin Campbell","time":"01:56:00","sex":"M","age":"36","address":"AGOURA HILLS"}
+{"name":"Nicole Favre","time":"01:56:11","sex":"1","age":"111","address":"SAN JOSE"}
+{"name":"Ethan Frank","time":"01:56:18","sex":"M","age":"27","address":"OAK PARK"}
+{"name":"Edward Kanner","time":"01:56:21","sex":"M","age":"54","address":"NEWBURY PARK"}
+{"name":"Jay Hill","time":"01:56:28","sex":"M","age":"52","address":"CALABASAS"}
+{"name":"J Michael Wuestemann","time":"01:56:37","sex":"M","age":"57","address":"FULLERTON"}
+{"name":"Christina Tekle","time":"01:56:39","sex":"F","age":"39","address":"WESTLAKE VILLAGE"}
+{"name":"Seth Bunke","time":"01:56:48","sex":"13","age":"117","address":"WINNETKA"}
+{"name":"Tia Rose Rodriguez","time":"01:57:08","sex":"F","age":"38","address":"SIMI VALLEY"}
+{"name":"Bryce Klenck","time":"01:57:08","sex":"13","age":"119","address":"SIMI VALLEY"}
+{"name":"Chad Simpson","time":"01:57:18","sex":"M","age":"35","address":"CANOGA PARK"}
+{"name":"Shaun Kury","time":"01:57:25","sex":"M","age":"36","address":"FULLERTON"}
+{"name":"Christopher Frantz","time":"01:57:32","sex":"M","age":"35","address":"OAK PARK"}
+{"name":"Jared Mittel","time":"01:57:38","sex":"M","age":"31","address":"AGOURA HILLS"}
+{"name":"Frederique Garderes","time":"01:57:38","sex":"3","age":"124","address":"THOUSAND OAKS"}
+{"name":"Ted Weisse","time":"01:57:41","sex":"M","age":"40","address":"VENTURA"}
+{"name":"Brianna Wilson","time":"01:57:47","sex":"2","age":"126","address":"MURRIETA"}
+{"name":"Erin Brocka","time":"01:58:02","sex":"F","age":"30","address":"SANTA BARBARA"}
+{"name":"Zhijun Jia","time":"01:58:12","sex":"M","age":"32","address":"PASADENA"}
+{"name":"Stephanie Cosaro","time":"01:58:15","sex":"F","age":"35","address":"THOUSAND OAKS"}
+{"name":"Paul Shurgot","time":"01:58:23","sex":"M","age":"50","address":"CALABASAS"}
+{"name":"Noah Hall","time":"01:58:29","sex":"M","age":"16","address":"BAKERSFIELD"}
+{"name":"Alex Belisle","time":"01:58:30","sex":"M","age":"31","address":"CERRITOS"}
+{"name":"Madeline Sharp","time":"01:58:50","sex":"F","age":"25","address":"COSTA MESA"}
+{"name":"Bryan Lutz","time":"01:58:51","sex":"M","age":"41","address":"PORTER RANCH"}
+{"name":"Dina Barmasse","time":"01:58:52","sex":"3","age":"135","address":"AGOURA HILLS"}
+{"name":"Bret Siciliano","time":"01:58:53","sex":"M","age":"41","address":"PLAYA VISTA"}
+{"name":"Antranig Mahroukian","time":"01:59:02","sex":"17","age":"137","address":"NORTH HOLLYWOOD"}
+{"name":"David Buehring","time":"01:59:04","sex":"M","age":"48","address":"SANTA BARBARA"}
+{"name":"Michael Allen","time":"01:59:19","sex":"M","age":"39","address":"THOUSAND OAKS"}
+{"name":"Tac Phung","time":"01:59:25","sex":"21","age":"140","address":"LOS ANGELES"}
+{"name":"Jai Govindani","time":"01:59:31","sex":"M","age":"34","address":"HAWTHORNE"}
+{"name":"James Stephens","time":"01:59:32","sex":"21","age":"142","address":"OAK PARK"}
+{"name":"Timothy Hennessy","time":"01:59:33","sex":"M","age":"52","address":"OAK PARK"}
+{"name":"Jennifer Milgrampendergast","time":"01:59:46","sex":"F","age":"40","address":"CAMARILLO"}
+{"name":"Paul Weinberger","time":"01:59:55","sex":"14","age":"145","address":"WOODLAND HILLS"}
+{"name":"John Sahas","time":"01:59:58","sex":"M","age":"47","address":"SANTA CLARITA"}
+{"name":"Stephanie Jorden","time":"02:00:01","sex":"F","age":"33","address":"WESTLAKE VILLAGE"}
+{"name":"Kevin Strehlo","time":"02:00:08","sex":"1","age":"148","address":"CALABASAS"}
+{"name":"Rod Cordova","time":"02:00:11","sex":"M","age":"46","address":"SIMI VALLEY"}
+{"name":"Master Cruz","time":"02:00:12","sex":"F","age":"38","address":"VALENCIA"}
+{"name":"Michael Eneberg","time":"02:00:17","sex":"M","age":"54","address":"CAMARILLO"}
+{"name":"Hunter Van Houten","time":"02:00:26","sex":"M","age":"31","address":"THOUSAND OAKS"}
+{"name":"Greg Hurst","time":"02:00:36","sex":"M","age":"38","address":"WESTLAKE VILLAGE"}
+{"name":"Gregg Doyle","time":"02:00:38","sex":"4","age":"154","address":"GLENDALE"}
+{"name":"Grouver Tolentino","time":"02:00:38","sex":"M","age":"41","address":"RESEDA"}
+{"name":"Libby Warren","time":"02:00:40","sex":"F","age":"26","address":"LOS ANGELES"}
+{"name":"Nicole Cefali","time":"02:00:54","sex":"F","age":"48","address":"ENCINO"}
+{"name":"Tracy Goebel","time":"02:01:02","sex":"M","age":"36","address":"THOUSAND OAKS"}
+{"name":"Rob Baunoch Iii","time":"02:01:03","sex":"M","age":"34","address":"WOODLAND HILLS"}
+{"name":"Kozue Kenik","time":"02:01:07","sex":"F","age":"44","address":"CAMARILLO"}
+{"name":"Michael Donner","time":"02:01:12","sex":"M","age":"52","address":"PASADENA"}
+{"name":"John Gersmeyer","time":"02:01:13","sex":"M","age":"46","address":"NEWBURY PARK"}
+{"name":"Brandy Pierce","time":"02:01:13","sex":"F","age":"45","address":"SCOTTSDALE"}
+{"name":"Alex Weiss","time":"02:01:17","sex":"25","age":"164","address":"SIMI VALLEY"}
+{"name":"Judith Fisher","time":"02:01:29","sex":"F","age":"43","address":"WEST HILLS"}
+{"name":"Ric Alviso","time":"02:01:37","sex":"M","age":"59","address":"TOPANGA"}
+{"name":"Adam Berezowsky","time":"02:01:54","sex":"26","age":"167","address":"SIMI VALLEY"}
+{"name":"Marie Seguin","time":"02:02:00","sex":"3","age":"168","address":"MALIBU"}
+{"name":"Gonzalo Lopez","time":"02:02:01","sex":"M","age":"40","address":"NORWALK"}
+{"name":"Kate Ashton","time":"02:02:02","sex":"F","age":"40","address":"WESTLAKE VILLAGE"}
+{"name":"Veronica Mcbride","time":"02:02:06","sex":"F","age":"26","address":"SANTA BARBARA"}
+{"name":"Brett Worthington","time":"02:02:07","sex":"M","age":"46","address":"THOUSAND OAKS"}
+{"name":"Joseph Zitkus","time":"02:02:17","sex":"M","age":"34","address":"VAN NUYS"}
+{"name":"Karen Ahrens","time":"02:02:25","sex":"F","age":"45","address":"TOPANGA"}
+{"name":"Lindley Bell","time":"02:02:34","sex":"F","age":"29","address":"LOS ANGELES"}
+{"name":"Changjun Huang","time":"02:02:39","sex":"20","age":"176","address":"OAK PARK"}
+{"name":"Joe Flora","time":"02:02:45","sex":"10","age":"177","address":"SIMI VALLEY"}
+{"name":"Trevor Hildebrand","time":"02:02:46","sex":"M","age":"23","address":"HANOVER"}
+{"name":"Eduardo Pico","time":"02:02:52","sex":"M","age":"28","address":"LOS ANGELES"}
+{"name":"Brett Wayne","time":"02:02:53","sex":"20","age":"180","address":"DEL MAR"}
+{"name":"Kym Rangel","time":"02:03:02","sex":"7","age":"181","address":"WOODLAND HILLS"}
+{"name":"Dimitry Mindlin","time":"02:03:02","sex":"M","age":"57","address":"OAK PARK"}
+{"name":"Ray Venegas","time":"02:03:08","sex":"28","age":"183","address":"COLTON"}
+{"name":"Victoria Weisse","time":"02:03:09","sex":"F","age":"36","address":"VENTURA"}
+{"name":"Bri Holder","time":"02:03:13","sex":"F","age":"29","address":"LOS ANGELES"}
+{"name":"Stephanie Baker","time":"02:03:28","sex":"F","age":"49","address":"WESTLAKE VILLAGE"}
+{"name":"Manuel Ibanez","time":"02:03:35","sex":"M","age":"50","address":"CAMARILLO"}
+{"name":"Naras Alksninis","time":"02:03:45","sex":"M","age":"57","address":"SIMI VALLEY"}
+{"name":"Daniel Pendergast","time":"02:03:51","sex":"M","age":"42","address":"CAMARILLO"}
+{"name":"Kirk Dearden","time":"02:03:56","sex":"M","age":"61","address":"OKLAHOMA CITY"}
+{"name":"Val Eaton","time":"02:03:59","sex":"9","age":"191","address":"SIMI VALLEY"}
+{"name":"Ashley Barrineau","time":"02:04:00","sex":"F","age":"31","address":"LOS ANGELES"}
+{"name":"Mattias Gunnarsson","time":"02:04:12","sex":"M","age":"47","address":"CALABASAS"}
+{"name":"Lisa Firestone","time":"02:04:13","sex":"F","age":"44","address":"LOS ANGELES"}
+{"name":"Ryan Firestone","time":"02:04:13","sex":"M","age":"42","address":"OJAI"}
+{"name":"Justin Zimmer","time":"02:04:15","sex":"M","age":"37","address":"THOUSAND OAKS"}
+{"name":"Jeremy Yamada","time":"02:04:22","sex":"M","age":"37","address":"CHINO HILLS"}
+{"name":"Ramiro Viramontes","time":"02:04:22","sex":"M","age":"66","address":"LONG BEACH"}
+{"name":"Gloria Perez","time":"02:04:24","sex":"F","age":"48","address":"CAMARILLO"}
+{"name":"Jeff Robertson","time":"02:04:26","sex":"23","age":"200","address":"SIMI VALLEY"}
+{"name":"Holland Alexander","time":"02:04:27","sex":"F","age":"39","address":"WESTLAKE VILLAGE"}
+{"name":"Clarissa Sharp","time":"02:04:29","sex":"F","age":"53","address":"HUNTSVILLE"}
+{"name":"John Deisz","time":"02:04:32","sex":"M","age":"54","address":"WESTLAKE VILLAGE"}
+{"name":"Tom Jefferis","time":"02:04:33","sex":"M","age":"71","address":"PASO ROBLES"}
+{"name":"Michael Gertz","time":"02:04:38","sex":"19","age":"205","address":"AGOURA HILLS"}
+{"name":"Daniella Chong","time":"02:04:39","sex":"F","age":"38","address":"WEST HOLLYWOOD"}
+{"name":"Brad Capps","time":"02:04:51","sex":"M","age":"43","address":"ALTADENA"}
+{"name":"Teresa Brecht","time":"02:05:00","sex":"F","age":"31","address":"LOS ANGELES"}
+{"name":"Juan Melendez","time":"02:05:02","sex":"M","age":"31","address":"PACOIMA"}
+{"name":"Kristin Klenck","time":"02:05:06","sex":"7","age":"210","address":"SIMI VALLEY"}
+{"name":"Terri Quirk","time":"02:05:07","sex":"F","age":"55","address":"VENTURA"}
+{"name":"Paul Liu","time":"02:05:18","sex":"M","age":"53","address":"TUSTIN"}
+{"name":"Adam Gallis","time":"02:05:26","sex":"M","age":"38","address":"THOUSAND OAKS"}
+{"name":"Alexandra Darvish","time":"02:05:27","sex":"5","age":"214","address":"WOODLAND HILLS"}
+{"name":"Gustavo Terraciano","time":"02:05:37","sex":"21","age":"215","address":"WOODLAND HILLS"}
+{"name":"Alicia Loya","time":"02:05:40","sex":"F","age":"47","address":"SOUTH HAVEN"}
+{"name":"Kent Detweiler","time":"02:05:44","sex":"M","age":"55","address":"NEWBURY PARK"}
+{"name":"Alex Ross","time":"02:05:46","sex":"M","age":"45","address":"TORRANCE"}
+{"name":"Jesse Lucero","time":"02:05:49","sex":"M","age":"42","address":"NORTHRIDGE"}
+{"name":"Ryan Siwy","time":"02:06:07","sex":"M","age":"24","address":"LONG BEACH"}
+{"name":"Hiram Carrington","time":"02:06:24","sex":"M","age":"50","address":"PASADENA"}
+{"name":"Jaime Kelm","time":"02:06:25","sex":"13","age":"222","address":"LOS ANGELES"}
+{"name":"Michael Camarillo","time":"02:06:33","sex":"M","age":"37","address":"STEVENSON RANCH"}
+{"name":"Brianna Schoen","time":"02:06:53","sex":"F","age":"41","address":"NEWBURY PARK"}
+{"name":"Vincent Fernandez","time":"02:07:01","sex":"M","age":"38","address":"FONTANA"}
+{"name":"Ryan Showalter","time":"02:07:01","sex":"M","age":"39","address":"PASADENA"}
+{"name":"Lisa Uhrig","time":"02:07:04","sex":"F","age":"58","address":"MANHATTAN BEACH"}
+{"name":"Grant Ponder","time":"02:07:07","sex":"M","age":"40","address":"LOS ANGELES"}
+{"name":"Joab Corey","time":"02:07:09","sex":"M","age":"35","address":"RIVERSIDE"}
+{"name":"Terence Ford","time":"02:07:25","sex":"M","age":"36","address":"HERMOSA BEACH"}
+{"name":"Wednesday Bienusa","time":"02:07:28","sex":"F","age":"30","address":"GOLETA"}
+{"name":"Raymund Apostol","time":"02:07:35","sex":"M","age":"42","address":"BURBANK"}
+{"name":"Reynaldo Damian","time":"02:07:39","sex":"M","age":"33","address":"CORONA"}
+{"name":"Lori Duffant","time":"02:07:39","sex":"F","age":"58","address":"AGOURA HILLS"}
+{"name":"Beth Hoddy","time":"02:07:45","sex":"F","age":"45","address":"LANCASTER"}
+{"name":"Evan Serdensky","time":"02:07:47","sex":"F","age":"31","address":"MANHATTAN BEACH"}
+{"name":"Beth Walter","time":"02:07:47","sex":"F","age":"58","address":"ALISO VIEJO"}
+{"name":"Mitch Stern","time":"02:07:53","sex":"M","age":"54","address":"OAK PARK"}
+{"name":"Matthew Henderson","time":"02:08:02","sex":"M","age":"40","address":"THOUSAND OAKS"}
+{"name":"Stephen Lis","time":"02:08:02","sex":"M","age":"57","address":"SUNLAND"}
+{"name":"Jeff Barton","time":"02:08:03","sex":"M","age":"64","address":"MALIBU"}
+{"name":"Richard Peng","time":"02:08:24","sex":"28","age":"242","address":"VAN NUYS"}
+{"name":"Matt Mcnutt","time":"02:08:27","sex":"M","age":"36","address":"NEWBURY PARK"}
+{"name":"Javier Aste","time":"02:08:43","sex":"M","age":"38","address":"AGOURA HILLS"}
+{"name":"Maria Shields","time":"02:09:03","sex":"F","age":"48","address":"CANYON COUNTRY"}
+{"name":"Jimmie Rhee","time":"02:09:07","sex":"32","age":"246","address":"LOS ANGELES"}
+{"name":"Philip Feder","time":"02:09:16","sex":"M","age":"64","address":"SANTA MONICA"}
+{"name":"Nanci Velarde","time":"02:09:22","sex":"10","age":"248","address":"NEWHALL"}
+{"name":"Staci Roth","time":"02:09:24","sex":"F","age":"54","address":"THOUSAND OAKS"}
+{"name":"Gil Moverman","time":"02:09:26","sex":"M","age":"49","address":"WOODLAND HILLS"}
+{"name":"Andy Goodson","time":"02:09:31","sex":"M","age":"24","address":"PATTERSON"}
+{"name":"David Berk","time":"02:09:36","sex":"30","age":"252","address":"PASADENA"}
+{"name":"Robert Egan","time":"02:09:39","sex":"M","age":"37","address":"SIMI VALLEY"}
+{"name":"Claudia Barreras","time":"02:09:40","sex":"F","age":"36","address":"OXNARD"}
+{"name":"Robert Cruz","time":"02:09:42","sex":"M","age":"37","address":"COMPTON"}
+{"name":"Mark Hall","time":"02:09:52","sex":"M","age":"46","address":"BAKERSFIELD"}
+{"name":"Susan Otto","time":"02:10:02","sex":"7","age":"257","address":"TOPANGA"}
+{"name":"David Filgas","time":"02:10:13","sex":"M","age":"51","address":"NEWBURY PARK"}
+{"name":"Symon Dunets","time":"02:10:36","sex":"35","age":"259","address":"STUDIO CITY"}
+{"name":"Sean Tracy","time":"02:10:41","sex":"31","age":"260","address":"REDONDO BEACH"}
+{"name":"Roshan Jain","time":"02:10:47","sex":"36","age":"261","address":"SIMI VALLEY"}
+{"name":"Elise Jansen","time":"02:10:47","sex":"F","age":"26","address":"EL SEGUNDO"}
+{"name":"Carr Jansen","time":"02:10:48","sex":"F","age":"24","address":"THOUSAND OAKS"}
+{"name":"Greg Gelber","time":"02:11:23","sex":"32","age":"264","address":"LOS ANGELES"}
+{"name":"Colin Welch","time":"02:11:29","sex":"3","age":"265","address":"WEST HILLS"}
+{"name":"Edvin Lopez","time":"02:11:31","sex":"28","age":"266","address":"MOORPARK"}
+{"name":"Sue Jean Woodmansee","time":"02:11:31","sex":"F","age":"35","address":"WOODLAND HILLS"}
+{"name":"Brad Mcdonald","time":"02:11:34","sex":"15","age":"268","address":"GLENDALE"}
+{"name":"Jeremy Olson","time":"02:11:39","sex":"M","age":"49","address":"WOODLAND HILLS"}
+{"name":"Peter Porazik","time":"02:11:41","sex":"3","age":"270","address":"SAUGUS"}
+{"name":"Daniel Montgomery","time":"02:11:47","sex":"M","age":"48","address":"THOUSAND OAKS"}
+{"name":"Douglas Higgins","time":"02:11:52","sex":"29","age":"272","address":"AGOURA HILLS"}
+{"name":"Mark Kates","time":"02:11:55","sex":"M","age":"47","address":"LOS ANGELES"}
+{"name":"Jason Alvarez","time":"02:12:00","sex":"M","age":"36","address":"CANYON COUNTRY"}
+{"name":"Monica Stephens","time":"02:12:09","sex":"F","age":"46","address":"FULLERTON"}
+{"name":"Erica Bazerkanian","time":"02:12:16","sex":"F","age":"46","address":"SIMI VALLEY"}
+{"name":"Ross Tabor","time":"02:12:34","sex":"25","age":"277","address":"OAK PARK"}
+{"name":"Christopher Dotson","time":"02:12:35","sex":"30","age":"278","address":"OAK PARK"}
+{"name":"Alfonso Ortega","time":"02:12:50","sex":"M","age":"42","address":"WESTLAKE VILLAGEWESTLAKE VILLAGE"}
+{"name":"Mike Oates","time":"02:12:56","sex":"M","age":"54","address":"WESTLAKE VILLAGE"}
+{"name":"Arun Chikyarappa","time":"02:12:57","sex":"M","age":"40","address":"CHATSWORTH"}
+{"name":"Jennifer Kozicki","time":"02:13:00","sex":"9","age":"282","address":"SANTA MONICA"}
+{"name":"Gregory Carpenter","time":"02:13:06","sex":"M","age":"42","address":"AGOURA HILLS"}
+{"name":"Kenneth Zimmerman","time":"02:13:09","sex":"M","age":"45","address":"LAKE FOREST"}
+{"name":"Zak Howell","time":"02:13:10","sex":"14","age":"285","address":"SIMI VALLEY"}
+{"name":"Jennifer Oneal","time":"02:13:10","sex":"F","age":"35","address":"SANTA MONICA"}
+{"name":"Erin Taggart","time":"02:13:11","sex":"F","age":"40","address":"SIMI VALLEY"}
+{"name":"Felipe Zamorano","time":"02:13:17","sex":"16","age":"288","address":"LA PALMA"}
+{"name":"Carlos Tapia","time":"02:13:28","sex":"38","age":"289","address":"NORTH HOLLYWOOD"}
+{"name":"Jeff Neinstein","time":"02:13:50","sex":"M","age":"52","address":"CALABASAS"}
+{"name":"Rebecca Pankratz","time":"02:13:51","sex":"5","age":"291","address":"BURTONSVILLE"}
+{"name":"Kali Glosser","time":"02:13:57","sex":"16","age":"292","address":"SAN GABRIEL"}
+{"name":"Ben Howell","time":"02:14:01","sex":"M","age":"42","address":"LOS ANGELES"}
+{"name":"Evarcito Ocampo","time":"02:14:09","sex":"28","age":"294","address":"BURBANK"}
+{"name":"Michelle Haykel","time":"02:14:11","sex":"8","age":"295","address":"WESTLAKE VILLAGE"}
+{"name":"Jim Dawson","time":"02:14:18","sex":"M","age":"70","address":"VENTURA"}
+{"name":"Caryn Panec","time":"02:14:35","sex":"9","age":"297","address":"STUDIO CITY"}
+{"name":"Jerome Connolly","time":"02:14:37","sex":"M","age":"47","address":"AGOURA HILLS"}
+{"name":"Terry Barnes","time":"02:14:38","sex":"F","age":"56","address":"AGOURA HILLS"}
+{"name":"Jordan Montgomery","time":"02:14:42","sex":"M","age":"16","address":"THOUSAND OAKS"}
+{"name":"Asucena Rodriguez","time":"02:15:09","sex":"F","age":"45","address":"PACOIMA"}
+{"name":"Taylor Stevens","time":"02:15:21","sex":"M","age":"26","address":"PASADENA"}
+{"name":"Eric Mock","time":"02:15:21","sex":"M","age":"47","address":"NEWPORT BEACH"}
+{"name":"Richard Elias","time":"02:15:27","sex":"M","age":"45","address":"THOUSAND OAKS"}
+{"name":"Timothy Dwyer","time":"02:15:28","sex":"M","age":"50","address":"SAN DIEGO"}
+{"name":"Mark Virgin","time":"02:15:33","sex":"M","age":"42","address":"PASADENA"}
+{"name":"Johnny Busby","time":"02:15:40","sex":"M","age":"43","address":"LOS ANGELES"}
+{"name":"Faye Keegan","time":"02:15:45","sex":"F","age":"29","address":"SAN FRANCISCO"}
+{"name":"Hayden Kiessling","time":"02:15:46","sex":"F","age":"29","address":"LOS ANGELES"}
+{"name":"Ramzey Elallamy","time":"02:15:55","sex":"M","age":"35","address":"GLENDALE"}
+{"name":"Carla Ondrasik","time":"02:15:59","sex":"F","age":"55","address":"THOUSAND OAKS"}
+{"name":"Rob Cooley","time":"02:16:03","sex":"M","age":"43","address":"THOUSAND OAKS"}
+{"name":"Thi Le","time":"02:16:07","sex":"13","age":"313","address":"LOS ANGELES"}
+{"name":"Stephen Smith","time":"02:16:10","sex":"M","age":"49","address":"OAK PARK"}
+{"name":"Lucas Schaus","time":"02:16:11","sex":"16","age":"315","address":"LOS ANGELES"}
+{"name":"Martha Ortiz","time":"02:16:14","sex":"F","age":"52","address":"OXNARD"}
+{"name":"Julia Fretschl","time":"02:16:14","sex":"F","age":"60","address":"HERMOSA BEACH"}
+{"name":"Carolyn Campbell","time":"02:16:19","sex":"F","age":"53","address":"CHINO HILLS"}
+{"name":"Ashley Kolb","time":"02:16:23","sex":"F","age":"31","address":"NORTH HOLLYWOOD"}
+{"name":"Dan Shuler","time":"02:16:29","sex":"M","age":"48","address":"THOUSAND OAKS"}
+{"name":"William Rocha","time":"02:16:36","sex":"M","age":"38","address":"SIMI VALLEY"}
+{"name":"Cynthia Frantz","time":"02:16:53","sex":"F","age":"36","address":"OAK PARK"}
+{"name":"Bill Sauer","time":"02:16:55","sex":"M","age":"57","address":"NEWBURY PARK"}
+{"name":"Justin Sauer","time":"02:16:56","sex":"M","age":"28","address":"HERMOSA BEACH"}
+{"name":"Julieta Cruz Rodriguez","time":"02:16:57","sex":"F","age":"33","address":"COMPTON"}
+{"name":"Bob Montes","time":"02:17:05","sex":"18","age":"326","address":"LA CANADA FLINTRIDGE"}
+{"name":"David Garcia","time":"02:17:06","sex":"41","age":"327","address":"CALABASAS"}
+{"name":"Brian Wenzel","time":"02:17:08","sex":"M","age":"37","address":"SIMI VALLEY"}
+{"name":"Daniel Bitar","time":"02:17:48","sex":"M","age":"38","address":"SANTA MONICA"}
+{"name":"Maya Kamen","time":"02:17:50","sex":"1","age":"330","address":"AGOURA HILLS"}
+{"name":"Denise Smith","time":"02:18:18","sex":"F","age":"38","address":"WESTLAKE VILLAGE"}
+{"name":"Susan Francis","time":"02:18:20","sex":"F","age":"34","address":"PASADENA"}
+{"name":"Stephen Swanson","time":"02:18:40","sex":"M","age":"56","address":"MONROVIA"}
+{"name":"Denell Vestermark","time":"02:18:47","sex":"F","age":"49","address":"ALISO VIEJO"}
+{"name":"Ana Groehler","time":"02:18:47","sex":"F","age":"34","address":"MARINA DEL REY"}
+{"name":"Juan Gonzalez","time":"02:18:57","sex":"M","age":"52","address":"CHATSWORTH"}
+{"name":"Manuel Mora","time":"02:19:05","sex":"M","age":"21","address":"SAN PEDRO"}
+{"name":"Martha Seymour","time":"02:19:08","sex":"F","age":"54","address":"SOUTH HAVEN"}
+{"name":"Rodd Feingold","time":"02:19:09","sex":"20","age":"339","address":"AGOURA HILLS"}
+{"name":"Brad Mcleod","time":"02:19:17","sex":"M","age":"37","address":"MOORPARK"}
+{"name":"Dan Reines","time":"02:19:22","sex":"M","age":"47","address":"WESTLAKE VILLAGE"}
+{"name":"Karla Murray","time":"02:19:26","sex":"13","age":"342","address":"WOODLAND HILLS"}
+{"name":"Ritchie Porcayo","time":"02:19:28","sex":"M","age":"33","address":"SANTA ANA"}
+{"name":"Kevin Cha","time":"02:19:36","sex":"M","age":"31","address":"SAN JOSE"}
+{"name":"Peri Baker","time":"02:19:39","sex":"19","age":"345","address":"BRENTWOOD"}
+{"name":"John Mcgreevy","time":"02:19:43","sex":"M","age":"61","address":"SIMI VALLEY"}
+{"name":"Charlie Lipthay","time":"02:19:46","sex":"M","age":"57","address":"THOUSAND OAKS"}
+{"name":"Anthony Minero","time":"02:19:51","sex":"M","age":"48","address":"THOUSAND OAKS"}
+{"name":"Laura Wood","time":"02:19:57","sex":"F","age":"33","address":"VALENCIA"}
+{"name":"Xio Castro Hidalgo","time":"02:20:03","sex":"11","age":"350","address":"NORTH HOLLYWOOD"}

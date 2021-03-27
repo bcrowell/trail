@@ -1,0 +1,84 @@
+results	1	Oswaldo	Hurtado	Downey	CA	44	M	1	2:11:05	98.57
+results	2	Daniel	Scarberry	Santa Monica	CA	34	M	2	2:18:55	86.33
+results	3	Matt	Sheehy	San Francisco	CA	44	M	3	2:33:54	84.39
+results	4	Juan	Zuniga	Los Angeles	CA	23	M	4	2:36:50	78.19
+results	5	Martin	X Sop	Los Angeles	CA	33	M	5	2:38:39	82.62
+results	6	Brian	Pfeffer	Los Angeles	CA	38	M	6	2:42:06	88.81
+results	7	Tyler	Runner	Eugene	OR	43	M	7	2:42:33	75.68
+results	8	Michael	Becker	San Clemente	CA	60	M	8	2:43:51	85.86
+results	9	Tristan	Wilson	Alta Loma	CA	23	M	9	2:45:23	74.17
+results	10	Andy	Almonte	Edwards	CO	42	M	10	2:52:56	76.48
+results	11	Mariateresa	Magula	La Crescenta	CA	38	F	1	2:53:25	88.01
+results	12	Luis	Mora	South Gate	CA	37	M	11	2:58:46	67.17
+results	13	Alison	Cole	Bozeman	MT	36	F	2	3:02:26	84.64
+results	14	Nelson	Hernandes	 	 	27	M	12	3:06:20	69.89
+results	15	Jesse	Fuller	Tysons	VA	34	M	13	3:07:01	75.03
+results	16	Fred	Nalangan	 	 	44	M	14	3:11:13	62.41
+results	17	Sean	Prall	Studio City	CA	32	M	15	3:14:31	66.75
+results	18	Keith	Brennan	Los Angeles	CA	50	M	16	3:14:52	77.38
+results	19	Benjamin	Caro	 	 	73	M	17	3:16:55	66.57
+results	20	Melissa	Lin-Perrella	Los Angeles	CA	45	F	3	3:17:18	84.13
+results	21	Molly	Zorba	Acton	CA	47	F	4	3:18:31	87.51
+results	22	Michael	Schiepke	Los Angeles	CA	56	M	18	3:20:07	65.53
+results	23	Alex	Port	Los Angeles	CA	25	M	19	3:21:05	66.9
+results	24	Antonella	Chispe	Sherman Oaks	CA	30	F	5	3:21:52	83.08
+results	25	Sandra	Vigil	San Gabriel	CA	38	F	6	3:21:53	73.84
+results	26	Lewis	Nguyen	Surrey	BC	42	M	20	3:22:41	67.76
+results	27	Veronica	Alaniz	South Gate	CA	45	F	7	3:23:39	81.2
+results	28	Becky	Schreibfeder	South Pasadena	CA	47	F	8	3:27:40	73.73
+results	29	Angela	Corral	Glendale	CA	36	F	9	3:27:44	75.5
+results	30	Greg	Lankston	Encino	CA	29	M	21	3:27:48	78.01
+results	31	Eli	Bonin-Guzman	 	 	50	F	10	3:29:19	82.85
+results	32	Jimmy	Honda	Long Beach	CA	53	M	22	3:32:10	56.78
+results	33	Kimberly	Freer	Studio City	CA	34	F	11	3:32:15	70.63
+results	34	Joe	Fulcher	 	 	42	M	23	3:32:30	52.94
+results	35	Jill	Bricker	Los Angeles	CA	43	F	12	3:32:37	71.4
+results	36	Donald	Caldwell	Sierra Madre	CA	74	M	24	3:32:45	67.6
+results	37	Rickie Lee	Marker-Hoffman	Studio City	CA	33	F	13	3:37:41	71.57
+results	38	Jose	Lopez	Los Ángeles	CA	34	M	25	3:39:42	63.7
+results	39	Steve	Sieren	 	 	40	M	26	3:40:24	68.22
+results	40	Nicole	Lowry	Pasadena	CA	32	F	14	3:41:14	67.43
+results	41	Jacqueline	Woodward	Murrieta	CA	31	F	15	3:41:16	70.06
+results	42	Estevan	Velasquez	North Hills	CA	26	M	27	3:41:30	59.18
+results	43	Mariann	Mizrahie	 	 	43	F	16	3:44:29	80.63
+results	44	Tatina	Maldonado	 	 	29	F	17	3:44:31	77.24
+results	45	Nici	Dunn	San Diego	CA	55	F	18	3:46:37	67.88
+results	46	Baldemar	Caldera	Los Angeles	CA	36	M	28	3:47:23	55.22
+results	47	Arturo	Ibarra	West Covina	CA	34	M	29	3:48:12	65.4
+results	48	Ricardo	Flores	Whittier	CA	45	M	30	3:52:28	59.1
+results	49	Patricia	Lorenzi	Lake Forest	CA	46	F	19	3:54:04	74.8
+results	50	Mark	Ballou	Burbank	CA	47	M	31	3:54:18	59.05
+results	51	Stephanie	Fraser	La Crescenta	CA	29	F	20	3:54:54	74.69
+results	52	Satoshi	Takamatsu	Irvine	CA	54	M	32	3:55:34	60.79
+results	53	Sarah	Haas	San DiMas	CA	33	F	21	3:56:43	65.88
+results	54	Diana	Bouz	San DiMas	CA	33	F	22	3:56:44	82.83
+results	55	Jessica	Lupian	Northridge	CA	29	F	23	3:58:29	71.16
+results	56	Steven	Butensky	Burbank	CA	52	M	33	3:58:30	63.97
+results	57	Cesario	Tio	Los Angeles	CA	54	M	34	4:03:51	61.64
+results	58	Eddie	Villalobos	Santa Clarita	CA	54	M	35	4:04:49	51.93
+results	59	Steve	Salinda	Altadena	CA	61	M	36	4:06:12	54.22
+results	60	Lisa	Furumoto	Temple City	CA	29	F	24	4:06:30	66.7
+results	61	Steve	Ptasznik	Fountain Valley	CA	50	M	37	4:06:46	64.13
+results	62	Alejandra	Campos	Pasadena	CA	40	F	25	4:06:56	60.94
+results	63	Jason	Qua	Los Angeles	CA	46	M	38	4:13:22	64.61
+results	64	Mireille	Sine	Los Angeles	CA	27	F	26	4:14:17	66.17
+results	65	Anne	Inoue	Rancho Palos Verdes	CA	57	F	27	4:17:57	67.18
+results	66	Charles	Thacker	Rolling Hills Estates	CA	58	M	39	4:17:57	48.78
+results	67	Silvia	De La Rosa	Whittier	CA	56	F	28	4:18:23	67.12
+results	68	Karen	Andersen	Camarillo	CA	65	F	29	4:19:32	65.29
+results	69	Ezra	Weisz	Glendale	CA	47	M	40	4:23:58	54.81
+results	70	Erin	Delawari	Altadena	CA	38	F	30	4:23:58	67.87
+results	71	Alejandra	Guzman	Los Angeles	CA	42	F	31	4:24:18	64.75
+results	72	Gary	Burdorf	Pacific Palisades	CA	54	M	41	4:25:11	54.29
+results	73	Dante	Victorino	Riverside	CA	48	M	42	4:33:00	48.06
+results	74	Johanna	Mullen	Camarillo	CA	39	F	32	4:39:35	56.35
+results	75	Raymond	Steding	Woodland Hills	CA	62	M	43	4:39:38	48.19
+results	76	Mark	Vega	Los Angeles	CA	55	M	44	4:40:22	48.34
+results	77	Angel	Chavez	Santa Monica	CA	62	M	45	4:48:23	53.52
+results	78	Sindi	Torres	 	 	33	F	33	4:48:31	50.58
+results	79	Marisol	Cortes	Los Angeles	CA	41	F	34	4:51:40	61.41
+results	80	Vangie	Paragas	 	 	43	F	35	5:23:03	53.98
+results	81	Howel	Fontanilla	 	 	46	M	46	5:23:04	44.78
+results	82	Claudia	Cortez	Covina	CA	42	F	36	5:37:27	55.88
+results	83	Tracy	Tucker-Georges	Northridge	CA	54	F	37	5:58:50	50.2
+results	84	Luisa	Rivas	Los Angeles	CA	53	F	38	5:58:52	53.84

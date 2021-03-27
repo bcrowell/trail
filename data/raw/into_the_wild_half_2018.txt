@@ -1,0 +1,47 @@
+1                     Frank Ross           53      23 1 OA, M 16-24*       1:40:01.0
+2                     Jack Needham         52      24 2 OA, M 16-24*       1:49:38.8
+3                     Julianne Bridgnell  186      31  1 OA, F 25-34*      1:49:43.0
+4                     Cornel de Jongh      58      35 3 OA, M 35-44*       1:50:48.5
+5                     Robert Ycedo         44      32    1 M 25-34*        2:01:09.7
+6                     Todd Hanson          63      52    1 M 45-54*        2:01:20.6
+7                     Kim Hills            50      35  2 OA, F 35-44*      2:04:06.2
+8                     Mark Manion          73      47     2 M 45-54        2:04:41.0
+9                     Justin Horner        66      43    1 M 35-44*        2:11:09.5
+10                    Britany Adame        38      30  3 OA, F 25-34*      2:14:23.5
+11                    Chris Jensen         71      43     3 M 35-44        2:15:30.0
+12                    Andrew Bisom        185      62    1 M 61-99*        2:15:54.7
+13                    Nadia Michalak       40      33    1 F 25-34*        2:18:07.4
+14                    Greg Wilson          56      51     3 M 45-54        2:18:09.1
+15                    Sivan Gelb           47      39     4 M 35-44        2:18:19.8
+16                    Suzzane Chung        48      47    1 F 45-54*        2:19:06.1
+17                    Christian Kiley      39      47     4 M 45-54        2:19:19.2
+18                    Joseph Lee           70      29     2 M 25-34        2:19:21.0
+19                    Arriel Varela       119      29     4 F 25-34        2:19:44.1
+20                    Ian Farrell         189      44     5 M 35-44        2:20:59.4
+21                    Paul Limage          72      36     6 M 35-44        2:21:11.7
+22                    Joshua Quattlebaum   36      37     7 M 35-44        2:21:42.1
+23                    Dustin Pfaff        190      33     3 M 25-34        2:24:39.4
+24                    Jesse Fernandez      54      37     8 M 35-44        2:25:16.3
+25                    Kimberly Bogardus    46      33     4 F 25-34        2:31:35.6
+26                    Nick Bogardus        45      38     9 M 35-44        2:31:36.7
+27                    Matthew Shoffner    188      20    1 M 16-24*        2:31:55.3
+28                    Nelly Cruz           62      27     5 F 25-34        2:34:02.0
+29                    Yesenia Rodriguez    37      35    1 F 35-44*        2:36:30.7
+30                    Feliz Inga          203      36    10 M 35-44        2:38:52.1
+31                    Tom Parks           201      61     2 M 61-99        2:43:17.0
+32                    Michelle Robert      55      34     6 F 25-34        2:49:50.0
+33                    Kathryn Jue          49      36     3 F 35-44        2:52:57.6
+34                    Lidsay Collins       64      37     4 F 35-44        2:55:12.2
+35                    Jacqueline Momot     41      24    1 F 16-24*        2:56:26.5
+36                    Miguel Barszczuk     74      52     5 M 45-54        2:57:30.2
+37                    Kelly Prouty         43      52     2 F 45-54        3:04:33.1
+38                    Bruce McClurg        35      58    1 M 55-60*        3:06:01.5
+39                    Solveig Listerud     57      33     7 F 25-34        3:15:15.5
+40                    Victoria Luong      100      32     8 F 25-34        3:33:49.2
+41                    Gretchen Garcia      68      38     5 F 35-44        3:39:19.5
+42                    Michael Garcia       67      38    11 M 35-44        3:39:19.5
+43                    Vicki Short          69      60    1 F 55-60*        3:49:57.5
+44                    Sarah Mondt         184      31     9 F 25-34        3:58:55.2
+45                    Marie Momot          42      63    1 F 61-99*        4:16:51.0
+46                    Lizzeth Solis       187      31    10 F 25-34        4:18:38.3
+47                    Gina Sohn            51      32    11 F 25-34        4:19:25.6

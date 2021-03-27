@@ -1,0 +1,54 @@
+         1            Matthieu Gancedo       225      34      1:OA Male     1:45:05.2        *
+         2                  Greg Moe         334      36      2:OA Male     1:47:04.0        *
+         3             Jeremy Alspaugh       282      26      3:OA Male     1:52:31.8        *
+         4             Graham Lambert        296      52       1:M 45-54    1:56:05.5        *
+         5                 Sarah Mista       140      40     1:OA Female    1:56:07.9        *
+         6               beth Simmons        359      39     2:OA Female    2:03:34.4        *
+         7              Clayton Larkins      231      33       1:M 25-34    2:03:43.2        *
+         8                Todd Hanson        252      53       2:M 45-54    2:14:39.6        *
+         9             Violeta Mirochnik     244      32     3:OA Female    2:16:36.3        *
+        10                  Adam Doty        297      34       2:M 25-34    2:22:14.0
+        11            Maverick Risenmay      238      12       1:M 0-15     2:22:19.6        *
+        12            Antonio Gastelum       164      41       1:M 35-44    2:23:41.7        *
+        13                Elaine Lowry       268      53       1:F 45-54    2:24:16.0        *
+        14            Valdemar Alvarez       198      44       2:M 35-44    2:27:34.4
+        15                Maki Lougee        260      42       1:F 35-44    2:29:03.9        *
+        16                Sergio Garcia      208      48       3:M 45-54    2:30:54.4
+        17                Robert Ycedo       266      33       3:M 25-34    2:33:27.2
+        18                  Brett Balint     221      54       4:M 45-54    2:33:33.0
+        19                 George Ruiz       123      44       3:M 35-44    2:33:43.8
+        20                 Michael riehl     248      57       1:M 55-60    2:35:10.3        *
+        21               Irian de Armas      259      53       2:F 45-54    2:35:17.5
+        22             Matty Stevenson       286      36       4:M 35-44    2:36:05.9
+        23            Francisco Orellana     205      48       5:M 45-54    2:36:44.6
+        24                Daniela Harp       288      37       2:F 35-44    2:36:45.8
+        25              Chris Risenmay       239      41       5:M 35-44    2:39:07.4
+        26              Michael Metzler      191      56       2:M 55-60    2:39:25.8
+        27               Jose Martinez       291      38       6:M 35-44    2:39:34.2
+        28              Gregory Perkins      250      50       6:M 45-54    2:45:47.6
+        29                Jeffrey Chase      267      31       4:M 25-34    2:46:32.6
+        30             Blanca Marquez        197      36       3:F 35-44    2:47:47.2
+        31                Lucinda Vega       290      48       3:F 45-54    2:53:20.0
+        32                 Ben Ekenes        243      34       5:M 25-34    2:57:50.4
+        33                 Hunter Ebert      156      21       1:M 16-24    3:03:20.9        *
+        34                  Nick Bruno       361      20       2:M 16-24    3:03:21.8
+        35                 Lana Steiner      234      40       4:F 35-44    3:04:17.6
+        36             Rafael Gonzalez       281      37       7:M 35-44    3:05:16.1
+        37                  Molly Fults      274      45       4:F 45-54    3:06:26.4
+        38               Janet Bautista      277      35       5:F 35-44    3:10:36.7
+        39                  Lois Jones       271      61       1:F 61-69    3:10:47.5        *
+        40             Christina Kohfield    145      53       5:F 45-54    3:11:12.6
+        41              Aimee Charest        263      36       6:F 35-44    3:13:29.4
+        42                Akira Kugaya       285      51       7:M 45-54    3:14:54.2
+        43               Brandy Peters       256      42       7:F 35-44    3:15:14.6
+        44              Bruce McClurg        237      59       3:M 55-60    3:15:22.9
+        45              Jennifer Monioz      293      40       8:F 35-44    3:15:36.9
+        46              Miguel Santoyo       220      51       8:M 45-54    3:16:13.3
+        47                 Kelly Prouty      298      53       6:F 45-54    3:17:52.7
+        48                 Betty Shock       210      50       7:F 45-54    3:20:33.5
+        49              Isabel Quintero      295      38       9:F 35-44    3:29:19.9
+        50            Rachelle Pearman       171      38      10:F 35-44    3:32:00.0
+        51              Mandy Romero         141      38      11:F 35-44    3:33:30.7
+        52               Ray Ontiveros       299      61       1:M 61-69    3:36:50.8        *
+        53              Brandei Bangan       215      44      12:F 35-44    3:43:41.0
+        54              M. Shae Hsieh        232      36      13:F 35-44    4:17:47.7

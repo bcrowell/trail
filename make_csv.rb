@@ -4,8 +4,6 @@
 require 'json'
 require 'csv'
 
-require_relative "lib/physiology"
-
 def die(s)
   print s,"\n"
   exit(-1)
@@ -20,7 +18,7 @@ File.open('matches.json','r') { |f|
 
 course_horiz = {} # horizontal miles
 course_cf = {} # climb factor
-x = CSV.read("routes.csv")
+x = CSV.read("data/routes.csv")
 x.each { |row|
   name,horiz_v,cf_v = row
   course_horiz[name] = horiz_v.to_f

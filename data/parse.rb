@@ -98,7 +98,6 @@ if format=='agoura' then
     a = x.split(/\s*\t/)
     if a.length==12 then a.delete_at(5) end # e.g., matthew glynn has "Sumac"
     bib,name,address,time,crap1,crap2,crap3,age,crap4,sex,crap5 = a
-    if name=~/GLYNN/ or name=~/GULDEN/ then $stderr.print a.length," : ",a,"\n" end
     row = {'name'=>name,'time'=>time,'sex'=>sex,'age'=>age,'address'=>address}
     print output_record(row),"\n"
   }

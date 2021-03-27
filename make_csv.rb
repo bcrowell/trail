@@ -4,6 +4,8 @@
 require 'json'
 require 'csv'
 
+require_relative "lib/physiology"
+
 def die(s)
   print s,"\n"
   exit(-1)

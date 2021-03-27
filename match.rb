@@ -42,7 +42,7 @@ def parse_time_x(s) # to hours
 end
 
 all_names = {}
-Dir.glob( 'data/*.json').each { |filename|
+Dir.glob( 'data/times/*.json').each { |filename|
   if ignore_filename(filename) then next end
   names = []
   File.open(filename,'r') { |f|
@@ -76,7 +76,7 @@ all_names.each_pair { |filename,names|
 final_data = {}
 matched_names.keys.sort.each { |who|
   races = {}
-  Dir.glob( 'data/*.json').each { |filename|
+  Dir.glob( 'data/times/*.json').each { |filename|
     if ignore_filename(filename) then next end
     File.open(filename,'r') { |f|
       f.each_line { |line|

@@ -1,5 +1,8 @@
 #!/bin/ruby
 
+# Compile a list of all runners who ran more than one course in the dataset.
+# If they ran the same course more than once, use their best time.
+# Write an output json file containing times in decimal hours.
 
 require 'json'
 

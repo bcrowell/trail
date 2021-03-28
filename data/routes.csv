@@ -1,7 +1,11 @@
-baldy,6.41,47.4
-broken_arrow,3.13,58.3
-wilson,7.90,19.9
-pasadena,13.1,0.6
-chesebro,13.1,5.1
-into_the_wild,13.1,8.1
-griffith_park_30k,17.7,10.7
+course,distance (mi),CF (%),gain (ft)
+wilson,7.90,19.9,2304
+baldy,6.41,47.4,3978
+broken_arrow,3.13,58.3,2781
+pasadena,13.1,0.6,573
+chesebro,13.1,5.1,1127
+into_the_wild,13.1,8.1,1860
+griffith_park_30k,17.7,10.7,3498
+
+
+

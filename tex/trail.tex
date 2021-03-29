@@ -1,0 +1,270 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
+
+% amsmath and amssymb packages, useful for mathematical formulas and symbols
+\usepackage{amsmath,amssymb}
+
+% Use adjustwidth environment to exceed column width (see example table in text)
+\usepackage{changepage}
+
+% Use Unicode characters when possible
+\usepackage[utf8x]{inputenc}
+
+% textcomp package and marvosym package for additional characters
+\usepackage{textcomp,marvosym}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+% Use nameref to cite supporting information files (see Supporting Information section for more info)
+\usepackage{nameref,hyperref}
+
+% line numbers
+\usepackage[right]{lineno}
+
+% ligatures disabled
+\usepackage{microtype}
+\DisableLigatures[f]{encoding = *, family = * }
+
+% color can be used to apply background shading to table cells only
+\usepackage[table]{xcolor}
+
+% array package and thick rules for tables
+\usepackage{array}
+
+% create "+" rule type for thick vertical lines
+\newcolumntype{+}{!{\vrule width 2pt}}
+
+% create \thickcline for thick horizontal lines of variable length
+\newlength\savedwidth
+\newcommand\thickcline[1]{%
+  \noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+  \cline{#1}%
+  \noalign{\vskip\arrayrulewidth}%
+  \noalign{\global\arrayrulewidth\savedwidth}%
+}
+
+% \thickhline command for thick horizontal lines that span the table
+\newcommand\thickhline{\noalign{\global\savedwidth\arrayrulewidth\global\arrayrulewidth 2pt}%
+\hline
+\noalign{\global\arrayrulewidth\savedwidth}}
+
+
+% Remove comment for double spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+% Text layout
+\raggedright
+\setlength{\parindent}{0.5cm}
+\textwidth 5.25in 
+\textheight 8.75in
+
+% Bold the 'Figure #' in the caption and separate it from the title/caption with a period
+% Captions will be left justified
+\usepackage[aboveskip=1pt,labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off]{caption}
+\renewcommand{\figurename}{Fig}
+
+% Use the PLoS provided BiBTeX style
+\bibliographystyle{plos2015}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+
+
+% Header and Footer with logo
+\usepackage{lastpage,fancyhdr,graphicx}
+\usepackage{epstopdf}
+%\pagestyle{myheadings}
+\pagestyle{fancy}
+\fancyhf{}
+%\setlength{\headheight}{27.023pt}
+%\lhead{\includegraphics[width=2.0in]{PLOS-submission.eps}}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrule}{\hrule height 2pt \vspace{2mm}}
+\fancyheadoffset[L]{2.25in}
+\fancyfootoffset[L]{2.25in}
+\lfoot{\today}
+
+%% Include all macros below
+
+\newcommand{\lorem}{{\bf LOREM}}
+\newcommand{\ipsum}{{\bf IPSUM}}
+
+%% END MACROS SECTION
+
+
+\begin{document}
+\vspace*{0.2in}
+
+% Title must be 250 characters or less.
+\begin{flushleft}
+{\Large
+\textbf\newline{From treadmill to trails: predicting performance of runners} 
+}
+\newline
+% Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
+\\
+B.~Crowell\textsuperscript{1}
+\\
+\bigskip
+\textbf{1} Natural Science Division, Fullerton College, Fullerton, CA, USA\\
+\bigskip
+
+\end{flushleft}
+\section*{Abstract}
+
+
+\linenumbers
+
+% Use "Eq" instead of "Equation" for equation citations.
+% For figure citations, please use "Fig" instead of "Figure".
+
+\section*{Introduction}
+Running a race on a road allows absolute measures of performance:
+road runners speak of world records and personal records, and they can
+easily predict whether they would be able to run a certain race safely
+and with a competitive time. Trail running, however, has traditionally
+been thought of as a sport in which the only valid comparison is between
+different runners competing on the same course on the same day. Even the
+exact measurement of distance is considered to be unimportant, since courses
+and conditions vary so much. 
+
+An extreme example is the relatively new genre
+of ``vertical'' races, in which runners race up a mountain (often with about
+1000 m of elevation gain). In a typical example of this type of race, the Broken
+Arrow Vertical Kilometer, the competitors cover a horizontal distance of 5.0 km
+while climbing a total of about 900 m. The winner in 2019 had a time of 42:46,
+almost triple the time that would be expected for a state-champion high school runner in
+a 5k road race. In noncompetitive contexts, many runners venture onto mountain trails,
+lightly dressed and with little equipment, so that it becomes important to be able
+to anticipate whether they will have the endurance needed to be able to safely complete a planned route.
+
+% high school 3 mi: Joshua Schuld, PCL Dual Meets, 2020, 14:16, https://www.athletic.net/CrossCountry/Division/List.aspx?DivID=54890
+
+This paper presents a method for predicting relative performance on trail runs --- ``relative''
+meaning that if we know the runner's time for course A, we can predict their time on course B.
+Traditionally, runners and hikers would compare the lengths
+
+\subsection*{Model of endurance}
+
+Animals run more slowly at long distances, and mathematical modeling of this fact dates back
+about a century.\cite{hill} Recent workers have described methods for fitting parameters
+to the data for individual runners,\cite{rapoport}\cite{emig} which for example allows
+a first-time marathon runner to estimate an appropriate pace. In the present work, there is
+not enough data available to allow this kind of individualized description of the runners.
+For this reason, I have concentrated on data from a narrow range of middle distances,
+with the total energy expenditure being close to that of a flat half-marathon road race.
+But the endurance required for these races does vary, and this makes it desirable to have
+some rough method of compensating for the variation in pace with distance. Here I describe
+a very simple model that has the following characteristics that make it suitable for this
+study: (1) its parameters are universal rather than fits to the characteristics of an individual;
+(2) its output is purely multiplicative, i.e., it gives a correction factor $\kappa$ to the predicted speed.
+The model is essentially a variation on the one by Rapoport,\cite{rapoport} with some modifications
+to suit these purposes.
+
+First we compute an equivalent distance $d$, which is the distance of flat running that would
+require the same energy expenditure as the actual run. If the runner's time is $t$, then
+$v=d/t$ has dimensions of speed, but is in fact a measure of energy per unit time, or power.
+We then have
+\begin{equation}\label{eq:fuel-model-1}
+  Pt=d/\epsilon,
+\end{equation}
+where $P$ is the power and $\epsilon$ is a measure of the runner's efficiency. For example,
+a recreational runner with a slight roll of belly fat will have a lower value of $\epsilon$ because of
+the increased energetic cost of transporting the additional body weight. Although it would seem that
+we are now introducing an individualized parameter $\epsilon$, the model is designed so that at the
+end of the calculation, cancellations occur that allow $\kappa$ to be predicted on a universal basis.
+
+The power $P$ depends on aerobic fitness and on the proportions of fat and carbohydrates being
+burned in aerobic metabolism. Fat burning is slower than carbohydrate burning by a factor $\beta\approx 0.4$.\cite{rapoport}
+If we let $f$ be the fraction of energy production from carbohydrates, then
+\begin{equation}\label{eq:fuel-model-2}
+  P = A[f+\beta(1-f)],
+\end{equation}
+where the proportionality constant $A$ is another per-individual parameter that it will be
+possible to normalize away later. This expression's linearity in $f$ is an approximation to
+results from real-world data that provide evidence for slightly nonlinear behavior.\cite{rapoport}
+
+The runner's supply of carbohydrates $c$ is limited by the amount of glycogen that can be stored
+in the liver and the leg muscles. If $f$ is chosen optimally, then there will be some distance
+$d_c=c\epsilon$ that can be run with pure carbohydrate fuel, while longer distances will require $f<1$.
+Thus,
+\begin{equation}\label{eq:fuel-model-3}
+  f = \begin{cases}
+    1, & d\le d_c \\
+    c/At, & d\ge d_c.
+\end{cases}
+\end{equation}
+Under these assumptions, the runner's speed will be the same in races at all distances less than $d_c$,
+which is unrealistic. We will first work out the consequences of Eq \ref{eq:fuel-model-1}-\ref{eq:fuel-model-3}
+and the introduce a simple elaboration that more realistically reproduces the effects of fatigue.
+
+Solving Eq \ref{eq:fuel-model-1}-\ref{eq:fuel-model-3} and expressing $\kappa$ as a correction factor
+relative to the short-distance maximum speed $v_m=A\epsilon$, we find
+\begin{equation}\label{eq:kappa-simple}
+  \kappa_0 = \begin{cases}
+    1, & d\le d_c \\
+    \frac{\beta}{1-(1-\beta)d_c/d}, & d\ge d_c.
+  \end{cases}
+\end{equation}
+This depends on the universal parameter $\beta\approx0.4$ and also on the critical distance $d_c$.
+The latter is a measure of endurance and does depend on individual factors such as
+body composition and training, as well as on strategies such as carbohydrate loading.
+However, for the sample of recreational athletes studied here, I hypothesize that one can fix a universal value of $d_c$ lying somewhere
+around the half-marathon distance, and find a reasonable description of
+real-world data.
+
+It is not true in real-world conditions that runners can maintain the same pace at any distance below
+$d_c$, for which glycogen suffices. As the distance increases from 5 km to the half-marathon
+distace of 21 km, one observes a decrease in speed which, as originally observed by Hill,\cite{hill} appears
+linear on a graph of speed versus the logarithm of distance. In the men's and women's world-record
+times, this decrease is about 5\%. The graph then shows a knee, like the one described by Eq \ref{eq:kappa-simple}.
+The decrease for distances before the knee is generically described as being due to fatigue, which is
+a complicated and poorly understood phenomenon involving a variety of factors, many of which are mediated
+by the central nervous system rather than by any change at the chemical or tissue level. A reasonable
+evolutionary hypothesis is that the CNS effectively uses exertion up to a certain time to extrapolate
+the need for further exertion, husbanding energy resources and preventing damage in a prediction-feedback
+loop that is not under voluntary control. With this motivation, we introduce an elaboration 
+in which the result of Eq \ref{eq:kappa-simple} is replaced by its average over all distances from
+$d$ up to $2d$,
+\begin{equation}\label{eq:kappa}
+  \kappa = \frac{1}{d}\int_d^{2d} \kappa_0(d') dd'.
+\end{equation}
+This can be conveniently implemented in software using the indefinite integral $\int dx/(1-1/x)=\ln(x-1)+x+c$.
+
+Empirically, for the mostly recreational runners studied here, a reasonable description of the data is achieved when
+$d_c$ is set to the half-marathon distance, which is the value adopted in this work.
+Fig \ref{fig:my-times} shows the quality of the fit for some real-world data.
+A reduction of $d_c$ by about 24\% gave somewhat better agreement (zero median error) with the data in the sample of runners studied
+here,  when times in a hilly 30k trail race were
+predicted based on times in shorter races in which the energy expenditure was roughly equivalent to that of
+a flat half marathon.
+On the other hand, much higher values of $d_c$ might be more appropriate for higher-level endurance runners.
+Indeed, the model fails badly for some elite athletes. For example, Eliud Kipchoge's personal-best
+speed is only 8\% lower in the marathon than in the 1500 m. This cannot be reproduced with any physiologically
+reasonable value of $d_c$, possibly indicating that the fatigue model in Eq \ref{eq:kappa} is invalid for Kipchoge.
+
+\begin{figure}[h]
+\includegraphics[width=8cm]{figs/my-times/my-times.pdf}
+\centering
+\caption{The author's personal-best speeds $v/v_m$ on various courses, versus equivalent distance $d$.
+The curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to a half-marathon distance.
+The times are from a mixture of road and trail courses, races and running against the clock.}
+\label{fig:my-times}
+\end{figure}
+
+Although fitting parameters to individual runners' characteristics is not the main purpose of this work, doing
+so is very easy with this model, due to its purely multiplicative structure.
+When data are viewed in the format used in Fig \ref{fig:my-times}, as a log-log plot of speed versus distance,
+the standard curve $\kappa(d)$ is simply slid around horizontally and vertically to match the runner's $v_m$ and $d_c$.
+
+\bibliography{trail}
+
+
+\end{document}
+

@@ -193,7 +193,62 @@ so that $c_g$ is said to be approximately in the range from 4 to 8. There is not
 about this hypothesis. A function $C(i)$ of this form evades Baumel's argument because its hockey-stick shape
 is not smooth at $i=0$, and therefore cannot be approximated by its Taylor series.
 
+Minetti \emph{et al.}\cite{minetti} have used oxygen
+consumption to measure the energy expenditure of runners on a treadmill at slope $i$, for both
+running and walking.
+The results are expressed as $C=(1/m)d E/d s$, where $m$ is the person's body mass,
+$E$ is the energy expended, and $d s$ is the increment of three-dimensional distance, which
+usually differs negligibly from the increment of horizontal distance $d \ell$.
+$C$ has the same units as the gravitational field.
+Ref.~\cite{minetti} found significant differences in efficiency within their group of elite mountain
+runners, and differences are also to be expected between this group and other athletes. This is one
+of the reasons why this study presents a comparative technique, rather than an absolute method for
+determining a particular runner's actual energy expenditure in units of kilocalories.
 
+The function $C(i)$ resembles a hyperbola, with a
+minimum occurring at $i\approx -0.1$ to $-0.2$. 
+The asymptotes
+at large positive and negative values of $i$ are interpreted in \cite{minetti} as being determined by the
+efficiency of eccentric and concentric muscle contraction. 
+
+It is convenient to describe Minetti's function $C(i)$ using a fit to the form
+\begin{equation}\label{eq:minetti-fit}
+  C(i) = a\left[(i^p+b)^{1/p}+\frac{i}{c}+d\right].
+\end{equation}
+Parameters fitted to the results of ref.~\cite{minetti} are given in table \ref{table:minetti-params}.
+The purpose of using this form, rather than the polynomial fit given by \cite{minetti}, is
+to make the computations degrade gracefully in cases where the limitations of the data
+produce unrealistically steep slopes. In such cases, this expression approaches the physiologically
+expected asymptotic behavior. Although the present work focuses only on running, parameters for walking
+are presented as well. The results for running are empirically found to be nearly independent of speed,
+whereas the ones for walking are the values for the speed that was found to be most efficient for that
+particular subject.
+
+\begin{figure}[h]
+\includegraphics[width=8cm]{figs/minetti/minetti.pdf}
+\centering
+\caption{The cost of running as a function of slope, Eq \ref{eq:minetti-fit}.}
+\label{fig:my-times}
+\end{figure}
+
+\begin{table}[h]
+\caption{Parameters for equation \eqref{eq:minetti-fit}. These parameters were found by constraining
+Eq \ref{eq:minetti-fit} to agree with the polynomial fits in ref.~\cite{minetti} on the following
+degrees of freedom: the function is minimized at the same $i$, and has the same value of $C$ there;
+the functions agree at $i=0$; and the slopes at $\pm\infty$ have the same asymptotic values.}
+\begin{tabular}{lll}
+   & \emph{running} & \emph{walking} \\
+$a$  & 26.07 $\textup{J}/\textup{kg}\cdot\textup{m}$ & 22.91 $\textup{J}/\textup{kg}\cdot\textup{m}$ \\
+$b$  & 0.03104 & 0.02621 \\
+$c$ & 1.381 & 1.315 \\
+$d$ & -0.06547 & -0.08317 \\
+$p$ & 2.181 & 2.209
+\end{tabular}
+\label{table:minetti-params}
+\end{table}
+
+Nearly all real-world walking and running is
+done at $-0.2 \lesssim i \lesssim 0.2$, where the graph of $C(i)$ is nearly parabolic.
 
 
 
@@ -309,6 +364,7 @@ Although fitting parameters to individual runners' characteristics is not the ma
 so is very easy with this model, due to its purely multiplicative structure.
 When data are viewed in the format used in Fig \ref{fig:my-times}, as a log-log plot of speed versus distance,
 the standard curve $\kappa(d)$ is simply slid around horizontally and vertically to match the runner's $v_m$ and $d_c$.
+
 
 \bibliography{trail}
 

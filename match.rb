@@ -30,6 +30,10 @@ def ignore_filename(filename)
   # path.json is output from kcals; I don't have route info for flagstaff
 end
 
+def canonicalize_name(name)
+  return name.downcase
+end
+
 def parse_time(s,debug) # to hours
   t = parse_time_x(s)
   if t<0.5 then die("time is less than 30 min, #{s} -> #{t}, #{debug}") end
@@ -53,32 +57,31 @@ Dir.glob( 'data/times/*.json').each { |filename|
   File.open(filename,'r') { |f|
     f.each_line { |line|
       row = JSON.parse(line) # {'name'=>name,'time'=>time,'sex'=>sex,'age'=>age,'bib'=>bib,'address'=>address}
-      names.push(row['name'])
+      names.push(canonicalize_name(row['name']))
     }
   }
   all_names[filename] = names.sort
 }
 
+# The following is somewhat slow, but not too bad.
 matched_names = {}
 all_names.each_pair { |filename,names|
   $stderr.print "#{filename}\n"
   all_names.each_pair { |filename2,names2|
     if filename>=filename2 then next end
     names.each { |a|
+      if a.nil? then die("nil name, #{filename}") end
+      if not (names2.include?(a)) then next end # unnecessary but faster; should actually implement these as hashes
       names2.each { |b|
-        if a.nil? then die("nil name, #{filename}") end
-        if b.nil? then die("nil name, #{filename2}") end
-        if a.downcase==b.downcase then 
-          #print "matched #{a} between #{filename} and #{filename2}\n"
+        if a==b then 
           matched_names[a.downcase] = 1
-        else
-          #print "unequal: #{a}, #{b}\n"
         end
       }
     }
   }
 }
 
+# This is extemely slow.
 final_data = {}
 matched_names.keys.sort.each { |who|
   races = {}

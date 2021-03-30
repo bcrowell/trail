@@ -140,19 +140,23 @@ of ``vertical'' races, in which runners race up a mountain (often with about
 Arrow Vertical Kilometer, the competitors cover a horizontal distance of 5.0 km
 while climbing a total of about 900 m. The winner in 2019 had a time of 42:46,
 almost triple the time that would be expected for a state-champion high school runner in
-a 5k road race. In noncompetitive contexts, many runners venture onto mountain trails,
+a 5k road race. Clearly no comparison can be made here without taking into account
+the amount of climbing.
+
+In noncompetitive contexts, many runners venture onto mountain trails,
 lightly dressed and with little equipment, so that it becomes important to be able
 to anticipate whether they will have the endurance needed to be able to safely complete a planned route.
+Again, this is impossible without some model of the effect of hill climbing.
 
 % high school 3 mi: Joshua Schuld, PCL Dual Meets, 2020, 14:16, https://www.athletic.net/CrossCountry/Division/List.aspx?DivID=54890
 
 This paper presents a method for predicting relative performance on trail runs --- ``relative''
-meaning that if we know the runner's time for course A, we can predict their time on course B.
+meaning that we can predict the time for course A divided by the time for course B.
 
 Traditionally, runners and hikers have described a trail using two numbers, the horizontal distance and the total elevation gain.
 For example, if the route is an out-and-back voyage consisting of steady climbing to a peak and
 a return, then the total elevation is simply the elevation of the peak minus the elevation of
-the trailhead. If the elevation profile of the trip consisted of multiple ascents and descents,
+the trailhead. If the elevation profile of the trip consisted of multiple clearly defined ascents and descents,
 then one would add up the ascents. Although this two-parameter description of the route is
 easy to derive from a paper topographic map, knowledge of the two numbers is not sufficient
 to make a very useful estimate of the total energy expenditure.
@@ -217,7 +221,7 @@ It is convenient to describe Minetti's function $C(i)$ using a fit to the form
 \end{equation}
 Parameters fitted to the results of ref.~\cite{minetti} are given in table \ref{table:minetti-params}.
 The purpose of using this form, rather than the polynomial fit given by \cite{minetti}, is
-to make the computations degrade gracefully in cases where the limitations of the data
+to make the computations degrade gracefully in cases where the limitations of GPS tracks or data from digital elevation models
 produce unrealistically steep slopes. In such cases, this expression approaches the physiologically
 expected asymptotic behavior. Although the present work focuses only on running, parameters for walking
 are presented as well. The results for running are empirically found to be nearly independent of speed,
@@ -227,8 +231,9 @@ particular subject.
 \begin{figure}[h]
 \includegraphics[width=8cm]{figs/minetti/minetti.pdf}
 \centering
-\caption{The cost of running as a function of slope, Eq \ref{eq:minetti-fit}.}
-\label{fig:my-times}
+\caption{The cost of running as a function of slope. Solid line: fit to Minetti, Eq \ref{eq:minetti-fit}. Dashed line:
+Eq \ref{eq:gain-only}, with $c_0$ chosen to agree with Minetti's $C(0)$ and $c_g=6.0$.}
+\label{fig:minetti}
 \end{figure}
 
 \begin{table}[h]
@@ -250,7 +255,66 @@ $p$ & 2.181 & 2.209
 Nearly all real-world walking and running is
 done at $-0.2 \lesssim i \lesssim 0.2$, where the graph of $C(i)$ is nearly parabolic.
 
+\subsection*{Empirical testing}
 
+To test these models, I use publicly available race results from the Los Angeles area.
+This area has a large population and tall mountains. The large population makes it possible
+to pick out a significant number of runners who have competed in several different races.
+If the ratio of the runner's time on courses 1 and 2 is $t_2/t_1$, then we take this
+as a measure of the ratio $E_2/E_1$ of the energy expenditure, which can be compared with
+the model. It was possible to find courses with a variety of elevation profiles, allowing
+a test of the dependence of the predictions on the amount of hill climbing.
+
+\begin{table}[h]\label{table:courses}
+\caption{Courses}
+\begin{tabular}{lp{60mm}rrrl}
+                 &       & dist.  & gain &  &  years \\
+                 &       & (km)      &  (km) & CF & (20xx) \\
+1 & Mount Wilson Trail Race         & 12.7 & 0.70 & 20\%        & 18,19\\
+2 & Mount Baldy Run to the Top      & 10.3 & 1.21 & 47\%        & 17,18\\
+3 & Broken Arrow Vertical Kilometer & 5.0  & 0.85 & 58\%        & 19 \\
+4 & Pasadena Half Marathon          & 21.1 & 0.17 & 1\%         & 20 \\
+5 & Agoura Hills Chesebro Half Marathon & 21.1 & 0.34 & 5\%     & 19 \\
+6 & Into the Wild OC Half Marathon & 21.1 & 0.57 & 8\% & 17,18\\
+7 & Griffith Park 30k               & 28.5 & 1.07 & 11\%        & 18,19 \\
+8 & Revel Big Bear Half Marathon    & 21.1 & 0    & -27\% & 18,19
+\end{tabular}
+\label{table:courses}
+\end{table}
+
+Table \ref{table:courses} lists the race results used as sources of data.
+Because a runner's performance can change over time due to training and aging,
+the time period of the study was restricted to January 2017 through March 2020
+(before the COVID epidemic ended races other than virtual ones in California).
+Digital maps projected into a horizontal plane were obtained from the race organizers' web site
+or in some cases by tracing roads and trails in a Google Maps application. Elevation data
+were obtained from publicly available digital elevation models (SRTM1) having a horizontal
+resolution of 30 meters. (Elevation data from handheld GPS units are more difficult to
+obtain from public sources, and are in any case of questionable reliability
+for this purpose, since the uncertainty can be very large when all satellites are near the
+horizon.) Runners' names and times were obtained by web-scraping public race results,
+and runners were assumed to be the same person if their first and last names matched.
+When a runner ran the same race more than once, their best time was used.
+
+To define measures of the accuracy and precision of the model, consider a comparison
+of courses 1 and 2. The observed data are the runner's times $t_1$ and $t_2$, and
+the model predicts the ratio of the energy consumption $E_1/E_2$. Define
+\begin{equation}
+  \mathcal{E} = 100 \ln\left(\frac{t_1}{t_2}\cdot\frac{E_2}{E_1}\right).
+\end{equation}
+For small errors, $\mathcal{E}$ is the relative error in the prediction, expressed
+as a percentage. The use of the logarithm transforms multiplicative sources of
+error into additive quantities.
+
+We pick a feature of the model that is to be tested. For example, we would like to see
+whether the model does a good job of predicting the relative times for flat races
+compared to steep uphill-only races. For this example, we make a list of courses
+that are relatively flat (4, 5, and 6), and a list of some that are steep uphill-only
+courses (2 and 3). We then find every case where the same runner did a run $i$ from the first
+list and a run $j$ from the second, and compute the error $\mathcal{E}_{ij}$, which will be
+positive if the runner's time in the uphill race $j$ is overpredicted by the model relative
+to their time in the flat race $i$. From the resulting list of $\mathcal{E}$ values for
+this sample, we find the median $\widetilde{\mathcal{E}}$ and the mean absolute value $\langle|\mathcal{E}|\rangle$.
 
 \subsection*{Model of endurance}
 
@@ -356,7 +420,9 @@ reasonable value of $d_c$, possibly indicating that the fatigue model in Eq \ref
 \centering
 \caption{The author's personal-best speeds $v/v_m$ on various courses, versus equivalent distance $d$.
 The curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to a half-marathon distance.
-The times are from a mixture of road and trail courses, races and running against the clock.}
+The times are from a mixture of road and trail courses, and a mixture of races and running against the clock.
+The equivalent distances were determined from the horizontal distances using the curvlinear
+function $C(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data.}
 \label{fig:my-times}
 \end{figure}
 

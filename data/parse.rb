@@ -3,7 +3,7 @@
 require 'json'
 
 def die(s)
-  print s,"\n"
+  $stderr.print s,"\n"
   exit(-1)
 end
 
@@ -12,8 +12,36 @@ def output_record(row)
   row['name'].gsub!(/^\s+/,'') # get rid of leading whitespace
   row['name'].gsub!(/(\w+)/) {$1.capitalize}
   row['time'].gsub!(/:(\d\d)(\d)/) {":#{$1}.#{$2}"}
+  if not sanity_check_time(row['time']) then die("time fails sanity check, #{row}") end
   if row['address']=~/^\s+$/ then row['address']='' end # address is only whitespace, make it null string
   return JSON.generate(row)
+end
+
+def sanity_check_time(s)
+  if not syntax_check_time(s) then return false end
+  t = parse_time(s)
+  if t<0.5 then return false end
+  return true
+end
+
+def syntax_check_time(s)
+  if s=~/(\d{1,2}):(\d\d):(\d\d(\.\d+)?)/ then
+    return true
+  end
+  if s=~/(\d\d):(\d\d(\.\d+)?)/ then
+    return true
+  end
+  return false
+end
+
+def parse_time(s) # to hours
+  if s=~/(\d+):(\d+):(\d+)/ then
+    return $1.to_f+($2.to_f+($3.to_f)/60.0)/60.0
+  end
+  if s=~/(\d+):(\d+)/ then
+    return ($1.to_f+($2.to_f)/60.0)/60.0
+  end
+  return nil
 end
 
 if ARGV.length<1 then 
@@ -27,7 +55,7 @@ lines_per_person = -1
 if format=='athlinks' then # wilson, broken arrow
   lines_per_person = 9
 end
-if format=='baldy' || format=='ultrasignup' || format=='agoura' || format=='into_the_wild1' || format=='into_the_wild2' then
+if format=='baldy' || format=='ultrasignup' || format=='agoura' || format=='into_the_wild1' || format=='into_the_wild2' || format=='revel' then
   lines_per_person = 1
 end
 if lines_per_person==-1 then die("unrecognized format") end
@@ -114,6 +142,24 @@ if format=='into_the_wild1' then
     sex = ''
     if stuff=~/([MF])/ then sex=$1 end
     row = {'name'=>name,'time'=>time,'sex'=>sex,'age'=>age}
+    print output_record(row),"\n"
+  }
+end
+
+if format=='revel' then
+  # 9 or 10 columns:
+  # 1 	1 M 		3853 	Martinez 	Tony 	M 	28 	1:08:22 	5:13
+  # 15 	1 F 		4440 	Castaneda 	Maria R 	F 	32 	1:23:18 	6:21
+  # ["15", "1 F", "4440", "Castaneda", "Maria R", "F", "32", "1:23:18", "6:21"]
+  # ["733", "294 M", "40 M5054", "3260", "Castaneda", "Sergio", "M", "51", "2:12:34", "10:07"]
+  # delimited by space+tab
+  table.each { |person|
+    x = person[0]
+    x.gsub!(/[^\w\d \/:\t]/,'')
+    a = x.split(/\s*\t/)
+    if a.length==10 then a.delete_at(2) end # delete place_age if present
+    place,place_gender,bib,last,first,sex,age,time,crap = a
+    row = {'name'=>"#{first} #{last}",'time'=>time,'sex'=>sex,'age'=>age}
     print output_record(row),"\n"
   }
 end

@@ -20,6 +20,8 @@ def filename_to_race(filename)
   if filename=~/chesebro/ then return 'chesebro' end
   if filename=~/into_the_wild/ then return 'into_the_wild' end
   if filename=~/griffith_park_30k/ then return 'griffith_park_30k' end
+  if filename=~/big_bear/ then return 'big_bear' end
+  if filename=~/canyon_city/ then return 'canyon_city' end
   die("error parsing filename, #{filename}")
 end
 
@@ -28,9 +30,9 @@ def ignore_filename(filename)
   # path.json is output from kcals; I don't have route info for flagstaff
 end
 
-def parse_time(s) # to hours
+def parse_time(s,debug) # to hours
   t = parse_time_x(s)
-  if t<0.5 then die("#{s} -> #{t}") end
+  if t<0.5 then die("time is less than 30 min, #{s} -> #{t}, #{debug}") end
   return t
 end
 
@@ -59,6 +61,7 @@ Dir.glob( 'data/times/*.json').each { |filename|
 
 matched_names = {}
 all_names.each_pair { |filename,names|
+  $stderr.print "#{filename}\n"
   all_names.each_pair { |filename2,names2|
     if filename>=filename2 then next end
     names.each { |a|
@@ -85,7 +88,7 @@ matched_names.keys.sort.each { |who|
       f.each_line { |line|
         row = JSON.parse(line) # {'name'=>name,'time'=>time,'sex'=>sex,'age'=>age,'bib'=>bib,'address'=>address}
         if row['name'].downcase==who then
-          t = parse_time(row['time'])
+          t = parse_time(row['time'],"#{filename} #{who} #{row}")
           if t.nil? then die("error parsing time #{row['time']} for #{who}, #{filename_to_race(filename)}") end
           r = filename_to_race(filename)
           if races.has_key?(r) then

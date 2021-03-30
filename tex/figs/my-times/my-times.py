@@ -32,7 +32,7 @@ fig.set_size_inches(width,width)
 
 ax.set_xscale("log")
 ax.set_yscale("log")
-ax.set_ylim(0.4,1.5)
+ax.set_ylim(0.4,1.2)
 #ax.set_xticks(np.arange(x_min, x_max, 0.2) , minor=True)
 ax.grid(which='both',axis='both')
 

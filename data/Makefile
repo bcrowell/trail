@@ -12,3 +12,8 @@ default:
 	./parse.rb into_the_wild2 <raw/into_the_wild_half_2019.txt >times/into_the_wild_half_2019.json
 	./parse.rb ultrasignup <raw/griffith_park_30k_2019.txt >times/griffith_park_30k_2019.json
 	./parse.rb ultrasignup <raw/griffith_park_30k_2018.txt >times/griffith_park_30k_2018.json
+	./parse.rb revel <raw/revel_big_bear_half_2018.txt >times/revel_big_bear_half_2018.json
+	./parse.rb revel <raw/revel_big_bear_half_2019.txt >times/revel_big_bear_half_2019.json
+	./parse.rb revel <raw/revel_canyon_city_half_2017.tex >>times/revel_canyon_city_half_2017.json
+
+

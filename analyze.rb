@@ -21,48 +21,40 @@ def main()
   m = {"endurance"=>[0.4,13.1]}
   hockey = {'hockey'=>6.0}
 
+  all = course_horiz.keys
   ultra_flat = ["irvine_half"]
   flat = ["pasadena","chesebro","into_the_wild","irvine_half"]
   uphill = ["baldy","broken_arrow"]
   downhill = ["big_bear","canyon_city"]
   not_very_flat = ["wilson","into_the_wild","big_bear","baldy","broken_arrow","griffith_park_30k","chesebro"]
 
-  #do_stats("very flat / hilly",["pasadena"],not_very_flat,data,m)
-  #do_stats("very flat / hilly, hockey",["pasadena"],not_very_flat,data,m.merge(hockey))
+  # --- Hockey is poor for steep uphill; this is because minetti is curved, not linear
+  # compare_hockey("flat / uphill",flat,uphill,data,m,hockey)
 
-  # Sample size is only 4, not enough to tell much:
-  # do_stats("flat / wilson",        flat,["wilson"],data,m)
-  # do_stats("flat / wilson, hockey",flat,["wilson"],data,m.merge(hockey))
+  # --- Both Minetti and hockey predict wilson times that are about 20% too short. I suspect this is safety and etiquette at work.
+  # compare_hockey("flat / wilson",flat,["wilson"],data,m,hockey)
 
-  # ----- Good comparison of flattish with downhill, seems to show minetti is better than hockey. Results very similar if
-  #       I only use Pasadena.
-  if false then
-    do_stats("flattish / downhill",        flat,["big_bear"],data,m)
-    do_stats("flattish / downhill, hockey",flat,["big_bear"],data,m.merge(hockey))
-  end
+  # ----- Good comparison of flattish with downhill. Hockey much better than Minetti. I suspect this is because of the extreme amount
+  #       of eccentric work on quads, also possibly TFLs. Nice big sample.
+  # compare_hockey("flattish / downhill",flat,["big_bear"],data,m,hockey)
 
-  if false then
-    do_stats("ultra-flat / downhill",        ultra_flat,["big_bear"],data,m)
-    do_stats("ultra-flat / downhill, hockey",ultra_flat,["big_bear"],data,m.merge(hockey))
-  end
-
-  do_stats("ultra-flat / flat",        ultra_flat,["pasadena"],data,m)
-  do_stats("ultra-flat / flat, hockey",ultra_flat,["pasadena"],data,m.merge(hockey))
-
-  # ----- Seems to show hockey about the same as minetti or even slightly better.
-  if false then
-    do_stats("flat / uphill",        flat,uphill,data,m)
-    do_stats("flat / uphill, hockey",flat,uphill,data,m.merge(hockey))
-  end
+  # ----- Ultra-flat versus nearly flat, seem to clearly show that hockey is wrong in this limit, although the sample is small.
+  # compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey)
 
   #do_stats("flat / downhill",flat,["big_bear"],data,m)
   #do_stats("up-down / uphill",["wilson"],["baldy","broken_arrow"],data,m)
 
   # ----- test endurance correction; small sample size, but does seem to improve results
-  if false then
+  if true then
     do_stats("short / 30k",                      ["pasadena","wilson"],["griffith_park_30k"],data,{})
     do_stats("short / 30k, endurance correction",["pasadena","wilson"],["griffith_park_30k"],data,m)
   end
+end
+
+def compare_hockey(title,courses1,courses2,data,model,hockey)
+  print "comparing Minetti with hockey, #{title}\n"
+  do_stats("  Minetti",courses1,courses2,data,model)
+  do_stats("  hockey ",courses1,courses2,data,model.merge(hockey))
 end
 
 def do_stats(title,courses1,courses2,data,model)
@@ -79,14 +71,14 @@ def do_stats(title,courses1,courses2,data,model)
       uphill.each { |c2|
         n = n+1
         t1,t2,d1,d2,err,e2e1,endurance_corr = cross_ratio(c1,c2,times,course_horiz,course_cf,course_gain,model)
-        print "  #{pname(who)}       #{pcourse(c1)}=#{ptime(t1)}        #{pcourse(c2)}=#{ptime(t2)}          err=#{pf(err,5,1)}",
+        print "    #{pname(who)}       #{pcourse(c1)}=#{ptime(t1)}        #{pcourse(c2)}=#{ptime(t2)}          err=#{pf(err,5,1)}",
                    "             e2/e1=#{pf(e2e1,4,2)}   endurance=#{pf(endurance_corr,4,2)}\n"
         errors.push(err)
       }
     }
   }
-  median,mean_abs = stats(errors)
-  print "  median error=#{pf(median,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      n=#{n}\n"
+  median,mean_abs,spread = stats(errors)
+  print "      median error=#{pf(median,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n"
 end
 
 def cross_ratio(c1,c2,times,course_horiz,course_cf,course_gain,model)
@@ -128,7 +120,7 @@ def energy(distance,climb_factor,gain,model)
 end
 
 def stats(x)
-  return [median_value(x),mean_abs_value(x)]
+  return [median_value(x),mean_abs_value(x),spread_value(x)]
 end
 
 def mean_abs_value(x)
@@ -140,6 +132,28 @@ def median_value(x) # https://stackoverflow.com/a/14859546
   sorted = x.sort
   len = sorted.length
   (sorted[(len - 1) / 2] + sorted[len / 2]) / 2.0
+end
+
+def spread_value(a)
+  # standard deviation
+  n = a.length
+  if n<2 then return nil end
+  s = 0.0
+  a.each { |x|
+    s = s+x
+  }
+  mean = s/n
+  s = 0.0
+  a.each { |x|
+    diff = x-mean
+    s = s+diff*diff
+  }
+  sd = Math.sqrt(s/(n-1))
+  return sd
+  # median absolute difference from the median
+  # ... this behaves well when tails are fat and there's plenty of data, but produces weird results with small n
+  #med = median_value(x)
+  #return median_value(x.map {|u| (u-med).abs})
 end
 
 def array_intersection(a1,a2)

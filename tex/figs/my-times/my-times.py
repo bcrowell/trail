@@ -16,7 +16,12 @@ outfile = "my-times.svg"
 x_min = 1.0 # distance in km
 x_max = 30.0*mi_to_km
 
-x = np.arange(x_min, x_max, 0.25)
+draft = False
+if draft:
+  dx = 1
+else:
+  dx = 0.25
+x = np.arange(x_min, x_max, dx)
 y = copy.copy(x)
 
 def kappa(d,dc):

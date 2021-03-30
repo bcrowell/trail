@@ -1,4 +1,8 @@
-def endurance_corr_1(e,beta,dc)
+def endurance_corr(e,beta,dc,opt)
+  return endurance_corr_3(e,beta,dc,opt)
+end
+
+def endurance_corr_1(e,beta,dc,opt)
   # e = energy requirement in equivalent miles
   # beta = factor by which fat metabolism is slower than carb metabolism
   # dc = critical distance at which carbs would run out
@@ -10,7 +14,7 @@ def endurance_corr_1(e,beta,dc)
   end
 end
 
-def endurance_corr_2(e,beta,dc)
+def endurance_corr_2(e,beta,dc,opt)
   # like endurance_corr_1, but smoothed by averaging speed from e to 2e
   # Convert to dimensionless variables:
   x = e/((1-beta)*dc)
@@ -31,3 +35,10 @@ def endurance_corr_2(e,beta,dc)
   return 1/(beta*ys)
 end
 
+def endurance_corr_3(e,beta,dc,opt)
+  q = 0.05
+  u = e/dc
+  fatigue = (1+(1-3*q)*u)/(1+u) # expressed as a velocity correction
+  return endurance_corr_1(e,beta,dc,opt)/fatigue
+  #return (endurance_corr_1(0.5*e,beta,dc,opt)+endurance_corr_1(e,beta,dc,opt)+endurance_corr_1(1.5*e,beta,dc,opt))/3.0
+end

@@ -23,6 +23,7 @@ def main()
 
   flat = ["pasadena","chesebro","into_the_wild"]
   uphill = ["baldy","broken_arrow"]
+  downhill = ["big_bear","canyon_city"]
   not_very_flat = ["wilson","into_the_wild","big_bear","baldy","broken_arrow","griffith_park_30k","chesebro"]
 
   #do_stats("very flat / hilly",["pasadena"],not_very_flat,data,m)
@@ -39,16 +40,26 @@ def main()
     do_stats("flattish / downhill, hockey",flat,["big_bear"],data,m.merge(hockey))
   end
 
+  # --- another downhill race, but less extreme, actually has quite a bit of gain as well
+  if false then
+    do_stats("flattish / downhill",        flat,["canyon_city"],data,m)
+    do_stats("flattish / downhill, hockey",flat,["canyon_city"],data,m.merge(hockey))
+  end
+
   # ----- Seems to show hockey about the same as minetti or even slightly better.
-  if true then
+  if false then
     do_stats("flat / uphill",        flat,uphill,data,m)
     do_stats("flat / uphill, hockey",flat,uphill,data,m.merge(hockey))
   end
 
   #do_stats("flat / downhill",flat,["big_bear"],data,m)
   #do_stats("up-down / uphill",["wilson"],["baldy","broken_arrow"],data,m)
-  #do_stats("short / 30k",["pasadena","wilson"],["griffith_park_30k"],data,m)
-  #do_stats("short / 30k, endurance correction",["pasadena","wilson"],["griffith_park_30k"],data,m)
+
+  # ----- test endurance correction; small sample size, but does seem to improve results
+  if false then
+    do_stats("short / 30k",                      ["pasadena","wilson"],["griffith_park_30k"],data,{})
+    do_stats("short / 30k, endurance correction",["pasadena","wilson"],["griffith_park_30k"],data,m)
+  end
 end
 
 def do_stats(title,courses1,courses2,data,model)
@@ -62,8 +73,9 @@ def do_stats(title,courses1,courses2,data,model)
     if flat.empty? or uphill.empty? then next end
     flat.each { |c1|
       uphill.each { |c2|
-        t1,t2,d1,d2,err = cross_ratio(c1,c2,times,course_horiz,course_cf,course_gain,model)
-        print "  #{pname(who)}       #{pcourse(c1)}=#{ptime(t1)}        #{pcourse(c2)}=#{ptime(t2)}          err=#{err}\n"
+        t1,t2,d1,d2,err,e2e1,endurance_corr = cross_ratio(c1,c2,times,course_horiz,course_cf,course_gain,model)
+        print "  #{pname(who)}       #{pcourse(c1)}=#{ptime(t1)}        #{pcourse(c2)}=#{ptime(t2)}          err=#{pf(err,5,1)}",
+                   "             e2/e1=#{pf(e2e1,4,2)}   endurance=#{pf(endurance_corr,4,2)}\n"
         errors.push(err)
       }
     }
@@ -87,10 +99,11 @@ def cross_ratio(c1,c2,times,course_horiz,course_cf,course_gain,model)
   if model.has_key?("endurance") then
     beta = model['endurance'][0]
     dc = model['endurance'][1]
-    corr = endurance_corr_2(e1,beta,dc)/endurance_corr_2(e2,beta,dc)
+    corr = endurance_corr(e2,beta,dc,{})/endurance_corr(e1,beta,dc,model) # ratio of time corrections
+    #print "corr=#{corr}\n"
   end
   err = 100.0*Math.log((t1/t2)*(e2/e1)*corr)
-  return [t1,t2,d1,d2,err]
+  return [t1,t2,d1,d2,err,e2/e1,corr]
 end
 
 def energy(distance,climb_factor,gain,model)
@@ -101,10 +114,12 @@ def energy(distance,climb_factor,gain,model)
     gain_miles = gain/5280.0 # gain in units of miles
     rel_gain = gain_miles/distance
     cg = model["hockey"]
-    return distance*(1+cg*rel_gain)
+    f = 1+cg*rel_gain
   else
-    return distance/(1-climb_factor/100.0)
+    f = 1/(1-climb_factor/100.0)
   end
+  # print "  energy corr=#{f},  distance=#{distance}     gain=#{gain} #{model}\n" # qwe
+  return distance*f
 end
 
 def stats(x)
@@ -124,6 +139,10 @@ end
 
 def array_intersection(a1,a2)
   return a1 & a2 # https://stackoverflow.com/a/5678143
+end
+
+def pf(x,m,n)
+  return "%#{m}.#{n}f" % [x]
 end
 
 def pname(name)

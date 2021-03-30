@@ -270,20 +270,22 @@ a test of the dependence of the predictions on the amount of hill climbing.
 \begin{tabular}{lp{60mm}rrrl}
                  &       & dist.  & gain &  &  years \\
                  &       & (km)      &  (km) & CF & (20xx) \\
-1 & Mount Wilson Trail Race         & 12.7 & 0.70 & 20\%        & 18-19\\
-2 & Mount Baldy Run to the Top      & 10.3 & 1.21 & 47\%        & 17-18\\
-3 & Broken Arrow Vertical Kilometer & 5.0  & 0.85 & 58\%        & 19 \\
-4 & Pasadena Half Marathon          & 21.1 & 0.17 & 1\%         & 20 \\
-5 & Agoura Hills Chesebro Half Marathon & 21.1 & 0.34 & 5\%     & 19 \\
-6 & Into the Wild OC Half Marathon & 21.1 & 0.57 & 8\% & 17-18\\
-7 & Griffith Park 30k               & 28.5 & 1.07 & 11\%        & 18-19 \\
-8 & Revel Big Bear Half Marathon    & 21.1 & 0    & -27\% & 18-19 \\
-9 & Revel Canyon City Half Marathon    & 21.1 & 0    & -4\% & 14-17
+W & Mount Wilson Trail Race         & 12.7 & 0.70 & 20\%        & 18-19\\
+B & Mount Baldy Run to the Top      & 10.3 & 1.21 & 47\%        & 17-18\\
+V & Broken Arrow Vertical Kilometer & 5.0  & 0.85 & 58\%        & 19 \\
+P & Pasadena Half Marathon          & 21.1 & 0.17 & 1\%         & 20 \\
+C & Agoura Hills Chesebro Half Marathon & 21.1 & 0.34 & 5\%     & 19 \\
+H & Into the Wild OC Half Marathon & 21.1 & 0.57 & 8\% & 17-18\\
+I & Irvine Half Marathon           & 21.1 & 0.09 & 0.2\% & 19\\
+G & Griffith Park 30k               & 28.5 & 1.07 & 11\%        & 18-19 \\
+X & Revel Big Bear Half Marathon    & 21.1 & 0    & -27\% & 18-19 \\
+Y & Revel Canyon City Half Marathon    & 21.1 & 0    & -4\% & 14-17
 \end{tabular}
 \label{table:courses}
 \end{table}
 
 Table \ref{table:courses} lists the race results used as sources of data.
+One-character mnemonics are used so that courses can be referred to succinctly in the text.
 Because a runner's performance can change over time due to training and aging,
 the time period of the study was restricted as much as possible to January 2017 through March 2020
 (before the COVID epidemic ended races other than virtual ones in California).
@@ -310,8 +312,8 @@ error into additive quantities.
 We pick a feature of the model that is to be tested. For example, we would like to see
 whether the model does a good job of predicting the relative times for flat races
 compared to steep uphill-only races. For this example, we make a list of courses
-that are relatively flat (4, 5, and 6), and a list of some that are steep uphill-only
-courses (2 and 3). We then find every case where the same runner did a run $i$ from the first
+that are relatively flat (P, C, and I), and a list of some that are steep uphill-only
+courses (B and V). We then find every case where the same runner did a run $i$ from the first
 list and a run $j$ from the second, and compute the error $\mathcal{E}_{ij}$, which will be
 positive if the runner's time in the uphill race $j$ is overpredicted by the model relative
 to their time in the flat race $i$. From the resulting list of $\mathcal{E}$ values for

@@ -7,6 +7,8 @@ default:
 	./parse.rb ultrasignup <raw/flagstaff_sky_peaks_vk_2017.txt >times/flagstaff_sky_peaks_vk_2017.json
 	./parse.rb athlinks <raw/pasadena_half_marathon_2020.txt >times/pasadena_half_marathon_2020.json
 	./parse.rb athlinks <raw/pasadena_half_marathon_2019.txt >times/pasadena_half_marathon_2019.json
+	./parse.rb athlinks <raw/pasadena_half_marathon_2018.txt >times/pasadena_half_marathon_2018.json
+	./parse.rb athlinks <raw/pasadena_half_marathon_2017.txt >times/pasadena_half_marathon_2017.json
 	./parse.rb agoura <raw/agoura_chesebro_half_2019.txt >times/agoura_chesebro_half_2019.json
 	./parse.rb into_the_wild1 <raw/into_the_wild_half_2017.txt >times/into_the_wild_half_2017.json
 	./parse.rb into_the_wild2 <raw/into_the_wild_half_2018.txt >times/into_the_wild_half_2018.json
@@ -19,5 +21,8 @@ default:
 	./parse.rb revel <raw/revel_canyon_city_half_2015.tex >>times/revel_canyon_city_half_2015.json
 	./parse.rb revel <raw/revel_canyon_city_half_2016.tex >>times/revel_canyon_city_half_2016.json
 	./parse.rb revel <raw/revel_canyon_city_half_2017.tex >>times/revel_canyon_city_half_2017.json
+	./parse.rb runsignup <raw/irvine_half_2019.txt >times/irvine_half_2019.json
+
+	
 
 

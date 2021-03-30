@@ -1,0 +1,7200 @@
+Claim
+Jose Madera
+M 25Bib 1488Santa Ana, CA, USA
+1
+1
+1
+5:19
+MIN/MI
+1:09:35
+BW
+Brandon Wolfe
+M 25Bib 1493Fullerton, CA, USA
+2
+2
+2
+5:20
+MIN/MI
+1:09:54
+Claim
+Ryan Cosens
+M 27Bib 1464Santa Ana, CA, USA
+3
+3
+3
+5:32
+MIN/MI
+1:12:32
+Claim
+Nicholas Maedel
+M 28Bib 9468Woodland Hills, CA, USA
+4
+4
+4
+5:38
+MIN/MI
+1:13:54
+VM
+Victor Martinez
+M 31Bib 1492Los Angeles, CA, USA
+5
+5
+1
+5:39
+MIN/MI
+1:14:04
+XW
+Xaviour Walker
+M 35Bib 1489Irvine, CA, USA
+6
+6
+1
+5:43
+MIN/MI
+1:14:55
+Claim
+Agustin Musa
+M 25Bib 9391Beverly Hills, CA, USA
+7
+7
+5
+5:54
+MIN/MI
+1:17:23
+Claim
+Otoniel Mucia
+M 26Bib 9377Pasadena, CA, USA
+8
+8
+6
+6:04
+MIN/MI
+1:19:23
+KR
+Ken Rideout
+M 45Bib 8296Pacific Palisades, CA, USA
+9
+9
+1
+6:05
+MIN/MI
+1:19:46
+Claim
+Ryudo Tsukizaki
+M 32Bib 7132Los Angeles, CA, USA
+10
+10
+2
+6:09
+MIN/MI
+1:20:40
+Claim
+Ashley Teran
+F 32Bib 1466Orange, CA, USA
+11
+1
+1
+6:11
+MIN/MI
+1:20:56
+Claim
+Gabriele Vajente
+M 36Bib 7297Pasadena, CA, USA
+12
+11
+2
+6:12
+MIN/MI
+1:21:13
+RR
+Ricardo Ramirez
+M 45Bib 1465Pacoima, CA, USA
+13
+12
+2
+6:12
+MIN/MI
+1:21:16
+Claim
+Jim Koneazny
+M 49Bib 9466Pasadena, CA, USA
+14
+13
+3
+6:15
+MIN/MI
+1:21:54
+AL
+Adam Lawton
+M 37Bib 2243Los Angeles, CA, USA
+15
+14
+3
+6:19
+MIN/MI
+1:22:43
+VN
+Vaughn Nelson
+M 36Bib 8393Loma Linda, CA, USA
+16
+15
+4
+6:20
+MIN/MI
+1:22:55
+Claim
+Noel Velasco
+M 29Bib 7061Hawthorne, CA, USA
+17
+16
+7
+6:20
+MIN/MI
+1:23:02
+Claim
+Robert Leonardo
+M 54Bib 1494Bell Gardens, CA, USA
+18
+17
+1
+6:24
+MIN/MI
+1:23:47
+Claim
+Albert Izard
+M 28Bib 1476Pasadena, CA, USA
+19
+18
+8
+6:26
+MIN/MI
+1:24:20
+KM
+Kelvin Mejia
+M 32Bib 9199Tustin, CA, USA
+20
+19
+3
+6:26
+MIN/MI
+1:24:21
+Claim
+Tony Martinez
+M 26Bib 6483Tustin, CA, USA
+21
+20
+9
+6:27
+MIN/MI
+1:24:25
+AC
+Angel Claudio
+M 23Bib 6289Orange, CA, USA
+22
+21
+1
+6:28
+MIN/MI
+1:24:47
+MG
+Marvin Gonzalez
+M 23Bib 9206Los Angeles, CA, USA
+23
+22
+2
+6:29
+MIN/MI
+1:24:51
+Claim
+Chloe Fata
+F 26Bib 1491South Pasadena, CA, USA
+24
+2
+1
+6:30
+MIN/MI
+1:25:10
+Claim
+Megan Lizotte
+F 33Bib 1490San Diego, CA, USA
+25
+3
+2
+6:31
+MIN/MI
+1:25:23
+Claim
+SHINSUKE ADACHI
+M 40Bib 1477Redondo Beach, CA, USA
+26
+23
+1
+6:33
+MIN/MI
+1:25:45
+Claim
+Lee Luiso
+M 50Bib 7273Pasadena, CA, USA
+27
+24
+2
+6:33
+MIN/MI
+1:25:48
+Claim
+Anton Aguila
+M 42Bib 3076Pasadena, CA, USA
+28
+25
+2
+6:34
+MIN/MI
+1:25:58
+Claim
+Elizabeth Scott
+F 25Bib 1468Los Angeles, CA, USA
+29
+4
+2
+6:35
+MIN/MI
+1:26:21
+Claim
+Dan Fala
+M 26Bib 1478Los Angeles, CA, USA
+30
+26
+10
+6:36
+MIN/MI
+1:26:26
+Claim
+FABIAN OCHOA
+M 35Bib 9355Piru, CA, USA
+31
+27
+5
+6:37
+MIN/MI
+1:26:40
+Claim
+Amanda Steffy
+F 26Bib 9500Pasadena, CA, USA
+32
+5
+3
+6:38
+MIN/MI
+1:26:56
+MB
+Matthew Berbee
+M 35Bib 1479Altadena, CA, USA
+33
+28
+6
+6:38
+MIN/MI
+1:26:57
+RR
+Ricardo Ruiz
+M 31Bib 5191Yuba City, CA, USA
+34
+29
+4
+6:40
+MIN/MI
+1:27:14
+Claim
+PETER YEH
+M 43Bib 5081Long Beach, CA, USA
+35
+30
+3
+6:41
+MIN/MI
+1:27:31
+DP
+Dara Prak
+M 33Bib 9022Pico Rivera, CA, USA
+36
+31
+5
+6:42
+MIN/MI
+1:27:43
+Claim
+Eduardo Gonzalez
+M 25Bib 9230Los Angeles, CA, USA
+37
+32
+11
+6:42
+MIN/MI
+1:27:45
+FP
+Francesco Presutti
+M 54Bib 2207New York, NY, USA
+38
+33
+3
+6:43
+MIN/MI
+1:28:02
+Claim
+Adam Lawrence
+M 34Bib 9217Altadena, CA, USA
+39
+34
+6
+6:43
+MIN/MI
+1:28:03
+BB
+Bobby Baumann
+M 35Bib 1008Westlake Village, CA, USA
+40
+35
+7
+6:45
+MIN/MI
+1:28:24
+Claim
+Ryan Murguia
+M 33Bib 5288Washington, DC, USA
+41
+36
+7
+6:46
+MIN/MI
+1:28:42
+Claim
+Santiago Gambino
+M 20Bib 6395Key Biscayne, FL, USA
+42
+37
+3
+6:46
+MIN/MI
+1:28:43
+Claim
+Jeffrey Denham
+M 46Bib 2150Pasadena, CA, USA
+43
+38
+4
+6:47
+MIN/MI
+1:28:48
+Claim
+ANGEL SANTIAGO
+M 51Bib 5382Hawthorne, CA, USA
+44
+39
+4
+6:47
+MIN/MI
+1:28:54
+BJ
+B Jett
+M 50Bib 2467Los Angeles, CA, USA
+45
+40
+5
+6:48
+MIN/MI
+1:29:08
+AH
+Akira Hatori
+M 51Bib 1486Lomita, CA, USA
+46
+41
+6
+6:49
+MIN/MI
+1:29:21
+Claim
+Seongchai Scott Park
+M 12Bib 7034Irvine, CA, USA
+46
+41
+1
+6:49
+MIN/MI
+1:29:21
+Claim
+CHARLES DELAPORTE
+M 29Bib 2466Redondo Beach, CA, USA
+48
+43
+12
+6:49
+MIN/MI
+1:29:22
+SO
+Satoshi Ono
+M 42Bib 4332Los Angeles, CA, USA
+49
+44
+4
+6:50
+MIN/MI
+1:29:36
+Claim
+Alan Arpon
+M 35Bib 5035Los Angeles, CA, USA
+50
+45
+8
+6:52
+MIN/MI
+1:30:01
+Claim
+JAKE ESPRABENS
+M 18Bib 4443Los Angeles, CA, USA
+51
+46
+1
+6:53
+MIN/MI
+1:30:07
+Claim
+Devin Pierce
+M 23Bib 3081Rancho Cucamonga, CA, USA
+52
+47
+4
+6:54
+MIN/MI
+1:30:22
+Claim
+Anthony Simon
+M 17Bib 9507Pico Rivera, CA, USA
+53
+48
+2
+6:54
+MIN/MI
+1:30:27
+Claim
+Matthew Drazick Halip
+M 28Bib 4237Los Angeles, CA, USA
+54
+49
+13
+6:54
+MIN/MI
+1:30:28
+Claim
+MANUEL QUEANO
+M 43Bib 4067North Hills, CA, USA
+55
+50
+5
+6:56
+MIN/MI
+1:30:54
+AL
+Alejandro Lopez Ortega
+M 30Bib 4115Pasadena, CA, USA
+56
+51
+8
+6:57
+MIN/MI
+1:30:58
+MF
+Michael Fang
+M 23Bib 6224Pasadena, CA, USA
+57
+52
+5
+6:57
+MIN/MI
+1:31:06
+Claim
+Francesco Felicella
+M 38Bib 3402Long Beach, CA, USA
+58
+53
+9
+6:58
+MIN/MI
+1:31:21
+Claim
+JAYSON WARSUMA
+M 33Bib 5103Los Angeles, CA, USA
+59
+54
+9
+6:59
+MIN/MI
+1:31:30
+TO
+Tony Orozco
+M 34Bib 5020Reseda, CA, USA
+60
+55
+10
+7:02
+MIN/MI
+1:32:03
+AA
+Arnie Aguila
+M 40Bib 3074Pasadena, CA, USA
+61
+56
+6
+7:02
+MIN/MI
+1:32:06
+Claim
+JOHN HEUSNER
+M 42Bib 1469Eastvale, CA, USA
+62
+57
+7
+7:03
+MIN/MI
+1:32:18
+GG
+Gabriel Garcia
+M 37Bib 1402Costa Mesa, CA, USA
+63
+58
+10
+7:03
+MIN/MI
+1:32:23
+Claim
+ALVARO RODRIGUEZ
+M 25Bib 5201Pacoima, CA, USA
+64
+59
+14
+7:03
+MIN/MI
+1:32:25
+Claim
+christopher hankins
+M 43Bib 2470Calgary, CA, USA
+65
+60
+8
+7:03
+MIN/MI
+1:32:27
+Claim
+Jorge Salazar
+M 29Bib 2472Los Angeles, CA, USA
+66
+61
+15
+7:04
+MIN/MI
+1:32:38
+AS
+Alan Squyres
+M 36Bib 9308Lancaster, CA, USA
+67
+62
+11
+7:05
+MIN/MI
+1:32:46
+KD
+Kevin Dieterle
+M 30Bib 7280Los Angeles, CA, USA
+68
+63
+11
+7:06
+MIN/MI
+1:32:57
+SA
+STEVEN ARGUE
+M 51Bib 8305Altadena, CA, USA
+69
+64
+7
+7:07
+MIN/MI
+1:33:10
+Claim
+Matthew Duffy
+M 36Bib 7045Orange, CA, USA
+70
+65
+12
+7:07
+MIN/MI
+1:33:17
+SM
+SERGIO MORALES
+M 30Bib 3482Van Nuys, CA, USA
+71
+66
+12
+7:08
+MIN/MI
+1:33:24
+Claim
+Vincent Arambula
+M 35Bib 6051Arleta, CA, USA
+71
+66
+13
+7:08
+MIN/MI
+1:33:24
+MC
+Michael Cheung
+M 37Bib 3023Pasadena, CA, USA
+73
+68
+14
+7:08
+MIN/MI
+1:33:27
+CR
+Clayton Rosa
+M 30Bib 3264Los Angeles, CA, USA
+74
+69
+13
+7:09
+MIN/MI
+1:33:36
+RC
+Ramon Camacho
+M 34Bib 2250Los Angeles, CA, USA
+74
+69
+13
+7:09
+MIN/MI
+1:33:36
+Claim
+Juan Graciano
+M 53Bib 1105Whittier, CA, USA
+76
+71
+8
+7:09
+MIN/MI
+1:33:39
+Claim
+Michael Farrell
+M 39Bib 8099Pasadena, CA, USA
+77
+72
+15
+7:09
+MIN/MI
+1:33:41
+Claim
+Ludovic GIL
+M 23Bib 1297Pasadena, CA, USA
+78
+73
+6
+7:09
+MIN/MI
+1:33:43
+CC
+Christopher Camargo
+M 42Bib 4283Long Beach, CA, USA
+79
+74
+9
+7:10
+MIN/MI
+1:33:54
+Claim
+Michael Kim
+M 41Bib 7033Irvine, CA, USA
+80
+75
+10
+7:10
+MIN/MI
+1:33:56
+Claim
+Phillip Bonney
+M 29Bib 7148South Pasadena, CA, USA
+81
+76
+16
+7:10
+MIN/MI
+1:33:58
+Claim
+Emmanuel Gomez
+M 37Bib 4197Los Angeles, CA, USA
+82
+77
+16
+7:11
+MIN/MI
+1:34:05
+Claim
+Curtis Names
+M 47Bib 1480Ojai, CA, USA
+83
+78
+5
+7:12
+MIN/MI
+1:34:15
+Claim
+Joseph Patrick Gopez
+M 29Bib 4433Sun Valley, CA, USA
+84
+79
+17
+7:12
+MIN/MI
+1:34:25
+AR
+Andy Rodemich
+M 40Bib 1015La Canada Flintridge, CA, USA
+85
+80
+11
+7:13
+MIN/MI
+1:34:30
+Claim
+Alex Jeffries
+M 28Bib 7403Glendale, CA, USA
+86
+81
+18
+7:13
+MIN/MI
+1:34:36
+DS
+Drew Schuster
+M 37Bib 9291Los Angeles, CA, USA
+87
+82
+17
+7:14
+MIN/MI
+1:34:39
+Claim
+Johnathan Smith
+M 26Bib 3220Fullerton, CA, USA
+88
+83
+19
+7:14
+MIN/MI
+1:34:43
+MP
+Miguel Peralta
+M 28Bib 5409Venice, CA, USA
+89
+84
+20
+7:14
+MIN/MI
+1:34:49
+DM
+Daniel Mena-Martinez
+M 24Bib 5324Oakland, CA, USA
+90
+85
+7
+7:15
+MIN/MI
+1:34:57
+Claim
+Ronald Lund
+M 59Bib 2471Basalt, CO, USA
+91
+86
+1
+7:15
+MIN/MI
+1:35:05
+Claim
+MICHAEL DREW
+M 31Bib 6241Redondo Beach, CA, USA
+92
+87
+15
+7:16
+MIN/MI
+1:35:08
+Claim
+Alexander Arrow
+M 45Bib 8288Pasadena, CA, USA
+93
+88
+6
+7:16
+MIN/MI
+1:35:18
+Claim
+Dirk de Waart
+M 49Bib 4029Manhattan Beach, CA, USA
+94
+89
+7
+7:17
+MIN/MI
+1:35:20
+Claim
+Mario Granadeno
+M 24Bib 8033Los Angeles, CA, USA
+95
+90
+8
+7:17
+MIN/MI
+1:35:26
+Claim
+Scott Zakaluzny
+M 40Bib 1331Davis, CA, USA
+96
+91
+12
+7:17
+MIN/MI
+1:35:31
+Claim
+Kelly King
+M 26Bib 9285Torrance, CA, USA
+97
+92
+21
+7:18
+MIN/MI
+1:35:38
+Claim
+Jessica Rees
+F 32Bib 2116Los Angeles, CA, USA
+98
+6
+3
+7:18
+MIN/MI
+1:35:40
+Claim
+SHOTA HIDAKA
+M 29Bib 6161Los Angeles, CA, USA
+99
+93
+22
+7:19
+MIN/MI
+1:35:46
+NR
+NADIA RUIZ
+F 32Bib 9431Santa Fe Springs, CA, USA
+100
+7
+4
+7:19
+MIN/MI
+1:35:56
+PF
+Peter Frederich
+M 56Bib 7337La Canada, CA, USA
+101
+94
+2
+7:19
+MIN/MI
+1:35:57
+LG
+Laura Gonzalez
+F 32Bib 6496Fontana, CA, USA
+102
+8
+5
+7:20
+MIN/MI
+1:36:07
+GH
+Greg Hart
+M 60Bib 8264Pasadena, CA, USA
+103
+95
+1
+7:21
+MIN/MI
+1:36:19
+JK
+Jeffrey Ku
+M 42Bib 8082Altadena, CA, USA
+103
+95
+13
+7:21
+MIN/MI
+1:36:19
+Claim
+Stassja Sichko
+F 24Bib 5366Los Angeles, CA, USA
+105
+9
+1
+7:22
+MIN/MI
+1:36:26
+Claim
+Jose Tlapa
+M 30Bib 9204Los Angeles, CA, USA
+106
+97
+16
+7:22
+MIN/MI
+1:36:29
+PH
+PABLO HERNANDEZ
+M 31Bib 4407Santa Ana, CA, USA
+107
+98
+17
+7:22
+MIN/MI
+1:36:32
+Claim
+PEDRO PALAFOX
+M 49Bib 1456Los Angeles, CA, USA
+108
+99
+8
+7:22
+MIN/MI
+1:36:35
+MG
+Michael Garcia
+M 31Bib 2113Los Angeles, CA, USA
+109
+100
+18
+7:23
+MIN/MI
+1:36:43
+Claim
+Anthony Snitker
+M 28Bib 2218Monrovia, CA, USA
+110
+101
+23
+7:23
+MIN/MI
+1:36:45
+Claim
+Nick Prunty
+M 22Bib 2461Los Angeles, CA, USA
+111
+102
+9
+7:25
+MIN/MI
+1:37:08
+DT
+Daniel Traudes
+M 29Bib 5156Tustin, CA, USA
+112
+103
+24
+7:25
+MIN/MI
+1:37:10
+Claim
+Peter Asmuth
+M 37Bib 9151Culver City, CA, USA
+113
+104
+18
+7:25
+MIN/MI
+1:37:12
+WD
+Wellington Dos Santos
+M 56Bib 9366Canyon Country, CA, USA
+114
+105
+3
+7:26
+MIN/MI
+1:37:17
+MM
+Manuel Mendoza
+M 37Bib 2293San Bruno, CA, USA
+115
+106
+19
+7:26
+MIN/MI
+1:37:18
+GT
+Gwendolen Twist
+F 41Bib 5147Los Angeles, CA, USA
+116
+10
+1
+7:26
+MIN/MI
+1:37:24
+ZL
+Zheng Liu
+M 45Bib 3077San Gabriel, CA, USA
+117
+107
+9
+7:26
+MIN/MI
+1:37:25
+MM
+Milan Mali
+M 30Bib 9471Cerritos, CA, USA
+118
+108
+19
+7:27
+MIN/MI
+1:37:36
+DM
+Danny Munguia
+M 39Bib 3274Monrovia, CA, USA
+119
+109
+20
+7:27
+MIN/MI
+1:37:37
+Claim
+Fuminobu Kurosawa
+M 49Bib 4148Redondo Beach, CA, USA
+120
+110
+10
+7:27
+MIN/MI
+1:37:42
+DR
+Dan Ryan
+M 43Bib 1348Van Nuys, CA, USA
+121
+111
+14
+7:28
+MIN/MI
+1:37:44
+Claim
+Ethan N Tse
+M 15Bib 1386South Pasadena, CA, USA
+122
+112
+2
+7:28
+MIN/MI
+1:37:48
+Claim
+Ricardo Tejeda
+M 29Bib 5177Los Angeles, CA, USA
+122
+112
+25
+7:28
+MIN/MI
+1:37:48
+Claim
+NAOYA SUZUKI
+M 53Bib 7040Redondo Beach, CA, USA
+124
+114
+9
+7:28
+MIN/MI
+1:37:50
+SK
+Soohan Kim
+M 62Bib 6101La Crescenta, CA, USA
+124
+114
+2
+7:28
+MIN/MI
+1:37:50
+AM
+ANNIE MERGENTHALER
+F 25Bib 7081South Pasadena, CA, USA
+126
+11
+4
+7:28
+MIN/MI
+1:37:54
+Claim
+MICHELLE KHARE
+F 24Bib 9343Los Angeles, CA, USA
+127
+12
+2
+7:29
+MIN/MI
+1:37:57
+Claim
+JOSE LUIS ESCOBAR
+M 40Bib 6227Los Angeles, CA, USA
+128
+116
+15
+7:29
+MIN/MI
+1:37:58
+Claim
+Milton gonzalez
+M 55Bib 6211Canoga Park, CA, USA
+129
+117
+4
+7:29
+MIN/MI
+1:38:01
+Claim
+HAMID ROSTAMIAN
+M 57Bib 5192Culver City, CA, USA
+130
+118
+5
+7:29
+MIN/MI
+1:38:04
+Claim
+Christopher Kingsland
+M 26Bib 1389Pasadena, CA, USA
+131
+119
+26
+7:30
+MIN/MI
+1:38:11
+NQ
+Neil Quach
+M 44Bib 1294Westlake Village, CA, USA
+132
+120
+16
+7:30
+MIN/MI
+1:38:21
+GW
+Grant Wilson
+M 26Bib 1471San Francisco, CA, USA
+133
+121
+27
+7:31
+MIN/MI
+1:38:22
+Claim
+ISABELA LOSCHER
+F 26Bib 7338Los Angeles, CA, USA
+133
+13
+5
+7:31
+MIN/MI
+1:38:22
+Claim
+ERYN LEWIS
+F 27Bib 2464South Pasadena, CA, USA
+135
+14
+6
+7:31
+MIN/MI
+1:38:30
+Claim
+ALEX WRIGHT
+M 25Bib 5088Tarzana, CA, USA
+136
+122
+28
+7:31
+MIN/MI
+1:38:33
+Claim
+John Ewan
+M 45Bib 9177Pasadena, CA, USA
+137
+123
+11
+7:32
+MIN/MI
+1:38:39
+JF
+Jose Flores
+M 33Bib 2189Vista, CA, USA
+138
+124
+20
+7:32
+MIN/MI
+1:38:42
+EM
+Emmanuel Maximo
+M 35Bib 7072Inglewood, CA, USA
+139
+125
+21
+7:33
+MIN/MI
+1:38:51
+FS
+FERDINEL SABADO
+M 26Bib 5390Los Angeles, CA, USA
+140
+126
+29
+7:33
+MIN/MI
+1:38:54
+Claim
+STEPHEN TERNI
+M 39Bib 5175Monrovia, CA, USA
+141
+127
+22
+7:33
+MIN/MI
+1:39:00
+KD
+Kevin Delavega
+M 28Bib 8275Los Angeles, CA, USA
+142
+128
+30
+7:34
+MIN/MI
+1:39:09
+Claim
+cesar vasquez
+M 54Bib 8163Barstow, CA, USA
+143
+129
+10
+7:34
+MIN/MI
+1:39:12
+Claim
+LINO TORRES
+M 47Bib 5161Los +?ngeles, CA, USA
+144
+130
+12
+7:35
+MIN/MI
+1:39:17
+RT
+Ryan Thomas
+M 31Bib 1159Saint John, IN, USA
+144
+130
+21
+7:35
+MIN/MI
+1:39:17
+Claim
+Kong Tan
+M 43Bib 8030Rosemead, CA, USA
+146
+132
+17
+7:35
+MIN/MI
+1:39:23
+Claim
+Mary (Megumi) Illback
+F 24Bib 7163Claremont, CA, USA
+147
+15
+3
+7:35
+MIN/MI
+1:39:26
+Claim
+SARAH ANDERSON
+F 21Bib 8048Brookline, MA, USA
+148
+16
+4
+7:36
+MIN/MI
+1:39:36
+Claim
+Shiro Aota
+M 43Bib 9220Arcadia, CA, USA
+149
+133
+18
+7:37
+MIN/MI
+1:39:44
+Claim
+Dwight Wise
+M 34Bib 2463Long Beach, CA, USA
+150
+134
+22
+7:37
+MIN/MI
+1:39:46
+Claim
+Raven Lopez
+F 34Bib 2462Long Beach, CA, USA
+150
+17
+6
+7:37
+MIN/MI
+1:39:46
+SF
+Steve Flagg
+M 52Bib 9179Pasadena, CA, USA
+152
+135
+11
+7:38
+MIN/MI
+1:39:55
+Claim
+COBY LARINDE
+M 20Bib 1470San Clemente, CA, USA
+153
+136
+10
+7:38
+MIN/MI
+1:39:57
+Claim
+Jacob Monders
+M 26Bib 6462Salem, OR, USA
+154
+137
+31
+7:38
+MIN/MI
+1:40:02
+Claim
+JERRY COHEN
+M 47Bib 7022Santa Monica, CA, USA
+155
+138
+13
+7:39
+MIN/MI
+1:40:07
+Claim
+Richard Hirst
+M 32Bib 1459Los Angeles, CA, USA
+156
+139
+23
+7:40
+MIN/MI
+1:40:23
+DW
+David Winslow
+M 54Bib 5094Culver City, CA, USA
+157
+140
+12
+7:40
+MIN/MI
+1:40:32
+Claim
+Daniel Castro
+M 25Bib 8060Pasadena, CA, USA
+158
+141
+32
+7:41
+MIN/MI
+1:40:33
+Claim
+SEAN LUDAN
+M 36Bib 1065Los Angeles, CA, USA
+158
+141
+23
+7:41
+MIN/MI
+1:40:33
+Claim
+Thavee Nantarosanaporn
+M 52Bib 7481Alhambra, CA, USA
+158
+141
+13
+7:41
+MIN/MI
+1:40:33
+Claim
+Adam Levoy
+M 30Bib 9107Los Angeles, CA, USA
+161
+144
+24
+7:41
+MIN/MI
+1:40:34
+AB
+Alfonso Berumen
+M 31Bib 1483Santa Monica, CA, USA
+162
+145
+25
+7:42
+MIN/MI
+1:40:46
+Claim
+Trevor Blum
+M 14Bib 8253Redondo Beach, CA, USA
+163
+146
+3
+7:42
+MIN/MI
+1:40:49
+Claim
+Mark Boyle
+M 40Bib 2307Monrovia, CA, USA
+164
+147
+19
+7:42
+MIN/MI
+1:40:50
+Claim
+Nico Coscarelli
+M 24Bib 9477San Jacinto, CA, USA
+165
+148
+11
+7:42
+MIN/MI
+1:40:54
+TV
+Troy Visser
+M 38Bib 5113Huntington Beach, CA, USA
+166
+149
+24
+7:43
+MIN/MI
+1:41:03
+Claim
+Matt Biegner
+M 28Bib 9225Garden Grove, CA, USA
+167
+150
+33
+7:43
+MIN/MI
+1:41:04
+KE
+KEVIN EYO
+M 50Bib 4439Pasadena, CA, USA
+168
+151
+14
+7:43
+MIN/MI
+1:41:06
+Claim
+ALEX CANTATORE
+M 27Bib 6308Los Angeles, CA, USA
+169
+152
+34
+7:44
+MIN/MI
+1:41:12
+SH
+Stuart Hemphill
+M 53Bib 3016Pasadena, CA, USA
+170
+153
+15
+7:44
+MIN/MI
+1:41:17
+MR
+Marco Rodriguez
+M 52Bib 2476Arleta, CA, USA
+171
+154
+16
+7:45
+MIN/MI
+1:41:28
+MH
+Michael Hunt
+M 58Bib 1457Oxnard, CA, USA
+172
+155
+6
+7:45
+MIN/MI
+1:41:35
+PS
+Paul Said Ehrlich Perez
+M 31Bib 6234Long Beach, CA, USA
+172
+155
+26
+7:45
+MIN/MI
+1:41:35
+KK
+Ken Kilar
+M 48Bib 2477Pasadena, CA, USA
+174
+157
+14
+7:46
+MIN/MI
+1:41:39
+Claim
+Dawn Faircloth
+F 45Bib 6491Los Angeles, CA, USA
+175
+18
+1
+7:46
+MIN/MI
+1:41:51
+Claim
+Jose Mayorquin
+M 41Bib 8024Pasadena, CA, USA
+176
+158
+20
+7:47
+MIN/MI
+1:41:59
+Claim
+Matthew Smarte
+M 26Bib 4477Pasadena, CA, USA
+177
+159
+35
+7:47
+MIN/MI
+1:42:01
+RY
+Ricky Yip
+M 37Bib 5078Chino Hills, CA, USA
+178
+160
+25
+7:47
+MIN/MI
+1:42:02
+Claim
+Alan Chhith
+M 45Bib 1324Los Angeles, CA, USA
+179
+161
+15
+7:48
+MIN/MI
+1:42:05
+Claim
+J JESUS BRAVO
+M 37Bib 4298La Habra, CA, USA
+180
+162
+26
+7:48
+MIN/MI
+1:42:07
+Claim
+mario quezada
+M 34Bib 9132Los Angeles, CA, USA
+181
+163
+27
+7:48
+MIN/MI
+1:42:09
+Claim
+BEN HOY
+M 29Bib 1095Redondo Beach, CA, USA
+182
+164
+36
+7:48
+MIN/MI
+1:42:10
+Claim
+ABEL MONTES
+M 20Bib 4371Lennox, CA, USA
+183
+165
+12
+7:48
+MIN/MI
+1:42:11
+Claim
+Marie French
+F 36Bib 9399Mammoth Lakes, CA, USA
+184
+19
+1
+7:48
+MIN/MI
+1:42:14
+Claim
+Chris Klein
+M 24Bib 7444Pasadena, CA, USA
+185
+166
+13
+7:48
+MIN/MI
+1:42:15
+Claim
+Chris Greer
+F 30Bib 7065Pasadena, CA, USA
+186
+20
+7
+7:49
+MIN/MI
+1:42:18
+Claim
+Gilbert Pulido
+M 23Bib 8376Huntington Park, CA, USA
+187
+167
+14
+7:49
+MIN/MI
+1:42:19
+JG
+JONATHAN GARCIA
+M 35Bib 4011Los Angeles, CA, USA
+187
+167
+27
+7:49
+MIN/MI
+1:42:19
+Claim
+Daniel Bonnici
+M 38Bib 2459Los Angeles, CA, USA
+189
+169
+28
+7:49
+MIN/MI
+1:42:21
+Claim
+Reinis Berzins
+M 40Bib 3312Pasadena, CA, USA
+189
+169
+21
+7:49
+MIN/MI
+1:42:21
+Claim
+MAGGIE CUTLER
+F 25Bib 6024Los Angeles, CA, USA
+191
+21
+7
+7:49
+MIN/MI
+1:42:26
+Claim
+Mario Correas
+M 28Bib 9360Sylmar, CA, USA
+192
+171
+37
+7:49
+MIN/MI
+1:42:30
+AL
+Annie Litaize
+F 41Bib 6379Venice, NY, USA
+193
+22
+2
+7:50
+MIN/MI
+1:42:32
+Claim
+adrian bravo
+M 36Bib 2127Montclair, CA, USA
+194
+172
+29
+7:50
+MIN/MI
+1:42:37
+Claim
+Michael McConnell
+M 50Bib 2222La Canada Flintridge, CA, USA
+194
+172
+17
+7:50
+MIN/MI
+1:42:37
+TC
+Timothy Christoni
+M 48Bib 6292Los Angeles, CA, USA
+196
+174
+16
+7:50
+MIN/MI
+1:42:38
+Claim
+Joseph Tirona
+M 28Bib 5166Norwalk, CA, USA
+197
+175
+38
+7:50
+MIN/MI
+1:42:39
+JB
+Jim Blanck
+M 60Bib 4457Simi Valley, CA, USA
+198
+176
+3
+7:50
+MIN/MI
+1:42:41
+MS
+Matthew Sargent
+M 39Bib 7333Rolling Hills Estates, CA, USA
+199
+177
+30
+7:50
+MIN/MI
+1:42:42
+Claim
+JOSE MANUEL SANCHEZ PEDREGAL
+M 36Bib 5470Los Angeles, CA, USA
+200
+178
+31
+7:51
+MIN/MI
+1:42:45
+PT
+Paul Thornton
+M 35Bib 3033Alhambra, CA, USA
+200
+178
+31
+7:51
+MIN/MI
+1:42:45
+Claim
+JONATHAN RUSSIN
+M 39Bib 5187Pasadena, CA, USA
+202
+180
+33
+7:51
+MIN/MI
+1:42:46
+Claim
+annamara damen
+F 35Bib 9162Sierra Madre, CA, USA
+203
+23
+2
+7:51
+MIN/MI
+1:42:49
+Claim
+Jim Gohrick
+M 47Bib 5475Monrovia, CA, USA
+204
+181
+17
+7:51
+MIN/MI
+1:42:52
+Claim
+Hugues Metras
+M 50Bib 8125Pasadena, CA, USA
+205
+182
+18
+7:51
+MIN/MI
+1:42:55
+NP
+Nicolas Pogu
+M 31Bib 4076San Diego, CA, USA
+205
+182
+28
+7:51
+MIN/MI
+1:42:55
+Claim
+Chris Tipton
+M 41Bib 5167Glendale, CA, USA
+207
+184
+22
+7:51
+MIN/MI
+1:42:56
+DF
+David Fox
+M 27Bib 2351Los Angeles, CA, USA
+208
+185
+39
+7:52
+MIN/MI
+1:43:00
+Claim
+Charles Thomas
+M 40Bib 7427Los Angeles, CA, USA
+209
+186
+23
+7:52
+MIN/MI
+1:43:05
+DT
+Daniel Tinoco
+M 39Bib 4465Van Nuys, CA, USA
+210
+187
+34
+7:52
+MIN/MI
+1:43:06
+RY
+Riya Young
+F 49Bib 9173Palo Alto, CA, USA
+211
+24
+2
+7:53
+MIN/MI
+1:43:11
+Claim
+Scott Vollrath
+M 42Bib 2378Foster City, CA, USA
+212
+188
+24
+7:53
+MIN/MI
+1:43:15
+AB
+Alex Bondar
+M 27Bib 2310San Diego, CA, USA
+213
+189
+40
+7:53
+MIN/MI
+1:43:21
+PS
+Phil Shin
+M 46Bib 3470South Pasadena, CA, USA
+213
+189
+18
+7:53
+MIN/MI
+1:43:21
+KG
+Kasia Gondek
+F 30Bib 7278Encino, CA, USA
+215
+25
+8
+7:53
+MIN/MI
+1:43:22
+Claim
+Peter Vo
+M 34Bib 7115Pasadena, CA, USA
+215
+191
+29
+7:53
+MIN/MI
+1:43:22
+Claim
+GABRIEL DAIELLO
+M 59Bib 2062Venice, CA, USA
+217
+192
+7
+7:54
+MIN/MI
+1:43:32
+PS
+Philip Steinman
+M 49Bib 5338Encino, CA, USA
+217
+192
+19
+7:54
+MIN/MI
+1:43:32
+Claim
+Brian Roach
+M 33Bib 5209Los Angeles, CA, USA
+219
+194
+30
+7:54
+MIN/MI
+1:43:33
+Claim
+Eric Wittgrove
+M 23Bib 7386Pasadena, CA, USA
+219
+194
+15
+7:54
+MIN/MI
+1:43:33
+Claim
+MICHAEL RODMAKER
+M 27Bib 8037Los Angeles, CA, USA
+221
+196
+41
+7:55
+MIN/MI
+1:43:36
+Claim
+Vincent Wang
+M 25Bib 7285Los Angeles, CA, USA
+222
+197
+42
+7:55
+MIN/MI
+1:43:45
+KZ
+Kurt Zielinski
+M 29Bib 5069Bow, NH, USA
+223
+198
+43
+7:55
+MIN/MI
+1:43:48
+Claim
+Jose De Leon
+M 38Bib 4031Los Angeles, CA, USA
+224
+199
+35
+7:56
+MIN/MI
+1:43:50
+Claim
+Quentin Vinckier
+M 28Bib 7058Pasadena, CA, USA
+224
+199
+44
+7:56
+MIN/MI
+1:43:50
+Claim
+JINNY PARRON
+F 33Bib 5413Sherman Oaks, CA, USA
+226
+26
+9
+7:56
+MIN/MI
+1:43:54
+CA
+Cecilio Aguilar
+M 47Bib 2094Whittier, CA, USA
+227
+201
+20
+7:56
+MIN/MI
+1:43:55
+JW
+Jason Wallace
+M 31Bib 2473Santa Monica, CA, USA
+228
+202
+31
+7:56
+MIN/MI
+1:44:00
+Claim
+erik ekblad
+M 41Bib 6233Hawthorne, CA, USA
+229
+203
+25
+7:57
+MIN/MI
+1:44:09
+TL
+Thong Le
+M 41Bib 6085Los Angeles, CA, USA
+229
+203
+25
+7:57
+MIN/MI
+1:44:09
+Claim
+Emma Kroloff
+F 24Bib 3313Anchorage, AK, USA
+231
+27
+5
+7:57
+MIN/MI
+1:44:10
+Claim
+Joshua Garcia
+M 34Bib 1068Van Nuys, CA, USA
+232
+205
+32
+7:57
+MIN/MI
+1:44:11
+Claim
+Sean Hale
+M 29Bib 6197Carpinteria, CA, USA
+233
+206
+45
+7:57
+MIN/MI
+1:44:12
+Claim
+CHRIS OCTEAU
+M 28Bib 5257Los Angeles, CA, USA
+234
+207
+46
+7:58
+MIN/MI
+1:44:17
+MK
+Matthew koral
+M 25Bib 8224San Diego, CA, USA
+234
+207
+46
+7:58
+MIN/MI
+1:44:17
+Claim
+Jose Morataya
+M 33Bib 3404Los Angeles, CA, USA
+236
+209
+33
+7:59
+MIN/MI
+1:44:29
+Claim
+Nathan Davis
+M 37Bib 8259Burbank, CA, USA
+236
+209
+36
+7:59
+MIN/MI
+1:44:29
+SC
+Sam Cohen
+M 32Bib 4244Burbank, CA, USA
+236
+209
+33
+7:59
+MIN/MI
+1:44:29
+SP
+Simone Porcu
+M 48Bib 1205Glendale, CA, USA
+236
+209
+21
+7:59
+MIN/MI
+1:44:29
+Claim
+MARIEL BROOKE
+F 34Bib 6314Los Angeles, CA, USA
+240
+28
+10
+7:59
+MIN/MI
+1:44:32
+Claim
+Alexander Netter
+M 26Bib 5275Santa Monica, CA, USA
+241
+213
+48
+7:59
+MIN/MI
+1:44:33
+Claim
+Heidi Ford
+F 46Bib 3479Los Angeles, CA, USA
+242
+29
+3
+7:59
+MIN/MI
+1:44:35
+DR
+Diego Ramirez
+M 35Bib 5222Victorville, CA, USA
+243
+214
+37
+7:59
+MIN/MI
+1:44:36
+MS
+Michael Schilf
+M 41Bib 4456San Gabriel, CA, USA
+244
+215
+27
+7:59
+MIN/MI
+1:44:37
+Claim
+Jamie Jimenez
+F 25Bib 1403Los Angeles, CA, USA
+245
+30
+8
+7:59
+MIN/MI
+1:44:40
+LM
+Lupita Medina
+F 38Bib 7306Downey, CA, USA
+245
+30
+3
+7:59
+MIN/MI
+1:44:40
+JA
+Jason Abriel
+M 38Bib 8225Monrovia, CA, USA
+247
+216
+38
+8:00
+MIN/MI
+1:44:42
+Claim
+Kathleen Metcalf
+F 44Bib 2460La Canada Flintridge, CA, USA
+248
+32
+3
+8:00
+MIN/MI
+1:44:52
+Claim
+Matthew Carlson
+M 36Bib 7314Los Angeles, CA, USA
+249
+217
+39
+8:00
+MIN/MI
+1:44:54
+WB
+Wynde Barz
+F 53Bib 1461Sierra Madre, CA, USA
+249
+33
+1
+8:00
+MIN/MI
+1:44:54
+BS
+Bethany Stirdivant
+F 39Bib 3210Los Angeles, CA, USA
+251
+34
+4
+8:01
+MIN/MI
+1:45:01
+Claim
+JENNIFER GUERRERO
+F 27Bib 1424Winnetka, CA, USA
+252
+35
+9
+8:01
+MIN/MI
+1:45:03
+Claim
+Matt Brewer
+M 45Bib 3471Altadena, CA, USA
+253
+218
+22
+8:01
+MIN/MI
+1:45:06
+JN
+Jack Nunn
+M 37Bib 9383Manhattan Beach, CA, USA
+254
+219
+40
+8:02
+MIN/MI
+1:45:10
+Claim
+Brad Ramberg
+M 53Bib 5225Los Angeles, CA, USA
+255
+220
+19
+8:02
+MIN/MI
+1:45:11
+EP
+Eva Prezenkowski
+F 39Bib 1215Charlotte, CA, USA
+256
+36
+5
+8:02
+MIN/MI
+1:45:12
+Claim
+Robert Lowe
+M 50Bib 5477Los Angeles, AZ, USA
+257
+221
+20
+8:02
+MIN/MI
+1:45:17
+Claim
+BLAKE HONLEY
+M 23Bib 8355Visalia, CA, USA
+258
+222
+16
+8:02
+MIN/MI
+1:45:19
+Claim
+Alex Guttman
+M 27Bib 6199Toluca Lake, CA, USA
+259
+223
+49
+8:03
+MIN/MI
+1:45:28
+Claim
+Max Sutro
+M 27Bib 5456Dana Point, CA, USA
+260
+224
+50
+8:03
+MIN/MI
+1:45:30
+BV
+Ben Vanmarcke
+M 40Bib 7253Arcadia, CA, USA
+261
+225
+28
+8:04
+MIN/MI
+1:45:39
+Claim
+Peter Mellis
+M 43Bib 2475San Marino, CA, USA
+261
+225
+28
+8:04
+MIN/MI
+1:45:39
+JC
+J.T. Chestnut
+M 27Bib 6298Pasadena, CA, USA
+263
+227
+51
+8:04
+MIN/MI
+1:45:43
+MZ
+Mark Zamoranos
+M 34Bib 2002Diamond Bar, CA, USA
+264
+228
+35
+8:04
+MIN/MI
+1:45:44
+RA
+RYAN AGUIRRE
+M 27Bib 8324Los Angeles, CA, USA
+265
+229
+52
+8:04
+MIN/MI
+1:45:45
+Claim
+ANDREW SUGERMAN
+M 45Bib 1027Los Angeles, CA, USA
+266
+230
+23
+8:04
+MIN/MI
+1:45:46
+Claim
+Sunny Kaura
+M 41Bib 2255Upland, CA, USA
+267
+231
+30
+8:05
+MIN/MI
+1:45:48
+AA
+Aaron Anderson
+M 36Bib 5451Los Angeles, CA, USA
+268
+232
+41
+8:05
+MIN/MI
+1:45:49
+Claim
+Bryan Nest
+M 34Bib 7302Los Angeles, CA, USA
+269
+233
+36
+8:05
+MIN/MI
+1:45:51
+Claim
+Julissa Rhoades
+F 43Bib 1482North Hollywood, CA, USA
+269
+37
+4
+8:05
+MIN/MI
+1:45:51
+MG
+Michael Golightly
+M 31Bib 6216Los Angeles, CA, USA
+271
+234
+37
+8:05
+MIN/MI
+1:45:54
+Claim
+Robert Golden
+M 62Bib 1077Pasadena, CA, USA
+271
+234
+4
+8:05
+MIN/MI
+1:45:54
+ET
+Eli Terry
+M 37Bib 8208Culver City, CA, USA
+273
+236
+42
+8:05
+MIN/MI
+1:45:56
+Claim
+Jeremiah Cillpam
+M 34Bib 4247Los Angeles, CA, USA
+274
+237
+38
+8:05
+MIN/MI
+1:45:58
+Claim
+Hugo Ramirez
+M 41Bib 5223Pasadena, CA, USA
+275
+238
+31
+8:06
+MIN/MI
+1:46:01
+WK
+William Klitzke
+M 32Bib 6097Los Angeles, CA, USA
+276
+239
+39
+8:06
+MIN/MI
+1:46:05
+EL
+Eric Lozick
+M 27Bib 2320Alhambra, CA, USA
+277
+240
+53
+8:06
+MIN/MI
+1:46:12
+Claim
+Ruth Atkinson
+F 48Bib 9358San Marino, CA, USA
+278
+38
+4
+8:07
+MIN/MI
+1:46:17
+Claim
+Martin Ryan
+M 52Bib 5185Los Angeles, CA, USA
+279
+241
+21
+8:07
+MIN/MI
+1:46:18
+Claim
+JIMMY ORTEGA
+M 25Bib 4326South Gate, CA, USA
+280
+242
+54
+8:07
+MIN/MI
+1:46:20
+SN
+Sarah Noble
+F 24Bib 5268Santa Monica, CA, USA
+281
+39
+6
+8:07
+MIN/MI
+1:46:25
+Claim
+MATT ROGERS
+M 35Bib 8326Pasadena, CA, USA
+282
+243
+43
+8:08
+MIN/MI
+1:46:28
+Claim
+Milady Arenales
+F 31Bib 6361Los Angeles, CA, USA
+282
+40
+11
+8:08
+MIN/MI
+1:46:28
+Claim
+Jenni Kephart
+F 34Bib 8186North Hollywood, CA, USA
+284
+41
+12
+8:08
+MIN/MI
+1:46:30
+SM
+Sophia Mitchell
+F 24Bib 2063Cincinnati, OH, USA
+285
+42
+7
+8:08
+MIN/MI
+1:46:31
+Claim
+Kathy Theis
+F 46Bib 8387Pasadena, CA, USA
+286
+43
+5
+8:08
+MIN/MI
+1:46:37
+Claim
+Gary Leung
+M 40Bib 1287Redondo Beach, CA, USA
+287
+244
+32
+8:09
+MIN/MI
+1:46:41
+Claim
+CY CREAMER
+M 29Bib 6266Los Angeles, CA, USA
+288
+245
+55
+8:09
+MIN/MI
+1:46:42
+Claim
+TONY HONG
+M 34Bib 4192Diamond Bar, CA, USA
+289
+246
+40
+8:09
+MIN/MI
+1:46:44
+IP
+Isaac Patino
+M 25Bib 5249Buena Park, CA, USA
+290
+247
+56
+8:09
+MIN/MI
+1:46:45
+JY
+Jae Yu
+M 46Bib 7023La Crescenta, CA, USA
+291
+248
+24
+8:09
+MIN/MI
+1:46:46
+Claim
+Stephanie Mercer
+F 28Bib 5320West Hollywood, CA, USA
+292
+44
+10
+8:10
+MIN/MI
+1:46:55
+Claim
+John Theis
+M 47Bib 8388Pasadena, CA, USA
+293
+249
+25
+8:10
+MIN/MI
+1:46:56
+Claim
+Matt Buzzell
+M 42Bib 8333Los Angeles, CA, USA
+294
+250
+33
+8:10
+MIN/MI
+1:46:58
+Claim
+Olivia Pritchard
+F 19Bib 7189Claremont, CA, USA
+294
+45
+1
+8:10
+MIN/MI
+1:46:58
+Claim
+Allie Vent
+F 23Bib 7384Pasadena, CA, USA
+296
+46
+8
+8:10
+MIN/MI
+1:46:59
+Claim
+Dave Tanizaki
+M 63Bib 4464Los Angeles, CA, USA
+296
+251
+5
+8:10
+MIN/MI
+1:46:59
+Claim
+Oscar Orellana
+M 45Bib 4330Arleta, CA, USA
+296
+251
+26
+8:10
+MIN/MI
+1:46:59
+Claim
+Jonathan Baker
+M 50Bib 9403Charlottesville, VA, USA
+299
+253
+22
+8:10
+MIN/MI
+1:47:03
+Claim
+Kelly Crown
+F 26Bib 6264Los Angeles, CA, USA
+300
+47
+11
+8:10
+MIN/MI
+1:47:04
+SP
+Stephen Pritchard
+M 37Bib 9387Covina, CA, USA
+301
+254
+44
+8:10
+MIN/MI
+1:47:05
+Claim
+GERARDO CRUZ
+M 38Bib 3017Santa Monica, CA, USA
+302
+255
+45
+8:11
+MIN/MI
+1:47:07
+Claim
+GUSTAVO MENDEZ
+M 43Bib 7330Los Angeles, CA, USA
+303
+256
+34
+8:11
+MIN/MI
+1:47:12
+Claim
+Rick Newman
+M 53Bib 9457Pacific Palisades, CA, USA
+304
+257
+23
+8:11
+MIN/MI
+1:47:17
+Claim
+Karina Radford
+F 31Bib 8346Chino Hills, CA, USA
+305
+48
+13
+8:11
+MIN/MI
+1:47:18
+SS
+Scott Spicer
+M 43Bib 3214Fontana, CA, USA
+306
+258
+35
+8:12
+MIN/MI
+1:47:22
+Claim
+Ralph Keating
+M 41Bib 9032Glendale, CA, USA
+307
+259
+36
+8:12
+MIN/MI
+1:47:26
+LF
+Lisa Firestone
+F 42Bib 6419Los Angeles, CA, USA
+308
+49
+5
+8:12
+MIN/MI
+1:47:29
+JS
+Julie Shin
+F 41Bib 5367Torrance, CA, USA
+309
+50
+6
+8:12
+MIN/MI
+1:47:30
+AH
+Alvin Hom
+M 47Bib 2215Arcadia, CA, USA
+310
+260
+27
+8:12
+MIN/MI
+1:47:31
+WB
+WILLIAM BECERRA
+M 31Bib 6338Monrovia, CA, USA
+310
+260
+41
+8:12
+MIN/MI
+1:47:31
+Claim
+Cynthia Aceves
+F 34Bib 7104Encino, CA, USA
+312
+51
+14
+8:13
+MIN/MI
+1:47:32
+Claim
+Mike Owen
+M 43Bib 2210Pasadena, CA, USA
+313
+262
+37
+8:13
+MIN/MI
+1:47:35
+JM
+Jeremy Milbrodt
+M 45Bib 1453La Canada, CA, USA
+314
+263
+28
+8:13
+MIN/MI
+1:47:38
+JB
+Johannes Bernbeck
+M 55Bib 3156Seal Beach, CA, USA
+315
+264
+8
+8:13
+MIN/MI
+1:47:39
+JB
+Jovanny Beltran
+M 32Bib 9244North Hills, CA, USA
+316
+265
+42
+8:13
+MIN/MI
+1:47:43
+Claim
+Josh Kessler
+M 42Bib 1221Los Angeles, CA, USA
+317
+266
+38
+8:14
+MIN/MI
+1:47:45
+MP
+Marc Phelps
+M 40Bib 8284Newport Beach, CA, USA
+318
+267
+39
+8:14
+MIN/MI
+1:47:47
+Claim
+Murphy Vandervelde
+M 24Bib 5136Wellesley, MA, USA
+318
+267
+17
+8:14
+MIN/MI
+1:47:47
+RH
+Radell Hutchen
+M 53Bib 6135Los Angeles, CA, USA
+318
+267
+24
+8:14
+MIN/MI
+1:47:47
+Claim
+Sunny Bhatia
+M 42Bib 9117Beverly Hills, CA, USA
+318
+267
+39
+8:14
+MIN/MI
+1:47:47
+Claim
+ARMANDO AGUSTIN
+M 47Bib 5059Los Angeles, CA, USA
+322
+271
+29
+8:14
+MIN/MI
+1:47:50
+Claim
+Spencer Wolf
+M 32Bib 5091Studio City, CA, USA
+322
+271
+43
+8:14
+MIN/MI
+1:47:50
+Claim
+Isabella Killion
+F 25Bib 1232Pasadena, CA, USA
+324
+52
+12
+8:14
+MIN/MI
+1:47:51
+Claim
+Nicholas Thompson
+M 34Bib 2453Los Angeles, CA, USA
+324
+273
+44
+8:14
+MIN/MI
+1:47:51
+Claim
+Roland Lee
+M 38Bib 4132Arcadia, CA, USA
+326
+274
+46
+8:14
+MIN/MI
+1:47:54
+Claim
+Donald Westenhaver
+M 55Bib 1120Pasadena, CA, USA
+327
+275
+9
+8:14
+MIN/MI
+1:47:55
+Claim
+Reed Vierra
+M 23Bib 3445Lancaster, CA, USA
+327
+275
+18
+8:14
+MIN/MI
+1:47:55
+JZ
+jerett zipin
+M 45Bib 9304Los Angeles, CA, USA
+329
+277
+30
+8:14
+MIN/MI
+1:47:57
+Claim
+Thomas Snincsak
+M 52Bib 1166Rancho Cucamonga, CA, USA
+329
+277
+25
+8:14
+MIN/MI
+1:47:57
+RA
+Rafael Arenas Jr
+M 33Bib 8114Paramount, CA, USA
+331
+279
+45
+8:15
+MIN/MI
+1:48:01
+RM
+Robert Muschler
+M 25Bib 8018Los Angeles, Ca, CA, USA
+331
+279
+57
+8:15
+MIN/MI
+1:48:01
+JP
+James Peacock
+M 56Bib 4471Los Angeles, CA, USA
+333
+281
+10
+8:15
+MIN/MI
+1:48:02
+Claim
+Andrew Sandoval
+M 13Bib 9378Palmdale, CA, USA
+334
+282
+4
+8:15
+MIN/MI
+1:48:04
+JS
+Jeremy Smith
+M 40Bib 7367Pasadena, CA, USA
+335
+283
+41
+8:15
+MIN/MI
+1:48:05
+Claim
+J. Cesar Saenz
+M 49Bib 5389Studio City, CA, USA
+336
+284
+31
+8:15
+MIN/MI
+1:48:10
+Claim
+David Gerharter
+M 54Bib 1458Burbank, CA, USA
+337
+285
+26
+8:16
+MIN/MI
+1:48:12
+DP
+Deike Peters
+F 46Bib 7041Los Angeles, CA, USA
+337
+53
+6
+8:16
+MIN/MI
+1:48:12
+MM
+MICHAEL MCDERMOTT
+M 39Bib 5430Los Angeles, CA, USA
+339
+286
+47
+8:16
+MIN/MI
+1:48:17
+Claim
+Michael Bishop
+M 42Bib 6330Los Angeles, CA, USA
+340
+287
+42
+8:16
+MIN/MI
+1:48:18
+Claim
+Jae shin Yoo
+M 28Bib 7201Torrance, CA, USA
+341
+288
+58
+8:16
+MIN/MI
+1:48:19
+Claim
+Kyle Hatanaka
+M 32Bib 6182La Habra, CA, USA
+342
+289
+46
+8:16
+MIN/MI
+1:48:20
+MC
+Manuel Castellanos
+M 29Bib 7458Pacoima, CA, USA
+342
+289
+59
+8:16
+MIN/MI
+1:48:20
+Claim
+Marcia Paetau
+FBib 3071Claremont, CA, USA
+344
+54
+1
+8:17
+MIN/MI
+1:48:27
+JC
+Jack Chispe
+M 34Bib 1107Los Angeles, CA, USA
+345
+291
+47
+8:17
+MIN/MI
+1:48:28
+Claim
+DANIEL POWELL
+M 34Bib 5236Marina Del Rey, CA, USA
+346
+292
+48
+8:17
+MIN/MI
+1:48:30
+Claim
+Pierre Englebert
+M 54Bib 9384Claremont, CA, USA
+347
+293
+27
+8:17
+MIN/MI
+1:48:31
+TM
+Trace Mendez
+M 19Bib 4104Los Angeles, CA, USA
+348
+294
+3
+8:17
+MIN/MI
+1:48:32
+MY
+Michael Yaeger
+M 37Bib 5085Los Angeles, CA, USA
+349
+295
+48
+8:17
+MIN/MI
+1:48:34
+Claim
+Marianne Smithfield
+F 26Bib 3028Pasadena, CA, USA
+350
+55
+13
+8:18
+MIN/MI
+1:48:38
+Claim
+DOC ROGERS
+M 42Bib 4476Thousand Oaks, CA, USA
+351
+296
+43
+8:18
+MIN/MI
+1:48:42
+Claim
+Darren Douglass
+M 48Bib 7109Wellington, CA, USA
+352
+297
+32
+8:18
+MIN/MI
+1:48:44
+Claim
+Hannah Finlayson
+F 25Bib 8025Los Angeles, CA, USA
+353
+56
+14
+8:18
+MIN/MI
+1:48:45
+CS
+Christopher Staiano
+M 42Bib 5343Montclair, CA, USA
+354
+298
+44
+8:18
+MIN/MI
+1:48:46
+Claim
+Neil Rosos
+M 35Bib 7100Playa Del Rey, CA, USA
+355
+299
+49
+8:18
+MIN/MI
+1:48:48
+Claim
+Rick Mione
+M 55Bib 4384Santa Monica, CA, USA
+355
+299
+11
+8:18
+MIN/MI
+1:48:48
+MJ
+Mary Jo Mastro
+F 45Bib 2053Lake Oswego, CA, USA
+357
+57
+7
+8:18
+MIN/MI
+1:48:49
+JS
+Jenny Senior
+F 33Bib 4467Mammoth Lakes, CA, USA
+358
+58
+15
+8:18
+MIN/MI
+1:48:50
+LC
+leslie cohen
+F 60Bib 6287Santa Monica, CA, USA
+359
+59
+1
+8:19
+MIN/MI
+1:48:54
+Claim
+Kathy Yang
+F 35Bib 3390Pasadena, CA, USA
+360
+60
+6
+8:19
+MIN/MI
+1:48:57
+CP
+Cindy Parker
+F 40Bib 2136Los Angeles, CA, USA
+361
+61
+7
+8:19
+MIN/MI
+1:49:00
+Claim
+Eva Maya
+F 45Bib 9172El Monte, CA, USA
+361
+61
+8
+8:19
+MIN/MI
+1:49:00
+MM
+Manuel Manzo
+M 36Bib 6053Maywood, CA, USA
+361
+301
+50
+8:19
+MIN/MI
+1:49:00
+Claim
+Nelly Montanez
+F 29Bib 2100Seal Beach, CA, USA
+364
+63
+15
+8:19
+MIN/MI
+1:49:02
+Claim
+D Montgomery Lewis
+M 50Bib 5472Duarte, CA, USA
+365
+302
+28
+8:20
+MIN/MI
+1:49:07
+CL
+Carlos Lopez
+M 39Bib 6374Whittier, ARMED FORCES PACIFIC, USA
+366
+303
+51
+8:20
+MIN/MI
+1:49:11
+KM
+KRISTIN MATSUDA
+F 45Bib 5437Lihue, CA, USA
+366
+64
+9
+8:20
+MIN/MI
+1:49:11
+Claim
+Alex Burkat
+M 62Bib 6461Placentia, CA, USA
+368
+304
+6
+8:20
+MIN/MI
+1:49:13
+ME
+Martin Entwistle
+M 62Bib 8255Pasadena, CA, USA
+369
+305
+7
+8:21
+MIN/MI
+1:49:26
+AG
+Alex Giza
+M 49Bib 9527Culver City, CA, USA
+370
+306
+33
+8:21
+MIN/MI
+1:49:28
+Claim
+Jiun Chiang
+M 30Bib 1152Fullerton, CA, USA
+371
+307
+49
+8:22
+MIN/MI
+1:49:32
+Claim
+Alfredo Gonzalez
+M 25Bib 6208Oceanside, CA, USA
+372
+308
+60
+8:22
+MIN/MI
+1:49:39
+Claim
+Kent Hulett
+M 42Bib 4188Rancho Santa Margarita, CA, USA
+372
+308
+45
+8:22
+MIN/MI
+1:49:39
+MH
+Miguel Hernandez
+M 30Bib 9473Las Vegas, NV, USA
+374
+310
+50
+8:22
+MIN/MI
+1:49:40
+Claim
+Grady Gills
+M 17Bib 8474Arcadia, CA, USA
+375
+311
+4
+8:22
+MIN/MI
+1:49:42
+CS
+Clarence Smith
+M 45Bib 7274Santa Monica, CA, USA
+376
+312
+34
+8:23
+MIN/MI
+1:49:43
+Claim
+Giana Korth
+F 28Bib 1481Pasadena, CA, USA
+376
+65
+16
+8:23
+MIN/MI
+1:49:43
+EL
+Erika Lilley
+F 37Bib 3463Santa Barbara, CA, USA
+378
+66
+7
+8:23
+MIN/MI
+1:49:44
+DG
+Derick Gallegos
+M 41Bib 9504Los Angeles, CA, USA
+379
+313
+46
+8:23
+MIN/MI
+1:49:50
+Claim
+PETER NGUYEN
+M 52Bib 8104Palos Verdes Estates, CA, USA
+379
+313
+29
+8:23
+MIN/MI
+1:49:50
+Claim
+Agnes Konefat
+F 38Bib 1228La Crescenta, CA, USA
+381
+67
+8
+8:23
+MIN/MI
+1:49:53
+Claim
+Jamie Snodgrass
+F 37Bib 5356Simi Valley, CA, USA
+382
+68
+9
+8:23
+MIN/MI
+1:49:54
+Claim
+Maria Espa
+F 33Bib 1009Pasadena, CA, USA
+383
+69
+16
+8:24
+MIN/MI
+1:50:02
+Claim
+BENJAMIN RENDON
+M 51Bib 9205Van Nuys, CA, USA
+384
+315
+30
+8:24
+MIN/MI
+1:50:07
+Claim
+Tim Caballero
+M 35Bib 4288West Hollywood, CA, USA
+384
+315
+52
+8:24
+MIN/MI
+1:50:07
+AJ
+Anthony Jovel
+M 26Bib 7362Huntington Park, CA, USA
+386
+317
+61
+8:24
+MIN/MI
+1:50:08
+Claim
+LEO GESTETNER
+M 43Bib 7051Los Angeles, CA, USA
+387
+318
+47
+8:25
+MIN/MI
+1:50:09
+Claim
+Anthony Zepeda
+M 34Bib 9281Woodland Hills, CA, USA
+388
+319
+51
+8:25
+MIN/MI
+1:50:10
+Claim
+Daniel Keef
+M 24Bib 7240Washington, DC, USA
+389
+320
+19
+8:25
+MIN/MI
+1:50:14
+PD
+PAUL DIVER
+M 51Bib 4017Altadena, CA, USA
+390
+321
+31
+8:25
+MIN/MI
+1:50:16
+Claim
+Naveen Marimuthu
+M 34Bib 2457San Jose, CA, USA
+391
+322
+52
+8:25
+MIN/MI
+1:50:17
+Claim
+Hector Perez
+M 33Bib 9167Inglewood, CA, USA
+392
+323
+53
+8:25
+MIN/MI
+1:50:18
+Claim
+Jon Coners
+M 43Bib 1387Newbury Park, CA, USA
+392
+323
+48
+8:25
+MIN/MI
+1:50:18
+Claim
+Pete Carlson
+M 44Bib 3487Pasadena, CA, USA
+394
+325
+49
+8:25
+MIN/MI
+1:50:22
+HU
+Hajime Ueno
+M 55Bib 1133Los Angeles, CA, USA
+395
+326
+12
+8:26
+MIN/MI
+1:50:23
+NH
+Nadia Herrera
+F 26Bib 1003San Francisco, CA, USA
+396
+70
+17
+8:26
+MIN/MI
+1:50:24
+Claim
+SWAZI TAYLOR
+M 37Bib 4458Pasadena, CA, USA
+397
+327
+53
+8:26
+MIN/MI
+1:50:26
+CD
+Charles DeVos
+M 45Bib 1309Granada Hills, CA, USA
+398
+328
+35
+8:26
+MIN/MI
+1:50:28
+Claim
+Jakub Landau
+M 38Bib 3477Los Angeles, CA, USA
+398
+328
+54
+8:26
+MIN/MI
+1:50:28
+Claim
+David DeCoste
+M 45Bib 1462La Canada Flintridge, CA, USA
+400
+330
+36
+8:26
+MIN/MI
+1:50:35
+Claim
+William Truax
+M 63Bib 1412Los Angeles, CA, USA
+401
+331
+8
+8:27
+MIN/MI
+1:50:36
+Claim
+Joana Cruz
+F 45Bib 6026Los Angeles, CA, USA
+402
+71
+10
+8:27
+MIN/MI
+1:50:39
+Claim
+Dan Stringer
+M 36Bib 3370Pasadena, CA, USA
+403
+332
+55
+8:27
+MIN/MI
+1:50:40
+KH
+Kyle Hooten
+M 33Bib 4478Pasadena, CA, USA
+404
+333
+54
+8:27
+MIN/MI
+1:50:41
+Claim
+MARC HALL
+M 31Bib 6195Los Angeles, CA, USA
+404
+333
+54
+8:27
+MIN/MI
+1:50:41
+Claim
+ALEJANDRO VARGAS
+M 44Bib 3198Arleta, CA, USA
+406
+335
+50
+8:27
+MIN/MI
+1:50:45
+BC
+Buckley Collum
+M 53Bib 6285Los Angeles, CA, USA
+407
+336
+32
+8:27
+MIN/MI
+1:50:47
+Claim
+Francis De La Torre
+M 33Bib 2474Santa Monica, CA, USA
+408
+337
+56
+8:28
+MIN/MI
+1:50:50
+Claim
+Noelle Horelik
+F 28Bib 6147North Hollywood, CA, USA
+408
+72
+18
+8:28
+MIN/MI
+1:50:50
+SC
+Sergio Cervantes
+M 43Bib 8367Bloomington, CA, USA
+410
+338
+51
+8:28
+MIN/MI
+1:50:52
+Claim
+Marisa Gerard
+F 40Bib 4462Calgary, CA, USA
+411
+73
+8
+8:28
+MIN/MI
+1:50:53
+Claim
+AMANDA HARNISHFEGER
+F 35Bib 8154Burbank, CA, USA
+412
+74
+10
+8:28
+MIN/MI
+1:50:55
+Claim
+Karen Kalan
+F 39Bib 7113Encino, CA, USA
+413
+75
+11
+8:28
+MIN/MI
+1:50:57
+Claim
+jason humble
+M 39Bib 7341Van Nuys, CA, USA
+414
+339
+56
+8:28
+MIN/MI
+1:50:59
+Claim
+Sanghoon Kim
+M 43Bib 6105Irvine, CA, USA
+414
+339
+52
+8:28
+MIN/MI
+1:50:59
+CK
+Catherine Kaufman
+F 55Bib 7093Thousand Oaks, CA, USA
+416
+76
+1
+8:28
+MIN/MI
+1:51:00
+Claim
+Joana Ramirez
+F 33Bib 4468Pasadena, CA, USA
+416
+76
+17
+8:28
+MIN/MI
+1:51:00
+Claim
+Raj Prasad
+M 33Bib 4070Los Angeles, CA, USA
+418
+341
+57
+8:29
+MIN/MI
+1:51:05
+Claim
+JUAN GOMEZ
+M 22Bib 8215Los Angeles, CA, USA
+419
+342
+20
+8:29
+MIN/MI
+1:51:10
+Claim
+CAMERON LEE
+M 27Bib 6380Laguna Niguel, CA, USA
+420
+343
+62
+8:29
+MIN/MI
+1:51:11
+Claim
+Juan Valiente
+M 35Bib 5140Panorama City, CA, USA
+421
+344
+57
+8:29
+MIN/MI
+1:51:12
+Claim
+Richard Valitutto
+M 29Bib 7412Pasadena, CA, USA
+421
+344
+63
+8:29
+MIN/MI
+1:51:12
+BM
+BRADLEY MCMURRAY
+M 36Bib 5425Rancho Cucamonga, CA, USA
+423
+346
+58
+8:30
+MIN/MI
+1:51:17
+Claim
+Allison Fisher
+F 27Bib 4225Laguna Hills, CA, USA
+424
+78
+19
+8:30
+MIN/MI
+1:51:18
+Claim
+Luz Bravo-Rios
+F 32Bib 1195Mc Farland, CA, USA
+425
+79
+18
+8:30
+MIN/MI
+1:51:20
+Claim
+Scott Agnew
+M 55Bib 2220Alpharetta, GA, USA
+426
+347
+13
+8:30
+MIN/MI
+1:51:25
+DL
+Daniel Lidar
+M 48Bib 9273La Canada Flintridge, CA, USA
+427
+348
+37
+8:30
+MIN/MI
+1:51:26
+Claim
+Antonio Bulahan
+M 37Bib 4292Los Angeles, CA, USA
+428
+349
+59
+8:30
+MIN/MI
+1:51:27
+Claim
+Jeremy Melloul
+M 34Bib 7373Los Angeles, CA, USA
+428
+349
+58
+8:30
+MIN/MI
+1:51:27
+Claim
+Ben Ewen
+M 33Bib 1258Pasadena, CA, USA
+430
+351
+59
+8:31
+MIN/MI
+1:51:29
+JM
+JOSE MIRELES
+M 37Bib 9202Bluffton, CA, USA
+431
+352
+60
+8:31
+MIN/MI
+1:51:34
+Claim
+frank mori
+M 46Bib 1135Torrance, CA, USA
+432
+353
+38
+8:31
+MIN/MI
+1:51:35
+Claim
+Julia Packham
+F 19Bib 5008Camarillo, CA, USA
+433
+80
+2
+8:31
+MIN/MI
+1:51:36
+MG
+MALINDA GARCIA
+F 34Bib 4012Chino, CA, USA
+434
+81
+19
+8:31
+MIN/MI
+1:51:39
+UR
+Unknown Racer
+F 53Bib 4417Pasadena, CA, USA
+435
+82
+2
+8:32
+MIN/MI
+1:51:42
+Claim
+Matthew Coleman
+M 38Bib 4481Alhambra, CA, USA
+436
+354
+61
+8:32
+MIN/MI
+1:51:43
+MF
+MIRANDA FANG
+F 24Bib 1376Los Angeles, CA, USA
+436
+83
+9
+8:32
+MIN/MI
+1:51:43
+Claim
+Hannah Rex
+F 25Bib 5002Los Angeles, CA, USA
+438
+84
+20
+8:32
+MIN/MI
+1:51:44
+LA
+Liyan Alfonso
+F 41Bib 6052Diamond Bar, CA, USA
+439
+85
+9
+8:32
+MIN/MI
+1:51:45
+Claim
+Dan Ashley
+M 36Bib 3475Butler, NJ, USA
+440
+355
+62
+8:32
+MIN/MI
+1:51:46
+Claim
+Abe Chavez
+M 34Bib 9408Irvine, CA, USA
+441
+356
+60
+8:32
+MIN/MI
+1:51:51
+Claim
+Ulises Benavente
+M 28Bib 8374Rancho Cucamonga, CA, USA
+442
+357
+64
+8:33
+MIN/MI
+1:51:58
+VD
+Vince DeFabiis
+M 45Bib 339391784, CA, USA
+443
+358
+39
+8:33
+MIN/MI
+1:51:59
+CS
+Christopher Smith
+M 37Bib 3090Oceanside, NY, USA
+444
+359
+63
+8:33
+MIN/MI
+1:52:01
+Claim
+Walter Lovato
+M 54Bib 3070Sun Valley, CA, USA
+445
+360
+33
+8:33
+MIN/MI
+1:52:05
+DC
+Daisy Castro
+F 31Bib 1160Culver City, CA, USA
+446
+86
+20
+8:33
+MIN/MI
+1:52:06
+Claim
+Hilary Haskell
+F 24Bib 6186Orange, CA, USA
+447
+87
+10
+8:34
+MIN/MI
+1:52:08
+Claim
+Kristy King
+F 39Bib 2318Pasadena, CA, USA
+447
+87
+12
+8:34
+MIN/MI
+1:52:08
+Claim
+Brent Duncan
+M 48Bib 3333San Marino, CA, USA
+449
+361
+40
+8:34
+MIN/MI
+1:52:09
+Claim
+HASSAN GHASSEMI
+M 41Bib 7135Los Angeles, CA, USA
+449
+361
+53
+8:34
+MIN/MI
+1:52:09
+Claim
+Victor Marquez
+M 42Bib 5326Whittier, CA, USA
+449
+361
+53
+8:34
+MIN/MI
+1:52:09
+Claim
+CARLEE PADOT MCCLURG
+F 32Bib 5006Oceanside, CA, USA
+452
+89
+21
+8:34
+MIN/MI
+1:52:14
+RG
+Robert Garcia
+M 47Bib 1178Huntington Beach, CA, USA
+452
+364
+41
+8:34
+MIN/MI
+1:52:14
+Claim
+ROBIN SURESH AROKIADASS
+M 36Bib 8227Los Angeles, CA, USA
+454
+365
+64
+8:34
+MIN/MI
+1:52:15
+Claim
+Umi Yamamoto
+M 32Bib 9409Pasadena, CA, USA
+454
+365
+61
+8:34
+MIN/MI
+1:52:15
+Claim
+Catherine Elsworth
+F 46Bib 1134Los Angeles, CA, USA
+456
+90
+11
+8:34
+MIN/MI
+1:52:16
+Claim
+Sho Takatori
+M 27Bib 2435Pasadena, CA, USA
+456
+367
+65
+8:34
+MIN/MI
+1:52:16
+JR
+Jim Roelandt
+M 49Bib 5195Fresno, CA, USA
+458
+368
+42
+8:34
+MIN/MI
+1:52:18
+Claim
+David Futernick
+M 32Bib 7096Los Angeles, CA, USA
+459
+369
+62
+8:34
+MIN/MI
+1:52:19
+Claim
+Jose Santamaria
+M 50Bib 9514Los Angeles, CA, USA
+460
+370
+34
+8:35
+MIN/MI
+1:52:20
+KT
+Kylee Timso
+F 35Bib 9346Los Angeles, CA, USA
+461
+91
+13
+8:35
+MIN/MI
+1:52:23
+Claim
+Gregory Nelson
+M 43Bib 9090Fullerton, CA, USA
+462
+371
+55
+8:35
+MIN/MI
+1:52:27
+BR
+Brian Ross
+M 33Bib 3262Los Angeles, CA, USA
+463
+372
+63
+8:35
+MIN/MI
+1:52:31
+ES
+Eric Sato
+M 49Bib 2430Mission Viejo, CA, USA
+464
+373
+43
+8:36
+MIN/MI
+1:52:35
+Claim
+KRISTEN MACDOUGALL
+F 38Bib 6061Los Angeles, CA, USA
+464
+92
+14
+8:36
+MIN/MI
+1:52:35
+Claim
+Yong Lee
+M 46Bib 6381Los Angeles, CA, USA
+466
+374
+44
+8:36
+MIN/MI
+1:52:38
+RD
+Robert Dell Angelo
+M 55Bib 3472Altadena, CA, USA
+467
+375
+14
+8:36
+MIN/MI
+1:52:39
+EJ
+EDDIE JIMENEZ
+M 37Bib 4176Pomona, CA, USA
+468
+376
+65
+8:36
+MIN/MI
+1:52:41
+EG
+Eunice Gamez
+F 41Bib 9124Fuck, CA, USA
+468
+93
+10
+8:36
+MIN/MI
+1:52:41
+Claim
+Kevin Jimenez
+M 37Bib 4178Pomona, CA, USA
+468
+376
+65
+8:36
+MIN/MI
+1:52:41
+Claim
+Juka Imai
+F 38Bib 2133South Pasadena, CA, USA
+471
+94
+15
+8:36
+MIN/MI
+1:52:43
+Claim
+Kevin Siegler
+M 26Bib 5365Los Angeles, CA, USA
+471
+378
+66
+8:36
+MIN/MI
+1:52:43
+Claim
+Jason Lisenby
+M 29Bib 7103Anaheim, CA, USA
+473
+379
+67
+8:36
+MIN/MI
+1:52:44
+Claim
+chun qian
+M 51Bib 3298Los Angeles, CA, USA
+474
+380
+35
+8:36
+MIN/MI
+1:52:46
+RJ
+Roberto Juarez
+M 41Bib 8177Tustin, CA, USA
+474
+380
+56
+8:36
+MIN/MI
+1:52:46
+Claim
+Laurene O'Malley
+F 40Bib 6469Sherman Oaks, CA, USA
+476
+95
+11
+8:37
+MIN/MI
+1:52:47
+Claim
+John Yu
+M 46Bib 3415Pasadena, CA, USA
+477
+382
+45
+8:37
+MIN/MI
+1:52:50
+Claim
+DINGKUN REN
+M 26Bib 5003Los Angeles, CA, USA
+478
+383
+68
+8:37
+MIN/MI
+1:52:54
+Claim
+Danny Munoz
+M 35Bib 7472Ontario, CA, USA
+479
+384
+67
+8:37
+MIN/MI
+1:52:56
+Claim
+Mirko Kiric
+M 36Bib 6099Corona, CA, USA
+480
+385
+68
+8:38
+MIN/MI
+1:53:00
+Claim
+Tiffany Jung
+F 49Bib 7359Pasadena, CA, USA
+480
+96
+12
+8:38
+MIN/MI
+1:53:00
+OH
+Oscar Haro
+M 51Bib 7074Los Angeles, CA, USA
+482
+386
+36
+8:38
+MIN/MI
+1:53:06
+Claim
+Jesse Lopez
+M 46Bib 3483Los Angeles, CA, USA
+483
+387
+46
+8:38
+MIN/MI
+1:53:12
+LG
+Lawrence Gilliam
+M 46Bib 3299Los Angeles, CA, USA
+483
+387
+46
+8:38
+MIN/MI
+1:53:12
+Claim
+GENNADY LUPU
+M 39Bib 9351Encino, CA, USA
+485
+389
+69
+8:39
+MIN/MI
+1:53:17
+CL
+Charley Lu
+M 44Bib 2180Los Angeles, CA, USA
+486
+390
+57
+8:39
+MIN/MI
+1:53:18
+Claim
+Gillian Gresham
+F 28Bib 1485Ottawa, CA, USA
+487
+97
+21
+8:39
+MIN/MI
+1:53:19
+MZ
+Misael Zepeda
+M 34Bib 3481Inglewood, CA, USA
+488
+391
+64
+8:39
+MIN/MI
+1:53:22
+Claim
+Lisette Bovaird
+F 51Bib 7372North Hollywood, CA, USA
+489
+98
+3
+8:39
+MIN/MI
+1:53:24
+Claim
+Evan Bell
+M 22Bib 2469Lytle Creek, CA, USA
+490
+392
+21
+8:39
+MIN/MI
+1:53:25
+Claim
+MARCUS GARRETT
+M 45Bib 6385Saugus, CA, USA
+490
+392
+48
+8:39
+MIN/MI
+1:53:25
+Claim
+Anthony Cannizzo
+M 40Bib 8162Pasadena, CA, USA
+492
+394
+58
+8:40
+MIN/MI
+1:53:31
+Claim
+Kristen Cannizzo
+F 41Bib 8161Pasadena, CA, USA
+493
+99
+12
+8:40
+MIN/MI
+1:53:32
+Claim
+HUI YU CHENG
+F 34Bib 4258Arcadia, CA, USA
+494
+100
+22
+8:40
+MIN/MI
+1:53:35
+AF
+Alex Fang
+M 13Bib 8184Arcadia, CA, USA
+495
+395
+5
+8:40
+MIN/MI
+1:53:37
+Claim
+Hector Mendez
+M 44Bib 4387Los Angeles, CA, USA
+496
+396
+59
+8:40
+MIN/MI
+1:53:38
+Claim
+TIMOTHY POWELL
+M 46Bib 5237Glendale, CA, USA
+497
+397
+49
+8:41
+MIN/MI
+1:53:39
+Claim
+Jeff Matthew Borreta
+M 20Bib 7159Oxnard, CA, USA
+498
+398
+22
+8:41
+MIN/MI
+1:53:42
+JV
+JACK VIGIL
+M 50Bib 5122Duarte, CA, USA
+499
+399
+37
+8:41
+MIN/MI
+1:53:43
+Claim
+Ron Matty
+M 48Bib 3474Pasadena, CA, USA
+500
+400
+50
+8:41
+MIN/MI
+1:53:47
+Claim
+Julia Johnson
+F 31Bib 1189Monrovia, CA, USA
+501
+101
+23
+8:41
+MIN/MI
+1:53:48
+PM
+Patrick Matarazzo
+M 35Bib 3104La Crescenta, CA, USA
+502
+401
+70
+8:41
+MIN/MI
+1:53:50
+Claim
+RITA KAZZI
+F 47Bib 9180Dana Point, CA, USA
+503
+102
+13
+8:41
+MIN/MI
+1:53:51
+Claim
+alexis valladares
+F 29Bib 3019South Pasadena, CA, USA
+504
+103
+22
+8:42
+MIN/MI
+1:53:53
+Claim
+ANWAR NUR
+M 38Bib 7335North Hollywood, CA, USA
+505
+402
+71
+8:42
+MIN/MI
+1:53:54
+Claim
+Julie Robertson
+F 36Bib 5206Rancho Palos Verdes, CA, USA
+505
+104
+16
+8:42
+MIN/MI
+1:53:54
+Claim
+MOISES LOPEZ
+M 47Bib 6072Los Angeles, CA, USA
+505
+402
+51
+8:42
+MIN/MI
+1:53:54
+Claim
+KAELIN MCGILL
+F 28Bib 5428Los Angeles, CA, USA
+508
+105
+23
+8:42
+MIN/MI
+1:53:56
+MH
+Marlon Hernandez
+M 34Bib 3131Montrose, CA, USA
+509
+404
+65
+8:42
+MIN/MI
+1:54:00
+Claim
+DAVID BOSNAK
+M 42Bib 6322Sherman Oaks, CA, USA
+510
+405
+60
+8:42
+MIN/MI
+1:54:02
+Claim
+Lisa Weitzman
+F 34Bib 4483Los Angeles, CA, USA
+510
+106
+24
+8:42
+MIN/MI
+1:54:02
+Claim
+nelson yee
+M 46Bib 1440Newark, CA, USA
+512
+406
+52
+8:43
+MIN/MI
+1:54:06
+Claim
+Tristan Acob
+M 27Bib 2117Denver, CO, USA
+513
+407
+69
+8:43
+MIN/MI
+1:54:07
+CH
+Carlos Hsien
+M 34Bib 2199Alhambra, CA, USA
+514
+408
+66
+8:43
+MIN/MI
+1:54:08
+Claim
+Jason Hsu
+M 34Bib 2012Temple City, CA, USA
+514
+408
+66
+8:43
+MIN/MI
+1:54:08
+Claim
+Tim Wellman
+M 49Bib 1408Alameda, CA, USA
+514
+408
+53
+8:43
+MIN/MI
+1:54:08
+AM
+Alfonso Maximo
+M 37Bib 9349Inglewood, CA, USA
+517
+411
+72
+8:43
+MIN/MI
+1:54:09
+CV
+Corina Veiss
+F 35Bib 7029Bakersfield, CA, USA
+518
+107
+17
+8:43
+MIN/MI
+1:54:10
+VB
+VICTORIA Balfour
+F 44Bib 3089Claremont, CA, USA
+519
+108
+13
+8:43
+MIN/MI
+1:54:11
+Claim
+Erin Colletta
+F 24Bib 1383Pasadena, CA, USA
+520
+109
+11
+8:44
+MIN/MI
+1:54:19
+Claim
+Daniel Solis Jr.
+M 25Bib 3189Bell Gardens, CA, USA
+521
+412
+70
+8:44
+MIN/MI
+1:54:20
+Claim
+Patton Josh
+M 30Bib 1227Goffstown, NH, USA
+521
+412
+68
+8:44
+MIN/MI
+1:54:20
+Claim
+Jennifer Massey
+F 38Bib 9284Hermosa, CA, USA
+523
+110
+18
+8:44
+MIN/MI
+1:54:21
+TT
+Tom Tschopp
+M 56Bib 4463Altamonte Springs, FL, USA
+524
+414
+15
+8:44
+MIN/MI
+1:54:22
+DH
+David Harris
+M 52Bib 4414Santa Monica, CA, USA
+525
+415
+38
+8:44
+MIN/MI
+1:54:23
+Claim
+Mayumi Kimura
+F 46Bib 6100Los Angeles, CA, USA
+526
+111
+14
+8:44
+MIN/MI
+1:54:25
+Claim
+INEZ GARCIA
+F 34Bib 8404La Habra Heights, CA, USA
+527
+112
+25
+8:44
+MIN/MI
+1:54:26
+Claim
+Christopher Pisano
+M 45Bib 5243Pasadena, CA, USA
+528
+416
+54
+8:44
+MIN/MI
+1:54:27
+Claim
+FRANCISCO MONTES
+M 43Bib 9493West Los Angeles, CA, USA
+529
+417
+61
+8:44
+MIN/MI
+1:54:28
+JR
+Jamie Rood
+F 48Bib 8052Eureka, CA, USA
+529
+113
+15
+8:44
+MIN/MI
+1:54:28
+MA
+miguel ayala
+M 34Bib 6350Spring Valley, CA, USA
+529
+417
+69
+8:44
+MIN/MI
+1:54:28
+Claim
+Cesar Ramos
+M 40Bib 7286Los Angeles, CA, USA
+532
+419
+62
+8:44
+MIN/MI
+1:54:29
+Claim
+David Kennett
+M 44Bib 6111Newport Beach, CA, USA
+532
+419
+62
+8:44
+MIN/MI
+1:54:29
+Claim
+OSBALDO NIEVES
+M 33Bib 3369Los Angeles, CA, USA
+532
+419
+70
+8:44
+MIN/MI
+1:54:29
+Claim
+Jasmin Franklin
+M 40Bib 8425Pasadena, CA, USA
+535
+422
+64
+8:45
+MIN/MI
+1:54:33
+Claim
+Carlos Florian
+M 45Bib 8258Los Angeles, CA, USA
+536
+423
+55
+8:45
+MIN/MI
+1:54:35
+Claim
+Carlos I Martinez
+M 34Bib 2028Covina, CA, USA
+536
+423
+71
+8:45
+MIN/MI
+1:54:35
+DA
+Derrick Airitam
+M 29Bib 6464Altadena, CA, USA
+538
+425
+71
+8:45
+MIN/MI
+1:54:38
+Claim
+MARTHA{ GLADIATOR RUNNER[ MORENO
+F 48Bib 5188Arleta, CA, USA
+539
+114
+16
+8:45
+MIN/MI
+1:54:41
+Claim
+DIANA BOUZ
+F 31Bib 3325San Dimas, CA, USA
+540
+115
+26
+8:46
+MIN/MI
+1:54:48
+Claim
+Kay Williams Pierce
+F 53Bib 3082Rancho Cucamonga, CA, USA
+541
+116
+4
+8:46
+MIN/MI
+1:54:51
+NW
+Nick Waddell
+M 34Bib 5111Frederick, CA, USA
+542
+426
+72
+8:46
+MIN/MI
+1:54:53
+Claim
+Aueliano Landa
+M 23Bib 9207Los Angeles, CA, USA
+543
+427
+23
+8:46
+MIN/MI
+1:54:55
+Claim
+Jim Kordan
+M 52Bib 8384Torrance, CA, USA
+544
+428
+39
+8:46
+MIN/MI
+1:54:57
+Claim
+Arvin Zarookian
+M 32Bib 9481Tujunga, CA, USA
+545
+429
+73
+8:47
+MIN/MI
+1:54:58
+Claim
+David Hooke
+M 39Bib 6149Santa Monica, CA, USA
+546
+430
+73
+8:47
+MIN/MI
+1:55:01
+Claim
+Erik Quintana
+M 37Bib 9178Sierra Madre, CA, USA
+546
+430
+73
+8:47
+MIN/MI
+1:55:01
+Claim
+Tanya Buchanan
+F 50Bib 2281Covina, CA, USA
+548
+117
+5
+8:47
+MIN/MI
+1:55:05
+JD
+Janet Dial
+F 54Bib 2268Stockton, CA, USA
+549
+118
+6
+8:47
+MIN/MI
+1:55:08
+Claim
+MARITZA CANON-MENDIETA
+F 25Bib 1157Marina Del Rey, CA, USA
+550
+119
+24
+8:47
+MIN/MI
+1:55:09
+Claim
+Edward Garcia Ruiz
+M 28Bib 4010Los Angeles, CA, USA
+551
+432
+72
+8:48
+MIN/MI
+1:55:12
+MB
+Megan Beatie
+F 46Bib 4313Los Angeles, CA, USA
+552
+120
+17
+8:48
+MIN/MI
+1:55:14
+Claim
+Asia Schmidt
+F 23Bib 3243Glendale, CA, USA
+553
+121
+12
+8:48
+MIN/MI
+1:55:16
+Claim
+Britton Schaefer
+F 51Bib 9249Santa Clarita, CA, USA
+553
+121
+7
+8:48
+MIN/MI
+1:55:16
+Claim
+GT Erguiza
+M 42Bib 7250Burbank, CA, USA
+555
+433
+65
+8:48
+MIN/MI
+1:55:17
+JA
+Jeff Alvarez
+M 38Bib 6367Los Angeles, CA, USA
+555
+433
+75
+8:48
+MIN/MI
+1:55:17
+UL
+Ursula Luciani
+F 37Bib 6066San Clemente, CA, USA
+557
+123
+19
+8:48
+MIN/MI
+1:55:18
+Claim
+Jeremy Breach
+M 38Bib 2131Tucson, AZ, USA
+558
+435
+76
+8:48
+MIN/MI
+1:55:19
+JV
+Jessica Valmonte
+F 35Bib 9105Fontana, CA, USA
+559
+124
+20
+8:49
+MIN/MI
+1:55:24
+Claim
+Michelle Burek
+F 27Bib 8108Pasadena, CA, USA
+559
+124
+25
+8:49
+MIN/MI
+1:55:24
+Claim
+Sebastian Hernandez
+M 12Bib 7325Pasadena, CA, USA
+561
+436
+6
+8:49
+MIN/MI
+1:55:25
+Claim
+Keith Carhill
+M 33Bib 8107Pasadena, CA, USA
+562
+437
+74
+8:49
+MIN/MI
+1:55:26
+EB
+Erez Barnavon
+M 47Bib 9314Los Angeles, CA, USA
+563
+438
+56
+8:49
+MIN/MI
+1:55:28
+AT
+Ailleth Tom
+F 42Bib 3096Los Angeles, CA, USA
+564
+126
+14
+8:49
+MIN/MI
+1:55:29
+Claim
+Lindsay Golden
+F 30Bib 1004Lake Forest, CA, USA
+565
+127
+27
+8:49
+MIN/MI
+1:55:30
+Claim
+ADRIENNE TETER
+F 24Bib 9148Glendale, TX, USA
+566
+128
+13
+8:49
+MIN/MI
+1:55:34
+JH
+Jose hernandez
+M 31Bib 243176549, TX, USA
+566
+439
+75
+8:49
+MIN/MI
+1:55:34
+Claim
+John Beuerlein
+M 23Bib 1140Los Angeles, CA, USA
+568
+440
+24
+8:49
+MIN/MI
+1:55:35
+Claim
+Alfredo Cruz
+M 31Bib 4043La Puente, CA, USA
+569
+441
+76
+8:50
+MIN/MI
+1:55:39
+Claim
+Andrea Palmatier
+F 35Bib 7433Sierra Madre, CA, USA
+569
+129
+21
+8:50
+MIN/MI
+1:55:39
+MM
+martin macomber
+M 43Bib 1357Carpinteria, CA, USA
+571
+442
+66
+8:50
+MIN/MI
+1:55:46
+AT
+ARTHUR TANG
+M 33Bib 3039New York, NY, USA
+572
+443
+77
+8:50
+MIN/MI
+1:55:47
+DP
+Daniel Pio
+M 32Bib 8306Los Angeles, CA, USA
+572
+443
+77
+8:50
+MIN/MI
+1:55:47
+Claim
+Jorge Bermudez-Soriano
+M 30Bib 8440Los Angeles, CA, USA
+572
+443
+77
+8:50
+MIN/MI
+1:55:47
+Claim
+Jennifer Gray
+F 44Bib 7354Altadena, CA, USA
+575
+130
+15
+8:50
+MIN/MI
+1:55:49
+Claim
+JESUS VAZQUEZ
+M 38Bib 8203Altadena, CA, USA
+575
+446
+77
+8:50
+MIN/MI
+1:55:49
+Claim
+Alejandro Soto
+M 26Bib 5346Hawaiian Gardens, CA, USA
+577
+447
+73
+8:51
+MIN/MI
+1:55:51
+Claim
+Rick Kraemer
+M 63Bib 9095Los Angeles, CA, USA
+578
+448
+9
+8:51
+MIN/MI
+1:55:52
+Claim
+Adam Baldwin
+M 39Bib 7039Torrance, CA, USA
+579
+449
+78
+8:51
+MIN/MI
+1:55:55
+HS
+Hugo Sánchez
+M 36Bib 1086Katy, TX, USA
+580
+450
+79
+8:51
+MIN/MI
+1:55:57
+JB
+John Beatty
+M 41Bib 4312Sierra Madre, CA, USA
+580
+450
+67
+8:51
+MIN/MI
+1:55:57
+Claim
+VERONICA EYO
+F 26Bib 4440Pasadena, CA, USA
+580
+131
+26
+8:51
+MIN/MI
+1:55:57
+Claim
+TATS FUJII
+M 28Bib 6401Rancho Palos Verdes, CA, USA
+583
+452
+74
+8:51
+MIN/MI
+1:56:00
+Claim
+Gabriela Moriel
+F 27Bib 8173Hacienda Heights, CA, USA
+584
+132
+27
+8:51
+MIN/MI
+1:56:01
+JS
+Jerry Sweet
+M 38Bib 2015Boston, CA, USA
+585
+453
+80
+8:51
+MIN/MI
+1:56:02
+Claim
+Jess Matta
+M 33Bib 1014Temple City, CA, USA
+585
+453
+80
+8:51
+MIN/MI
+1:56:02
+Claim
+Thomas Castro
+M 26Bib 6439Fullerton, CA, USA
+587
+455
+75
+8:52
+MIN/MI
+1:56:04
+Claim
+Alison Montiel
+F 23Bib 1384Pasadena, CA, USA
+588
+133
+14
+8:52
+MIN/MI
+1:56:05
+Claim
+Lope Cristobal
+M 35Bib 7190Pico Rivera, CA, USA
+589
+456
+81
+8:52
+MIN/MI
+1:56:07
+OR
+Ozzie Reyes
+M 39Bib 5215Los Angeles, CA, USA
+590
+457
+82
+8:52
+MIN/MI
+1:56:11
+VO
+Vanessa Olguin
+F 32Bib 4336Menifee, CA, USA
+590
+134
+28
+8:52
+MIN/MI
+1:56:11
+PF
+Peter Fan
+M 51Bib 7226Fullerton, CA, USA
+592
+458
+40
+8:52
+MIN/MI
+1:56:13
+Claim
+Elah Snyder
+M 37Bib 9332Monrovia, CA, USA
+593
+459
+83
+8:52
+MIN/MI
+1:56:14
+Claim
+JACOB GAMEZ
+M 37Bib 9123Fullerton, CA, USA
+593
+459
+83
+8:52
+MIN/MI
+1:56:14
+MA
+Michael Andrews
+M 27Bib 9422Quartz Hill, CA, USA
+593
+459
+76
+8:52
+MIN/MI
+1:56:14
+Claim
+Eric Dangott
+M 43Bib 4038Tustin, CA, USA
+596
+462
+68
+8:53
+MIN/MI
+1:56:18
+Claim
+Gabriel Pitassi
+M 31Bib 8332Azusa, CA, USA
+597
+463
+81
+8:53
+MIN/MI
+1:56:19
+Claim
+MICHAEL TRAN
+M 27Bib 5157Rosemead, CA, USA
+597
+463
+77
+8:53
+MIN/MI
+1:56:19
+Claim
+Kristian Carlson
+M 46Bib 9239Glendale, CA, USA
+599
+465
+57
+8:53
+MIN/MI
+1:56:25
+MK
+Michael Kim
+M 44Bib 6106Fullerton, CA, USA
+599
+465
+69
+8:53
+MIN/MI
+1:56:25
+Claim
+STEVEN LU
+M 27Bib 1449Los Angeles, CA, USA
+601
+467
+78
+8:53
+MIN/MI
+1:56:26
+Claim
+Jennifer Bender
+F 45Bib 4307Pasadena, CA, USA
+602
+135
+18
+8:53
+MIN/MI
+1:56:27
+Claim
+Letty Sandoval
+F 25Bib 7454Covina, CA, USA
+602
+135
+28
+8:53
+MIN/MI
+1:56:27
+Claim
+Christine Smith
+F 46Bib 6474La Canada Flintridge, CA, USA
+604
+137
+19
+8:53
+MIN/MI
+1:56:28
+Claim
+Roberta Sgariglia
+F 20Bib 9365Irvine, CA, USA
+605
+138
+15
+8:54
+MIN/MI
+1:56:30
+Claim
+DAVID IVKOVIC
+M 41Bib 7221Studio City, CA, USA
+606
+468
+70
+8:54
+MIN/MI
+1:56:35
+BP
+Barry Plaga
+M 54Bib 9182La Canada Flintridge, CA, USA
+607
+469
+41
+8:54
+MIN/MI
+1:56:36
+Claim
+Eric Carter
+M 38Bib 6305Pasadena, CO, USA
+607
+469
+85
+8:54
+MIN/MI
+1:56:36
+Claim
+Larry Simonsen
+M 48Bib 5461Pasadena, CA, USA
+607
+469
+58
+8:54
+MIN/MI
+1:56:36
+Claim
+Mark McMahon
+M 38Bib 2282Pasadena, CA, USA
+610
+472
+86
+8:54
+MIN/MI
+1:56:38
+Claim
+Molly Biddiscombe
+F 28Bib 9489Hoboken, NJ, USA
+611
+139
+29
+8:54
+MIN/MI
+1:56:39
+Claim
+Diego Raguindin
+M 32Bib 1372Los Angeles, CA, USA
+612
+473
+82
+8:54
+MIN/MI
+1:56:41
+DS
+Donald Sevesind
+M 42Bib 3237Covina, CA, USA
+613
+474
+71
+8:55
+MIN/MI
+1:56:43
+Claim
+Ada Chan
+F 25Bib 6303Alhambra, CA, USA
+614
+140
+30
+8:55
+MIN/MI
+1:56:44
+GS
+Gisbert Summerfield
+M 60Bib 8242Huntington Beach, CA, USA
+615
+475
+10
+8:55
+MIN/MI
+1:56:47
+Claim
+LAUREN TRENKLE
+F 32Bib 5154Redondo Beach, CA, USA
+615
+141
+29
+8:55
+MIN/MI
+1:56:47
+VW
+Van Whiting
+M 30Bib 4480Pacific Palisades, CA, USA
+617
+476
+83
+8:55
+MIN/MI
+1:56:48
+EG
+Edward Gerovian
+M 42Bib 4205Porter Ranch, CA, USA
+618
+477
+72
+8:55
+MIN/MI
+1:56:50
+Claim
+Gustavo Hernandez
+M 13Bib 9467Los Angeles, CA, USA
+619
+478
+7
+8:55
+MIN/MI
+1:56:51
+WS
+WILLIAM SPEIER
+M 33Bib 3215Los Angeles, MD, USA
+619
+478
+84
+8:55
+MIN/MI
+1:56:51
+Claim
+David Chen
+M 45Bib 4259Arcadia, CA, USA
+621
+480
+59
+8:55
+MIN/MI
+1:56:52
+EW
+ERIC WHITING
+M 29Bib 5097Venice, CA, USA
+622
+481
+79
+8:55
+MIN/MI
+1:56:53
+Claim
+Whitney Ewen
+F 32Bib 1257Pasadena, CA, USA
+622
+142
+30
+8:55
+MIN/MI
+1:56:53
+DG
+David Garcia
+M 56Bib 3006Chandler, AZ, USA
+624
+482
+16
+8:55
+MIN/MI
+1:56:54
+Claim
+MICHAEL RICO
+M 30Bib 5000Los Angeles, CA, USA
+624
+482
+85
+8:55
+MIN/MI
+1:56:54
+Claim
+David Baquero
+M 40Bib 4025Van Nuys, CA, USA
+626
+484
+73
+8:56
+MIN/MI
+1:56:56
+EN
+Emily Nguyen
+F 52Bib 8105Palos Verdes Estates, CA, USA
+626
+143
+8
+8:56
+MIN/MI
+1:56:56
+Claim
+STEWART HOFFMAN
+M 45Bib 6152Redondo Beach, CA, USA
+628
+485
+60
+8:56
+MIN/MI
+1:56:57
+Claim
+Sharon Pelegrino
+F 40Bib 9456Los Angeles, CA, USA
+629
+144
+16
+8:56
+MIN/MI
+1:56:58
+Claim
+Francisco Lopez
+M 46Bib 9185Pasadena, CA, USA
+630
+486
+61
+8:56
+MIN/MI
+1:57:03
+Claim
+Sonya Lehto
+F 42Bib 1332Newbury Park, CA, USA
+630
+145
+17
+8:56
+MIN/MI
+1:57:03
+Claim
+DANNAH TINAYNAN
+F 28Bib 8087El Cajon, CA, USA
+632
+146
+31
+8:56
+MIN/MI
+1:57:04
+AY
+Akio Yamada
+M 43Bib 1444Los Angeles, CA, USA
+633
+487
+74
+8:56
+MIN/MI
+1:57:05
+Claim
+Timothy Leifer
+M 47Bib 9478Pasadena, CA, USA
+633
+487
+62
+8:56
+MIN/MI
+1:57:05
+Claim
+Julie Mabry
+F 28Bib 2279Pasadena, CA, USA
+635
+147
+32
+8:56
+MIN/MI
+1:57:06
+BT
+Bradley Tucker
+M 31Bib 5149Pasadena, CA, USA
+636
+489
+86
+8:57
+MIN/MI
+1:57:09
+Claim
+Carlos Prado
+M 27Bib 4071Long Beach, CA, USA
+636
+489
+80
+8:57
+MIN/MI
+1:57:09
+Claim
+Tarah Novelli
+F 31Bib 4340Pasadena, CA, USA
+636
+148
+31
+8:57
+MIN/MI
+1:57:09
+MA
+Mercedes Amaya
+F 40Bib 5049Vannuys, CA, USA
+639
+149
+18
+8:57
+MIN/MI
+1:57:10
+Claim
+Edgar Sanjuan
+M 22Bib 3253Thousand Oaks, CA, USA
+640
+491
+25
+8:57
+MIN/MI
+1:57:11
+Claim
+Ben Mishico
+M 37Bib 1460South Pasadena, CA, USA
+641
+492
+87
+8:57
+MIN/MI
+1:57:12
+Claim
+SONJA FENSKE
+F 27Bib 6425South Pasadena, CA, USA
+641
+150
+33
+8:57
+MIN/MI
+1:57:12
+Claim
+Junhao Zhang
+M 26Bib 3408Arcadia, CA, USA
+643
+493
+81
+8:57
+MIN/MI
+1:57:15
+GH
+Gizem Hopper
+F 33Bib 9256Los Angeles, CA, USA
+644
+151
+32
+8:57
+MIN/MI
+1:57:16
+Claim
+GRAEME HANNAH
+M 28Bib 6190Agoura Hills, CA, USA
+644
+494
+82
+8:57
+MIN/MI
+1:57:16
+Claim
+alan mcdaniel
+M 48Bib 5431San Gabriel, CA, USA
+646
+495
+63
+8:57
+MIN/MI
+1:57:17
+Claim
+Drew Shula
+M 35Bib 3174Pasadena, CA, USA
+646
+495
+88
+8:57
+MIN/MI
+1:57:17
+AA
+Alissa Armstrong
+F 26Bib 6358San Diego, CA, USA
+648
+152
+34
+8:57
+MIN/MI
+1:57:18
+GA
+George Aguilera
+M 60Bib 7449Pasadena, CA, USA
+649
+497
+11
+8:57
+MIN/MI
+1:57:19
+HE
+Haira Esther Kang
+F 25Bib 4167Canoga Park, CA, USA
+649
+153
+35
+8:57
+MIN/MI
+1:57:19
+Claim
+Keith Culver
+M 69Bib 6463Palm Springs, CA, USA
+649
+497
+1
+8:57
+MIN/MI
+1:57:19
+KC
+Kenny Chen
+M 40Bib 2092Monrovia, CA, USA
+649
+497
+75
+8:57
+MIN/MI
+1:57:19
+Claim
+Ronald Florido
+M 35Bib 6410Long Beach, CA, USA
+653
+500
+89
+8:57
+MIN/MI
+1:57:20
+PH
+Philip Ho
+M 52Bib 8065South Pasadena, CA, USA
+654
+501
+42
+8:58
+MIN/MI
+1:57:22
+Claim
+DOMINIQUE SISTO
+F 29Bib 5360Santa Monica, CA, USA
+655
+154
+36
+8:58
+MIN/MI
+1:57:24
+Claim
+Esau Vargas
+M 43Bib 3484Pacoima, CA, USA
+655
+502
+76
+8:58
+MIN/MI
+1:57:24
+Claim
+Laura Nunnelly
+F 33Bib 1233Pasadena, CA, USA
+655
+154
+33
+8:58
+MIN/MI
+1:57:24
+Claim
+Terry Abbott
+M 43Bib 5067Los Angeles, CA, USA
+658
+503
+77
+8:58
+MIN/MI
+1:57:26
+RV
+Richard Victorio
+M 42Bib 9247Irvine, CA, USA
+659
+504
+78
+8:58
+MIN/MI
+1:57:27
+NW
+Nichola Walker
+F 40Bib 8011Altadena, CA, USA
+660
+156
+19
+8:58
+MIN/MI
+1:57:30
+KJ
+Kiela Jimenez
+F 47Bib 9418Cathedral City, CA, USA
+661
+157
+20
+8:58
+MIN/MI
+1:57:32
+Claim
+jay schor
+M 26Bib 7107South Pasadena, CA, USA
+662
+505
+83
+8:58
+MIN/MI
+1:57:33
+RO
+Rogelio Orozco
+M 27Bib 4327Rancho Cucamonga, CA, USA
+663
+506
+84
+8:59
+MIN/MI
+1:57:35
+Claim
+WILLIAM PENICK
+M 45Bib 8051Los Angeles, CA, USA
+664
+507
+64
+8:59
+MIN/MI
+1:57:36
+Claim
+Jared Holt
+M 36Bib 8318Pasadena, CA, USA
+665
+508
+90
+8:59
+MIN/MI
+1:57:38
+Claim
+ELYSE AZEVEDO
+F 27Bib 6495Pasadena, CA, USA
+666
+158
+37
+8:59
+MIN/MI
+1:57:39
+Claim
+Quynhvi Vu
+F 26Bib 7070Porter Ranch, CA, USA
+666
+158
+37
+8:59
+MIN/MI
+1:57:39
+Claim
+Eva Blacconiere
+F 25Bib 1266Los Alamitos, CA, USA
+668
+160
+39
+8:59
+MIN/MI
+1:57:40
+DP
+David Piper
+M 45Bib 5244Escondido, CA, USA
+669
+509
+65
+8:59
+MIN/MI
+1:57:41
+Claim
+Linda Burrows
+F 45Bib 3466Westlake Village, CA, USA
+669
+161
+21
+8:59
+MIN/MI
+1:57:41
+DS
+Deborah Scott
+F 60Bib 1278Anaheim, CA, USA
+671
+162
+2
+8:59
+MIN/MI
+1:57:42
+Claim
+AY Mernick
+M 31Bib 9336Los Angeles, CA, USA
+672
+510
+87
+8:59
+MIN/MI
+1:57:44
+Claim
+Francisco Pantoja
+M 55Bib 9118Sylmar, CA, USA
+673
+511
+17
+8:59
+MIN/MI
+1:57:46
+IO
+Irene Orr
+F 61Bib 7129Irvine, CA, USA
+674
+163
+3
+9:00
+MIN/MI
+1:57:48
+LA
+Lourdes Anders
+F 39Bib 1169Ventura, CA, USA
+675
+164
+22
+9:00
+MIN/MI
+1:57:49
+Claim
+Mark Larinde
+M 55Bib 5476San Clemente, CA, USA
+675
+512
+18
+9:00
+MIN/MI
+1:57:49
+GL
+George Lopez
+M 60Bib 3161Montebello, CA, USA
+677
+513
+12
+9:00
+MIN/MI
+1:57:50
+Claim
+Alberto zubiate
+M 58Bib 9193North Hollywood, CA, USA
+678
+514
+19
+9:00
+MIN/MI
+1:57:52
+Claim
+Jose Luis Lanzagorta
+M 26Bib 6010Los Angeles, CA, USA
+679
+515
+85
+9:00
+MIN/MI
+1:57:53
+Claim
+Juliana Myung
+F 41Bib 4361Rancho Cucamonga, CA, USA
+680
+165
+20
+9:00
+MIN/MI
+1:57:54
+Claim
+Andrew Duong
+M 28Bib 4449Alhambra, CA, USA
+681
+516
+86
+9:00
+MIN/MI
+1:57:55
+Claim
+Grace Pfisterer
+F 26Bib 1191Los Angeles, CA, USA
+682
+166
+40
+9:00
+MIN/MI
+1:57:56
+MM
+Mark Minichiello
+M 49Bib 5313Culver City, CA, USA
+682
+517
+66
+9:00
+MIN/MI
+1:57:56
+Claim
+JOSE PERALTA
+M 38Bib 2046Losangeles, CA, USA
+684
+518
+91
+9:00
+MIN/MI
+1:57:58
+Claim
+Carmen Reos
+F 34Bib 4056San Bernardino, CA, USA
+685
+167
+34
+9:01
+MIN/MI
+1:58:01
+Claim
+Ricardo Ascencio
+M 46Bib 9213San Fernando, CA, USA
+686
+519
+67
+9:01
+MIN/MI
+1:58:04
+Claim
+Nathan Moroshan
+M 35Bib 7402Pasadena, CA, USA
+687
+520
+92
+9:01
+MIN/MI
+1:58:12
+Claim
+KIMBERLY RUBAL
+F 54Bib 6478Pasadena, CA, USA
+688
+168
+9
+9:02
+MIN/MI
+1:58:14
+Claim
+Makeda Hurd-Walsh
+F 47Bib 4186Pasadena, CA, USA
+688
+168
+22
+9:02
+MIN/MI
+1:58:14
+Claim
+natalie meza
+F 27Bib 7090Inglewood, CA, USA
+690
+170
+41
+9:02
+MIN/MI
+1:58:16
+Claim
+Sat Jamunar
+M 29Bib 1311Minneapolis, MN, USA
+690
+521
+87
+9:02
+MIN/MI
+1:58:16
+DL
+Dylan Logas
+M 27Bib 6073Whittier, CA, USA
+692
+522
+88
+9:02
+MIN/MI
+1:58:17
+CC
+Chantal Cravens
+F 51Bib 2166Monrovia, CA, USA
+693
+171
+10
+9:02
+MIN/MI
+1:58:19
+Claim
+BRIDGET DIXON
+F 32Bib 9145El Segundo, CA, USA
+694
+172
+35
+9:02
+MIN/MI
+1:58:21
+TM
+Tulia Montes
+F 40Bib 3001Los Angeles, CA, USA
+694
+172
+21
+9:02
+MIN/MI
+1:58:21
+Claim
+Stephen Susdorf
+M 30Bib 1136Valencia, CA, USA
+696
+523
+88
+9:02
+MIN/MI
+1:58:23
+Claim
+JOSE LORENZO
+M 38Bib 6371Inglewood, CA, USA
+697
+524
+93
+9:02
+MIN/MI
+1:58:25
+Claim
+HAKOP BALYAN
+M 30Bib 8155Glendale, CA, USA
+698
+525
+89
+9:02
+MIN/MI
+1:58:26
+Claim
+Marcos Torrico
+M 42Bib 3095Glendale, CA, USA
+698
+525
+79
+9:02
+MIN/MI
+1:58:26
+MR
+Marisol Ramos
+F 39Bib 3328Downey, CA, USA
+700
+174
+23
+9:03
+MIN/MI
+1:58:27
+Claim
+Rafael Matute
+M 26Bib 5434Los Angeles, CA, USA
+700
+527
+89
+9:03
+MIN/MI
+1:58:27
+Claim
+James O
+M 35Bib 4338Rancho Palos Verdes, CA, USA
+702
+528
+94
+9:03
+MIN/MI
+1:58:28
+Claim
+Mitch Saruwatari
+M 52Bib 5378Corona, CA, USA
+702
+528
+43
+9:03
+MIN/MI
+1:58:28
+Claim
+Nathan Merana
+M 23Bib 1360Simi Valley, CA, USA
+702
+528
+26
+9:03
+MIN/MI
+1:58:28
+Claim
+Edgar Vera
+M 15Bib 2403CA, USA
+705
+531
+8
+9:03
+MIN/MI
+1:58:29
+Claim
+Luis A. Lopez
+M 41Bib 8083Los Angeles, CA, USA
+705
+531
+80
+9:03
+MIN/MI
+1:58:29
+Claim
+Edgard Vera
+M 46Bib 2404CA, USA
+707
+533
+68
+9:03
+MIN/MI
+1:58:30
+WL
+William Lu
+M 26Bib 411391801, CA, USA
+707
+533
+90
+9:03
+MIN/MI
+1:58:30
+Claim
+Seamus Burke
+M 39Bib 2248Long Beach, CA, USA
+709
+535
+95
+9:03
+MIN/MI
+1:58:31
+SP
+Stuart Posin
+M 38Bib 7430Pasadena, CA, USA
+710
+536
+96
+9:03
+MIN/MI
+1:58:32
+Claim
+John Munoz
+M 46Bib 5469La Mirada, CA, USA
+711
+537
+69
+9:03
+MIN/MI
+1:58:33
+KK
+Kevin Kroeker
+M 57Bib 9259La Crescenta, CA, USA
+711
+537
+20
+9:03
+MIN/MI
+1:58:33
+Claim
+Luis Valle Vega
+M 35Bib 1308Santa Monica, CA, USA
+713
+539
+97
+9:03
+MIN/MI
+1:58:34
+MB
+Maggie Beach
+F 45Bib 9290La Crescenta, CA, USA
+713
+175
+23
+9:03
+MIN/MI
+1:58:34
+Claim
+julio rodriguez
+M 35Bib 2347Pasadena, NV, USA
+715
+540
+98
+9:03
+MIN/MI
+1:58:36
+Claim
+Matthew Jurado
+M 45Bib 3364Los Angeles, CA, USA
+715
+540
+70
+9:03
+MIN/MI
+1:58:36
+Claim
+William Hess
+M 15Bib 8002Quail Valley, CA, USA
+717
+542
+9
+9:03
+MIN/MI
+1:58:38
+Claim
+ELIJAH SELZER
+M 34Bib 2443North Hollywood, CA, USA
+718
+543
+90
+9:03
+MIN/MI
+1:58:39
+Claim
+Melissa Kurata
+F 30Bib 8228Santa Monica, CA, USA
+719
+176
+36
+9:04
+MIN/MI
+1:58:40
+ZB
+Zarani Barrow
+M 44Bib 2452La Canada, CA, USA
+720
+544
+81
+9:04
+MIN/MI
+1:58:42
+Claim
+Silvia Manca
+F 32Bib 1111Los Angeles, CA, USA
+721
+177
+37
+9:04
+MIN/MI
+1:58:45
+Claim
+JANETT CASTILLO
+F 31Bib 4266Commerce, CA, USA
+722
+178
+38
+9:04
+MIN/MI
+1:58:48
+Claim
+Uriel Rodriguez
+M 45Bib 5198North Hollywood, CA, USA
+722
+545
+71
+9:04
+MIN/MI
+1:58:48
+Claim
+FRANCISCO MARTINEZ
+M 52Bib 3467North Hills, CA, USA
+724
+546
+44
+9:04
+MIN/MI
+1:58:51
+Claim
+RUDY QUINTERO
+M 44Bib 1409Glendale, CA, USA
+724
+546
+82
+9:04
+MIN/MI
+1:58:51
+Claim
+RICARDO VELAZQUEZ
+M 45Bib 3195Los Angeles, CA, USA
+726
+548
+72
+9:05
+MIN/MI
+1:58:53
+Claim
+Ly Iev
+M 35Bib 2009Torrance, CA, USA
+727
+549
+99
+9:05
+MIN/MI
+1:58:54
+DC
+Davon Culley
+M 44Bib 4041Astoria, NY, USA
+728
+550
+83
+9:05
+MIN/MI
+1:58:56
+Claim
+Pamela Lopez
+F 40Bib 9084Hawthorne, CA, USA
+729
+179
+22
+9:05
+MIN/MI
+1:58:57
+Claim
+David Simandl
+M 37Bib 7364Los Angeles, CA, USA
+730
+551
+100
+9:05
+MIN/MI
+1:58:58
+Claim
+Mino Mahdi
+M 41Bib 6057San Pedro, CA, USA
+730
+551
+84
+9:05
+MIN/MI
+1:58:58
+Claim
+Christopher Martin
+M 53Bib 5447Pasadena, CA, USA
+732
+553
+45
+9:05
+MIN/MI
+1:59:01
+Claim
+Uloma Nwagbara
+F 35Bib 9322Glendale, CA, USA
+733
+180
+24
+9:05
+MIN/MI
+1:59:03
+Claim
+Eloy Perez
+M 30Bib 3326Santa Maria, CA, USA
+734
+554
+91
+9:06
+MIN/MI
+1:59:07
+Claim
+ROBERT WONG
+M 64Bib 3118Fremont, CA, USA
+735
+555
+13
+9:06
+MIN/MI
+1:59:08
+Claim
+Jeff Nuzzi
+M 53Bib 8212Pasadena, CA, USA
+736
+556
+46
+9:06
+MIN/MI
+1:59:10
+Claim
+Michael Placido
+M 54Bib 9181Pasadena, CA, USA
+736
+556
+46
+9:06
+MIN/MI
+1:59:10
+Claim
+MERYL PASCUA
+F 36Bib 1203Pasadena, CA, USA
+738
+181
+25
+9:06
+MIN/MI
+1:59:11
+FG
+Felicia Garcia
+F 26Bib 2143Los Angeles, CA, USA
+739
+182
+42
+9:06
+MIN/MI
+1:59:13
+JS
+Julie Sornberger
+F 36Bib 5349Los Angeles, CA, USA
+739
+182
+26
+9:06
+MIN/MI
+1:59:13
+Claim
+Peter Callado
+M 48Bib 8394San Gabriel, CA, USA
+741
+558
+73
+9:06
+MIN/MI
+1:59:14
+Claim
+Rodolfo Carrasquillo
+M 48Bib 1045Simi Valley, CA, USA
+741
+558
+73
+9:06
+MIN/MI
+1:59:14
+Claim
+Kazumi Yamazaki
+M 58Bib 3426Redondo Beach, CA, USA
+743
+560
+21
+9:06
+MIN/MI
+1:59:16
+KH
+Kristin Harrer
+F 36Bib 9534Los Angeles, CA, USA
+743
+184
+27
+9:06
+MIN/MI
+1:59:16
+Claim
+SERGIO RODRIGUEZ
+M 32Bib 7391La Puente, CA, USA
+743
+560
+92
+9:06
+MIN/MI
+1:59:16
+JH
+Joseph Han
+M 28Bib 6193Chino Hills, CA, USA
+746
+562
+91
+9:06
+MIN/MI
+1:59:18
+Claim
+Sandra Gutierrez
+F 29Bib 1445Los Angeles, CA, USA
+747
+185
+43
+9:07
+MIN/MI
+1:59:21
+Claim
+Blanca Bradley
+F 45Bib 1119Glendale, CA, USA
+748
+186
+24
+9:07
+MIN/MI
+1:59:22
+JL
+Jonathan Livingston
+M 27Bib 6375Santa Monica, CA, USA
+748
+563
+92
+9:07
+MIN/MI
+1:59:22
+Claim
+BRIAN SALGUERO
+M 25Bib 2035Canoga Park, CA, USA
+750
+564
+93
+9:07
+MIN/MI
+1:59:25
+Claim
+john lucas
+M 35Bib 6468Apple Valley, CA, USA
+750
+564
+101
+9:07
+MIN/MI
+1:59:25
+Claim
+Danielle Stratton
+F 32Bib 5333Arcadia, CA, USA
+752
+187
+39
+9:07
+MIN/MI
+1:59:28
+Claim
+JORGE SOSA
+M 38Bib 5347Los Angeles, CA, USA
+753
+566
+102
+9:07
+MIN/MI
+1:59:30
+FC
+Francisco Carrillo
+M 28Bib 4270Columbus, GA, USA
+754
+567
+94
+9:07
+MIN/MI
+1:59:32
+Claim
+Lorena Tron
+F 38Bib 9375Los Angeles, CA, USA
+754
+188
+28
+9:07
+MIN/MI
+1:59:32
+Claim
+Kevin Doyle
+M 46Bib 7089Santa Monica, CA, USA
+756
+568
+75
+9:08
+MIN/MI
+1:59:33
+Claim
+ROSALBA CARRILLO
+F 34Bib 7289Downey, CA, USA
+756
+189
+40
+9:08
+MIN/MI
+1:59:33
+Claim
+Tiffany Moreno
+F 28Bib 3110La Crescenta, CA, USA
+756
+189
+44
+9:08
+MIN/MI
+1:59:33
+CJ
+Craig Johnson
+M 53Bib 6123Palos Verdes Estates, CA, USA
+759
+569
+48
+9:08
+MIN/MI
+1:59:38
+Claim
+Hangxin Liu
+M 25Bib 6376Los Angeles, CA, USA
+759
+569
+95
+9:08
+MIN/MI
+1:59:38
+MP
+Michael Pierce
+M 49Bib 4079Rancho Cucamonga, CA, USA
+759
+569
+76
+9:08
+MIN/MI
+1:59:38
+AL
+Albert Leung
+M 62Bib 3303Mission Viejo, CA, USA
+762
+572
+14
+9:08
+MIN/MI
+1:59:43
+Claim
+Dan Golembeski
+M 31Bib 6217Los Angeles, CA, USA
+762
+572
+93
+9:08
+MIN/MI
+1:59:43
+DT
+Dave Tan
+M 32Bib 5183North Hollywood, CA, USA
+764
+574
+94
+9:08
+MIN/MI
+1:59:45
+Claim
+Kevin Ng
+M 26Bib 7452Granada Hills, CA, USA
+764
+574
+96
+9:08
+MIN/MI
+1:59:45
+Claim
+Byron Babiera
+M 35Bib 9379Temple City, CA, USA
+766
+576
+103
+9:09
+MIN/MI
+1:59:49
+Claim
+Kwasi Dwomoh
+M 42Bib 9127Redondo, CA, USA
+766
+576
+85
+9:09
+MIN/MI
+1:59:49
+Claim
+ana demarco
+F 47Bib 4466Pasadena, CA, USA
+768
+191
+25
+9:09
+MIN/MI
+1:59:50
+KM
+Kelli Michael
+F 44Bib 9444Mira Loma, CA, USA
+768
+191
+23
+9:09
+MIN/MI
+1:59:50
+Claim
+EDITH HERRERA
+F 29Bib 5474Santa Ana, CA, USA
+770
+193
+45
+9:09
+MIN/MI
+1:59:52
+Claim
+Kristen Reid
+F 26Bib 8124Pasadena, CA, USA
+770
+193
+45
+9:09
+MIN/MI
+1:59:52
+Claim
+Rosivaldo Novaes
+M 44Bib 9215Los Angeles, CA, USA
+772
+578
+86
+9:09
+MIN/MI
+1:59:53
+Claim
+Arno Avakian
+M 41Bib 9062South Pasadena, CA, USA
+773
+579
+87
+9:09
+MIN/MI
+1:59:54
+Claim
+Aura Mayorga
+F 46Bib 5432North Hollywood, CA, USA
+774
+195
+26
+9:09
+MIN/MI
+1:59:55
+Claim
+Jennifer Dacharux
+F 35Bib 4039San Bernardino, CA, USA
+774
+195
+29
+9:09
+MIN/MI
+1:59:55
+Claim
+LUIS LOPEZ
+M 28Bib 6373San Fernando, CA, USA
+774
+580
+97
+9:09
+MIN/MI
+1:59:55
+Claim
+Aaron Delgadillo
+M 21Bib 6253Fontana, CA, USA
+777
+581
+27
+9:09
+MIN/MI
+1:59:56
+Claim
+Joseph Hendrix
+M 36Bib 6175Studio City, CA, USA
+777
+581
+104
+9:09
+MIN/MI
+1:59:56
+AD
+angel de la torre
+M 33Bib 2003Downey, CA, USA
+779
+583
+95
+9:09
+MIN/MI
+1:59:57
+Claim
+Katrina Anderson
+F 25Bib 1125Pasadena, CA, USA
+779
+197
+47
+9:09
+MIN/MI
+1:59:57
+Claim
+Shawn Collins
+M 36Bib 9429Mira Loma, CA, USA
+779
+583
+105
+9:09
+MIN/MI
+1:59:57
+AR
+Aaron Rice
+M 33Bib 5214Santa Monica, CA, USA
+782
+585
+96
+9:09
+MIN/MI
+1:59:58
+Claim
+QC CHEN
+M 64Bib 7479Arcadia, CA, USA
+783
+586
+15
+9:10
+MIN/MI
+1:59:59
+Claim
+Kaylee David
+F 24Bib 9372Los Angeles, CA, USA
+784
+198
+16
+9:10
+MIN/MI
+2:00:02
+Claim
+Paolo Carlos
+M 21Bib 7211Torrance, CA, USA
+785
+587
+28
+9:10
+MIN/MI
+2:00:04
+Claim
+juan coria
+M 48Bib 1337Bell Gardens, CA, USA
+786
+588
+77
+9:10
+MIN/MI
+2:00:06
+Claim
+Hideo Takahashi
+M 37Bib 1074Pasadena, CA, USA
+787
+589
+106
+9:10
+MIN/MI
+2:00:08
+GO
+GABRIEL ORTEGA
+M 36Bib 1025Alhambra, CA, USA
+788
+590
+107
+9:10
+MIN/MI
+2:00:11
+Claim
+Tori Reyes
+F 42Bib 5452Upland, CA, USA
+788
+199
+24
+9:10
+MIN/MI
+2:00:11
+AK
+Audrey Kim
+F 32Bib 2333Los Angeles, CA, USA
+790
+200
+41
+9:11
+MIN/MI
+2:00:14
+Claim
+DAVID REYES
+M 29Bib 9198Hollywood, CA, USA
+791
+591
+98
+9:11
+MIN/MI
+2:00:16
+Claim
+Albert Ngo
+M 31Bib 3092Fullerton, CA, USA
+792
+592
+97
+9:11
+MIN/MI
+2:00:17
+Claim
+Erick Delgado
+M 49Bib 6432Santa Monica, CA, USA
+793
+593
+78
+9:11
+MIN/MI
+2:00:19
+GL
+GORDON LAU
+M 59Bib 4139Glendale, CA, USA
+794
+594
+22
+9:11
+MIN/MI
+2:00:23
+Claim
+John Viray
+M 39Bib 2190Pasadena, CA, USA
+795
+595
+108
+9:12
+MIN/MI
+2:00:25
+Claim
+Mitchell Guzman
+M 37Bib 4422Hesperia, CA, USA
+796
+596
+109
+9:12
+MIN/MI
+2:00:27
+LC
+Luis Chaidez
+M 30Bib 6436Harbor City, CA, USA
+797
+597
+98
+9:12
+MIN/MI
+2:00:29
+Claim
+MARICRIS MCCARTHY
+F 35Bib 4389Los Angeles, CA, USA
+798
+201
+30
+9:12
+MIN/MI
+2:00:30
+MP
+Michael Peters
+M 55Bib 8295Elkhart, IN, USA
+798
+598
+23
+9:12
+MIN/MI
+2:00:30
+Claim
+Blake Heimall
+M 32Bib 2086Santa Monica, CA, USA
+800
+599
+99
+9:12
+MIN/MI
+2:00:32

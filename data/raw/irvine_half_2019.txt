@@ -1,0 +1,3675 @@
+1	
+B
+Blake
+Fonda
+	Lodi	CA	1148	M	1:11:40	1:11:40	21	1	M 18-24	5:28
+2	
+Z
+Zane
+Cox
+	Anaheim	CA	1108	M	1:14:15	1:14:15	18	2	M 18-24	5:40
+3	
+C
+Caleb
+Terefe
+	Irvine	CA	1722	M	1:14:17	1:14:17	17	1	M 13-17	5:40
+4	
+E
+Elliott
+Bijlsma
+	El Segundo	CA	1843	M	1:15:41	1:15:40	18	3	M 18-24	5:47
+5	
+J
+John
+Welch
+	Anaheim	CA	1565	M	1:16:36	1:16:35	18	4	M 18-24	5:51
+6	
+J
+John
+Pantigoso
+	Irvine	CA	1775	M	1:17:26	1:17:25	17	2	M 13-17	5:55
+7	
+R
+Reed
+Piette
+	Yorba Linda	CA	1731	M	1:18:05	1:18:03	17	3	M 13-17	5:57
+8	
+S
+Seth
+Laske
+	Yorba Linda	CA	1278	M	1:18:22	1:18:21	16	4	M 13-17	5:59
+9	
+C
+Cody
+Billings
+	Irvine	CA	1883	M	1:18:36	1:18:36	17	5	M 13-17	6:00
+10	
+K
+Kevin
+Broady
+	Brea	CA	1638	M	1:18:50	1:18:50	57	1	M 55-59	6:01
+11	
+N
+Naoki
+Kato
+	Torrance	CA	1239	M	1:19:09	1:19:09	46	1	M 45-49	6:03
+12	
+A
+Aravind
+Ravikumar
+	Irvine	CA	1840	M	1:19:41	1:19:41	17	6	M 13-17	6:05
+13	
+J
+Joshua
+Moore
+	Anaheim	CA	1917	M	1:19:42	1:19:41	16	7	M 13-17	6:05
+14	
+E
+Elizabeth
+Frick
+	Eagan	MN	1154	F	1:19:52	1:19:50	24	1	F 18-24	6:06
+15	
+J
+Jaime
+Castellanos
+	Santa Ana	CA	1911	M	1:20:12	1:20:12	43	1	M 40-44	6:07
+16	
+J
+John
+Tayeri
+	Palo Alto	CA	1699	M	1:20:40	1:20:38	17	8	M 13-17	6:09
+17	
+A
+Aaron
+Li
+	Irvine	CA	1683	M	1:20:57	1:20:57	16	9	M 13-17	6:11
+18	
+K
+Kelvin
+Mejia
+	Garden Grove	CA	1661	M	1:21:03	1:21:02	34	1	M 30-34	6:11
+19	
+J
+James
+Swanson
+	Newport Coast	CA	1660	M	1:23:00	1:22:58	20	5	M 18-24	6:20
+20	
+R
+Ryan
+Manes
+	Yorba Linda	CA	1817	M	1:24:00	1:23:58	16	10	M 13-17	6:25
+21	
+B
+Ben
+Shaw
+	Long Beach	CA	1864	M	1:24:26	1:24:26	28	1	M 25-29	6:27
+22	
+S
+Sawyer
+Almasi
+	Laguna Hills	CA	1014	M	1:24:35	1:24:35	24	6	M 18-24	6:27
+23	
+A
+Alan
+Squyres
+	Lancaster	CA	1717	M	1:24:43	1:24:42	38	1	M 35-39	6:28
+24	
+R
+Robert
+Ramirez
+	Santa Ana	CA	1428	M	1:24:56	1:24:53	42	2	M 40-44	6:29
+25	
+S
+Stephen
+Hochschild
+	Corona Del Mar	CA	1913	M	1:25:37	1:25:35	47	2	M 45-49	6:32
+26	
+T
+Trinidad
+Robles
+	Orange	CA	1445	M	1:25:38	1:25:37	55	2	M 55-59	6:32
+27	
+K
+Ken
+Kakutani
+	Irvine	CA	1885	M	1:25:43	1:25:41	16	11	M 13-17	6:32
+28	
+I
+Ian
+Matheson
+	Palo Alto	CA	1830	M	1:26:50	1:26:45	17	12	M 13-17	6:37
+29	
+G
+Gisele
+Schaaf
+	Lakewood	CA	1875	F	1:27:00	1:26:57	31	1	F 30-34	6:38
+30	
+D
+David
+Roach
+	Irvine		1443	M	1:27:38	1:27:38	43	3	M 40-44	6:41
+31	
+M
+Matt
+Brailsford
+	Corona Del Mar	CA	1052	M	1:27:46	1:27:43	19	7	M 18-24	6:42
+32	
+D
+Donna
+Mills-Honarvar
+	Fallbrook	CA	1657	F	1:28:03	1:28:02	44	1	F 40-44	6:43
+33	
+G
+Glimber
+Ayala
+	Santa Ana	CA	1877	M	1:28:29	1:28:29	37	2	M 35-39	6:45
+34	
+J
+Joanna
+Reyes
+	San Jose	CA	1755	F	1:28:29	1:28:29	26	1	F 25-29	6:45
+35	
+M
+Morgan
+Leake
+	Saint Louis	MO	1706	M	1:28:52	1:28:51	19	8	M 18-24	6:47
+36	
+S
+Scott
+Winrow
+	Riverside	CA	1575	M	1:29:18	1:29:18	46	3	M 45-49	6:49
+37	
+M
+Marzena
+Yankowski
+	Hacienda Heights	CA	1589	F	1:29:55	1:29:42	38	1	F 35-39	6:51
+38	
+T
+Tom
+Sherwin
+	Redondo Beach	CA	1903	M	1:30:07	1:30:01	52	1	M 50-54	6:52
+39	
+T
+Trevor
+Sanders
+	Yorba Linda	CA	1464	M	1:30:33	1:30:32	16	13	M 13-17	6:55
+40	
+T
+Tom
+Bourdi
+	Irvine	CA	1852	M	1:31:21	1:31:20	49	4	M 45-49	6:58
+41	
+E
+Emmanuel
+Ibanez
+	Irvine	CA	1219	M	1:31:26	1:31:25	36	3	M 35-39	6:59
+42	
+J
+Jake
+Cruzen
+			1800	M	1:31:32	1:31:30	16	14	M 13-17	6:59
+43	
+V
+Vlady
+Clodfelter
+	Irvine	CA	1096	M	1:31:31	1:31:31	15	15	M 13-17	6:59
+44	
+C
+Chance
+Waller
+			1809	M	1:31:33	1:31:32	16	16	M 13-17	6:59
+45	
+J
+Joel
+Whitson
+	Irvine	CA	1568	M	1:31:49	1:31:47	16	17	M 13-17	7:00
+46	
+M
+Mark
+McGrane
+	Mission Viejo	CA	1716	M	1:31:51	1:31:50	57	3	M 55-59	7:01
+47	
+M
+Maxwell
+Katz
+			1802	M	1:32:01	1:32:01	16	18	M 13-17	7:01
+48	
+K
+Kathleen
+Hill
+	Richmond	VA	1206	F	1:32:16	1:32:09	31	2	F 30-34	7:02
+49	
+N
+Nico
+Gervasoni
+	Culver City	CA	1168	M	1:32:45	1:32:20	25	2	M 25-29	7:03
+50	
+N
+Naoki
+Kubota
+	Newport Beach	CA	1267	M	1:33:00	1:32:43	33	2	M 30-34	7:05
+51	
+S
+Samuel
+Lockhart
+			1804	M	1:33:00	1:32:57	17	19	M 13-17	7:06
+52	
+C
+Chris
+Jacoby
+	Rancho Santa Margarita	CA	1639	M	1:33:20	1:33:11	52	2	M 50-54	7:07
+53	
+K
+Kevin
+Moore
+	Valencia	CA	1861	M	1:33:25	1:33:21	32	3	M 30-34	7:08
+54	
+C
+Clayton
+Rosa
+	Los Angeles	CA	1449	M	1:33:27	1:33:23	32	4	M 30-34	7:08
+55	
+J
+Jorge
+Mendoza
+	Huntington Beach	CA	1345	M	1:34:59	1:33:26	39	4	M 35-39	7:08
+56	
+P
+Philippe
+Rerolle
+	Palo Alto	CA	1855	M	1:34:00	1:33:53	17	20	M 13-17	7:10
+57	
+T
+Tom
+Starr
+	Newport Beach	CA	1615	M	1:34:12	1:34:10	56	4	M 55-59	7:11
+58	
+W
+William
+Zhang
+	Irvine	CA	1596	M	1:34:22	1:34:16	41	4	M 40-44	7:12
+59	
+K
+Ken
+Atterholt
+	Irvine	CA	1026	M	1:34:28	1:34:25	58	5	M 55-59	7:12
+60	
+J
+Joshua
+Psillos
+	Lake Stevens	WA	1421	M	1:34:52	1:34:42	33	5	M 30-34	7:14
+61	
+J
+John
+Tynan
+	Irvine	CA	1523	M	1:34:54	1:34:52	52	3	M 50-54	7:15
+62	
+R
+Roderick
+Powell
+	Garden Grove	CA	1418	M	1:35:24	1:35:22	62	1	M 60-64	7:17
+63	
+J
+Jacob
+Heiting
+			1801	M	1:35:36	1:35:35	17	21	M 13-17	7:18
+64	
+K
+Kanishk
+Purohit
+	Irvine	CA	1679	M	1:35:44	1:35:44	15	22	M 13-17	7:18
+65	
+M
+Milton
+Hadinoto
+	Los Angeles	CA	1835	M	1:36:11	1:36:07	40	5	M 40-44	7:20
+66	
+I
+Isaac
+Oben
+	Camarillo	CA	1384	M	1:36:30	1:36:26	44	6	M 40-44	7:22
+67	
+M
+Maki
+Karasawa
+	Mission Viejo	CA	1238	F	1:36:31	1:36:26	45	1	F 45-49	7:22
+68	
+N
+Nesan
+Kistan
+	Orange	CA	1252	M	1:36:31	1:36:27	46	5	M 45-49	7:22
+69	
+M
+Miguel
+Santiago
+	Costa Mesa	CA	1745	M	1:36:50	1:36:35	29	3	M 25-29	7:22
+70	
+A
+Amanda
+Betancur
+	Aliso Viejo	CA	1042	F	1:37:00	1:36:54	31	3	F 30-34	7:24
+71	
+G
+Gregory
+Chlebeck
+	Torrance	CA	1087	M	1:36:58	1:36:54	56	6	M 55-59	7:24
+72	
+T
+Tommy
+Leng
+	Westminster	CA	1848	M	1:38:22	1:37:51	33	6	M 30-34	7:28
+73	
+D
+Daniel
+Garrett
+	Redlands	CA	1162	M	1:38:08	1:37:57	22	9	M 18-24	7:29
+74	
+K
+Kosuke
+Amino
+	Tustin	CA	1707	M	1:38:02	1:37:59	41	7	M 40-44	7:29
+75	
+P
+Parker
+Mallough
+	Irvine	CA	1703	M	1:38:14	1:38:10	18	10	M 18-24	7:30
+76	
+C
+Christopher
+Pukszta
+	Irvine	CA	1691	M	1:38:14	1:38:11	17	23	M 13-17	7:30
+77	
+C
+Christof
+Schlitt
+	Irvine	CA	1472	M	1:38:19	1:38:11	34	7	M 30-34	7:30
+78	
+J
+Jonathan
+Lane
+	Irvine	CA	1274	M	1:38:23	1:38:15	16	24	M 13-17	7:30
+79	
+R
+Rhoda
+Shaver
+	Irvine	CA	1480	F	1:38:30	1:38:22	47	2	F 45-49	7:31
+80	
+K
+Kirk
+Tabb
+	Tustin	CA	1846	M	1:38:25	1:38:23	17	25	M 13-17	7:31
+81	
+Z
+Zhuangrong
+Xu
+	Irvine	CA	1887	M	1:38:44	1:38:37	46	6	M 45-49	7:32
+82	
+K
+Kazuhiro
+Maeda
+	Irvine	CA	1319	M	1:38:44	1:38:39	36	5	M 35-39	7:32
+83	
+M
+Michael
+Tang
+	Irvine	CA	1509	M	1:38:52	1:38:49	48	7	M 45-49	7:33
+84	
+M
+Muxuan
+Sun
+	Irvine	CA	1501	M	1:39:00	1:38:53	27	4	M 25-29	7:33
+85	
+G
+Gil
+Moverman
+	Woodland Hills		1914	M	1:39:15	1:38:57	49	8	M 45-49	7:33
+86	
+R
+Ronald
+Cervantes
+	Anaheim	CA	1071	M	1:39:23	1:38:57	25	5	M 25-29	7:33
+87	
+B
+Bianca
+Moreno
+	Irvine	CA	1886	F	1:39:06	1:39:05	23	2	F 18-24	7:34
+88	
+S
+Steven
+Park
+	Irvine	CA	1739	M	1:39:43	1:39:22	43	8	M 40-44	7:35
+89	
+S
+Stephanie
+Aguirre
+	Los Angeles	CA	1006	F	1:39:30	1:39:25	30	4	F 30-34	7:35
+90	
+S
+Sandra
+Wendler
+	Laguna Niguel	CA	1819	F	1:39:31	1:39:28	52	1	F 50-54	7:36
+91	
+D
+Doug
+McKay
+	Fullerton	CA	1757	M	1:39:33	1:39:31	52	4	M 50-54	7:36
+92	
+D
+Donald
+Taggart
+	Palo Alto	CA	1504	M	1:39:39	1:39:38	17	26	M 13-17	7:36
+93	
+J
+Jacob
+Wilkie
+	San Clemente	CA	1779	M	1:39:52	1:39:46	22	11	M 18-24	7:37
+94	
+D
+Davea
+Carr
+	Fountain Valley	CA	1066	F	1:39:51	1:39:46	53	2	F 50-54	7:37
+95	
+R
+Richard
+Tran
+	Costa Mesa	CA	1737	M	1:40:06	1:39:51	31	8	M 30-34	7:37
+96	
+A
+Arad
+Margalit
+	Castro Valley	CA	1329	M	1:40:08	1:39:54	24	12	M 18-24	7:38
+97	
+A
+Alfonso
+Tovar
+	Long Beach	CA	1625	M	1:46:20	1:39:57	17	27	M 13-17	7:38
+98	
+M
+Michael
+Parker
+	Temecula	CA	1394	M	1:40:09	1:40:00	61	2	M 60-64	7:38
+99	
+W
+Wayne
+Takeda
+	Gardena	CA	1506	M	1:40:33	1:40:13	47	9	M 45-49	7:39
+100	
+T
+Tom
+Hsu
+	Santa Clara	CA	1214	M	1:41:11	1:40:29	42	9	M 40-44	7:40
+101	
+R
+Ran
+Liu
+	Irvine	CA	1298	F	1:40:38	1:40:32	53	3	F 50-54	7:40
+102	
+C
+Christopher
+Llamas
+	Valencia	CA	1299	M	1:41:07	1:40:42	17	28	M 13-17	7:41
+103	
+J
+Justin
+Babineaux
+	Austin	TX	1029	M	1:41:07	1:40:47	31	9	M 30-34	7:42
+104	
+B
+Bryan
+Santin
+	Irvine	CA	1690	M	1:40:58	1:40:54	31	10	M 30-34	7:42
+105	
+P
+Pete
+Tulumba
+	Austin	TX	1522	M	1:41:17	1:40:57	31	11	M 30-34	7:42
+106	
+J
+James
+Guyton
+	Fontana	CA	1888	M	1:41:34	1:41:03	34	12	M 30-34	7:43
+107	
+W
+Weston
+Parsel
+	Carlsbad	CA	1396	M	1:41:31	1:41:03	30	13	M 30-34	7:43
+108	
+M
+Matthew
+Villasenor
+	Temple City	CA	1548	M	1:41:08	1:41:04	31	14	M 30-34	7:43
+109	
+H
+Hayden
+Parker
+			1806	M	1:41:11	1:41:11	15	29	M 13-17	7:43
+110	
+S
+Shuhao
+Cao
+	Irvine	CA	1771	M	1:41:18	1:41:12	33	15	M 30-34	7:44
+111	
+C
+Craig
+Kember
+	Irvine	CA	1858	M	1:41:21	1:41:15	44	10	M 40-44	7:44
+112	
+O
+Oliver
+Corcoran
+	Irvine	CA	1622	M	1:41:22	1:41:16	15	30	M 13-17	7:44
+113	
+T
+Te-Wen
+Chiu
+	Mission Viejo	CA	1086	M	1:41:37	1:41:26	40	11	M 40-44	7:45
+114	
+M
+Michael
+Gonzalez
+	Los Angeles	CA	1845	M	1:41:48	1:41:41	30	16	M 30-34	7:46
+115	
+R
+Raymond
+Rojas
+			1807	M	1:41:42	1:41:42	18	13	M 18-24	7:46
+116	
+A
+Andrew
+Boyd
+	Irvine	CA	1889	M	1:42:02	1:41:57	43	12	M 40-44	7:47
+117	
+M
+Michael
+Hays
+	Manhattan Beach	CA	1678	M	1:42:45	1:42:32	48	10	M 45-49	7:50
+118	
+G
+Greg
+Beck
+	Laguna Hills	CA	1857	M	1:42:59	1:42:50	63	3	M 60-64	7:51
+119	
+M
+Miranda
+Jimenez
+	Palo Alto	CA	1892	F	1:43:03	1:42:51	16	1	F 13-17	7:51
+120	
+K
+Kai
+Douglas
+	Palo Alto	CA	1126	F	1:43:03	1:42:51	16	2	F 13-17	7:51
+121	
+G
+Gary
+Urrutia
+	Aliso Viejo	CA	1529	M	1:43:03	1:42:52	32	17	M 30-34	7:51
+122	
+C
+Christopher
+Spiker
+	Valencia	CA	1610	M	1:43:32	1:43:00	14	31	M 13-17	7:52
+123	
+S
+Stewart
+Dinsdale
+	Foothill Ranch	CA	1123	M	1:43:21	1:43:15	51	5	M 50-54	7:53
+124	
+M
+Michelle
+Dinsdale
+	Foothill Ranch	CA	1122	F	1:43:21	1:43:15	49	3	F 45-49	7:53
+125	
+C
+Chelsea
+Barilli
+	Newport Beach	CA	1035	F	1:44:30	1:43:32	27	2	F 25-29	7:54
+126	
+R
+Ron
+Bijlsma
+	El Segundo	CA	1842	M	1:43:42	1:43:34	55	7	M 55-59	7:54
+127	
+K
+Kevin
+Kuhlman
+	Valencia	CA	1268	M	1:44:10	1:43:38	17	32	M 13-17	7:55
+128	
+M
+Mike
+Dietz
+	Laguna Niguel	CA	1708	M	1:43:50	1:43:42	55	8	M 55-59	7:55
+129	
+C
+Carlos
+Guevara
+	Santa Ana	CA	1854	M	1:43:58	1:43:49	40	13	M 40-44	7:55
+130	
+C
+Carrie
+Ohm
+	Irvine	CA	1385	F	1:44:15	1:44:03	45	4	F 45-49	7:57
+131	
+A
+Alden
+Oreck
+	Venice	CA	1606	M	1:44:49	1:44:24	40	14	M 40-44	7:58
+132	
+H
+Hiroshi
+Kobayashi
+	Aliso Viejo	CA	1254	M	1:44:41	1:44:25	41	15	M 40-44	7:58
+133	
+D
+Drew
+Maldonado
+			1805	M	1:44:30	1:44:28	15	33	M 13-17	7:58
+134	
+L
+Lily
+Keeler
+			1810	F	1:44:30	1:44:28	15	3	F 13-17	7:58
+135	
+J
+Jordan
+Beardslee
+	Newport Beach	CA	1655	F	1:44:47	1:44:39	35	2	F 35-39	7:59
+136	
+A
+Alex
+Shih
+	Irvine	CA	1482	M	1:45:00	1:44:49	30	18	M 30-34	8:00
+137	
+K
+Katie
+Willis
+	Santa Ana	CA	1571	F	1:45:06	1:44:51	22	3	F 18-24	8:00
+138	
+M
+Maggie
+McClain
+	Wexford	PA	1333	F	1:45:17	1:45:00	22	4	F 18-24	8:01
+139	
+J
+Joseph
+Gonzales
+	Corona	CA	1175	M	1:47:11	1:45:05	30	19	M 30-34	8:01
+140	
+C
+Carlos
+Tarazaga
+	Irvine	CA	1510	M	1:45:32	1:45:20	43	16	M 40-44	8:02
+141	
+F
+Frank
+Glynn
+	El Segundo	CA	1172	M	1:45:43	1:45:37	59	9	M 55-59	8:04
+142	
+C
+Charles
+Murray
+	Irvine	CA	1912	M	1:45:46	1:45:41	56	10	M 55-59	8:04
+143	
+J
+Jack
+Nunn
+	Manhattan Beach	CA	1719	M	1:46:08	1:45:47	39	6	M 35-39	8:05
+144	
+V
+Vincent
+Valenzuela
+	Lake Forest	CA	1534	M	1:45:57	1:45:49	42	17	M 40-44	8:05
+145	
+A
+Aimee
+Gonzales
+	Corona	CA	1174	F	1:48:14	1:46:08	30	5	F 30-34	8:06
+146	
+J
+Josie
+Lang
+	Yorba Linda	CA	1916	F	1:46:13	1:46:08	53	4	F 50-54	8:06
+147	
+J
+Jennifer
+Evans-Wong
+	Cardiff	CA	1688	F	1:46:40	1:46:30	43	2	F 40-44	8:08
+148	
+T
+Tom
+Han
+	Brea	CA	1193	M	1:46:40	1:46:35	49	11	M 45-49	8:08
+149	
+J
+Jozef
+Matyasek
+	Irvine	CA	1905	M	1:46:48	1:46:38	39	7	M 35-39	8:08
+150	
+C
+Caroline
+Walton
+	Irvine	CA	1558	F	1:46:54	1:46:41	24	5	F 18-24	8:09
+151	
+M
+Mark
+Vega
+	Orange	CA	1712	M	1:47:35	1:46:45	25	6	M 25-29	8:09
+152	
+K
+Kaylee
+Yang
+	Los Angeles	CA	1588	F	1:47:02	1:46:48	26	3	F 25-29	8:09
+153	
+J
+Jorge
+Pineda
+	Aliso Viejo	CA	1781	M	1:47:08	1:46:50	45	12	M 45-49	8:09
+154	
+K
+Kai
+Xie
+	Irvine	CA	1586	M	1:47:12	1:47:05	30	20	M 30-34	8:10
+155	
+N
+Nathan
+Kopay
+	Hermosa Beach	CA	1261	M	1:48:14	1:47:05	34	21	M 30-34	8:10
+156	
+B
+Beth
+Townsend
+	Santa Clarita	CA	1643	F	1:47:50	1:47:10	42	3	F 40-44	8:11
+157	
+I
+Ivan
+Ozerets
+	Mission Viejo	CA	1818	M	1:47:18	1:47:13	19	14	M 18-24	8:11
+158	
+G
+Glieb
+Vasenko
+	Irvine	CA	1769	M	1:47:18	1:47:13	18	15	M 18-24	8:11
+159	
+B
+Breanna
+O'Neil
+	Fountain Valley	CA	1383	F	1:47:19	1:47:13	25	4	F 25-29	8:11
+160	
+D
+David
+Toberty
+	Irvine	CA	1599	M	1:48:00	1:47:42	59	11	M 55-59	8:13
+161	
+D
+Dana
+Joanou
+	Irvine	CA	1904	M	1:48:00	1:47:43	60	4	M 60-64	8:13
+162	
+J
+James
+Curtis
+	Los Angeles	CA	1692	M	1:48:10	1:47:47	40	18	M 40-44	8:14
+163	
+W
+William
+Lam
+	Covina	CA	1820	M	1:48:19	1:47:53	24	16	M 18-24	8:14
+164	
+K
+Kurt
+Ebner
+	Ladera Ranch	CA	1128	M	1:48:18	1:48:07	51	6	M 50-54	8:15
+165	
+N
+Neal
+Tyner
+	Corona	CA	1666	M	1:48:42	1:48:09	36	8	M 35-39	8:15
+166	
+B
+Bill
+Coral
+	Corona	CA	1102	M	1:48:44	1:48:26	47	13	M 45-49	8:17
+167	
+E
+Elaine
+Rutkowski
+	Laguna Niguel	CA	1456	F	1:48:37	1:48:30	63	1	F 60-64	8:17
+168	
+K
+Krista
+Casey
+	Kaysville	UT	1814	F	1:48:44	1:48:36	31	6	F 30-34	8:17
+169	
+B
+Billy
+Chedester
+	Lemoore	CA	1080	M	1:48:45	1:48:37	19	17	M 18-24	8:17
+170	
+S
+Spencer
+Denney
+	Lemoore	CA	1117	M	1:48:45	1:48:37	18	18	M 18-24	8:17
+171	
+F
+Fred
+Winkler
+	Victorville	CA	1671	M	1:48:53	1:48:38	58	12	M 55-59	8:18
+172	
+J
+Jackie
+Hill
+	Corona	CA	1765	F	1:48:42	1:48:38	39	3	F 35-39	8:18
+173	
+T
+Thanh
+Nguyen
+	Irvine	CA	1829	M	1:52:25	1:48:38	44	19	M 40-44	8:18
+174	
+E
+Eric
+Nelson
+	Fullerton	CA	1825	M	2:03:52	1:48:53	32	22	M 30-34	8:19
+175	
+N
+Nate
+Rodriguez
+	Lake Forest	CA	1642	M	1:50:06	1:49:00	30	23	M 30-34	8:19
+176	
+D
+Daniel
+Hill
+	Yorba Linda	CA	1851	M	1:49:21	1:49:01	31	24	M 30-34	8:19
+177	
+A
+Alma
+Penaranda
+	Fullerton	CA	1400	F	1:49:21	1:49:03	41	4	F 40-44	8:19
+178	
+N
+Nicolas
+Bello
+			1799	M	1:49:08	1:49:06	15	34	M 13-17	8:20
+179	
+Z
+Zoe
+Douglas
+	Palo Alto	CA	1127	F	1:49:28	1:49:07	17	4	F 13-17	8:20
+180	
+A
+Amir
+Dorosti
+	Cerritos	CA	1124	M	1:49:45	1:49:20	36	9	M 35-39	8:21
+181	
+P
+Paula Andreea
+Tufis
+	Bucharest		1521	F	1:49:36	1:49:23	41	5	F 40-44	8:21
+182	
+A
+Andrew
+Reikes
+	Irvine	CA	1680	M	1:49:48	1:49:36	55	13	M 55-59	8:22
+183	
+K
+Kristy
+Li
+	Chino Hills	CA	1291	F	1:50:15	1:49:36	30	7	F 30-34	8:22
+184	
+T
+Tim
+Fresques
+	Orange	CA	1153	M	1:49:55	1:49:43	38	10	M 35-39	8:23
+185	
+L
+Lisa
+O'Connor
+	San Juan Capistrano	CA	1381	F	1:50:07	1:49:50	50	5	F 50-54	8:23
+186	
+M
+Michael
+Bertram
+	Lake Forest	CA	1750	M	1:49:59	1:49:52	50	7	M 50-54	8:23
+187	
+A
+Ashish
+Gadhia
+	Irvine	CA	1847	M	1:50:25	1:50:04	45	14	M 45-49	8:24
+188	
+J
+Jason
+Perkins
+	Buena Park	CA	1401	M	1:50:12	1:50:04	48	15	M 45-49	8:24
+189	
+Y
+Yogi
+Bachhu
+	Irvine	CA	1030	M	1:50:14	1:50:06	17	35	M 13-17	8:24
+190	
+P
+Pamela
+Galambos
+	Irvine	CA	1752	F	1:50:15	1:50:08	45	5	F 45-49	8:24
+191	
+V
+Vidyadhar
+Vuppula
+	Irvine	CA	1555	M	1:50:14	1:50:09	44	20	M 40-44	8:25
+192	
+S
+Stanford
+Gertler
+	Villa Park	CA	1167	M	1:50:31	1:50:21	66	1	M 65-69	8:25
+193	
+N
+Nathaniel
+Katz
+			1803	M	1:50:38	1:50:37	14	36	M 13-17	8:27
+194	
+J
+Jack
+Liu
+	Glendora	CA	1704	M	1:50:44	1:50:39	42	21	M 40-44	8:27
+195	
+J
+Jeff
+Jones
+	Irvine	CA	1228	M	1:51:22	1:50:41	39	11	M 35-39	8:27
+196	
+O
+Oscar
+Oo
+	Irvine	CA	1882	M	1:51:12	1:50:41	40	22	M 40-44	8:27
+197	
+W
+Wyman
+Lai
+	Irvine	CA	1270	M	1:50:54	1:50:46	57	14	M 55-59	8:27
+198	
+E
+Erren
+Oleary
+	Irvine	CA	1388	M	1:51:33	1:51:03	44	23	M 40-44	8:29
+199	
+A
+Alison
+Rebecca
+	Santa Ana	CA	1432	F	1:51:39	1:51:09	29	5	F 25-29	8:29
+200	
+M
+Mark
+Brockett
+	Covina	CA	1056	M	1:51:56	1:51:39	36	12	M 35-39	8:31
+201	
+E
+Ed
+Sabalburo
+	Anaheim	CA	1458	M	1:52:06	1:51:41	38	13	M 35-39	8:32
+202	
+C
+Charles
+Victorio
+	Irvine	CA	1543	M	1:52:11	1:51:41	13	37	M 13-17	8:32
+203	
+R
+Rigoberto
+Aladuena
+	Valencia	CA	1007	M	1:52:31	1:52:05	18	19	M 18-24	8:33
+204	
+M
+Michael
+Gustafson
+	Irvine	CA	1190	M	1:52:31	1:52:17	38	14	M 35-39	8:34
+205	
+C
+Chris
+Vu
+	Irvine	CA	1554	M	1:52:51	1:52:24	48	16	M 45-49	8:35
+206	
+M
+Megan
+Oleary
+	Yorba Linda	CA	1389	F	1:52:46	1:52:26	24	6	F 18-24	8:35
+207	
+L
+Lisa
+O'Leary
+	Yorba Linda	CA	1382	F	1:52:46	1:52:27	54	6	F 50-54	8:35
+208	
+J
+Jennifer
+Lutes
+	Carlsbad	CA	1773	F	1:52:48	1:52:31	41	6	F 40-44	8:35
+209	
+K
+Krishna
+Prasad
+	Irvine	CA	1850	M	1:52:53	1:52:32	51	8	M 50-54	8:35
+210	
+R
+Richard
+Victorio
+	Irvine	CA	1544	M	1:53:03	1:52:33	44	24	M 40-44	8:35
+211	
+E
+Elizabeth
+Reed
+	Irvine	CA	1725	F	1:52:49	1:52:37	50	7	F 50-54	8:36
+212	
+M
+Martha
+Uriarte
+	Mission Viejo	CA	1527	F	1:55:07	1:52:41	37	4	F 35-39	8:36
+213	
+M
+Michael
+Pei
+	Irvine	CA	1399	M	1:53:00	1:52:44	34	25	M 30-34	8:36
+214	
+S
+Sarah
+Williams
+	La Jolla	CA	1841	F	1:52:59	1:52:45	44	7	F 40-44	8:36
+215	
+M
+Monica
+Olivas
+	Pico Rivera	CA	1834	F	1:55:12	1:52:46	34	8	F 30-34	8:36
+216	
+C
+Chanel
+Walker
+	South Lake Tahoe	CA	1556	F	1:53:13	1:52:56	29	6	F 25-29	8:37
+217	
+M
+Meghan
+Burk
+	Zephyr Cove	NV	1060	F	1:53:13	1:52:56	32	9	F 30-34	8:37
+218	
+A
+Anshika
+Rakesh
+	Irvine	CA	1427	F	1:53:26	1:53:07	43	8	F 40-44	8:38
+219	
+J
+Jay
+Lochhead
+	Irvine	CA	1300	M	1:53:35	1:53:08	55	15	M 55-59	8:38
+220	
+T
+Tina
+Nguyen
+	Hermosa Beach	CA	1376	F	1:53:25	1:53:14	36	5	F 35-39	8:39
+221	
+A
+Amy
+El-Akabawi
+	Irvine	CA	1131	F	1:53:44	1:53:15	41	9	F 40-44	8:39
+222	
+M
+May
+Chih
+	Mission Viejo	CA	1844	F	1:53:27	1:53:18	41	10	F 40-44	8:39
+223	
+J
+Joanna
+Pallo
+	Laguna Hills	CA	1393	F	1:53:29	1:53:21	35	6	F 35-39	8:39
+224	
+P
+Peter
+Sachs
+	Denver	CO	1459	M	1:53:48	1:53:21	61	5	M 60-64	8:39
+225	
+F
+Frank
+Feng
+	Anaheim	CA	1728	M	1:53:45	1:53:27	54	9	M 50-54	8:40
+226	
+C
+Chad
+Okuma
+	Irvine	CA	1386	M	1:53:50	1:53:39	37	15	M 35-39	8:41
+227	
+K
+Kevin
+Stout
+	Irvine	CA	1498	M	1:53:50	1:53:40	35	16	M 35-39	8:41
+228	
+D
+Danielle
+Marsh
+	Stevenson Ranch	CA	1749	F	1:54:00	1:53:46	34	10	F 30-34	8:41
+229	
+W
+Wayne
+Lee
+	Valencia	CA	1696	M	1:54:00	1:53:46	50	10	M 50-54	8:41
+230	
+K
+Kevin
+Kim
+	Porter Ranch	CA	1250	M	1:54:32	1:53:48	38	17	M 35-39	8:41
+231	
+C
+Crystal
+Martinez
+	Long Beach	CA	1636	F	1:54:11	1:53:48	17	5	F 13-17	8:41
+232	
+A
+Alina
+Forstner
+	Irvine	CA	1152	F	1:54:40	1:54:01	23	7	F 18-24	8:42
+233	
+S
+Shelly
+Cordova
+	Mission Viejo	CA	1104	F	1:54:21	1:54:03	44	11	F 40-44	8:42
+234	
+A
+Annapurna
+Kennedy
+	Carlsbad	CA	1241	F	1:54:37	1:54:08	31	11	F 30-34	8:43
+235	
+O
+Omid
+Tehranirad
+	Anaheim	CA	1681	M	1:54:37	1:54:13	37	18	M 35-39	8:43
+236	
+M
+Maki
+Lougee
+	Irvine	CA	1909	F	1:54:28	1:54:15	42	12	F 40-44	8:43
+237	
+J
+Jeff
+Skaggs
+	Lake Forest	CA	1487	M	1:54:42	1:54:22	53	11	M 50-54	8:44
+238
+	
+Carlos
+Facio
+	Anaheim	CA	1839	M	1:54:33	1:54:23	42	25	M 40-44	8:44
+239	
+M
+Michelle
+Ren
+	Newport Coast	CA	1435	F	1:54:44	1:54:25	25	7	F 25-29	8:44
+240	
+D
+Dennis
+Evans
+	Denver	CO	1137	M	1:54:50	1:54:26	33	26	M 30-34	8:44
+241	
+F
+Florencio
+De La Rosa
+	Costa Mesa	CA	1114	M	1:54:36	1:54:33	61	6	M 60-64	8:45
+242	
+S
+Solomon
+Shacter
+	Costa Mesa	CA	1816	M	1:54:47	1:54:34	49	17	M 45-49	8:45
+243	
+C
+Cecile
+Villapando
+	Huntington Beach	CA	1891	F	1:55:04	1:54:35	31	12	F 30-34	8:45
+244	
+G
+Grayson
+Galbraith
+	Irvine	CA	1159	F	1:55:03	1:54:40	22	8	F 18-24	8:45
+245	
+R
+Rich
+Green
+	Los Angeles	CA	1183	M	1:55:45	1:54:44	59	16	M 55-59	8:45
+246	
+C
+Ciprian
+Albu
+	Anaheim	CA	1008	M	1:55:30	1:54:46	40	26	M 40-44	8:46
+247	
+A
+Ashlie
+Berg
+	Ladera Ranch		1040	F	1:55:51	1:54:52	34	13	F 30-34	8:46
+248	
+S
+Steve
+Paliska
+	Foothill Ranch	CA	1770	M	1:55:15	1:54:54	32	27	M 30-34	8:46
+249	
+W
+Wendy
+Jennings
+	Edwards	CO	1664	F	1:55:07	1:54:55	52	8	F 50-54	8:46
+250	
+S
+Sandra
+Ponce
+	Irvine	CA	1415	F	1:55:28	1:54:57	43	13	F 40-44	8:46
+251	
+S
+Simardeep
+Gawra
+	Valencia	CA	1163	M	1:55:33	1:55:00	17	38	M 13-17	8:47
+252	
+R
+Robert
+Manon
+	Chino	CA	1326	M	1:56:08	1:55:02	49	18	M 45-49	8:47
+253	
+K
+Karol
+Yankowski
+	Hacienda Heights	CA	1774	M	1:55:25	1:55:11	51	12	M 50-54	8:48
+254	
+J
+Jorge
+Beltran
+	Ontario	CA	1039	M	1:55:28	1:55:12	47	19	M 45-49	8:48
+255	
+S
+Sufi
+Kaur
+	Palo Alto	CA	1881	F	1:55:35	1:55:13	17	6	F 13-17	8:48
+256	
+J
+Jessica
+Jackson
+	Poway	CA	1225	F	1:56:12	1:55:15	25	8	F 25-29	8:48
+257	
+T
+Tawn
+Lemke
+	Murrieta	CA	1619	F	1:55:29	1:55:18	41	14	F 40-44	8:48
+258	
+C
+Charlie
+Breault
+	Valencia	CA	1055	M	1:56:19	1:55:22	17	39	M 13-17	8:48
+259	
+C
+Chris
+Phillips
+	Irvine	CA	1702	M	1:55:38	1:55:23	47	20	M 45-49	8:48
+260	
+H
+Hayley
+Brown
+	Carlsbad	CA	1741	F	1:56:07	1:55:25	24	9	F 18-24	8:49
+261	
+O
+Olivia
+Hovey
+	Saint George	UT	1210	F	1:55:57	1:55:26	25	9	F 25-29	8:49
+262	
+J
+Joseph
+Rusche
+	Canyon Country	CA	1453	M	1:55:58	1:55:36	48	21	M 45-49	8:49
+263	
+L
+Luis
+Arana
+	Valencia	CA	1019	M	1:56:01	1:55:37	17	40	M 13-17	8:50
+264	
+J
+Jaime
+Shapiro
+	Costa Mesa	CA	1477	F	1:55:55	1:55:37	36	7	F 35-39	8:50
+265	
+K
+Kayla
+Uemura
+	Orange	CA	1524	F	1:56:03	1:55:38	24	10	F 18-24	8:50
+266	
+K
+Khanh
+Grady
+	Rancho Santa Margarita	CA	1181	F	1:55:56	1:55:40	46	6	F 45-49	8:50
+267	
+R
+Richard
+Rushton
+	Rancho Santa Margarita	CA	1455	M	1:56:21	1:55:45	49	22	M 45-49	8:50
+268	
+D
+David
+Rutkowski
+	Laguna Niguel	CA	1701	M	1:56:02	1:55:47	66	2	M 65-69	8:50
+269	
+A
+Anita
+Chou
+	Irvine	CA	1089	F	1:56:19	1:55:48	43	15	F 40-44	8:50
+270	
+C
+Christopher
+Lee
+	Newport Beach	CA	1884	M	1:56:37	1:55:58	40	27	M 40-44	8:51
+271	
+D
+David
+Roberts
+	Corona Del Mar	CA	1908	M	1:56:13	1:55:58	45	23	M 45-49	8:51
+272	
+G
+Gregor
+Horspool
+	Fullerton	CA	1209	M	1:56:24	1:56:00	45	24	M 45-49	8:51
+273	
+A
+Amanda
+Wasserstrom
+	Ladera Ranch	CA	1564	F	1:56:23	1:56:05	34	14	F 30-34	8:52
+274	
+L
+Lisa
+Delosreyes
+	Long Beach	CA	1115	F	1:56:46	1:56:12	57	1	F 55-59	8:52
+275	
+B
+Brandon
+Joaquin
+	Simi Valley	CA	1686	M	1:56:48	1:56:18	22	20	M 18-24	8:53
+276	
+D
+Daysi
+Aron
+	San Diego	CA	1023	F	1:57:02	1:56:34	35	8	F 35-39	8:54
+277	
+A
+Ana
+Hunt
+	Corona	CA	1762	F	1:56:40	1:56:36	34	15	F 30-34	8:54
+278	
+T
+Tanner
+Scherwinski
+	Anaheim	CA	1471	M	1:56:51	1:56:41	19	21	M 18-24	8:54
+279	
+R
+Ram
+Rao
+	Irvine	CA	1429	M	1:58:01	1:56:42	14	41	M 13-17	8:55
+280	
+J
+Jacqueline
+Luthcke
+	Glenwood	NJ	1751	F	1:57:22	1:56:49	23	11	F 18-24	8:55
+281	
+G
+Greg
+Byers
+	Napa	CA	1759	M	1:57:26	1:57:09	57	17	M 55-59	8:57
+282	
+E
+Elizabeth
+Govin
+	Aliso Viejo	CA	1180	F	1:57:47	1:57:11	32	16	F 30-34	8:57
+283	
+C
+Carl
+Pregozen
+	Valencia	CA	1694	M	1:58:19	1:57:14	54	13	M 50-54	8:57
+284	
+J
+Jessica
+Ruiz
+	Valencia	CA	1668	F	1:58:11	1:57:16	31	17	F 30-34	8:57
+285	
+V
+Victor
+Gambone
+	Laguna Beach	CA	1161	M	1:57:36	1:57:18	69	3	M 65-69	8:57
+286	
+B
+Bud
+Beall
+	Mission Viejo	CA	1895	M	1:57:54	1:57:30	57	18	M 55-59	8:58
+287	
+M
+Michelle
+Mendoza
+	Huntington Beach	CA	1346	F	1:58:23	1:57:39	36	9	F 35-39	8:59
+288	
+J
+Jeff
+Dolder
+	Valencia	CA	1697	M	1:58:40	1:57:44	50	14	M 50-54	8:59
+289	
+T
+Tianyi
+Wang
+	Irvine	CA	1562	M	1:57:57	1:57:50	20	22	M 18-24	9:00
+290	
+B
+Brock
+Railey
+	Yorba Linda	CA	1424	M	1:58:03	1:57:52	20	23	M 18-24	9:00
+291	
+H
+Hector
+Perez
+	Inglewood	CA	1783	M	1:58:04	1:57:55	35	19	M 35-39	9:00
+292	
+E
+Elizabeth
+Larson
+	Irvine	CA	1277	F	1:58:24	1:57:56	40	16	F 40-44	9:00
+293	
+L
+Larry
+Isaacs
+	Laguna Woods	CA	1224	M	1:58:24	1:57:59	67	4	M 65-69	9:00
+294	
+D
+Darrell
+Earnheart
+	Diamond Bar	CA	1710	M	1:59:58	1:58:36	64	7	M 60-64	9:03
+295
+	
+Hamilton
+Blake
+	Mission Viejo	CA	1742	M	1:59:00	1:58:41	55	19	M 55-59	9:04
+296	
+C
+Cathy
+Shargay
+	Irvine	CA	1478	F	1:59:00	1:58:44	60	2	F 60-64	9:04
+297	
+J
+Jennifer
+Friedman
+	San Gabriel	CA	1155	F	1:59:55	1:58:50	28	10	F 25-29	9:04
+298	
+S
+Swapnil
+Kalyankar
+	Irvine	CA	1234	M	1:58:59	1:58:51	33	28	M 30-34	9:04
+299	
+J
+John
+Soss
+	Irvine	CA	1740	M	1:59:15	1:59:02	16	42	M 13-17	9:05
+300	
+B
+Ben
+Loveless
+	Manchester	NH	1826	M	1:59:23	1:59:08	34	29	M 30-34	9:06
+301	
+S
+Susan
+Lange
+	Costa Mesa	CA	1747	F	2:01:07	1:59:19	43	17	F 40-44	9:06
+302	
+B
+Bill
+Wedge
+	Orange	CA	1833	M	1:59:50	1:59:21	53	15	M 50-54	9:07
+303	
+A
+Alya
+Makarem
+	Irvine	CA	1324	F	2:00:14	1:59:32	39	10	F 35-39	9:07
+304	
+S
+Serge
+Panczuk
+	Irvine	CA	1738	M	2:00:22	1:59:54	54	16	M 50-54	9:09
+305	
+D
+Don
+Luke
+	Torrance	CA	1308	M	2:00:16	1:59:54	63	8	M 60-64	9:09
+306	
+B
+Brion
+Talley
+	Trabuco Canyon	CA	1508	M	2:00:11	1:59:55	57	20	M 55-59	9:09
+307	
+K
+Kevin
+Cyprian
+	Aliso Viejo	CA	1721	M	2:00:45	2:00:06	49	25	M 45-49	9:10
+308	
+D
+Dennis
+Chang
+	Anaheim	CA	1674	M	2:00:22	2:00:13	66	5	M 65-69	9:11
+309	
+E
+Elizabeth
+Chavis
+	Irvine	CA	1079	F	2:01:13	2:00:32	32	18	F 30-34	9:12
+310	
+O
+Olivia
+Roselli
+			1813	F	2:00:41	2:00:33	15	7	F 13-17	9:12
+311	
+B
+Barbara
+Eckes
+	Laguna Beach	CA	1129	F	2:00:49	2:00:36	63	3	F 60-64	9:12
+312	
+K
+Katie
+Gomez
+	Santa Fe Springs	CA	1173	F	2:01:32	2:00:40	38	11	F 35-39	9:13
+313	
+K
+Kirk
+Vansickle
+	Temecula	CA	1654	M	2:01:12	2:00:56	44	28	M 40-44	9:14
+314	
+K
+Kim
+Vansickle
+	Temecula	CA	1653	F	2:01:12	2:00:58	48	7	F 45-49	9:14
+315	
+N
+Norbert
+Szabo
+	Foothill Ranch	CA	1630	M	2:02:12	2:01:16	41	29	M 40-44	9:15
+316	
+S
+Samea
+Derrick
+	Valencia	CA	1119	F	2:02:01	2:01:16	15	8	F 13-17	9:15
+317	
+T
+Tony
+Maalouf
+	Huntington Beach	CA	1316	M	2:02:35	2:01:34	62	9	M 60-64	9:17
+318	
+K
+Kollin
+Havens
+	Edmonds	WA	1200	M	2:02:40	2:01:36	31	30	M 30-34	9:17
+319	
+M
+Mai
+Khuong
+	San Diego	CA	1246	F	2:02:01	2:01:36	30	19	F 30-34	9:17
+320	
+E
+Eric
+Keller
+	Huntington Beach	CA	1240	M	2:02:01	2:01:38	45	26	M 45-49	9:17
+321	
+H
+Hanh
+Lam
+	Irvine	CA	1272	M	2:02:27	2:01:40	31	31	M 30-34	9:17
+322	
+J
+Janie
+Jintanarumit
+	Buena Park	CA	1227	F	2:02:27	2:01:40	33	20	F 30-34	9:17
+323	
+M
+Mark
+Deppe
+	Irvine	CA	1118	M	2:01:59	2:01:49	37	20	M 35-39	9:18
+324	
+A
+Azzam
+Yasseen
+	Irvine	CA	1590	M	2:02:18	2:01:58	48	27	M 45-49	9:19
+325	
+E
+Eric
+Eismann
+	Long Beach	CA	1687	M	2:02:46	2:02:05	58	21	M 55-59	9:19
+326	
+R
+Rachel
+Toberty
+	Irvine	CA	1782	F	2:02:30	2:02:12	30	21	F 30-34	9:20
+327	
+I
+Ilya
+Sandoval
+	San Diego	CA	1898	F	2:02:59	2:02:21	43	18	F 40-44	9:20
+328	
+J
+Jim
+Millen
+	Irvine	CA	1348	M	2:03:03	2:02:34	38	21	M 35-39	9:21
+329	
+M
+Matt
+Lanham
+	Orange	CA	1627	M	2:03:11	2:02:38	32	32	M 30-34	9:22
+330	
+K
+Karine
+Martins
+	Irvine	CA	1777	F	2:03:26	2:02:49	43	19	F 40-44	9:23
+331	
+M
+Maya
+Wilson
+	Palo Alto	CA	1573	F	2:03:20	2:02:59	18	12	F 18-24	9:23
+332	
+J
+Jack
+Archey
+	Playa Del Rey	CA	1020	M	2:03:23	2:03:00	48	28	M 45-49	9:23
+333	
+A
+Alia
+Tomaszewski
+	Foothill Ranch	CA	1601	F	2:03:40	2:03:02	33	22	F 30-34	9:24
+334	
+H
+Heike
+Rodriguez
+	San Diego	CA	1446	F	2:03:29	2:03:04	55	2	F 55-59	9:24
+335	
+M
+Michael
+McAuliffe
+	Costa Mesa	CA	1853	M	2:03:39	2:03:07	55	22	M 55-59	9:24
+336	
+S
+Sandra
+Del Cid
+	Long Beach	CA	1822	F	2:04:10	2:03:31	37	12	F 35-39	9:26
+337	
+K
+Karen
+Wu
+	Rancho Cucamonga	CA	1583	F	2:03:48	2:03:33	44	20	F 40-44	9:26
+338	
+E
+Emily
+Taira
+	Irvine	CA	1505	F	2:03:54	2:03:36	39	13	F 35-39	9:26
+339	
+K
+Kelly
+Stone
+	Cohasset	MA	1649	F	2:06:27	2:03:41	21	13	F 18-24	9:26
+340	
+D
+David
+Anderson
+	Irvine	CA	1729	M	2:03:56	2:03:45	56	23	M 55-59	9:27
+341	
+S
+Scott
+Aultman
+	Yorba Linda	CA	1027	M	2:05:00	2:03:54	37	22	M 35-39	9:27
+342	
+B
+Bridget
+Forbes
+	San Francisco	CA	1149	F	2:04:20	2:03:57	26	11	F 25-29	9:28
+343	
+F
+Frank
+Lozier
+	Paramount	CA	1305	M	2:04:45	2:04:03	42	30	M 40-44	9:28
+344	
+J
+Joshua
+Hernandez
+	Redlands	CA	1204	M	2:05:05	2:04:34	19	24	M 18-24	9:31
+345	
+E
+Eddie
+Soto
+	Long Beach	CA	1787	M	2:05:06	2:04:42	17	43	M 13-17	9:31
+346	
+K
+Kelly
+Soldati
+	Irvine	CA	1489	F	2:05:34	2:04:44	34	23	F 30-34	9:31
+347	
+O
+Olivia
+Hart
+	Los Angeles		1197	F	2:05:41	2:04:45	19	14	F 18-24	9:31
+348	
+R
+Rydell
+Rabor
+	San Diego	CA	1682	M	2:05:17	2:04:50	43	31	M 40-44	9:32
+349	
+E
+Erika
+Kennedy
+	Dana Point	CA	1663	F	2:05:43	2:04:52	40	21	F 40-44	9:32
+350	
+A
+Amanda
+McElroy
+	Anaheim	CA	1338	F	2:05:22	2:04:54	28	12	F 25-29	9:32
+351	
+A
+Alysha
+Mahunik
+	College Station	TX	1322	F	2:05:14	2:04:57	31	24	F 30-34	9:32
+352	
+E
+Ernie
+Camacho
+	Running Springs	CA	1062	M	2:06:13	2:05:00	54	17	M 50-54	9:33
+353	
+D
+Danny
+Valdez
+	Irvine	CA	1533	M	2:05:29	2:05:01	31	33	M 30-34	9:33
+354	
+L
+Liza
+Greenberg
+	Brighton	MA	1184	F	2:05:39	2:05:05	25	13	F 25-29	9:33
+355	
+M
+Micaela
+Mone
+	Brighton	MA	1352	F	2:05:40	2:05:05	25	14	F 25-29	9:33
+356	
+S
+Shannon
+Lane
+	Inglewood	CA	1275	F	2:05:35	2:05:06	29	15	F 25-29	9:33
+357	
+C
+Christine
+Aguilar
+	Irvine	CA	1004	F	2:05:19	2:05:08	37	14	F 35-39	9:33
+358	
+D
+Darwin
+Cheng
+	Irvine	CA	1083	M	2:05:49	2:05:22	47	29	M 45-49	9:34
+359	
+K
+Kelly
+Vanderwall
+	Rochester	NY	1536	F	2:06:03	2:05:31	21	15	F 18-24	9:35
+360	
+S
+Sherry
+Mahoney
+	Palm Desert	CA	1321	F	2:06:39	2:05:33	54	9	F 50-54	9:35
+361	
+A
+Andrew
+Guarni
+	Corona Del Mar	CA	1187	M	2:06:17	2:05:38	57	24	M 55-59	9:35
+362	
+M
+Michael
+Krug
+	Tustin	CA	1266	M	2:06:17	2:05:38	40	32	M 40-44	9:35
+363	
+P
+Prem
+Rimal
+	Irvine	CA	1440	M	2:06:20	2:05:54	51	18	M 50-54	9:37
+364	
+G
+Gary
+Regalado
+	Santa Ana	CA	1434	M	2:06:45	2:05:55	55	25	M 55-59	9:37
+365	
+T
+Trang
+Huynh
+	Aliso Viejo	CA	1216	F	2:06:37	2:05:57	43	22	F 40-44	9:37
+366	
+H
+Hauns
+Anderson
+	Irvine	CA	1016	M	2:07:09	2:06:05	38	23	M 35-39	9:37
+367	
+R
+Rebecca
+Lee
+	Redlands	CA	1284	F	2:06:40	2:06:08	42	23	F 40-44	9:38
+368	
+K
+Kristin
+Briley
+	Menifee	CA	1711	F	2:06:21	2:06:10	37	15	F 35-39	9:38
+369	
+A
+Alyssa
+Zarlengo
+	Irvine	CA	1595	F	2:06:50	2:06:16	37	16	F 35-39	9:38
+370	
+J
+Jason
+Aguilar
+	Irvine	CA	1005	M	2:06:37	2:06:26	44	33	M 40-44	9:39
+371	
+M
+Molly
+Fults
+	Garden Grove	CA	1156	F	2:07:18	2:06:26	45	8	F 45-49	9:39
+372	
+A
+Angelica
+Seifert
+	Valencia	CA	1609	F	2:07:29	2:06:32	17	9	F 13-17	9:40
+373	
+R
+Robert
+Freeman
+	Tustin	CA	1726	M	2:07:18	2:06:35	55	26	M 55-59	9:40
+374	
+I
+Ivon
+Mostajo
+	Lake Forest	CA	1361	F	2:07:24	2:06:38	40	24	F 40-44	9:40
+375	
+C
+Celina
+Georgeadis
+	Los Angeles	CA	1677	F	2:09:25	2:06:38	22	16	F 18-24	9:40
+376	
+N
+Natalie
+Gibson
+	Rogers	AR	1169	F	2:07:19	2:06:38	32	25	F 30-34	9:40
+377	
+K
+Katherine Anne
+Wilkie
+	San Clemente	CA	1569	F	2:07:19	2:06:38	28	16	F 25-29	9:40
+378	
+A
+Annie
+Wubbena
+	Fullerton	CA	1585	F	2:07:05	2:06:41	19	17	F 18-24	9:40
+379	
+F
+Frances
+Rosenau
+	Culver City	CA	1450	F	2:07:16	2:06:42	37	17	F 35-39	9:40
+380	
+R
+Rommel
+Trias
+	Lake Forest	CA	1617	M	2:07:46	2:06:56	43	34	M 40-44	9:41
+381	
+N
+Nathan
+Becerra
+	Selma	CA	1037	M	2:07:56	2:07:04	24	25	M 18-24	9:42
+382	
+A
+Alvaro
+Hernandez
+	Long Beach	CA	1790	M	2:07:28	2:07:06	15	44	M 13-17	9:42
+383	
+D
+Daniel
+Olsen
+	Irvine	CA	1698	M	2:07:34	2:07:06	35	24	M 35-39	9:42
+384	
+U
+Unknown
+Partic. 1451
+			1910	M	2:07:45	2:07:08		1	No Age Given	9:42
+385	
+P
+Peter
+Valera
+	Laguna Niguel	CA	1535	M	2:07:39	2:07:26	54	19	M 50-54	9:44
+386	
+D
+Denae
+Vaccher
+	Fullerton	CA	1531	F	2:08:51	2:07:41	23	18	F 18-24	9:45
+387	
+A
+Ankineedu
+Bolla
+	Fountain Valley	CA	1602	M	2:10:44	2:07:49	44	35	M 40-44	9:45
+388	
+J
+Jennifer
+Pijloo
+	Orange	CA	1408	F	2:08:32	2:07:56	54	10	F 50-54	9:46
+389	
+R
+Ryan
+Anderson
+	Irvine	CA	1017	M	2:08:28	2:08:04	39	25	M 35-39	9:47
+390	
+L
+Leigh
+Irving
+	San Francisco	CA	1223	F	2:08:35	2:08:14	28	17	F 25-29	9:47
+391	
+E
+Erica
+Morikawa
+	Irvine	CA	1358	F	2:08:23	2:08:23	41	25	F 40-44	9:48
+392	
+A
+Ashley
+Ly
+	Irvine	CA	1313	F	2:08:36	2:08:29	22	19	F 18-24	9:48
+393	
+B
+Bing
+Zhou
+	Irvine	CA	1621	F	2:09:17	2:08:46	50	11	F 50-54	9:50
+394	
+E
+Emily
+Miller-Todd
+	Orange	CA	1349	F	2:09:33	2:08:55	29	18	F 25-29	9:50
+395	
+J
+Justin
+Whitcomb
+	Anaheim	CA	1637	M	2:09:14	2:09:03	38	26	M 35-39	9:51
+396	
+M
+Michelle
+Fierro
+	Fullerton	CA	1144	F	2:09:25	2:09:05	37	18	F 35-39	9:51
+397	
+W
+William
+Jones
+	Irvine	CA	1230	M	2:10:00	2:09:06	13	45	M 13-17	9:51
+398	
+T
+Terry
+Gene
+	Irvine	CA	1836	M	2:10:28	2:09:07	49	30	M 45-49	9:51
+399	
+G
+Gregory
+Lew
+	Irvine	CA	1290	M	2:10:19	2:09:08	48	31	M 45-49	9:51
+400	
+C
+Colla
+Fujita
+	Corona	CA	1753	F	2:09:43	2:09:10	39	19	F 35-39	9:52
+401	
+V
+Vasanthi
+Narayan
+	Irvine	CA	1838	F	2:10:03	2:09:10	43	26	F 40-44	9:52
+402	
+L
+Lillian
+Bertram
+	Lake Forest	CA	1748	F	2:09:44	2:09:11	53	12	F 50-54	9:52
+403	
+S
+Sabrina
+Jones
+	Irvine	CA	1229	F	2:10:15	2:09:20	44	27	F 40-44	9:52
+404	
+C
+Cole
+Collins
+	Loma Linda	CA	1098	M	2:09:52	2:09:21	22	26	M 18-24	9:52
+405	
+B
+Bumjong
+Lim
+	Tustin	CA	1293	M	2:10:35	2:09:26	52	20	M 50-54	9:53
+406	
+C
+Claudia
+Reolon Cavalcanti
+	So Paulo		1436	F	2:09:54	2:09:29	50	13	F 50-54	9:53
+407	
+L
+Lauren
+Vellinga
+	Granada Hills	CA	1541	F	2:10:40	2:09:36	34	26	F 30-34	9:54
+408	
+D
+Dwaine
+Havens
+	Edmonds	WA	1199	M	2:10:40	2:09:36	61	10	M 60-64	9:54
+409	
+L
+Laura
+Dinsdale
+	Costa Mesa	CA	1121	F	2:10:13	2:09:37	31	27	F 30-34	9:54
+410	
+K
+Keila
+Vazquez
+	Whittier	CA	1539	F	2:10:13	2:09:38	31	28	F 30-34	9:54
+411	
+L
+Lonnissa
+Ponticorvo
+	Tustin	CA	1417	F	2:11:03	2:09:57	38	20	F 35-39	9:55
+412	
+G
+George
+Genesta
+	Pomona	CA	1164	M	2:10:52	2:10:02	68	6	M 65-69	9:56
+413	
+A
+Ali
+Sabouni
+	Newport Coast	CA	1658	M	2:10:23	2:10:02	61	11	M 60-64	9:56
+414	
+M
+Mitchell
+Purcell
+	Fullerton	CA	1422	M	2:11:02	2:10:22	45	32	M 45-49	9:57
+415	
+H
+Hilary
+Hyatt
+	Huntington Beach	CA	1218	F	2:10:56	2:10:28	30	29	F 30-34	9:58
+416	
+G
+Gladis
+Vasquez
+	Mission Viejo	CA	1538	F	2:11:20	2:10:46	45	9	F 45-49	9:59
+417	
+L
+Lyra
+Ulangca
+	Irvine	CA	1525	F	2:11:29	2:10:52	31	30	F 30-34	9:59
+418	
+P
+Pei
+Tsai
+	Irvine	CA	1520	F	2:11:08	2:10:53	39	21	F 35-39	9:59
+419	
+J
+Jim
+Luick
+	Huntington Beach	CA	1307	M	2:11:37	2:10:57	54	21	M 50-54	10:00
+420	
+J
+Jim
+Bechtold
+	Irvine	CA	1902	M	2:11:11	2:11:02	70	1	M 70-74	10:00
+421	
+C
+Christina
+Kowan
+	Torrance	CA	1827	F	2:11:36	2:11:03	32	31	F 30-34	10:00
+422	
+B
+Bharat
+Tiwari
+	Irvine	CA	1515	M	2:12:06	2:11:11	40	36	M 40-44	10:01
+423	
+T
+Tricia
+MacIel
+	Norwalk	CA	1318	F	2:12:05	2:11:12	29	19	F 25-29	10:01
+424	
+A
+Alejandro
+Canela
+	Compton	CA	1634	M	2:17:36	2:11:13	17	46	M 13-17	10:01
+425	
+L
+Lee
+Meach
+	Valencia	CA	1693	F	2:12:20	2:11:17	50	14	F 50-54	10:01
+426	
+V
+Victor
+Sanchez
+	Irvine	CA	1676	M	2:12:03	2:11:21	51	22	M 50-54	10:02
+427	
+J
+Jonas
+Buack
+	Aliso Viejo	CA	1059	M	2:13:39	2:11:21	44	37	M 40-44	10:02
+428	
+H
+Henry
+Koepcke
+	Fallbrook	CA	1255	M	2:12:13	2:11:25	17	47	M 13-17	10:02
+429	
+K
+Kenneth
+Scherwinski
+	Anaheim	CA	1470	M	2:11:47	2:11:38	51	23	M 50-54	10:03
+430	
+K
+Kenji
+Sakai
+	Aliso Viejo	CA	1460	M	2:12:02	2:11:46	51	24	M 50-54	10:04
+431	
+L
+Lynly
+Lumibao
+	National City	CA	1310	F	2:12:24	2:11:49	33	32	F 30-34	10:04
+432	
+A
+Amy
+Katz
+	Irvine	CA	1670	F	2:12:45	2:12:02	48	10	F 45-49	10:05
+433	
+P
+Pamela
+Farley
+	North Tustin	CA	1141	F	2:12:46	2:12:11	39	22	F 35-39	10:05
+434	
+N
+Nick
+Alfisi
+	Ladera Ranch	CA	1862	M	2:13:52	2:12:17	40	38	M 40-44	10:06
+435	
+M
+Mark
+Harvey
+	Irvine	CA	1198	M	2:12:50	2:12:19	53	25	M 50-54	10:06
+436	
+A
+Angela
+Hollen
+	Cypress	CA	1614	F	2:13:05	2:12:29	49	11	F 45-49	10:07
+437	
+M
+Michael
+Nguyen
+	Anaheim	CA	1374	M	2:12:44	2:12:35	36	27	M 35-39	10:07
+438	
+N
+Nick
+Conant
+	Valencia	CA	1695	M	2:13:49	2:12:50	23	27	M 18-24	10:08
+439	
+L
+Lisette
+Torres
+	Wilmington	CA	1517	F	2:13:50	2:13:08	26	20	F 25-29	10:10
+440	
+S
+Scott
+McLeod
+	Newport Beach	CA	1341	M	2:13:30	2:13:10	57	27	M 55-59	10:10
+441	
+C
+Charity
+Vasquez
+	Anaheim	CA	1689	F	2:14:06	2:13:18	40	28	F 40-44	10:11
+442	
+R
+Rachel
+Ross
+	Coalinga	CA	1451	F	2:13:41	2:13:24	60	4	F 60-64	10:11
+443	
+C
+Chenyang
+Wang
+	Irvine	CA	1560	M	2:14:30	2:13:26	24	28	M 18-24	10:11
+444	
+A
+Andrea Toby
+Beyer
+	Murrieta	CA	1863	F	2:13:46	2:13:37	45	12	F 45-49	10:12
+445	
+J
+Jenna
+Powell
+			1812	F	2:13:47	2:13:39	14	10	F 13-17	10:12
+446	
+A
+Amy
+Chun
+	Irvine	CA	1090	F	2:14:34	2:13:43	45	13	F 45-49	10:12
+447	
+J
+Jonathan
+De La Paz
+	Valencia	CA	1113	M	2:14:56	2:14:10	17	48	M 13-17	10:15
+448	
+A
+Alejandro
+Mendoza
+	Valencia	CA	1343	M	2:14:57	2:14:12	16	49	M 13-17	10:15
+449	
+C
+Christopher
+Paliska
+	Foothill Ranch	CA	1901	M	2:14:35	2:14:13	27	7	M 25-29	10:15
+450	
+V
+Vivian
+Pla
+	Fullerton	CA	1411	F	2:14:44	2:14:19	26	21	F 25-29	10:15
+451	
+C
+Catherine
+Evans
+	Denver	CO	1136	F	2:14:44	2:14:20	27	22	F 25-29	10:15
+452	
+S
+Sandy
+Schaal
+	Irvine	CA	1468	F	2:15:19	2:14:26	52	15	F 50-54	10:16
+453	
+J
+Joshua
+MacIas
+	Anaheim	CA	1317	M	2:15:28	2:14:33	25	8	M 25-29	10:16
+454	
+D
+Daniel
+Blackburn
+	Irvine	CA	1045	M	2:15:14	2:14:48	32	34	M 30-34	10:17
+455	
+S
+Savannah
+Cannon
+	San Diego	CA	1065	F	2:16:13	2:15:00	28	23	F 25-29	10:18
+456	
+A
+Abigail
+Wilson
+	Aliso Viejo	CA	1572	F	2:15:47	2:15:06	37	23	F 35-39	10:19
+457	
+C
+Christy
+Craig
+	Aliso Viejo	CA	1109	F	2:15:47	2:15:07	44	29	F 40-44	10:19
+458	
+M
+Michael
+Chapman
+	Yorba Linda	CA	1832	M	2:15:48	2:15:10	24	29	M 18-24	10:19
+459	
+M
+Mohammad
+Bozorgnia
+	Irvine	CA	1866	M	2:15:48	2:15:33	48	33	M 45-49	10:21
+460	
+B
+Bob
+Springli
+	Coeur D Alene	ID	1490	M	2:16:40	2:15:40	58	28	M 55-59	10:21
+461	
+E
+Elizabeth
+Fleming
+	Irvine	CA	1644	F	2:16:29	2:15:41	59	3	F 55-59	10:21
+462	
+S
+Sam
+Springli
+	Los Angeles	CA	1491	M	2:16:41	2:15:41	29	9	M 25-29	10:21
+463	
+J
+James
+Morse
+	Irvine	CA	1359	M	2:16:58	2:15:50	40	39	M 40-44	10:22
+464	
+J
+John
+Armentrout
+	Carlsbad	CA	1021	M	2:17:31	2:15:54	52	26	M 50-54	10:22
+465	
+J
+John
+Matunas
+	Beaumont	CA	1332	M	2:16:50	2:15:57	65	7	M 65-69	10:23
+466	
+Z
+Zach
+Taylor
+	Anaheim	CA	1645	M	2:17:05	2:16:03	35	28	M 35-39	10:23
+467	
+J
+John
+Simon
+	Bethlehem	PA	1705	M	2:17:07	2:16:15	61	12	M 60-64	10:24
+468	
+K
+Kaia
+Redfern
+	Valencia	CA	1607	F	2:16:58	2:16:16	15	11	F 13-17	10:24
+469	
+K
+Katherine
+Pettigrew
+	Trabuco Canyon	CA	1404	F	2:16:58	2:16:33	34	33	F 30-34	10:25
+470	
+A
+Amanda
+Wood
+	Huntingtn Bch		1578	F	2:17:26	2:16:48	32	34	F 30-34	10:27
+471	
+D
+Deep
+Randhawa
+	Santa Monica	CA	1786	M	2:17:25	2:16:49	23	30	M 18-24	10:27
+472	
+B
+Brandon
+Danh
+	Orange	CA	1112	M	2:17:25	2:16:49	26	10	M 25-29	10:27
+473	
+L
+Lainie
+Johnson
+	Santa Ana	CA	1768	F	2:17:35	2:16:52	57	4	F 55-59	10:27
+474	
+M
+Michelle
+Latka
+	Orange	CA	1280	F	2:17:52	2:17:05	35	24	F 35-39	10:28
+475	
+M
+Massoomeh
+Mullen
+	Irvine	CA	1363	F	2:18:00	2:17:17	56	5	F 55-59	10:29
+476
+	
+Regina
+Roberts
+	Long Beach	CA	1444	F	2:18:37	2:17:38	61	5	F 60-64	10:30
+477	
+J
+Joseph
+Yuen
+	Diamond Bar	CA	1594	M	2:18:01	2:17:52	66	8	M 65-69	10:31
+478	
+D
+Doug
+Scott
+	Riverside	CA	1761	M	2:18:43	2:17:53	39	29	M 35-39	10:32
+479	
+E
+Eric
+Verne
+	Brea	CA	1542	M	2:18:46	2:17:54	41	40	M 40-44	10:32
+480	
+S
+Sean
+Lee
+	Irvine	CA	1285	M	2:18:01	2:17:55	38	30	M 35-39	10:32
+481	
+J
+Jacob
+Irving
+	Anaheim	CA	1222	M	2:18:07	2:17:58	39	31	M 35-39	10:32
+482	
+S
+Schuyler
+Olsen
+	Valencia	CA	1390	M	2:19:03	2:18:03	17	50	M 13-17	10:32
+483	
+E
+Elizabeth
+Ford
+	Valencia	CA	1151	F	2:19:04	2:18:07	17	12	F 13-17	10:33
+484	
+M
+Mike
+Kuhlman
+	Valencia	CA	1734	M	2:19:04	2:18:09	48	34	M 45-49	10:33
+485	
+D
+Donna
+Joaquin
+	Simi Valley	CA	1685	F	2:18:43	2:18:13	51	16	F 50-54	10:33
+486	
+C
+Christa
+Wandrie
+	Aliso Viejo	CA	1559	F	2:20:24	2:18:42	37	25	F 35-39	10:35
+487	
+E
+Evan
+Hu
+	Irvine	CA	1873	M	2:19:33	2:18:43	43	41	M 40-44	10:35
+488	
+M
+Makenzie
+Heisdorf
+	Pismo Beach	CA	1669	F	2:19:34	2:18:45	42	30	F 40-44	10:35
+489	
+J
+Jesus
+Rodriguez
+	Long Beach	CA	1766	M	2:19:42	2:18:55	51	27	M 50-54	10:36
+490	
+L
+Lane
+Swensen
+	Trabuco Canyon	CA	1502	M	2:19:36	2:18:56	55	29	M 55-59	10:36
+491	
+K
+Kathleen
+Walker
+	Orange	CA	1557	F	2:19:11	2:18:58	45	14	F 45-49	10:36
+492	
+J
+Jose
+Estrada
+	Valencia	CA	1135	M	2:19:35	2:19:10	17	51	M 13-17	10:37
+493	
+M
+Megan
+Lum
+	Lomita	CA	1309	F	2:20:30	2:19:11	33	35	F 30-34	10:37
+494	
+M
+Michelle
+Mooney
+	Laguna Niguel	CA	1354	F	2:19:59	2:19:14	55	6	F 55-59	10:38
+495	
+T
+Tulia V.
+Montes
+	Los Angeles	CA	1640	F	2:20:10	2:19:16	42	31	F 40-44	10:38
+496	
+O
+Oscar
+Huerta
+	Hacienda Heights	CA	1764	M	2:20:04	2:19:16	51	28	M 50-54	10:38
+497	
+S
+Shannon
+McGarry
+	Playa Del Rey	CA	1339	F	2:20:01	2:19:19	44	32	F 40-44	10:38
+498	
+D
+David
+Wang
+	Irvine	CA	1561	M	2:19:43	2:19:24	17	52	M 13-17	10:38
+499	
+N
+Nicole
+Forbes
+	Mission Viejo	CA	1150	F	2:20:25	2:19:32	40	33	F 40-44	10:39
+500	
+W
+Warren
+Small
+	Irvine	CA	1605	M	2:20:47	2:19:40	41	42	M 40-44	10:40
+501	
+M
+Maxwell
+McConnell
+	Mission Viejo	CA	1335	M	2:20:42	2:19:49	24	31	M 18-24	10:40
+502	
+C
+Cameron
+Dahl
+	Irvine	CA	1111	M	2:20:47	2:20:20	32	35	M 30-34	10:43
+503	
+E
+Erica
+McConnell
+	Lynden		1334	F	2:20:48	2:20:22	34	36	F 30-34	10:43
+504	
+C
+Catherine
+Gallo
+	Brea	CA	1160	F	2:21:24	2:20:38	43	34	F 40-44	10:44
+505	
+E
+Elaine
+Guanga
+	Irvine	CA	1186	F	2:21:37	2:20:42	49	15	F 45-49	10:44
+506	
+J
+Julia
+Semenova
+	Aliso Viejo	CA	1473	F	2:21:36	2:20:53	33	37	F 30-34	10:45
+507	
+C
+Caity
+Berry
+	Palo Alto	CA	1041	F	2:21:36	2:21:03	17	13	F 13-17	10:46
+508
+	
+Mike
+Campbell
+	Lake Forest	CA	1064	M	2:22:18	2:21:20	63	13	M 60-64	10:47
+509	
+C
+Caroline
+Elarde
+	Newark	CA	1132	F	2:22:19	2:21:46	17	14	F 13-17	10:49
+510	
+H
+Hyung Jo
+Yoon
+	Yorba Linda	CA	1592	M	2:22:04	2:21:48	31	36	M 30-34	10:49
+511	
+Z
+Zongqi
+Wang
+	Irvine	CA	1785	M	2:22:10	2:21:50	16	53	M 13-17	10:50
+512	
+K
+Kirsten
+Kneipp
+	Aliso Viejo	CA	1253	F	2:23:36	2:21:54	43	35	F 40-44	10:50
+513	
+L
+Lauren
+McKevitt
+			1811	F	2:22:10	2:22:02	16	15	F 13-17	10:51
+514	
+C
+Charles
+Podesta
+	Huntington Beach	CA	1412	M	2:23:21	2:22:17	61	14	M 60-64	10:52
+515	
+C
+Candace
+Neal
+	Fallbrook	CA	1369	F	2:22:47	2:22:29	60	6	F 60-64	10:53
+516	
+E
+Erica
+Carreon
+	South Pasadena	CA	1067	F	2:23:18	2:22:31	29	24	F 25-29	10:53
+517	
+J
+Jim
+Pijloo
+	Orange	CA	1409	M	2:23:08	2:22:31	59	30	M 55-59	10:53
+518	
+R
+Robin
+Reed
+	Encinitas	CA	1897	M	2:23:15	2:22:37	47	35	M 45-49	10:53
+519	
+M
+Maria
+Espericueta
+	Oceanside	CA	1134	F	2:23:34	2:22:45	35	26	F 35-39	10:54
+520	
+A
+Alicia
+Joseph
+	Valencia	CA	1616	F	2:24:15	2:23:01	40	36	F 40-44	10:55
+521	
+S
+Sandro
+Soler
+	Santa Clarita	CA	1821	M	2:23:53	2:23:05	41	43	M 40-44	10:55
+522	
+M
+Molly
+Worthy
+	Santa Ana	CA	1581	F	2:23:57	2:23:11	27	25	F 25-29	10:56
+523	
+L
+Lindsey
+Worthy
+	Downey	CA	1580	F	2:23:57	2:23:12	30	38	F 30-34	10:56
+524	
+M
+Mark
+Whalen
+	Tustin	CA	1566	M	2:24:30	2:23:28	64	15	M 60-64	10:57
+525	
+N
+Nicolas
+Pogu
+	San Diego	CA	1414	M	2:24:35	2:23:29	33	37	M 30-34	10:57
+526	
+R
+Ravi Kumar
+Pinninti
+	Irvine	CA	1410	M	2:23:31	2:23:31	41	44	M 40-44	10:57
+527	
+E
+Elisa
+Pogu
+	Corona	CA	1413	F	2:24:35	2:23:32	25	26	F 25-29	10:57
+528	
+L
+Laura
+Veharanta
+	Irvine	CA	1540	F	2:24:35	2:23:33	28	27	F 25-29	10:57
+529	
+L
+Lizette
+Manrique
+	Downey		1328	F	2:24:10	2:23:43	24	20	F 18-24	10:58
+530	
+M
+Mona
+Emadi
+	Long Beach	CA	1907	F	2:24:29	2:23:45	35	27	F 35-39	10:58
+531	
+K
+Krista
+Dossett
+	Irvine	CA	1125	F	2:25:04	2:23:55	50	17	F 50-54	10:59
+532	
+J
+Julie
+Royal
+	Tustin	CA	1735	F	2:24:57	2:24:10	51	18	F 50-54	11:00
+533	
+B
+Brenda
+Phillips
+	Riverside	CA	1407	F	2:25:01	2:24:16	55	7	F 55-59	11:01
+534	
+D
+Diana
+Rudnitzky
+	Laguna Beach	CA	1452	F	2:25:46	2:24:29	44	37	F 40-44	11:02
+535	
+W
+Wendy
+Wong
+	Irvine	CA	1577	F	2:25:17	2:24:30	52	19	F 50-54	11:02
+536	
+M
+Mark
+Carlos
+	Rancho Santa Margarita	CA	1890	M	2:25:25	2:24:34	44	45	M 40-44	11:02
+537	
+D
+Dorothy
+Paxman
+	Simi Valley	CA	1397	F	2:25:24	2:24:38	62	7	F 60-64	11:02
+538	
+S
+S.
+Rao
+	Irvine	CA	1430	M	2:26:21	2:25:01	12	1	M 9-12	11:04
+539	
+E
+Evan
+Kim
+	Valencia	CA	1249	M	2:25:59	2:25:01	17	54	M 13-17	11:04
+540	
+Q
+Quyen
+Mai
+	Hacienda Heights	CA	1323	M	2:26:02	2:25:11	36	32	M 35-39	11:05
+541	
+R
+Roxana
+Casanova
+	Santa Ana	CA	1068	F	2:27:06	2:25:23	39	28	F 35-39	11:06
+542	
+J
+John
+Sandoval
+	Stockton	CA	1465	M	2:26:02	2:25:25	39	33	M 35-39	11:06
+543	
+J
+Jennifer Magill
+Vondran
+	Foothill Ranch	CA	1553	F	2:25:42	2:25:26	47	16	F 45-49	11:06
+544	
+A
+Alexandra
+Grochulski
+	Stockton	CA	1185	F	2:26:01	2:25:26	34	39	F 30-34	11:06
+545	
+A
+Apoorva
+Kulkarni
+	Fullerton	CA	1269	M	2:26:27	2:25:33	34	38	M 30-34	11:07
+546	
+A
+Autumn
+Shumaker
+	Costa Mesa	CA	1485	F	2:26:19	2:25:35	43	38	F 40-44	11:07
+547	
+P
+Patricia
+Bui
+	Santa Ana	CA	1831	F	2:25:57	2:25:46	55	8	F 55-59	11:08
+548	
+J
+Junhan
+Chen
+	Irvine	CA	1082	F	2:27:07	2:26:02	25	28	F 25-29	11:09
+549	
+L
+Luz
+McDonald
+	Buena Park	CA	1337	F	2:27:16	2:26:04	48	17	F 45-49	11:09
+550	
+H
+Holly
+Coffman
+	Rancho Cucamonga	CA	1097	F	2:27:09	2:26:15	39	29	F 35-39	11:10
+551	
+M
+Mariam
+Sheibani
+	Irvine	CA	1481	F	2:27:25	2:26:17	45	18	F 45-49	11:10
+552	
+M
+Michael
+Sakamoto
+	Los Angeles	CA	1893	M	2:27:37	2:26:17	53	29	M 50-54	11:10
+553	
+T
+Trish
+Vk
+	Irvine	CA	1549	F	2:27:25	2:26:37	41	39	F 40-44	11:12
+554	
+C
+Christine
+Lucci
+	Irvine	CA	1306	F	2:27:40	2:26:42	57	9	F 55-59	11:12
+555	
+M
+Michael
+Lathrop
+	Costa Mesa	CA	1279	M	2:27:39	2:26:44	27	11	M 25-29	11:12
+556	
+R
+Ryan
+Morell
+	Costa Mesa	CA	1357	M	2:27:39	2:26:45	28	12	M 25-29	11:12
+557	
+K
+Karen
+Vollan
+	North Las Vegas	NV	1552	F	2:28:01	2:26:49	50	20	F 50-54	11:12
+558	
+D
+Darin
+Lam
+	Torrance	CA	1271	M	2:28:17	2:26:56	55	31	M 55-59	11:13
+559	
+D
+David
+Tran
+	Orange	CA	1519	M	2:27:33	2:26:59	26	13	M 25-29	11:13
+560	
+L
+Laura
+Morse
+	Irvine	CA	1360	F	2:28:14	2:26:59	33	40	F 30-34	11:13
+561	
+P
+Pauline
+Lei
+	Tustin	CA	1286	F	2:28:07	2:27:08	27	29	F 25-29	11:14
+562
+	
+Bear
+Caudillo
+	Burbank	CA	1070	M	2:27:30	2:27:09	38	34	M 35-39	11:14
+563	
+K
+Kotone
+Nakatani
+	Valencia	CA	1366	F	2:27:50	2:27:13	17	16	F 13-17	11:14
+564	
+C
+Cindy
+Carlson
+	Cerritos	CA	1763	F	2:28:22	2:27:14	45	19	F 45-49	11:14
+565	
+G
+Grace
+Innis
+	Rancho Santa Margarita	CA	1746	F	2:28:22	2:27:14	57	10	F 55-59	11:14
+566	
+R
+Rodd
+Smith
+	Lake Forest	CA	1488	M	2:27:48	2:27:15	49	36	M 45-49	11:14
+567	
+Y
+Ying
+Yu
+	Irvine	CA	1675	F	2:28:00	2:27:30	50	21	F 50-54	11:16
+568	
+A
+Andy
+Tompkins
+	San Clemente	CA	1516	M	2:28:47	2:27:59	45	37	M 45-49	11:18
+569	
+J
+Jenny
+Cuevas
+	Whittier	CA	1906	F	2:29:25	2:28:16	40	40	F 40-44	11:19
+570	
+J
+Jeanie
+Lewin
+	Los Angeles	CA	1874	F	2:29:55	2:29:15	49	20	F 45-49	11:24
+571	
+E
+Elizabeth
+Colio
+	Huntington Beach	CA	1824	F	2:30:04	2:29:44	37	30	F 35-39	11:26
+572	
+C
+Cat
+Dengate
+	Redlands	CA	1116	F	2:30:29	2:29:50	46	21	F 45-49	11:26
+573	
+C
+Cham
+Choe
+	Placentia	CA	1088	M	2:31:29	2:30:21	38	35	M 35-39	11:29
+574	
+N
+Nick
+Wilson
+	Costa Mesa	CA	1574	M	2:31:40	2:30:38	39	36	M 35-39	11:30
+575	
+V
+Victoria
+Luong
+	La Mirada	CA	1312	F	2:31:07	2:30:54	33	41	F 30-34	11:31
+576	
+S
+Shannon
+Ryan
+	Auburn	NY	1714	F	2:32:18	2:31:09	47	22	F 45-49	11:32
+577	
+B
+Bryan
+Stone
+	Mission Viejo	CA	1496	M	2:32:11	2:31:09	54	30	M 50-54	11:32
+578	
+P
+Patricia
+Szczuka
+	Trabuco Canyon	CA	1503	F	2:31:55	2:31:14	43	41	F 40-44	11:33
+579	
+D
+David
+Eddy
+	Irvine	CA	1130	M	2:32:03	2:31:22	50	31	M 50-54	11:33
+580	
+B
+Brianna
+Rushton
+	Rancho Santa Margarita	CA	1454	F	2:32:53	2:31:36	23	21	F 18-24	11:34
+581	
+D
+Dee Dee
+Urquhart
+	West Hills	CA	1528	F	2:32:56	2:31:45	60	8	F 60-64	11:35
+582	
+M
+Marappa
+Gopinath
+	Irvine	CA	1179	M	2:32:07	2:31:45	71	2	M 70-74	11:35
+583	
+D
+Derick
+Okuna
+	Lake Forest	CA	1387	M	2:33:07	2:32:21	46	38	M 45-49	11:38
+584	
+T
+Tracy
+Krueger
+	Cypress	CA	1265	F	2:33:31	2:32:40	57	11	F 55-59	11:39
+585	
+J
+Jorge
+Juarez
+	Rancho Santa Margarita	CA	1232	M	2:33:22	2:32:47	40	46	M 40-44	11:40
+586	
+T
+Thomas
+Armentrout
+	Carlsbad	CA	1022	M	2:34:25	2:32:47	52	32	M 50-54	11:40
+587	
+S
+Sunanda
+Vadapalli
+	Santa Clarita	CA	1532	F	2:34:21	2:33:08	48	23	F 45-49	11:41
+588	
+C
+Camille
+Corbin
+	Irvine	CA	1103	F	2:34:11	2:33:09	26	30	F 25-29	11:41
+589	
+T
+Tina
+Thomas
+	Simi Valley	CA	1514	F	2:34:05	2:33:17	57	12	F 55-59	11:42
+590	
+T
+Tom
+Angeles
+	Irvine	CA	1662	M	2:33:44	2:33:21	52	33	M 50-54	11:42
+591	
+J
+Jenny
+Megenney
+	Redlands	CA	1342	F	2:34:07	2:33:35	25	31	F 25-29	11:43
+592	
+D
+Daniel
+Fields
+	Irvine	CA	1143	M	2:34:52	2:34:08	30	39	M 30-34	11:46
+593	
+J
+Julian
+Ortiz
+	Long Beach	CA	1652	M	2:35:08	2:34:40	16	55	M 13-17	11:48
+594	
+H
+Heny
+Pirouzgar
+	Mission Viejo	CA	1736	F	2:35:27	2:34:43	63	9	F 60-64	11:49
+595	
+N
+Natalie
+Than
+	Santa Ana	CA	1513	F	2:35:54	2:34:46	26	32	F 25-29	11:49
+596	
+J
+Jeffrey
+Buller
+	Palos Verdes Peninsula	CA	1788	M	2:35:55	2:35:02	66	9	M 65-69	11:50
+597	
+S
+Sandra
+Bonilla
+	Valencia	CA	1049	F	2:36:30	2:35:31	55	13	F 55-59	11:52
+598	
+W
+Wendy
+Gwo
+	Gardena	CA	1191	F	2:35:37	2:35:37	35	31	F 35-39	11:53
+599	
+J
+Jim
+Anderson
+	Monrovia	CA	1756	M	2:36:48	2:35:43	55	32	M 55-59	11:53
+600	
+L
+Laura
+Loesch
+	Aliso Viejo	CA	1301	F	2:36:47	2:35:47	31	42	F 30-34	11:54
+601	
+L
+Lisa
+Costello
+	Lancaster	CA	1718	F	2:36:25	2:36:02	39	32	F 35-39	11:55
+602	
+P
+Po-Sun
+Chen
+	Irvine	CA	1872	M	2:36:58	2:36:08	47	39	M 45-49	11:55
+603	
+A
+Anonymous
+Participant
+			1251	F	2:37:18	2:36:11	48	24	F 45-49	11:55
+604	
+E
+Emlyn
+Zolner
+	La Habra	CA	1837	F	2:37:36	2:36:14	32	43	F 30-34	11:56
+605	
+D
+Danielle
+Shown
+	Portland	OR	1772	F	2:37:34	2:36:20	48	25	F 45-49	11:56
+606	
+J
+Jaimie
+Leung
+	Irvine	CA	1289	F	2:37:31	2:36:31	28	33	F 25-29	11:57
+607	
+S
+Stephanie
+Gonzales
+	Laguna Hills	CA	1176	F	2:37:44	2:36:42	29	34	F 25-29	11:58
+608	
+M
+Matthew
+Cisneros
+	Valencia	CA	1091	M	2:37:26	2:36:48	15	56	M 13-17	11:58
+609	
+J
+Jim
+Doti
+	Villa Park	CA	1823	M	2:38:00	2:37:04	72	3	M 70-74	11:59
+610	
+C
+Cristian
+Castillo
+	Valencia	CA	1069	M	2:37:41	2:37:13	17	57	M 13-17	12:00
+611	
+V
+Veronica
+Lira
+	Costa Mesa	CA	1296	F	2:38:26	2:37:14	36	33	F 35-39	12:00
+612	
+G
+Genesis
+Montalvo
+	Buena Park	CA	1353	F	2:37:42	2:37:42	24	22	F 18-24	12:02
+613	
+M
+Mary
+Flores
+	Santa Ana	CA	1147	F	2:38:36	2:37:46	60	10	F 60-64	12:03
+614	
+S
+Steven
+Ascher
+	Irvine	CA	1025	M	2:39:07	2:37:58	52	34	M 50-54	12:04
+615	
+J
+Jonna
+Lewis
+	Glendora	CA	1879	F	2:39:04	2:38:15	41	42	F 40-44	12:05
+616	
+A
+Aubrey
+Saturno
+	Valencia	CA	1608	F	2:39:28	2:38:29	17	17	F 13-17	12:06
+617	
+A
+Amber
+Haddad
+	Redlands	CA	1192	F	2:40:23	2:39:25	25	35	F 25-29	12:10
+618	
+K
+Keith
+Takishita
+	Culver City	CA	1507	M	2:40:28	2:39:27	35	37	M 35-39	12:10
+619	
+C
+Connie
+Mao
+	Irvine	CA	1744	F	2:40:37	2:39:36	42	43	F 40-44	12:11
+620	
+T
+Tobey
+Roling
+			1808	M	2:39:39	2:39:36	14	58	M 13-17	12:11
+621	
+P
+Pha
+Chhay-Sar
+	Orange	CA	1084	F	2:40:07	2:39:38	48	26	F 45-49	12:11
+622	
+M
+Mira
+Rimal
+	Irvine	CA	1439	F	2:40:36	2:40:07	46	27	F 45-49	12:13
+623	
+M
+Milan K
+Khatri
+	Foothill Ranch	CA	1245	F	2:40:36	2:40:10	43	44	F 40-44	12:14
+624	
+L
+Long
+Nguyen
+	Irvine	CA	1372	M	2:40:55	2:40:14	44	47	M 40-44	12:14
+625	
+P
+Paige
+Railey
+	Yorba Linda	CA	1426	F	2:41:16	2:40:24	22	23	F 18-24	12:15
+626	
+P
+Polo
+Joshi
+	Irvine	CA	1231	F	2:42:29	2:40:50	41	45	F 40-44	12:17
+627	
+M
+Mark
+Gonzalez
+	Orange	CA	1177	M	2:42:32	2:40:58	35	38	M 35-39	12:17
+628	
+L
+Lisa
+Brantley
+	Los Angeles	CA	1054	F	2:42:08	2:41:32	34	44	F 30-34	12:20
+629	
+M
+Michelle
+Junsay
+	Anaheim	CA	1233	F	2:44:20	2:41:35	37	34	F 35-39	12:20
+630	
+F
+Fabian
+Clavijo
+	Orange		1095	M	2:42:48	2:42:05	34	40	M 30-34	12:22
+631	
+R
+Rachel
+Roberts
+	Fountain Valley	CA	1651	F	2:43:15	2:42:19	18	24	F 18-24	12:23
+632	
+K
+Kirsten
+Roberts
+	Fountain Valley	CA	1650	F	2:43:18	2:42:21	51	22	F 50-54	12:24
+633	
+K
+Kevin
+Morais
+	San Bernardino	CA	1356	M	2:43:36	2:42:21	28	14	M 25-29	12:24
+634	
+M
+Mckenzie
+Nelson
+	Fort Worth	TX	1370	F	2:43:46	2:43:04	32	45	F 30-34	12:27
+635	
+T
+Tori
+Parsel
+	Irvine	CA	1395	F	2:43:44	2:43:06	33	46	F 30-34	12:27
+636	
+C
+Colter
+Fleming
+	San Juan Capistrano	CA	1146	M	2:43:44	2:43:06	34	41	M 30-34	12:27
+637	
+J
+John
+Chino
+	Costa Mesa	CA	1085	M	2:43:59	2:43:14	60	16	M 60-64	12:28
+638	
+K
+Kaylee
+Martinez
+	Long Beach	CA	1798	F	2:43:43	2:43:16	16	18	F 13-17	12:28
+639	
+J
+James
+Shih
+	Irvine	CA	1483	M	2:44:39	2:44:07	38	39	M 35-39	12:32
+640	
+C
+Cecilia
+Kim
+	Valencia	CA	1247	F	2:45:39	2:44:43	17	19	F 13-17	12:34
+641	
+Y
+Yuthana
+Kong
+	Bellflower	CA	1260	F	2:45:27	2:44:45	47	28	F 45-49	12:35
+642	
+K
+Kevin
+Sarkissian
+	Valencia	CA	1466	M	2:45:49	2:44:47	51	35	M 50-54	12:35
+643	
+V
+Vincent
+Zendejas
+	El Monte	CA	1894	M	2:45:21	2:45:21	31	42	M 30-34	12:37
+644	
+K
+Kimberly
+Martinez
+	Valencia	CA	1331	F	2:46:58	2:46:30	18	25	F 18-24	12:43
+645	
+D
+Denisse
+Miranda
+	Long Beach	CA	1900	F	2:49:38	2:46:54	42	46	F 40-44	12:44
+646	
+S
+Smitha
+Rao
+	Irvine	CA	1431	F	2:48:20	2:47:01	43	47	F 40-44	12:45
+647	
+S
+Sara
+Chavez
+	Irvine	CA	1078	F	2:47:51	2:47:09	22	26	F 18-24	12:46
+648	
+M
+Mikayla
+Kosmala
+	Irvine	CA	1263	F	2:47:51	2:47:10	23	27	F 18-24	12:46
+649	
+D
+Debbie
+Iketani
+	San Dimas	CA	1220	F	2:49:12	2:47:59	66	1	F 65-69	12:49
+650	
+K
+Kathleen
+Scherger
+	La Habra	CA	1469	F	2:49:45	2:48:21	61	11	F 60-64	12:51
+651	
+L
+Lisa
+Choi-Flores
+	La Verne	CA	1780	F	2:50:35	2:49:23	48	29	F 45-49	12:56
+652
+	
+Jon
+Mahoney
+	Palm Desert	CA	1320	M	2:50:40	2:49:32	66	10	M 65-69	12:56
+653	
+M
+Mohan
+Thota
+	Irvine	CA	1730	M	2:49:51	2:49:42	38	40	M 35-39	12:57
+654	
+P
+Patrick
+Faranal
+	Upland		1140	M	2:51:17	2:49:57	59	33	M 55-59	12:58
+655	
+V
+Valeria
+Vazquez
+	Valencia	CA	1613	F	2:50:57	2:49:59	18	28	F 18-24	12:59
+656	
+M
+Moriah
+Faranal
+	Upland	CA	1139	F	2:51:17	2:49:59	23	29	F 18-24	12:59
+657	
+D
+Dhivya
+Vadapalli
+	Valencia	CA	1612	F	2:50:57	2:49:59	17	20	F 13-17	12:59
+658	
+B
+Brian
+Menjivar
+	Valencia	CA	1347	M	2:50:42	2:50:06	18	32	M 18-24	12:59
+659	
+K
+Kyle
+Shaver
+	Mission Viejo	CA	1828	M	2:52:01	2:50:54	56	34	M 55-59	13:03
+660	
+D
+Dean
+Joaquin
+	Simi Valley	CA	1684	M	2:51:38	2:51:05	51	36	M 50-54	13:04
+661	
+N
+Niem
+Nguyen
+	Irvine	CA	1375	M	2:52:29	2:51:19	50	37	M 50-54	13:05
+662	
+A
+Andy
+Parra
+	Long Beach	CA	1629	M	2:52:42	2:52:02	17	59	M 13-17	13:08
+663	
+P
+Pam
+Camacho
+	Running Springs	CA	1063	F	2:53:27	2:52:14	52	23	F 50-54	13:09
+664	
+S
+Stacy
+Villanueva
+	Montclair	CA	1547	F	2:54:00	2:52:44	30	47	F 30-34	13:11
+665	
+P
+Patrick
+Villanueva
+	Montclair	CA	1546	M	2:54:01	2:52:46	27	15	M 25-29	13:11
+666	
+R
+Rosemary
+Parham
+	Escondido	CA	1778	F	2:53:52	2:52:54	56	14	F 55-59	13:12
+667	
+K
+Kyle
+Kenney
+	Irvine	CA	1242	M	2:53:27	2:52:57	31	43	M 30-34	13:12
+668	
+D
+Dennis
+Alvarez
+	Chino Hills	CA	1623	M	2:54:41	2:53:39	50	38	M 50-54	13:15
+669	
+I
+Ian
+Varley
+	Irvine	CA	1537	M	2:54:09	2:54:09	68	11	M 65-69	13:18
+670	
+Y
+Yohan
+Shin
+	West Covina	CA	1484	M	2:55:05	2:54:48	25	16	M 25-29	13:21
+671	
+D
+David
+Sato
+	Brea	CA	1604	M	2:56:16	2:55:14	37	41	M 35-39	13:23
+672	
+J
+Jennifer
+Louie
+	Los Angeles	CA	1302	F	2:56:00	2:55:23	33	48	F 30-34	13:23
+673	
+D
+David
+Naylor
+	Austin	TX	1880	M	2:55:56	2:55:53	38	42	M 35-39	13:26
+674	
+F
+Fred
+Glasser
+	Orange	CA	1170	M	2:57:46	2:56:27	59	35	M 55-59	13:28
+675	
+S
+Shannon
+Cook
+	Huntington Beach	CA	1727	F	2:57:39	2:56:29	40	48	F 40-44	13:28
+676	
+E
+Eliza
+Rivera
+	Anaheim	CA	1441	F	2:57:16	2:56:30	44	49	F 40-44	13:28
+677	
+C
+Cyan
+Kim
+	Irvine	CA	1248	M	2:57:49	2:56:37	17	60	M 13-17	13:29
+678	
+A
+Aniruddha
+Kharait
+	Irvine	CA	1244	M	2:57:55	2:56:48	37	43	M 35-39	13:30
+679	
+N
+Nadia
+Diaz
+	Valencia	CA	1120	F	2:57:57	2:56:58	15	21	F 13-17	13:31
+680	
+S
+Shaku
+Nitturkar
+	Irvine	CA	1378	F	2:58:17	2:57:01	44	50	F 40-44	13:31
+681	
+J
+Jaywant
+Nitturkar
+	Irvine	CA	1377	M	2:58:18	2:57:03	52	39	M 50-54	13:31
+682	
+V
+Victoria
+York
+	Santa Ana	CA	1733	F	2:57:59	2:57:24	25	36	F 25-29	13:33
+683	
+M
+Michael
+Perlof
+	Santa Ana	CA	1732	M	2:57:59	2:57:25	33	44	M 30-34	13:33
+684	
+D
+Daisy
+Escotto
+	Long Beach	CA	1793	F	2:58:03	2:57:33	17	22	F 13-17	13:33
+685	
+D
+Desiree
+Godinez
+	Compton	CA	1791	F	2:58:04	2:57:35	17	23	F 13-17	13:33
+686	
+D
+Deepak
+Sharma
+	Irvine	CA	1479	M	2:59:01	2:57:50	54	40	M 50-54	13:35
+687	
+S
+Sekyoung
+Oh
+	Irvine	CA	1620	F	2:59:12	2:58:00	45	30	F 45-49	13:35
+688	
+C
+Connell
+Railey
+	Yorba Linda	CA	1425	F	2:58:51	2:58:00	25	37	F 25-29	13:35
+689	
+S
+Shireesha
+Allani
+	Irvine	CA	1010	F	2:59:54	2:58:37	38	35	F 35-39	13:38
+690	
+B
+Brandy
+Abernethy
+	Santa Clarita	CA	1784	F	3:02:30	3:01:30	47	31	F 45-49	13:51
+691	
+K
+Kingo
+Orimo
+	Laguna Woods	CA	1899	M	3:02:50	3:01:50	74	4	M 70-74	13:53
+692	
+J
+Jacqueline
+Barragan
+	Long Beach	CA	1795	F	3:02:25	3:02:02	18	30	F 18-24	13:54
+693	
+R
+Roy
+Peterson
+	El Monte	CA	1403	M	3:03:07	3:02:10	74	5	M 70-74	13:54
+694	
+S
+Shreekanth
+Karangula
+	Irvine	CA	1237	M	3:03:50	3:02:43	47	40	M 45-49	13:57
+695	
+M
+Maira
+Juarez
+	Long Beach	CA	1633	F	3:03:35	3:03:10	17	24	F 13-17	13:59
+696	
+M
+Melody
+Resendez
+	Irvine	CA	1437	F	3:04:11	3:03:21	35	36	F 35-39	14:00
+697	
+L
+Laura
+Zaragoza
+	Long Beach	CA	1794	F	3:04:24	3:03:54	17	25	F 13-17	14:02
+698	
+J
+Jennifer
+Rangel
+	Long Beach	CA	1632	F	3:04:24	3:04:00	17	26	F 13-17	14:03
+699	
+M
+Mimi
+Curran
+	Maroubra		1110	F	3:04:37	3:04:33	38	37	F 35-39	14:05
+700	
+G
+Ginny
+Lee
+	Lake Forest	CA	1283	F	3:06:10	3:05:04	54	24	F 50-54	14:08
+701	
+T
+Tina
+Listro
+	Canyon Country	CA	1297	F	3:06:10	3:05:05	39	38	F 35-39	14:08
+702
+	
+Natalie
+Uyeno
+	Torrance	CA	1530	F	3:06:11	3:05:05	49	32	F 45-49	14:08
+703	
+J
+Judy
+McCoy
+	Laguna Niguel	CA	1336	F	3:06:30	3:05:14	64	12	F 60-64	14:08
+704	
+A
+Adrienne
+Bachman
+	Fresno	CA	1665	F	3:06:30	3:05:15	65	2	F 65-69	14:08
+705	
+J
+Judith
+Lopez
+	Long Beach	CA	1635	F	3:05:59	3:05:34	17	27	F 13-17	14:10
+706	
+S
+Srinivas
+Kollu
+	Tustin	CA	1257	M	3:06:51	3:05:46	39	44	M 35-39	14:11
+707	
+G
+Gary
+Stone
+	Tustin	CA	1497	M	3:07:05	3:05:59	56	36	M 55-59	14:12
+708	
+A
+Amelia
+Stone
+	Tustin	CA	1495	F	3:07:05	3:05:59	51	25	F 50-54	14:12
+709	
+T
+Tahir
+Rathore
+	Ridgecrest	CA	1871	M	3:07:37	3:06:16	47	41	M 45-49	14:13
+710	
+S
+Sailaja
+Malladi
+	Orange	CA	1325	F	3:07:55	3:06:39	44	51	F 40-44	14:15
+711	
+T
+Trung
+Tran
+	Garden Grove	CA	1849	M	3:07:41	3:06:46	51	41	M 50-54	14:15
+712	
+U
+Uma
+Ponnapureddy
+	Irvine	CA	1416	F	3:10:17	3:09:00	42	52	F 40-44	14:26
+713	
+U
+Usha
+Kollu
+	Tustin	CA	1259	F	3:10:28	3:09:09	39	39	F 35-39	14:26
+714	
+J
+Jean
+Backus
+	Diamond Bar	CA	1032	F	3:15:00	3:13:53	31	49	F 30-34	14:48
+715	
+S
+Sydney
+Murai
+	Laguna Niguel	CA	1364	F	3:16:37	3:15:25	24	31	F 18-24	14:55
+716	
+A
+Archana
+Nutakki
+	Laguna Hills	CA	1380	F	3:16:57	3:15:39	37	40	F 35-39	14:56
+717	
+P
+Paola
+Rangel
+	Long Beach	CA	1797	F	3:16:16	3:15:48	17	28	F 13-17	14:57
+718	
+J
+Jennyfer
+Cabrera
+	Long Beach	CA	1796	F	3:16:16	3:15:49	16	29	F 13-17	14:57
+719	
+S
+Sadieh
+Abutouk
+	Norwalk	CA	1760	F	3:21:45	3:20:22	28	38	F 25-29	15:18
+720
+	
+Luzviminda
+Villamil
+	Long Beach	CA	1545	F	3:24:21	3:22:58	61	13	F 60-64	15:30
+721	
+J
+John
+Backman
+	Olivenhain	CA	1031	M	3:23:56	3:23:18	72	6	M 70-74	15:31
+722	
+K
+Karen
+Celis
+	Newhall	CA	1659	F	3:24:21	3:23:20	21	32	F 18-24	15:31
+723	
+L
+Lottie
+Turpin
+	Valencia	CA	1611	F	3:24:21	3:23:21	14	30	F 13-17	15:31
+724	
+M
+Mirka
+Murillo
+	Riverside	CA	1365	F	3:25:41	3:24:43	25	39	F 25-29	15:38
+725	
+A
+Adama
+Booker
+	Long Beach	CA	1050	F	3:29:54	3:28:49	43	53	F 40-44	15:56
+726	
+J
+Jemila
+Pratt
+	Inglewood	CA	1419	F	3:29:54	3:28:50	40	54	F 40-44	15:56
+727	
+J
+Joanna
+Pacheco
+	Long Beach	CA	1792	F	3:32:50	3:32:11	17	31	F 13-17	16:12
+728	
+S
+Srivani
+Kollu
+	Tustin	CA	1258	F	3:36:07	3:34:59	14	32	F 13-17	16:25
+729	
+V
+Vijaya
+Upadhyay
+	Irvine	CA	1526	F	3:36:23	3:35:07	38	41	F 35-39	16:25
+730	
+L
+Laura
+Veretenikoff
+	Irvine	CA	1870	F	3:37:31	3:36:02	56	15	F 55-59	16:29
+731	
+S
+Steve
+Hwang
+	Santa Ana	CA	1217	M	3:38:31	3:37:20	76	1	M 75-79	16:35
+732	
+L
+Lahari
+Koripalli
+	Irvine	CA	1262	F	3:57:57	3:56:40	40	55	F 40-44	18:04
+733	
+H
+Helen
+Clark
+	Pico Rivera	CA	1093	F	3:57:58	3:56:49	45	33	F 45-49	18:05
+734	
+B
+Bindu
+Kondapaneni
+	Irvine	CA	1856	F	3:58:14	3:56:56	44	56	F 40-44	18:05
+735	
+P
+Paul
+Coyne
+	San Clemente	CA	1776	M	4:01:01	3:59:40	85	1	M 85-89	18:18

@@ -21,7 +21,8 @@ def main()
   m = {"endurance"=>[0.4,13.1]}
   hockey = {'hockey'=>6.0}
 
-  flat = ["pasadena","chesebro","into_the_wild"]
+  ultra_flat = ["irvine_half"]
+  flat = ["pasadena","chesebro","into_the_wild","irvine_half"]
   uphill = ["baldy","broken_arrow"]
   downhill = ["big_bear","canyon_city"]
   not_very_flat = ["wilson","into_the_wild","big_bear","baldy","broken_arrow","griffith_park_30k","chesebro"]
@@ -35,16 +36,18 @@ def main()
 
   # ----- Good comparison of flattish with downhill, seems to show minetti is better than hockey. Results very similar if
   #       I only use Pasadena.
-  if true then
+  if false then
     do_stats("flattish / downhill",        flat,["big_bear"],data,m)
     do_stats("flattish / downhill, hockey",flat,["big_bear"],data,m.merge(hockey))
   end
 
-  # --- another downhill race, but less extreme, actually has quite a bit of gain as well
   if false then
-    do_stats("flattish / downhill",        flat,["canyon_city"],data,m)
-    do_stats("flattish / downhill, hockey",flat,["canyon_city"],data,m.merge(hockey))
+    do_stats("ultra-flat / downhill",        ultra_flat,["big_bear"],data,m)
+    do_stats("ultra-flat / downhill, hockey",ultra_flat,["big_bear"],data,m.merge(hockey))
   end
+
+  do_stats("ultra-flat / flat",        ultra_flat,["pasadena"],data,m)
+  do_stats("ultra-flat / flat, hockey",ultra_flat,["pasadena"],data,m.merge(hockey))
 
   # ----- Seems to show hockey about the same as minetti or even slightly better.
   if false then
@@ -66,6 +69,7 @@ def do_stats(title,courses1,courses2,data,model)
   d,course_horiz,course_cf,course_gain = data
   print "#{title}, err>0 means 1st is slow in reality\n"
   errors = []
+  n = 0
   d.keys.sort.each { |who|
     times = d[who]
     flat   = array_intersection(courses1,times.keys)
@@ -73,6 +77,7 @@ def do_stats(title,courses1,courses2,data,model)
     if flat.empty? or uphill.empty? then next end
     flat.each { |c1|
       uphill.each { |c2|
+        n = n+1
         t1,t2,d1,d2,err,e2e1,endurance_corr = cross_ratio(c1,c2,times,course_horiz,course_cf,course_gain,model)
         print "  #{pname(who)}       #{pcourse(c1)}=#{ptime(t1)}        #{pcourse(c2)}=#{ptime(t2)}          err=#{pf(err,5,1)}",
                    "             e2/e1=#{pf(e2e1,4,2)}   endurance=#{pf(endurance_corr,4,2)}\n"
@@ -81,7 +86,7 @@ def do_stats(title,courses1,courses2,data,model)
     }
   }
   median,mean_abs = stats(errors)
-  print "  median error=#{median}       mean abs err=#{mean_abs}\n"
+  print "  median error=#{pf(median,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      n=#{n}\n"
 end
 
 def cross_ratio(c1,c2,times,course_horiz,course_cf,course_gain,model)

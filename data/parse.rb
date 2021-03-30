@@ -55,6 +55,9 @@ lines_per_person = -1
 if format=='athlinks' then # wilson, broken arrow
   lines_per_person = 9
 end
+if format=='runsignup' then # irvine half
+  lines_per_person = 5
+end
 if format=='baldy' || format=='ultrasignup' || format=='agoura' || format=='into_the_wild1' || format=='into_the_wild2' || format=='revel' then
   lines_per_person = 1
 end
@@ -83,6 +86,34 @@ if format=='athlinks' then
       # couldn't parse about=133, person=["THOMAS HARDY", "M 54Bib 123CA, USA", "133", "110", "14", "11:44", "MIN/MI", "1:40:57", ""]
       exit(-1)
     end
+    row = {'name'=>name,'time'=>time,'sex'=>sex,'age'=>age,'bib'=>bib,'address'=>address}
+    print output_record(row),"\n"
+  }
+end
+
+if format=='runsignup' then
+  # 1	
+  # B
+  # Blake
+  # Fonda
+  #	Lodi	CA	1148	M	1:11:40	1:11:40	21	1	M 18-24	5:28
+  # time fails sanity check, {"name"=>"Jake Cruzen", "time"=>"14", "sex"=>"1:31:30", "age"=>"M 13-17", "bib"=>"1:31:32", "address"=>"1800 M"}
+  #                         1800    M       1:31:32 1:31:30 16      14      M 13-17 6:59
+
+  table.each { |person|
+    first = person[2]
+    last = person[3]
+    stuff = person[4]
+    # first=Blake last=Fonda stuff=Lodi	CA	1148	M	1:11:40	1:11:40	21	1	M 18-24	5:28
+    # ... tab delimited
+    a = stuff.split(/\t/)
+    # ["Lodi", "CA", "1148", "M", "1:11:40", "1:11:40", "21", "1", "M 18-24", "5:28"]
+    1.upto(2) { |i|
+      if a.length<10 then a = a.unshift('') end
+    }
+    town,state,bib,sex,crap,time,age = a
+    address = "#{town} #{state}"
+    name = "#{first} #{last}"
     row = {'name'=>name,'time'=>time,'sex'=>sex,'age'=>age,'bib'=>bib,'address'=>address}
     print output_record(row),"\n"
   }

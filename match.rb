@@ -73,8 +73,13 @@ all_names.each_pair { |filename,names|
       if a.nil? then die("nil name, #{filename}") end
       if not (names2.include?(a)) then next end # unnecessary but faster; should actually implement these as hashes
       names2.each { |b|
-        if a==b then 
-          matched_names[a.downcase] = 1
+        if a==b then
+          ff = {filename=>1,filename2=>1}
+          if matched_names.has_key?(a) then
+            matched_names[a].merge(ff)
+          else
+            matched_names[a] = ff
+          end
         end
       }
     }
@@ -85,7 +90,8 @@ all_names.each_pair { |filename,names|
 final_data = {}
 matched_names.keys.sort.each { |who|
   races = {}
-  Dir.glob( 'data/times/*.json').each { |filename|
+  matched_names[who].keys.each { |filename|
+  #Dir.glob( 'data/times/*.json').each { |filename|
     if ignore_filename(filename) then next end
     File.open(filename,'r') { |f|
       f.each_line { |line|

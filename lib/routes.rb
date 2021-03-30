@@ -15,3 +15,18 @@ def get_route_data(csv_file)
   }
   return [course_horiz,course_cf,course_gain]
 end
+
+def mnemonic(label)
+  return {
+    "wilson"                =>'W',
+    "baldy"                 =>'B',
+    "broken_arrow"          =>'V',
+    "pasadena"              =>'P',
+    "chesebro"              =>'C',
+    "into_the_wild"         =>'H',
+    "griffith_park_30k"     =>'G',
+    "big_bear"              =>'X',
+    "canyon_city"           =>'Y',
+    "irvine_half"           =>'I'
+  }[label]
+end

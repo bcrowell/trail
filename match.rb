@@ -50,6 +50,7 @@ def parse_time_x(s) # to hours
   return nil
 end
 
+lookup = {}
 all_names = {}
 Dir.glob( 'data/times/*.json').each { |filename|
   if ignore_filename(filename) then next end
@@ -57,7 +58,9 @@ Dir.glob( 'data/times/*.json').each { |filename|
   File.open(filename,'r') { |f|
     f.each_line { |line|
       row = JSON.parse(line) # {'name'=>name,'time'=>time,'sex'=>sex,'age'=>age,'bib'=>bib,'address'=>address}
-      names.push(canonicalize_name(row['name']))
+      name = canonicalize_name(row['name'])
+      names.push(name)
+      lookup["#{name},#{filename}"] = row
     }
   }
   all_names[filename] = names.sort
@@ -91,23 +94,16 @@ final_data = {}
 matched_names.keys.sort.each { |who|
   races = {}
   matched_names[who].keys.each { |filename|
-  #Dir.glob( 'data/times/*.json').each { |filename|
     if ignore_filename(filename) then next end
-    File.open(filename,'r') { |f|
-      f.each_line { |line|
-        row = JSON.parse(line) # {'name'=>name,'time'=>time,'sex'=>sex,'age'=>age,'bib'=>bib,'address'=>address}
-        if row['name'].downcase==who then
-          t = parse_time(row['time'],"#{filename} #{who} #{row}")
-          if t.nil? then die("error parsing time #{row['time']} for #{who}, #{filename_to_race(filename)}") end
-          r = filename_to_race(filename)
-          if races.has_key?(r) then
-            if t<races[r] then races[r] = t end # take that person's fastest time on that course
-          else
-            races[r] = t
-          end
-        end
-      }
-    }
+    row = lookup["#{who},#{filename}"] # {'name'=>name,'time'=>time,'sex'=>sex,'age'=>age,'bib'=>bib,'address'=>address}
+    t = parse_time(row['time'],"#{filename} #{who} #{row}")
+    if t.nil? then die("error parsing time #{row['time']} for #{who}, #{filename_to_race(filename)}") end
+    r = filename_to_race(filename)
+    if races.has_key?(r) then
+      if t<races[r] then races[r] = t end # take that person's fastest time on that course
+    else
+      races[r] = t
+    end
   }
   if races.keys.length>1 then
     final_data[who] = races

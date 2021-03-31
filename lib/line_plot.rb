@@ -17,6 +17,8 @@ def make_line_plot(data,opt)
   <svg
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   width="210mm"
+   height="297mm"
    viewBox="0 0 210 297"
    id="svg8">
    __CIRCLES__

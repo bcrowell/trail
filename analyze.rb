@@ -37,8 +37,6 @@ def main()
   #     to the summit (1.8%, or 72'), which makes sense. There is a 500 m steep downhill section at the start, which is mapped accurately.
   compare_hockey("flat / uphill",flat,uphill,data,m,hockey,tex,[scatt,"fu"])
 
-  if false then
-
   # --- Both Minetti and hockey predict wilson times that are about 20% too short. I suspect this is safety and etiquette at work.
   compare_hockey("flat / wilson",flat,["wilson"],data,m,hockey,tex,[scatt,"fw"])
 
@@ -53,8 +51,6 @@ def main()
   if false then
     do_stats("short / 30k",                      ["pasadena","wilson"],["griffith_park_30k"],data,{},tex,[scatt,"en"],{})
     do_stats("short / 30k, endurance correction",["pasadena","wilson"],["griffith_park_30k"],data,m,tex,[scatt,"en"],{})
-  end
-
   end
 
   print tex

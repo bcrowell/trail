@@ -217,8 +217,9 @@ efficiency of eccentric and concentric muscle contraction.
 
 It is convenient to describe Minetti's function $C(i)$ using a fit to the form
 \begin{equation}\label{eq:minetti-fit}
-  C(i) = a\left[(i^p+b)^{1/p}+\frac{i}{c}+d\right].
+  C_t(i) = a\left[(i^p+b)^{1/p}+\frac{i}{c}+d\right],
 \end{equation}
+where the subscript $t$ stands for treadmill.
 Parameters fitted to the results of ref.~\cite{minetti} are given in table \ref{table:minetti-params}.
 The purpose of using this form, rather than the polynomial fit given by \cite{minetti}, is
 to make the computations degrade gracefully in cases where the limitations of GPS tracks or data from digital elevation models
@@ -231,8 +232,8 @@ particular subject.
 \begin{figure}[h]
 \includegraphics[width=8cm]{figs/minetti/minetti.pdf}
 \centering
-\caption{The cost of running as a function of slope. Solid line: fit to Minetti, Eq \ref{eq:minetti-fit}. Dashed line:
-Eq \ref{eq:gain-only}, with $c_0$ chosen to agree with Minetti's $C(0)$ and $c_g=6.0$.}
+\caption{The cost of running as a function of slope. Solid line: the function $C_t$, fit to Minetti's treadmill data, Eq \ref{eq:minetti-fit}. Dashed line:
+The function $C_g$, Eq \ref{eq:gain-only}, with $c_0$ chosen to agree with Minetti's $C(0)$ and $c_g=6.0$.}
 \label{fig:minetti}
 \end{figure}
 
@@ -318,6 +319,18 @@ list and a run $j$ from the second, and compute the error $\mathcal{E}_{ij}$, wh
 positive if the runner's time in the uphill race $j$ is overpredicted by the model relative
 to their time in the flat race $i$. From the resulting list of $\mathcal{E}$ values for
 this sample, we find the median $\widetilde{\mathcal{E}}$ and the mean absolute value $\langle|\mathcal{E}|\rangle$.
+
+\begin{figure}[h]
+\includegraphics[width=132mm]{figs/test-hockey/test-hockey.pdf}
+\centering
+\caption{Tests of the predictions of the functions $C_t$ derived from treadmill data (open circles)
+and $C_g$ based on eleveation gain (filled circles). Each point is a cross-ratio of a single runner's
+times in two different races. The abscissa is the relative error
+$\mathcal{E}$, ranging from $-60$ to $+60$. Positive $\mathcal{E}$ means that the runner's
+time in the first-listed race is greater in reality than in the model.
+}
+\label{fig:test-hockey}
+\end{figure}
 
 \subsection*{Model of endurance}
 

@@ -5,6 +5,7 @@ require 'csv'
 
 require_relative "lib/routes"
 require_relative "lib/endurance"
+require_relative "lib/line_plot"
 
 def main()
   d = {}
@@ -29,26 +30,31 @@ def main()
   not_very_flat = ["wilson","into_the_wild","big_bear","baldy","broken_arrow","griffith_park_30k","chesebro"]
 
   tex = ""
+  scatt = "scatt/" # prefix for filenames of scatterplot files
 
   # --- Hockey is poor for steep uphill; this is because minetti is curved, not linear. This is mainly a comparison with baldy, only one VK point.
   #     I checked the mapping of Baldy pretty carefully, see notes in meki. Gain is just slightly more than the elevation gain from manker
   #     to the summit (1.8%, or 72'), which makes sense. There is a 500 m steep downhill section at the start, which is mapped accurately.
-  compare_hockey("flat / uphill",flat,uphill,data,m,hockey,tex)
+  compare_hockey("flat / uphill",flat,uphill,data,m,hockey,tex,[scatt,"fu"])
+
+  if false then
 
   # --- Both Minetti and hockey predict wilson times that are about 20% too short. I suspect this is safety and etiquette at work.
-  compare_hockey("flat / wilson",flat,["wilson"],data,m,hockey,tex)
+  compare_hockey("flat / wilson",flat,["wilson"],data,m,hockey,tex,[scatt,"fw"])
 
   # ----- Good comparison of flattish with downhill. Hockey much better than Minetti. I suspect this is because of the extreme amount
   #       of eccentric work on quads, also possibly TFLs. Nice big sample.
-  compare_hockey("flattish / downhill",flat,["big_bear"],data,m,hockey,tex)
+  compare_hockey("flattish / downhill",flat,["big_bear"],data,m,hockey,tex,[scatt,"fd"])
 
   # ----- Ultra-flat versus nearly flat, seem to clearly show that hockey is wrong in this limit, although the sample is small.
-  compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey,tex)
+  compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey,tex,[scatt,"uf"])
 
   # ----- test endurance correction; small sample size, but does seem to improve results
   if false then
-    do_stats("short / 30k",                      ["pasadena","wilson"],["griffith_park_30k"],data,{},tex)
-    do_stats("short / 30k, endurance correction",["pasadena","wilson"],["griffith_park_30k"],data,m,tex)
+    do_stats("short / 30k",                      ["pasadena","wilson"],["griffith_park_30k"],data,{},tex,[scatt,"en"],{})
+    do_stats("short / 30k, endurance correction",["pasadena","wilson"],["griffith_park_30k"],data,m,tex,[scatt,"en"],{})
+  end
+
   end
 
   print tex
@@ -58,14 +64,14 @@ def describe_list_with_mnemonics(courses)
   return courses.map {|c| mnemonic(c)}.join(',')
 end
 
-def compare_hockey(title,courses1,courses2,data,model,hockey,tex)
+def compare_hockey(title,courses1,courses2,data,model,hockey,tex,scatt)
   print "comparing Minetti with hockey, #{title}\n"
   tex.replace(tex+title+", "+describe_list_with_mnemonics(courses1)+" / "+describe_list_with_mnemonics(courses2)+"\n")
-  do_stats("  Minetti",courses1,courses2,data,model,tex)
-  do_stats("  hockey ",courses1,courses2,data,model.merge(hockey),tex)
+  do_stats("  Minetti",courses1,courses2,data,model,tex,[scatt[0],scatt[1]+'_m'],{})
+  do_stats("  hockey ",courses1,courses2,data,model.merge(hockey),tex,[scatt[0],scatt[1]+'_h'],{'fill_black'=>true})
 end
 
-def do_stats(title,courses1,courses2,data,model,tex)
+def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt)
   d,course_horiz,course_cf,course_gain = data
   print "#{title}, err>0 means 1st is slow in reality\n"
   errors = []
@@ -88,6 +94,9 @@ def do_stats(title,courses1,courses2,data,model,tex)
   median,mean_abs,spread = stats(errors)
   print "      median error=#{pf(median,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n"
   tex.replace(tex+"#{title}   median error=#{pf(median,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n")
+  File.open(scatt[0]+scatt[1]+".svg",'w') { |f|
+    f.print make_line_plot(errors,line_plot_opt)
+  }
 end
 
 def cross_ratio(c1,c2,times,course_horiz,course_cf,course_gain,model)

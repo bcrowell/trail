@@ -300,6 +300,18 @@ horizon.) Runners' names and times were obtained by web-scraping public race res
 and runners were assumed to be the same person if their first and last names matched.
 When a runner ran the same race more than once, their best time was used.
 
+In table \ref{table:courses}, two measures of hilliness are given. The total elevation gain
+is the only parameter needed in order to calculate an energy expenditure using the function
+$C_g$. The next column gives a statistic I will refer to as the climb factor, CF, which is
+defined as the fraction of the runner's total energy expenditure that is devoted to climbing.
+That is, if $E$ is the actual energy required for the course, and $E_0$ the energy that
+would have been required if the race had been perfectly flat, then 
+\begin{equation}
+  CF=\frac{E-E_0}{E}.
+\end{equation}
+Inverting this equation gives $E=E_0/(1-CF)$, so that if the horizontal distance is
+known, a measure of effort can be found by dividing the distance by $1-CF$.
+
 To define measures of the accuracy and precision of the model, consider a comparison
 of courses 1 and 2. The observed data are the runner's times $t_1$ and $t_2$, and
 the model predicts the ratio of the energy consumption $E_1/E_2$. Define
@@ -320,6 +332,13 @@ positive if the runner's time in the uphill race $j$ is overpredicted by the mod
 to their time in the flat race $i$. From the resulting list of $\mathcal{E}$ values for
 this sample, we find the median $\widetilde{\mathcal{E}}$ and the mean absolute value $\langle|\mathcal{E}|\rangle$.
 
+\subsection*{Comparison of the models $C_g$ and $C_t$ of the effect of hills}
+
+Fig \ref{fig:test-hockey} shows a comparison of the quality of the predictions of the functions
+$C_g$ and $C_t$ as descriptions of the effects of going up and down hills on the time in a race.
+Each of the four sub-figures a through d has been constructed so as to test a particular
+feature of these models. We discuss each in turn.
+
 \begin{figure}[h]
 \includegraphics[width=132mm]{figs/test-hockey/test-hockey.pdf}
 \centering
@@ -331,6 +350,59 @@ time in the first-listed race is greater in reality than in the model.
 }
 \label{fig:test-hockey}
 \end{figure}
+
+(a) Here we compare the extremely flat half-marathon I, having only 90 m of elevation gain,
+to half-marathon P, which is slightly more hilly with 170 m of gain, or about twice as much.
+According to the treadmill-based model $C_t$, the effects of climbing and descending
+nearly cancel out, giving a negligible $CF<1\%$ for each run, as expected from Baumel's argument.
+In the gain-based model $C_g$, however, the effect of the hills on course P is
+6 times its elevation gain, which is equivalent to adding 1.0 km to its length. The effect for I would
+be half as much, causing the model to predict a considerable difference in the times on
+the two courses. In the figure we see that Baumel's approximation is a good one here. The median
+error for $C_t$ (open circles) is only +1.6\%, while that for $C_g$ (filled circles) is +6.4\%,
+the positive sign showing that the effect of the small hills is considerably over-predicted.
+
+The sample size $n=17$ in this test is the smallest of the four presented in Fig \ref{fig:test-hockey},
+but this systematic error in the $C_g$ model appears to be fairly statistically significant. Only
+two of the 17 points have negative errors. The random variable $\mathcal{E}$ is probably not normally
+distributed, but in the approximation that it is, the standard deviation of the median can be approximated
+as $\sqrt{\pi/2}$ times the standard deviation of the mean. The sample standard deviation is $\sigma=9.9\%$,
+which would make this over-prediction a 2.1-sigma effect, $p=0.98$.
+
+(b) In this portion of Fig \ref{fig:test-hockey}, we compare times in a set of fairly flat half-marathons
+(with CF values ranging from 0.2\% to 8\%) with course W, a trail race up and down half of Mount Wilson, $CF=20\%$.
+Although the distance of W is much shorter, most runners' times are only slightly lower. We see that both
+models greatly underpredict the runners' times in the mountain race. Most of the running in this race is
+on slopes with $|i|\approx 0.10$ to 0.15. A likely interpretation is that on the uphills, $C_g$ is an
+underestimate (see c, below), while on the downhills $C_t$ is an underestimate. The race is run on a trail that is
+mostly a narrow single track, with steep hillsides on the climber's right. Safety is likely to inhibit
+many runners from going downhill at anything like the pace exhibited in ref.~\cite{minetti} by elite mountain runners
+on a treadmill, and trail etiquette dictates that they yield the right of way when encountering
+people who are still on their way up.
+
+(c) This test compares runners' times on the same flattish half-marathons with their performances in
+two races, B and V, in which runners go up a mountain and finish at the top. Of the sample size of $n=32$, only
+one person was on course V, a ``vertical kilometer''-style race which was run in Northern California.
+Although both models systematically underestimated the difficulty of the uphill races ($\mathcal{E}<0$),
+the underestimate is far more severe for $C_g$ than for $C_t$. Course B consists almost
+entirely of climbing on grades $0.05<i<0.25$, at which $C_g$ is less than $C_t$ and is apparently a
+considerable underestimate. Additional factors leading to $\mathcal{E}<0$ in both cases
+are certain to include the aerobic challenge of finishing the race at an elevation of over 3000 m,
+as well as the difficult footing on the final section.
+
+(d) Here we compare the same set of fairly flat half-marathons with a road half-marathon, course X, consisting entirely
+of running \emph{down} a mountain. The downhill race is run along with a marathon, which
+the race's organizers advertise as being extremely fast and a good way to achieve a ``BQ'' or
+qualifying time for the Boston Marathon. Surprisingly, most runners' times in the downhill
+half-marathon were only about 10 minutes shorter than in the flat ones, and quite a few runners in
+the sample actually took longer for the downhill race. We have already seen evidence in part
+b above that the high physiological efficiencies observed in the lab for downhill running may
+not translate proportionately into speed. There the issues may have been safety and courtesy,
+which would not have been an issue in this race on a wide asphalt road. A more likely explanation
+here is that for recreational runners who have not trained extensively on steep hills, a long downhill of this
+length can be physically difficult due to the strong eccentric strain on the quadriceps, as well as
+testing the tensor fascia latae.
+
 
 \subsection*{Model of endurance}
 

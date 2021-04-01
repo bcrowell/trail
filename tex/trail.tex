@@ -197,13 +197,14 @@ so that $c_g$ is said to be approximately in the range from 4 to 8. There is not
 about this hypothesis. A function $C(i)$ of this form evades Baumel's argument because its hockey-stick shape
 is not smooth at $i=0$, and therefore cannot be approximated by its Taylor series.
 
-Minetti \emph{et al.}\cite{minetti} have used oxygen
+In a more sophisticated approach, Minetti \emph{et al.}\cite{minetti} have used oxygen
 consumption to measure the energy expenditure of runners on a treadmill at slope $i$, for both
 running and walking.
 The results are expressed as $C=(1/m)d E/d s$, where $m$ is the person's body mass,
 $E$ is the energy expended, and $d s$ is the increment of three-dimensional distance, which
 usually differs negligibly from the increment of horizontal distance $d \ell$.
-$C$ has the same units as the gravitational field.
+$C$ has units of $\textup{J}/\textup{kg}\cdot\textup{m}$.
+
 Ref.~\cite{minetti} found significant differences in efficiency within their group of elite mountain
 runners, and differences are also to be expected between this group and other athletes. This is one
 of the reasons why this study presents a comparative technique, rather than an absolute method for
@@ -217,7 +218,7 @@ efficiency of eccentric and concentric muscle contraction.
 
 It is convenient to describe Minetti's function $C(i)$ using a fit to the form
 \begin{equation}\label{eq:minetti-fit}
-  C_t(i) = a\left[(i^p+b)^{1/p}+\frac{i}{c}+d\right],
+  C_t(i) = a\left[(|i|^p+b)^{1/p}+\frac{i}{c}+d\right],
 \end{equation}
 where the subscript $t$ stands for treadmill.
 Parameters fitted to the results of ref.~\cite{minetti} are given in table \ref{table:minetti-params}.
@@ -226,22 +227,24 @@ to make the computations degrade gracefully in cases where the limitations of GP
 produce unrealistically steep slopes. In such cases, this expression approaches the physiologically
 expected asymptotic behavior. Although the present work focuses only on running, parameters for walking
 are presented as well. The results for running are empirically found to be nearly independent of speed,
-whereas the ones for walking are the values for the speed that was found to be most efficient for that
+whereas the ones for walking are not. For walking, ref.~\cite{minetti} measured the energy consumption
+at the speed that was found to be most efficient for that
 particular subject.
 
 \begin{figure}[h]
 \includegraphics[width=8cm]{figs/minetti/minetti.pdf}
 \centering
 \caption{The cost of running as a function of slope. Solid line: the function $C_t$, fit to Minetti's treadmill data, Eq \ref{eq:minetti-fit}. Dashed line:
-The function $C_g$, Eq \ref{eq:gain-only}, with $c_0$ chosen to agree with Minetti's $C(0)$ and $c_g=6.0$.}
+the function $C_g$, Eq \ref{eq:gain-only}, with $c_0$ chosen to agree with Minetti's $C(0)$ and $c_g=6.0$.}
 \label{fig:minetti}
 \end{figure}
 
 \begin{table}[h]
-\caption{Parameters for equation \eqref{eq:minetti-fit}. These parameters were found by constraining
+\caption{Parameters for Eq \eqref{eq:minetti-fit}. These parameters were found by constraining
 Eq \ref{eq:minetti-fit} to agree with the polynomial fits in ref.~\cite{minetti} on the following
 degrees of freedom: the function is minimized at the same $i$, and has the same value of $C$ there;
-the functions agree at $i=0$; and the slopes at $\pm\infty$ have the same asymptotic values.}
+the functions agree at $i=0$. Furthermore, the slopes at $\pm\infty$ were constrained to have the asymptotic values
+found in that work.}
 \begin{tabular}{lll}
    & \emph{running} & \emph{walking} \\
 $a$  & 26.07 $\textup{J}/\textup{kg}\cdot\textup{m}$ & 22.91 $\textup{J}/\textup{kg}\cdot\textup{m}$ \\
@@ -315,7 +318,7 @@ known, a measure of effort can be found by dividing the distance by $1-CF$.
 To define measures of the accuracy and precision of the model, consider a comparison
 of courses 1 and 2. The observed data are the runner's times $t_1$ and $t_2$, and
 the model predicts the ratio of the energy consumption $E_1/E_2$. Define
-\begin{equation}
+\begin{equation}\label{eq:define-e}
   \mathcal{E} = 100 \ln\left(\frac{t_1}{t_2}\cdot\frac{E_2}{E_1}\right).
 \end{equation}
 For small errors, $\mathcal{E}$ is the relative error in the prediction, expressed
@@ -324,12 +327,12 @@ error into additive quantities.
 
 We pick a feature of the model that is to be tested. For example, we would like to see
 whether the model does a good job of predicting the relative times for flat races
-compared to steep uphill-only races. For this example, we make a list of courses
-that are relatively flat (P, C, and I), and a list of some that are steep uphill-only
-courses (B and V). We then find every case where the same runner did a run $i$ from the first
-list and a run $j$ from the second, and compute the error $\mathcal{E}_{ij}$, which will be
-positive if the runner's time in the uphill race $j$ is overpredicted by the model relative
-to their time in the flat race $i$. From the resulting list of $\mathcal{E}$ values for
+compared to steep uphill-only races (Fig \ref{fig:test-hockey}, c). For this example, we make a list of courses
+that are relatively flat (P, C, H, and I), and a list of some that are steep uphill-only
+courses (B and V). We then find every case where the same runner did a run $j$ from the first
+list and a run $k$ from the second, and compute the error $\mathcal{E}_{jk}$, which will be
+positive if the runner's time in the uphill race $k$ is overpredicted by the model relative
+to their time in the flat race $j$. From the resulting list of $\mathcal{E}$ values for
 this sample, we find the median $\widetilde{\mathcal{E}}$ and the mean absolute value $\langle|\mathcal{E}|\rangle$.
 
 \subsection*{Comparison of the models $C_g$ and $C_t$ of the effect of hills}
@@ -344,8 +347,9 @@ feature of these models. We discuss each in turn.
 \centering
 \caption{Tests of the predictions of the functions $C_t$ derived from treadmill data (open circles)
 and $C_g$ based on eleveation gain (filled circles). Each point is a cross-ratio of a single runner's
-times in two different races. The abscissa is the relative error
-$\mathcal{E}$, ranging from $-60$ to $+60$. Positive $\mathcal{E}$ means that the runner's
+times in two different races. The statistic $\mathcal{E}$, defined in equation \ref{eq:define-e},
+is essentially the relative error, expressed as a percentage, in the model's prediction of the
+ratio of the times in one race relative to another. Positive $\mathcal{E}$ means that the runner's
 time in the first-listed race is greater in reality than in the model.
 }
 \label{fig:test-hockey}
@@ -403,6 +407,67 @@ here is that for recreational runners who have not trained extensively on steep 
 length can be physically difficult due to the strong eccentric strain on the quadriceps, as well as
 testing the tensor fascia latae.
 
+Fig \ref{fig:features} presents a graphical summary of the interpretation of these results.
+
+\begin{figure}[h]
+\includegraphics[width=73mm]{figs/features/features.pdf}
+\centering
+\caption{A graphical summary of the interpretation of the systematic errors observed
+in parts a, b, c, and d of Fig \ref{fig:test-hockey}. Portions of each model that are
+interpreted as being inaccurate are circled and labeled with the test that provides the
+evidence for the inaccuracy. The interpretation is more conjectural for b, since both
+models had similar errors, but hypothetically for different reasons.
+The solid line is the treadmill-based function $C_t$ and the dashed one $C_g$.
+The dotted line is a modified version $C_r$ of the treadmill function, defined in Eq \ref{eq:rec} and found
+empirically to be more appropriate for recreational runners in real-world trail conditions.}
+\label{fig:features}
+\end{figure}
+
+These observations mainly support the model $C_t$, except that as
+downhill grades get steeper and steeper, it appears that most
+recreational runners in real-world conditions reach a point of
+diminishing returns far earlier than is the case in treadmill studies.
+The results for course X, which has an average $i\approx -0.05$,
+suggest that this point of diminishing returns is reached at relatively
+small negative slopes, perhaps $i\approx -0.03$.
+The factors causing this effect probably have as much to do with safety and etiquette as
+with physiology, so that they cannot be quantified in any
+universal way. However, it would be irresponsible to provide runners,
+especially recreational athletes, with scientific advice that would
+give an unrealistically rosy picture of the difficulty of a run.
+
+I have therefore investigated some possible modifications to the function
+$C_t$, such as adjusting the values of the parameters $p$ and $d$
+given in Table \ref{table:minetti-params} so as to shift the minimum of
+the function up and to the right. This did not work well, because the smooth
+analytic character of Eq \eqref{eq:minetti-fit} makes it impossible, by varying its parameters, to 
+dramatically modify the function's behavior for $-0.06\lesssim i \lesssim -0.03$
+while retaining its apparently correct behavior at $-0.03 \lesssim i \lesssim 0$.
+The most successful ad hoc recipe was simply to introduce a cut-off in $C$, i.e.,
+to define a ``recreational'' version of the function,
+\begin{equation}\label{eq:rec}
+  C_r =   \begin{cases}
+     C_t(i), & C_t(i)>C_t(i_0) \\
+     C_t(i_0), & \text{otherwise},
+  \end{cases}
+\end{equation}
+where $i_0=-0.03$.
+In other words, we simply chop the bottom off of the curve of $C_t$, at the dotted
+line in Fig \ref{fig:features}.
+
+\begin{table}[h]
+\begin{tabular}{rrrrr}
+       & $\widetilde{\mathcal{E}}_a$ & $\widetilde{\mathcal{E}}_b$ & $\widetilde{\mathcal{E}}_c$ & $\widetilde{\mathcal{E}}_d$  \\
+$C_t$  & 2 & $-20$ & $-16$ & $-18$ \\
+$C_g$  & 6 & $-24$ & $-38$ & $-2$ \\
+$C_r$  & 3 & $-14$ & $-17$ & $-9$ \\
+\end{tabular}
+\label{table:goodness}
+\caption{Median errors for the four tests described in Fig \ref{fig:test-hockey}, for the three models
+$C_t$, $C_g$, and $C_r$.}
+\end{table}
+
+
 
 \subsection*{Model of endurance}
 
@@ -418,7 +483,7 @@ some rough method of compensating for the variation in pace with distance. Here 
 a very simple model that has the following characteristics that make it suitable for this
 study: (1) its parameters are universal rather than fits to the characteristics of an individual;
 (2) its output is purely multiplicative, i.e., it gives a correction factor $\kappa$ to the predicted speed.
-The model is essentially a variation on the one by Rapoport,\cite{rapoport} with some modifications
+The model is essentially a simplification of the one constructed by Rapoport,\cite{rapoport} with modifications
 to suit these purposes.
 
 First we compute an equivalent distance $d$, which is the distance of flat running that would
@@ -492,8 +557,8 @@ and we set $Q=0.05$.
 Empirically, for the mostly recreational runners studied here, a reasonable description of the data is achieved when
 $d_c$ is set to the half-marathon distance, which is the value adopted in this work.
 Fig \ref{fig:my-times} shows the quality of the fit for some real-world data.
-A reduction of $d_c$ by about 24\% gave somewhat better agreement (zero median error) with the data in the sample of runners studied
-here,  when times in a hilly 30k trail race were
+A reduction of $d_c$ by about 25\% gave somewhat better agreement (zero median error) with the data in the sample of runners studied
+here,  when times in the hilly 30k trail race G were
 predicted based on times in shorter races in which the energy expenditure was roughly equivalent to that of
 a flat half marathon.
 On the other hand, much higher values of $d_c$ might be more appropriate for higher-level endurance runners.
@@ -507,8 +572,8 @@ is roughly marathon distance for him.
 \caption{The author's personal-best speeds $v/v_m$ on various courses, versus equivalent distance $d$.
 The curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to a half-marathon distance.
 The times are from a mixture of road and trail courses, and a mixture of races and running against the clock.
-The equivalent distances were determined from the horizontal distances using the curvlinear
-function $C(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data.}
+The equivalent distances were determined from the horizontal distances using the curvilinear
+function $C_t(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data.}
 \label{fig:my-times}
 \end{figure}
 

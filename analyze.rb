@@ -6,6 +6,7 @@ require 'csv'
 require_relative "lib/routes"
 require_relative "lib/endurance"
 require_relative "lib/line_plot"
+require_relative "lib/stat"
 
 def main()
   d = {}
@@ -15,12 +16,13 @@ def main()
 
   # {"albert allen":{"wilson":1.4861111111111112,"baldy":1.8894444444444445},"amelie joffrin":{"wilson":1.4519444444444445,"baldy":1.9194444444444443},
 
-  course_horiz,course_cf,course_gain = get_route_data("data/routes.csv")
+  course_horiz,course_cf,course_gain,course_cf_r = get_route_data("data/routes.csv")
 
-  data = [d,course_horiz,course_cf,course_gain]
+  data = [d,course_horiz,course_cf,course_gain,course_cf_r]
 
   m = {"endurance"=>[0.4,13.1]}
   hockey = {'hockey'=>6.0}
+  rec = {'rec'=>1}
 
   all = course_horiz.keys
   ultra_flat = ["irvine_half"]
@@ -32,6 +34,7 @@ def main()
   tex = ""
   scatt = "scatt/" # prefix for filenames of scatterplot files
 
+  if true then
   # --- Hockey is poor for steep uphill; this is because minetti is curved, not linear. This is mainly a comparison with baldy, only one VK point.
   #     I checked the mapping of Baldy pretty carefully, see notes in meki. Gain is just slightly more than the elevation gain from manker
   #     to the summit (1.8%, or 72'), which makes sense. There is a 500 m steep downhill section at the start, which is mapped accurately.
@@ -46,6 +49,14 @@ def main()
 
   # ----- Ultra-flat versus nearly flat, seem to clearly show that hockey is wrong in this limit, although the sample is small.
   compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey,tex,[scatt,"uf"])
+  end
+
+  if false then
+  compare_rec("flat / uphill",flat,uphill,data,m,rec,tex,[scatt,"fu"])
+  compare_rec("flat / wilson",flat,["wilson"],data,m,rec,tex,[scatt,"fw"])
+  compare_rec("flattish / downhill",flat,["big_bear"],data,m,rec,tex,[scatt,"fd"])
+  compare_rec("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,rec,tex,[scatt,"uf"])
+  end
 
   # ----- test endurance correction; small sample size, but does seem to improve results
   if false then
@@ -67,8 +78,16 @@ def compare_hockey(title,courses1,courses2,data,model,hockey,tex,scatt)
   do_stats("  hockey ",courses1,courses2,data,model.merge(hockey),tex,[scatt[0],scatt[1]+'_h'],{'fill_black'=>true})
 end
 
+def compare_rec(title,courses1,courses2,data,model,rec,tex,scatt)
+  print "comparing Minetti with recreational parameters, #{title}\n"
+  tex.replace(tex+title+", "+describe_list_with_mnemonics(courses1)+" / "+describe_list_with_mnemonics(courses2)+"\n")
+  do_stats("  Minetti",courses1,courses2,data,model,tex,[scatt[0],scatt[1]+'_m'],{})
+  do_stats("  rec    ",courses1,courses2,data,model.merge(rec),tex,[scatt[0],scatt[1]+'_h'],{'fill_black'=>true})
+end
+
 def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt)
-  d,course_horiz,course_cf,course_gain = data
+  d,course_horiz,course_cf,course_gain,course_cf_r = data
+  if model.has_key?('rec') then cf=course_cf_r else cf=course_cf end
   print "#{title}, err>0 means 1st is slow in reality\n"
   errors = []
   n = 0
@@ -80,14 +99,14 @@ def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt)
     flat.each { |c1|
       uphill.each { |c2|
         n = n+1
-        t1,t2,d1,d2,err,e2e1,endurance_corr = cross_ratio(c1,c2,times,course_horiz,course_cf,course_gain,model)
+        t1,t2,d1,d2,err,e2e1,endurance_corr = cross_ratio(c1,c2,times,course_horiz,cf,course_gain,model)
         print "    #{pname(who)}       #{pcourse(c1)}=#{ptime(t1)}        #{pcourse(c2)}=#{ptime(t2)}          err=#{pf(err,5,1)}",
                    "             e2/e1=#{pf(e2e1,4,2)}   endurance=#{pf(endurance_corr,4,2)}\n"
         errors.push(err)
       }
     }
   }
-  median,mean_abs,spread = stats(errors)
+  median,mean_abs,spread,kurtosis = stats(errors)
   print "      median error=#{pf(median,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n"
   tex.replace(tex+"#{title}   median error=#{pf(median,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n")
   File.open(scatt[0]+scatt[1]+".svg",'w') { |f|
@@ -133,41 +152,11 @@ def energy(distance,climb_factor,gain,model)
   return distance*f
 end
 
-def stats(x)
-  return [median_value(x),mean_abs_value(x),spread_value(x)]
-end
-
-def mean_abs_value(x)
-  return (x.map {|u| u.abs}.sum)/x.length
-end
-
-def median_value(x) # https://stackoverflow.com/a/14859546
-  return nil if x.empty?
-  sorted = x.sort
-  len = sorted.length
-  (sorted[(len - 1) / 2] + sorted[len / 2]) / 2.0
-end
-
 def spread_value(a)
-  # standard deviation
-  n = a.length
-  if n<2 then return nil end
-  s = 0.0
-  a.each { |x|
-    s = s+x
-  }
-  mean = s/n
-  s = 0.0
-  a.each { |x|
-    diff = x-mean
-    s = s+diff*diff
-  }
-  sd = Math.sqrt(s/(n-1))
-  return sd
+  return sd_value(a)
   # median absolute difference from the median
   # ... this behaves well when tails are fat and there's plenty of data, but produces weird results with small n
-  #med = median_value(x)
-  #return median_value(x.map {|u| (u-med).abs})
+  # return median_abs_dev_value(x)
 end
 
 def array_intersection(a1,a2)

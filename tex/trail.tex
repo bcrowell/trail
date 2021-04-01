@@ -467,6 +467,38 @@ $C_r$  & 3 & $-14$ & $-17$ & $-9$ \\
 $C_t$, $C_g$, and $C_r$.}
 \end{table}
 
+\subsection*{Statistical distribution of the ratio of times}
+
+Most of the tests in this study showed modeling errors that were big enough to be clearly
+visible on the kind of scatter plots used in Fig \ref{fig:test-hockey}, with no serious doubt
+as to their statistical significance. The exception is test a, which had a sample size of
+only 17. We therefore need to know enough about the relevant probability distributions to
+be able to do significance tests. For this purpose, I looked for courses $j$ and $k$ such
+that a significant number of runners had times recorded on both $j$ and $k$, allowing
+the random variables $t_j/t_k$ and $\mathcal{E}_{jk}$ to be observed many times. The following four
+combinations had good sample sizes and didn't overlap too much with each other, making them
+mostly statistically independent: X / Y, X / P, B / W, and I / P. The sample sizes were,
+respectively, 295, 82, 27, and 17.
+
+The distribution of $\mathcal{E_{jk}}$ was found in all cases to be very different from a
+standard normal (Gaussian) distribution, with strong negative skewness. 
+The distribution of $t_j/t_k$ was more
+symmetric, but was strongly leptokurtic, i.e., it had fatter tails than a normal distribution.
+Sample values of the Pearson kurtosis were 22, 10, 6, and 7, as compared with 3 for a normal curve.
+These findings were a little surprising, since log-normal distributions were used by ref.~\cite{godsey}
+to model performance in track and field times, so that one might expect the logarithmic definition
+of $\mathcal{E}$ to make it normal. However, ref.~\cite{godsey} was concerned with elite athletes
+whose times were in the high-performance tails of the bell curve.
+
+This motivates the consideration of a Student's $t$ distribution for $t_j/t_k$, since that
+distribution is symmetric and has fat tails. A standard tool for comparing data with a proposed
+probability distribution is quantile-quantile or Q-Q plot, in which the ordinate and abscissa
+are the cumulative probability distributions of the real data and the proposed distribution.
+A good match is one in which the graph follows the diagonal $y=x$.
+By this criterion, the Student's $t$ distribution with $\nu=4$ was the best match to the
+data. Each of the following alternatives gave a worse fit in most cases: a normal distribution,
+Student's $t$ with $\nu=3$, and Student's $t$ with $\nu=2$. Because the Student's $t$ distribution
+with $\nu=4$ has a well-defined standard deviation
 
 
 \subsection*{Model of endurance}

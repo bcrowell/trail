@@ -5,6 +5,7 @@ end
 def student_t_cum(t,order)
   # https://en.wikipedia.org/wiki/Student%27s_t-distribution#Special_cases
   if order==2 then
+   # Tested that this gives a good QQ plot with artificially generated values.
    return 0.5+(1/(2.0*Math::sqrt(2.0)))*t/Math::sqrt(1+t**2/2.0)
   end
   if order==3 then

@@ -20,10 +20,14 @@ def main()
   #   # {"albert allen":{"wilson":1.4861111111111112,"baldy":1.8894444444444445},"amelie joffrin":{"wilson":1.4519444444444445,"baldy":1.9194444444444443},
 
   do_log = false
-  do_uniform = false # for testing purposes, to make sure I understand interpretation; generates uniformly distributed data
+  do_artificial = nil # nil=use actual data; other options are for testing purposes: 'uniform','normal','student'
   do_normal = false # if false, then we do Student's t
   nu = 2 # order for Student's t
-  w = 1.61 # rescale data by this arbitrary factor; necessary for nu<3 because s.d. is theoretically undefined
+
+  c1 = "big_bear";  c2 = "canyon_city" # biggest sample size, 295
+  # c1 = "baldy";  c2 = "wilson"
+  # c1 = "irvine_half";  c2 = "pasadena"
+  # c1 = "canyon_city";  c2 = "pasadena"
 
   # Use the following code to find sample sizes for different combos, uncomment print statement at the bottom.
   combos = {}
@@ -41,19 +45,18 @@ def main()
     t1 = times[courses[0]]
     t2 = times[courses[1]]
   }
-  #print combos,"\n"
+  print combos,"\n"
 
-  # "big_bear,canyon_city" = 295
-  c1 = "big_bear"
-  c2 = "canyon_city"
   x = []
   d.keys.sort.each { |who|
     times = d[who]
     if not (times.has_key?(c1) and times.has_key?(c2)) then next end
     t1 = times[c1]
     t2 = times[c2]
-    if do_uniform then
-      x.push(Random.rand())
+    if not do_artificial.nil? then
+      if do_artificial=='uniform' then x.push(Random.rand()) end
+      if do_artificial=='normal' then x.push(random_normal()) end
+      if do_artificial=='student' then x.push(random_student(nu)) end
       next
     end
     if do_log then
@@ -63,8 +66,11 @@ def main()
     end
   }
   n = x.length
-  median,mean,sd = stats(x)
-  print c1," ",c2," n=",n,"    median, mean, sd, kurtosis=",stats(x),"\n"
+  median,mean_abs,sd = stats(x)
+  mad = mean_abs_dev_value(x)
+  mean = mean_value(x)
+  print c1," ",c2," n=",n,"        mean=",mean,"    median, mean_abs, sd, kurtosis=",stats(x),", MAD=#{mad}\n"
+  if nu==2 then print "nu=2, scaling by #{Math::sqrt(2.0)/mad}\n" end
 
   max_diff = 0
   File.open($outfile,'w') { |f|
@@ -76,9 +82,9 @@ def main()
       if do_normal then
         cum = normal_cum(z)
       else
-       
+        # Student's t distribution
         if nu<=2 then
-          t = z*w
+          t = (r-mean)*Math::sqrt(2.0)/mad
         else
           t = z*Math::sqrt(nu.to_f/(nu-2))
         end
@@ -88,10 +94,10 @@ def main()
       f.print "#{r},#{q},#{cum},#{q-cum}\n"
     }
   }
-  print "do_log,do_uniform,do_normal,nu = ",[do_log,do_uniform,do_normal,nu],"\n"
-  if nu<=2 then print "w=#{w}\n" end
+  print "do_log,do_normal,nu = ",[do_log,do_normal,nu],"\n"
   print "max_diff=#{max_diff}\n"
   print "wrote #{$outfile}\n"
+  if not do_artificial.nil? then print "***************** WARNING -- not using real data, using artificial data for testing putposes ***************\n" end
 end
 
 

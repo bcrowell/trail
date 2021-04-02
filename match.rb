@@ -23,6 +23,7 @@ def filename_to_race(filename)
   if filename=~/big_bear/ then return 'big_bear' end
   if filename=~/canyon_city/ then return 'canyon_city' end
   if filename=~/irvine_half/ then return 'irvine_half' end
+  if filename=~// then return 'irvine_half' end
   die("error parsing filename, #{filename}")
 end
 

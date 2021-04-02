@@ -64,6 +64,8 @@ def main()
     do_stats("short / 30k, endurance correction",["pasadena","wilson"],["griffith_park_30k"],data,m,tex,[scatt,"en"],{})
   end
 
+  do_time_ratios("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data)
+
   print tex
 end
 
@@ -112,6 +114,29 @@ def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt)
   File.open(scatt[0]+scatt[1]+".svg",'w') { |f|
     f.print make_line_plot(errors,line_plot_opt)
   }
+end
+
+def do_time_ratios(title,courses1,courses2,data)
+  d,course_horiz,course_cf,course_gain,course_cf_r = data
+  print "#{title}, ratio>1 means 1st is slow\n"
+  ratios = []
+  n = 0
+  d.keys.sort.each { |who|
+    times = d[who]
+    flat   = array_intersection(courses1,times.keys)
+    uphill = array_intersection(courses2,times.keys)
+    if flat.empty? or uphill.empty? then next end
+    flat.each { |c1|
+      uphill.each { |c2|
+        n = n+1
+        t1 = times[c1]
+        t2 = times[c2]
+        ratios.push(t1/t2)
+      }
+    }
+  }
+  median,mean_abs,spread,kurtosis = stats(ratios)
+  print "      median ratio=#{pf(median,8,4)}            sd=#{pf(spread,8,4)}         n=#{n}\n"
 end
 
 def cross_ratio(c1,c2,times,course_horiz,course_cf,course_gain,model)

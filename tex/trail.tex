@@ -367,11 +367,10 @@ error for $C_t$ (open circles) is only +1.6\%, while that for $C_g$ (filled circ
 the positive sign showing that the effect of the small hills is considerably over-predicted.
 
 The sample size $n=17$ in this test is the smallest of the four presented in Fig \ref{fig:test-hockey},
-but this systematic error in the $C_g$ model appears to be fairly statistically significant. Only
-two of the 17 points have negative errors. The random variable $\mathcal{E}$ is probably not normally
-distributed, but in the approximation that it is, the standard deviation of the median can be approximated
-as $\sqrt{\pi/2}$ times the standard deviation of the mean. The sample standard deviation is $\sigma=9.9\%$,
-which would make this over-prediction a 2.1-sigma effect, $p=0.98$.
+but this median systematic error in the $C_g$ model is significant with two-tailed $p=0.04$ (see Appendix 1).
+
+% see analyze.rb, do_time_ratios().
+% calc -e "s=.111; n=17; sm=sqrt(pi/(2n))s; .066/.033"
 
 (b) In this portion of Fig \ref{fig:test-hockey}, we compare times in a set of fairly flat half-marathons
 (with CF values ranging from 0.2\% to 8\%) with course W, a trail race up and down half of Mount Wilson, $CF=20\%$.
@@ -467,44 +466,10 @@ $C_r$  & 3 & $-14$ & $-17$ & $-9$ \\
 $C_t$, $C_g$, and $C_r$.}
 \end{table}
 
-\subsection*{Statistical distribution of the ratio of times}
-
-Most of the tests in this study showed modeling errors that were big enough to be clearly
-visible on the kind of scatter plots used in Fig \ref{fig:test-hockey}, with no serious doubt
-as to their statistical significance. The exception is test a, which had a sample size of
-only 17. We therefore need to know enough about the relevant probability distributions to
-be able to do significance tests. For this purpose, I looked for courses $j$ and $k$ such
-that a significant number of runners had times recorded on both $j$ and $k$, allowing
-the random variables $t_j/t_k$ and $\mathcal{E}_{jk}$ to be observed many times. The following four
-combinations had good sample sizes and didn't overlap too much with each other, making them
-mostly statistically independent: X / Y, X / P, B / W, and I / P. The sample sizes were,
-respectively, 295, 82, 27, and 17.
-
-The distribution of $\mathcal{E_{jk}}$ was found in all cases to be very different from a
-standard normal (Gaussian) distribution, with strong negative skewness. 
-The distribution of $t_j/t_k$ was more
-symmetric, but was strongly leptokurtic, i.e., it had fatter tails than a normal distribution.
-Sample values of the Pearson kurtosis were 22, 10, 6, and 7, as compared with 3 for a normal curve.
-These findings were a little surprising, since log-normal distributions were used by ref.~\cite{godsey}
-to model performance in track and field times, so that one might expect the logarithmic definition
-of $\mathcal{E}$ to make it normal. However, ref.~\cite{godsey} was concerned with elite athletes
-whose times were in the high-performance tails of the bell curve.
-
-This motivates the consideration of a Student's $t$ distribution for $t_j/t_k$, since that
-distribution is symmetric and has fat tails. A standard tool for comparing data with a proposed
-probability distribution is quantile-quantile or Q-Q plot, in which the ordinate and abscissa
-are the cumulative probability distributions of the real data and the proposed distribution.
-A good match is one in which the graph follows the diagonal $y=x$.
-By this criterion, the Student's $t$ distribution with $\nu=4$ was the best match to the
-data. Each of the following alternatives gave a worse fit in most cases: a normal distribution,
-Student's $t$ with $\nu=3$, and Student's $t$ with $\nu=2$. Because the Student's $t$ distribution
-with $\nu=4$ has a well-defined standard deviation
-
-
 \subsection*{Model of endurance}
 
 Animals run more slowly at long distances, and mathematical modeling of this fact dates back
-about a century.\cite{hill} Recent workers have described methods for fitting parameters
+about a century.\cite{hill}  Recent workers have described methods for fitting parameters
 to the data for individual runners,\cite{rapoport}\cite{emig} which for example allows
 a first-time marathon runner to estimate an appropriate pace. In the present work, there is
 not enough data available to allow this kind of individualized description of the runners.
@@ -586,6 +551,18 @@ controlled by a small parameter $Q$:
 The factor of 3 is introuced so that $Q$ is approximately equal to the reduction in speed between a 5k and a half-marathon,
 and we set $Q=0.05$.
 
+\begin{figure}[h]
+\includegraphics[width=8cm]{figs/my-times/my-times.pdf}
+\centering
+\caption{The author's personal-best speeds $v$ on various courses, versus equivalent distance $d$.
+The curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to a half-marathon distance.
+The times are from a mixture of road and trail courses, and a mixture of races and running against the clock.
+The equivalent distances were determined from the horizontal distances using the curvilinear
+function $C_t(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data. The red curve is a 
+fit to world-record times.\cite{cameron} All speeds are normalized to 1 at a distance of one mile.}
+\label{fig:my-times}
+\end{figure}
+
 Empirically, for the mostly recreational runners studied here, a reasonable description of the data is achieved when
 $d_c$ is set to the half-marathon distance, which is the value adopted in this work.
 Fig \ref{fig:my-times} shows the quality of the fit for some real-world data.
@@ -593,26 +570,55 @@ A reduction of $d_c$ by about 25\% gave somewhat better agreement (zero median e
 here,  when times in the hilly 30k trail race G were
 predicted based on times in shorter races in which the energy expenditure was roughly equivalent to that of
 a flat half marathon.
+
 On the other hand, much higher values of $d_c$ might be more appropriate for higher-level endurance runners.
 For example, Eliud Kipchoge's personal-record
 speed is only 8\% lower in the marathon than in the 1500 m. This can only be reproduced in this model if $d_c$
 is roughly marathon distance for him.
-
-\begin{figure}[h]
-\includegraphics[width=8cm]{figs/my-times/my-times.pdf}
-\centering
-\caption{The author's personal-best speeds $v/v_m$ on various courses, versus equivalent distance $d$.
-The curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to a half-marathon distance.
-The times are from a mixture of road and trail courses, and a mixture of races and running against the clock.
-The equivalent distances were determined from the horizontal distances using the curvilinear
-function $C_t(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data.}
-\label{fig:my-times}
-\end{figure}
+For high-level running competitions, Gardner and Purdy give a
+method of comparing with a standard performance curve, based on a compilation of world
+records.\cite{gardner} A convenient closed-form approximation has been found by Cameron,\cite{cameron}
+which is of the form $V\propto 1-Ad+Bd^{-C}$, shown as the red curve in figure \ref{fig:my-times}.
 
 Although fitting parameters to individual runners' characteristics is not the main purpose of this work, doing
 so is very easy with this model, due to its purely multiplicative structure.
 When data are viewed in the format used in Fig \ref{fig:my-times}, as a log-log plot of speed versus distance,
 the standard curve $\kappa(d)$ is simply slid around horizontally and vertically to match the runner's $v_m$ and $d_c$.
+
+\subsection*{Appendix 1. Statistical distribution of the ratio of times}
+
+Most of the tests in this study showed modeling errors that were big enough to be clearly
+visible on the kind of scatter plots used in Fig \ref{fig:test-hockey}, with no serious doubt
+as to their statistical significance. The exception is test a, which had a sample size of
+only 17. We therefore need to know enough about the relevant probability distributions to
+be able to do significance tests. For this purpose, I looked for courses $j$ and $k$ such
+that a significant number of runners had times recorded on both $j$ and $k$, allowing
+the random variables $t_j/t_k$ and $\mathcal{E}_{jk}$ to be observed many times. The following four
+combinations had good sample sizes and didn't overlap too much with each other, making them
+mostly statistically independent: X / Y, X / P, B / W, and I / P. The sample sizes were,
+respectively, 295, 82, 27, and 17.
+
+Godsey\cite{godsey} used log-normal distributions successfully to describe times in track and
+field events. This would be convenient for our purposes since it would imply that $\mathcal{E}$
+was normally distributed. In reality, this did not appear to be the case for the mostly recreational
+athletes and the heterogeneous races considered here, as opposed to Godsey's modeling of
+the fastest times in the tails of the distribution for high-level athletes. For the data considered here,
+Q-Q plots showed that the distribution of $\mathcal{E_{jk}}$ was not normal, but that
+the distribution of $t_j/t_k$ was closer to normal, although strongly leptokurtic
+(Pearson $\kappa\approx 5$ to 20), i.e., it had fatter tails than a normal distribution.
+
+This motivates the consideration of a non-standardized Student's $t$-distribution for $t_j/t_k$, since that
+distribution has fat tails and arises naturally in problems involving the quotient of two random variables.
+On a Q-Q plot, the most satisfactory description of the data was obtained with a Student's
+$t$-distribution with $\nu=4$ degrees of freedom.
+Each of the following alternatives gave a worse fit in most cases: a normal distribution,
+Student's $t$ with $\nu=3$, and Student's $t$ with $\nu=2$.
+
+Because $\nu=4$ is greater than 2, this distribution has a well-defined variance, so that
+the central limit theorem holds. Therefore if we observe a sample of $n$ ratios $t_1/t_2$,
+the population standard deviation being $\sigma$, then the sample mean should be well
+approximated as having a normal distribution with standard deviation $\sigma/\sqrt{n}$,
+and the sample median as a normal with standard deviation $\sqrt{\pi/2n}\sigma$.
 
 
 \bibliography{trail}

@@ -121,7 +121,7 @@ B.~Crowell\textsuperscript{1}
 
 \section*{Abstract}
 
-Laboratory studies have measured the energetic costs to humans of running at
+Previous laboratory studies have measured the energetic costs to humans of running at
 uphill and downhill slopes on a treadmill. This work investigates the extension
 of those results to the prediction of relative performance of athletes running
 on flat, hilly, or very mountainous outdoor courses.
@@ -172,8 +172,8 @@ meaning that we can predict the time for course A divided by the time for course
 Traditionally, runners and hikers have described a trail using two numbers, the horizontal distance and the total elevation gain.
 For example, if the route is an out-and-back voyage consisting of steady climbing to a peak and
 a return, then the total elevation gain is simply the elevation of the peak minus the elevation of
-the trailhead. If the elevation profile of the trip consisted of multiple clearly defined ascents and descents,
-then one would add up the ascents. Although this two-parameter description of the route is
+the trailhead. If the elevation profile of the trip consists of multiple clearly defined ascents and descents,
+then adds up the ascents. Although this two-parameter description of the route is
 easy to derive from a paper topographic map, knowledge of the two numbers is not sufficient
 to make a very useful estimate of the total energy expenditure.
 
@@ -226,7 +226,7 @@ runners, and differences are also to be expected between this group and other at
 of the reasons why this study presents a comparative technique, rather than an absolute method for
 determining a particular runner's actual energy expenditure in units of kilocalories.
 
-The function $C(i)$ resembles a hyperbola, with a
+The function $C(i)$, shown in Fig \ref{fig:minetti}, resembles a hyperbola, with a
 minimum occurring at $i\approx -0.1$ to $-0.2$. 
 The asymptotes
 at large positive and negative values of $i$ are interpreted in \cite{minetti} as being determined by the
@@ -259,7 +259,8 @@ a test of the dependence of the predictions on the amount of hill climbing.
 
 \begin{table}[h]\label{table:courses}
 \caption{Courses used in this study. Notes: 1.~Times up to 2:30 used. 
-2.~Times up to 1:11 used.
+2.~Times up to 1:11 were used for course S. A map of course S was not available, so a flat elevation profile was
+assumed.
 }
 \begin{tabular}{lp{60mm}rrrl}
                  &       & dist.  & gain &  &  years \\
@@ -289,17 +290,11 @@ One-letter mnemonics are defined so that courses can be referred to succinctly i
 Because a runner's performance can change over time due to training and aging,
 the time period of the study was restricted as much as possible to January 2017 through March 2020
 (before the COVID epidemic ended races other than virtual ones in California).
-Digital maps projected into a horizontal plane were obtained from the race organizers' web site
-or in some cases by tracing roads and trails in a Google Maps application. Elevation data
-were obtained from publicly available digital elevation models (SRTM1) having a horizontal
-resolution of 30 meters. (Elevation data from handheld GPS units are more difficult to
-obtain from public sources, and are in any case of questionable reliability
-for this purpose, since the uncertainty can be very large when all satellites are near the
-horizon or when the terrain is rough, causing radio echoes from the walls of canyons.)
+Distance and elevation data were analyzed as described in Appendix 4.
+
 Runners' names and times were obtained by web-scraping public race results,
 and runners were assumed to be the same person if their first and last names matched.
 When a runner ran the same race more than once, their best time was used.
-
 To avoid biases in comparisons of times in different races, it is necessary here to define
 an upper limit on the times that will be used from a given race, and to do so in some
 consistent and unbiased way. Some such limit is in any case
@@ -314,6 +309,14 @@ are described in the notes in Table \ref{table:courses}. For course S, the time 
 scaling down the half-marathon time limit in proportion to the distance.
 The other courses in this study are of a qualitatively different character, so for them I simply
 used the race organizers' cut-off. The resulting bias is an inherent limitation of this work.
+
+Exertion depends most strongly on distance, and the goal of this work is to tease out effects
+from other factors, which are often weaker. For this reason, distance is a confounding variable
+in this study and has been controlled for as much as possible by using races at a consistent
+distance, the half marathon (21.1 km), or distances that, taking extreme climbing into account,
+result in similar times. These are the distances at which the largest sample sizes are available for
+mountain trail races. Section \ref{subsec:endurance} describes how the remaining inevitable
+variations in distance have been taken into account, as much as possible.
 
 In table \ref{table:courses}, two measures of hilliness are given. The total elevation gain
 is the only parameter needed in order to calculate an energy expenditure using the function
@@ -351,6 +354,7 @@ to their time in the flat race $j$.
 Fig \ref{fig:test-hockey} shows a comparison of the quality of the predictions of the functions
 $C_g$ and $C_t$ as descriptions of the effects of going up and down hills.
 The third model $C_r$ is a hybrid of these, introduced later in the text.
+All predictions were corrected for distance as described in section \ref{subsec:endurance}.
 Each of the four sub-figures a through d has been constructed so as to test a particular
 feature of these models. We discuss each in turn.
 
@@ -416,6 +420,8 @@ here is that for recreational runners who have not trained extensively on steep 
 length can be physically difficult due to the strong eccentric strain on the quadriceps, as well as
 testing the tensor fascia latae.
 
+\section{Interpretation}
+
 Fig \ref{fig:features} presents a graphical summary of the interpretation of these results.
 
 \begin{figure}[h]
@@ -445,6 +451,8 @@ universal way. However, it would be irresponsible to provide runners,
 especially recreational athletes, with scientific advice that would
 give an unrealistically rosy picture of the difficulty of a run.
 
+\section{Hybrid model}
+
 I have therefore investigated some possible modifications to the function
 $C_t$. A modification that did not work well was to adjust the values of the parameters $p$ and $d$
 given in Table \ref{table:minetti-params} so as to shift the minimum of
@@ -467,15 +475,15 @@ line in Fig \ref{fig:features}.
 The results of the hybrid model $C_r$ are shown as gray circles in Fig \ref{fig:test-hockey}
 and are in general fairly good. The main remaining inaccuracy is the underprediction of the
 effect of steep hills in test c. It would be tempting to modify the function $C$ to give it
-an even more severe curvature for $i\gtrsim 0.3$. This does not seem warranted by the present
+an even more severe upward curve for $i\gtrsim 0.3$. This does not seem warranted by the present
 data, since other factors may be at work, including altitude and rough footing.
 
-\subsection{Model of endurance}
+\subsection{Model of endurance}\label{subsec:endurance}
 
 Animals run more slowly at long distances, and mathematical modeling of this fact dates back
 about a century.\cite{hill}  Recent workers have described methods for fitting parameters
 to the data for individual runners,\cite{rapoport}\cite{emig} which for example allows
-a first-time marathon runner to estimate an appropriate pace. In the present work, there is
+a first-time marathon runner to estimate an appropriate pace. In the present work, there are
 not enough data available to allow this kind of individualized description of the runners.
 For this reason, I have concentrated on data from a narrow range of middle distances,
 with the total energy expenditure being close to that of a flat half-marathon road race.
@@ -583,13 +591,23 @@ is roughly marathon distance for him.
 For high-level running competitions, Gardner and Purdy give a
 method of comparing with a standard performance curve, based on a compilation of world
 records.\cite{gardner} 
-The red curve is an approximation to the locus of world-record times (Appendix 2).
+The red curve in Fig \ref{fig:my-times} is an approximation to the locus of world-record times (Appendix 2).
 
 Although fitting parameters to individual runners' characteristics is not the main purpose of this work, doing
 so is very easy with the model \ref{eq:kappa}, due to its purely multiplicative structure.
 When data are viewed in the format used in Fig \ref{fig:my-times}, as a log-log plot of speed versus distance,
 the standard curve $\kappa(d)$ is simply slid around horizontally and vertically to match the data, which
 has the effect of determining the runner's $v_m$ and $d_c$.
+
+\section{Conclusions}
+This paper presents a model that can be used to predict the time of a runner on a
+course, given their time on some other course. This model is a hybrid of two others that have been previously
+proposed. Testing against a sample of times
+clocked by mostly recreational athletes shows that
+the model usually gives predict corrections
+to within about 10-20\%, even when the route includes extreme climbing or descents.
+It would be desirable for future work to refine this work by controlling better for factors such
+as altitude, training, and the quality of footing on mountain trails.
 
 \subsection*{Appendix 1. Some analytic approximations}
 
@@ -683,15 +701,38 @@ the population standard deviation being $\sigma$, then the sample mean should be
 approximated as having a normal distribution with standard deviation $\sigma/\sqrt{n}$,
 and the sample median as a normal with standard deviation $\sigma\sqrt{\pi/2n}$.
 
-\section{Conclusions}
-This paper presents a model that can be used to predict the time of a runner on a
-course, given their time on some other course. This model is a hybrid of two others that have been previously
-proposed. Testing against a sample of times
-clocked by mostly recreational athletes shows that
-the model usually gives predict corrections
-to within about 10-20\%, even when the route includes extreme climbing or descents.
-It would be desirable for future work to refine this work by controlling better for factors such
-as altitude, training, and the quality of footing on mountain trails.
+\subsection*{Appendix 4: Analysis of elevation data}
+Digital maps projected into a horizontal plane were obtained from the race organizers' web site
+or in some cases by tracing roads and trails in a Google Maps application. Elevation data
+were obtained from publicly available digital elevation models (SRTM1) having a horizontal
+resolution of 30 meters. (Elevation data from handheld GPS/GNSS units are more difficult to
+obtain from public sources, and are in any case of questionable reliability
+for this purpose, since the uncertainty can be very large when all satellites are near the
+horizon or when the terrain is rough, causing radio echoes from the walls of canyons.)
+
+The use of these data is inherently subject to certain errors, which need to be minimized.
+Trails and roads are intentionally constructed so as not to go up and down steep hills, but
+the DEM may not accurately reflect this. The most common situation seems to be one in which
+a trail or road takes a detour into a narrow gully in order to maintain a steady grade.
+If the gully is narrower than the horizontal resolution of the DEM, then the DEM doesn't know about the the gully, and
+the detour appears to be a steep excursion up and then back down the prevailing slope.
+
+Empirically, I have found that sensitivity to these effects can be minimized if the elevation
+profile of the run $y(x)$ is filtered by convolving it with a rectangular windowing function having width
+$w=200$ meters. This tends to eliminate unrealistic glitches in the elevation data, and also seems to give
+a fairly close reproduction of race organizers' estimates of total elevation gain. This choice of $w$ gives
+sane results for routes in mountainous terrain, and is used throughout this work, even for flat courses
+on city streets. For a course that is relatively flat and has many small, short hills, $w\approx60$ m gives
+more accurate results, but I have used the larger value of $w$ throughout this work in an effort to maintain
+consistency.
+
+The mileage derived from a GPS track can vary quite a bit depending on the resolution of the GPS data.
+Higher resolution increases the mileage, because small wiggles get counted in. This has a big effect on
+the energy calculation, because the energy is mostly sensitive to mileage, not gain. For races
+that were advertised as 5k or half-marathon races, I have therefore used the advertised distance,
+as shown in Table \ref{table:courses},
+in order to calculate the first-order estimate of the energy, but have used the elevation gain and
+CF value derived from the actual GNSS data.
 
 \section*{Acknowledgements}
 
@@ -700,8 +741,10 @@ The author thanks Wendy Yen for helpful conversations.
 \section*{Data availability statement}
 
 The compilation
-of race times was derived from public sources and is itself publicly available at \url{https://github.com/bcrowell/trail}, along with the
-code used to analyze it. I have also used Zenodo to
+of race times was derived from public sources and is itself publicly available at \url{https://github.com/bcrowell/trail}.
+The code used to analyze the data is contained in that repository and in \url{https://github.com/bcrowell/kcals}.
+All code is under a GPL license.
+I have also used Zenodo to
 assign a DOI to the repository: 10.5281/zenodo.4661554.
 
 \bibliography{trail}

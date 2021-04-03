@@ -8,6 +8,8 @@ require_relative "lib/endurance"
 require_relative "lib/line_plot"
 require_relative "lib/stat"
 
+$use_mean = false # if set to false, then use median
+
 def main()
   d = {}
   File.open('matches.json','r') { |f|
@@ -34,28 +36,30 @@ def main()
   tex = ""
   scatt = "scatt/" # prefix for filenames of scatterplot files
 
-  if true then
+  compare_hockey("flat / hilly",      ["pasadena","irvine_half"],["chesebro"],data,m,hockey,tex,[scatt,"uf"],{'max_time'=>2.0})
+
+  if false then
   # --- Hockey is poor for steep uphill; this is because minetti is curved, not linear. This is mainly a comparison with baldy, only one VK point.
   #     I checked the mapping of Baldy pretty carefully, see notes in meki. Gain is just slightly more than the elevation gain from manker
   #     to the summit (1.8%, or 72'), which makes sense. There is a 500 m steep downhill section at the start, which is mapped accurately.
-  compare_hockey("flat / uphill",flat,uphill,data,m,hockey,tex,[scatt,"fu"])
+  compare_hockey("flat / uphill",flat,uphill,data,m,hockey,tex,[scatt,"fu"],{})
 
   # --- Both Minetti and hockey predict wilson times that are about 20% too short. I suspect this is safety and etiquette at work.
-  compare_hockey("flat / wilson",flat,["wilson"],data,m,hockey,tex,[scatt,"fw"])
+  compare_hockey("flat / wilson",flat,["wilson"],data,m,hockey,tex,[scatt,"fw"],{})
 
   # ----- Good comparison of flattish with downhill. Hockey much better than Minetti. I suspect this is because of the extreme amount
   #       of eccentric work on quads, also possibly TFLs. Nice big sample.
-  compare_hockey("flattish / downhill",flat,["big_bear"],data,m,hockey,tex,[scatt,"fd"])
+  compare_hockey("flattish / downhill",flat,["big_bear"],data,m,hockey,tex,[scatt,"fd"],{})
 
   # ----- Ultra-flat versus nearly flat, seem to clearly show that hockey is wrong in this limit, although the sample is small.
-  compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey,tex,[scatt,"uf"])
+  compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey,tex,[scatt,"uf"],{'max_time'=>2.0})
   end
 
   if false then
-  compare_rec("flat / uphill",flat,uphill,data,m,rec,tex,[scatt,"fu"])
-  compare_rec("flat / wilson",flat,["wilson"],data,m,rec,tex,[scatt,"fw"])
-  compare_rec("flattish / downhill",flat,["big_bear"],data,m,rec,tex,[scatt,"fd"])
-  compare_rec("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,rec,tex,[scatt,"uf"])
+  compare_rec("flat / uphill",flat,uphill,data,m,rec,tex,[scatt,"fu"],{})
+  compare_rec("flat / wilson",flat,["wilson"],data,m,rec,tex,[scatt,"fw"],{})
+  compare_rec("flattish / downhill",flat,["big_bear"],data,m,rec,tex,[scatt,"fd"],{})
+  compare_rec("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,rec,tex,[scatt,"uf"],{})
   end
 
   # ----- test endurance correction; small sample size, but does seem to improve results
@@ -64,7 +68,7 @@ def main()
     do_stats("short / 30k, endurance correction",["pasadena","wilson"],["griffith_park_30k"],data,m,tex,[scatt,"en"],{})
   end
 
-  do_time_ratios("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data)
+  do_time_ratios("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,{})
 
   print tex
 end
@@ -73,22 +77,23 @@ def describe_list_with_mnemonics(courses)
   return courses.map {|c| mnemonic(c)}.join(',')
 end
 
-def compare_hockey(title,courses1,courses2,data,model,hockey,tex,scatt)
+def compare_hockey(title,courses1,courses2,data,model,hockey,tex,scatt,opt)
   print "comparing Minetti with hockey, #{title}\n"
   tex.replace(tex+title+", "+describe_list_with_mnemonics(courses1)+" / "+describe_list_with_mnemonics(courses2)+"\n")
-  do_stats("  Minetti",courses1,courses2,data,model,tex,[scatt[0],scatt[1]+'_m'],{})
-  do_stats("  hockey ",courses1,courses2,data,model.merge(hockey),tex,[scatt[0],scatt[1]+'_h'],{'fill_black'=>true})
+  do_stats("  Minetti",courses1,courses2,data,model,tex,[scatt[0],scatt[1]+'_m'],{},opt)
+  do_stats("  hockey ",courses1,courses2,data,model.merge(hockey),tex,[scatt[0],scatt[1]+'_h'],{'fill_black'=>true},opt)
 end
 
-def compare_rec(title,courses1,courses2,data,model,rec,tex,scatt)
+def compare_rec(title,courses1,courses2,data,model,rec,tex,scatt,opt)
   print "comparing Minetti with recreational parameters, #{title}\n"
   tex.replace(tex+title+", "+describe_list_with_mnemonics(courses1)+" / "+describe_list_with_mnemonics(courses2)+"\n")
-  do_stats("  Minetti",courses1,courses2,data,model,tex,[scatt[0],scatt[1]+'_m'],{})
-  do_stats("  rec    ",courses1,courses2,data,model.merge(rec),tex,[scatt[0],scatt[1]+'_h'],{'fill_black'=>true})
+  do_stats("  Minetti",courses1,courses2,data,model,tex,[scatt[0],scatt[1]+'_m'],{},opt)
+  do_stats("  rec    ",courses1,courses2,data,model.merge(rec),tex,[scatt[0],scatt[1]+'_h'],{'fill_black'=>true},opt)
 end
 
-def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt)
+def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt,opt)
   d,course_horiz,course_cf,course_gain,course_cf_r = data
+  if opt.has_key?('max_time') then max_time=opt['max_time'] else max_time=999999.9 end
   if model.has_key?('rec') then cf=course_cf_r else cf=course_cf end
   print "#{title}, err>0 means 1st is slow in reality\n"
   errors = []
@@ -100,8 +105,9 @@ def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt)
     if flat.empty? or uphill.empty? then next end
     flat.each { |c1|
       uphill.each { |c2|
-        n = n+1
         t1,t2,d1,d2,err,e2e1,endurance_corr = cross_ratio(c1,c2,times,course_horiz,cf,course_gain,model)
+        if t1>max_time or t2>max_time then next end
+        n = n+1
         print "    #{pname(who)}       #{pcourse(c1)}=#{ptime(t1)}        #{pcourse(c2)}=#{ptime(t2)}          err=#{pf(err,5,1)}",
                    "             e2/e1=#{pf(e2e1,4,2)}   endurance=#{pf(endurance_corr,4,2)}\n"
         errors.push(err)
@@ -109,15 +115,18 @@ def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt)
     }
   }
   median,mean_abs,spread,kurtosis = stats(errors)
-  print "      median error=#{pf(median,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n"
-  tex.replace(tex+"#{title}   median error=#{pf(median,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n")
+  mean = mean_value(errors)
+  if $use_mean then center=mean else center=median end
+  print "      mean/median error=#{pf(center,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n"
+  tex.replace(tex+"#{title}   mean/median error=#{pf(center,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n")
   File.open(scatt[0]+scatt[1]+".svg",'w') { |f|
     f.print make_line_plot(errors,line_plot_opt)
   }
 end
 
-def do_time_ratios(title,courses1,courses2,data)
+def do_time_ratios(title,courses1,courses2,data,opt)
   d,course_horiz,course_cf,course_gain,course_cf_r = data
+  if opt.has_key?('max_time') then max_time=opt['max_time'] else max_time=999999.9 end
   print "#{title}, ratio>1 means 1st is slow\n"
   ratios = []
   n = 0
@@ -131,6 +140,7 @@ def do_time_ratios(title,courses1,courses2,data)
         n = n+1
         t1 = times[c1]
         t2 = times[c2]
+        if t1>max_time or t2>max_time then next end
         ratios.push(t1/t2)
       }
     }

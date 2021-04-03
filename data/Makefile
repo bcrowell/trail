@@ -22,6 +22,7 @@ default:
 	./parse.rb revel <raw/revel_canyon_city_half_2016.txt >>times/revel_canyon_city_half_2016.json
 	./parse.rb revel <raw/revel_canyon_city_half_2017.txt >>times/revel_canyon_city_half_2017.json
 	./parse.rb runsignup <raw/irvine_half_2019.txt >times/irvine_half_2019.json
+	./parse.rb runsignup <raw/irvine_half_2020.txt >times/irvine_half_2020.json
 	./parse.rb athlinks <raw/santa_monica_classic_10k_2019.txt >times/santa_monica_classic_10k_2019.json
 
 	

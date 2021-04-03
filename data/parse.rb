@@ -68,6 +68,7 @@ accum = []
 $stdin.each_line { |line|
   if line=~/^#/ then next end
   line.gsub!(/.*Claim$/,'') # sometimes has garbage chars on front
+  if format=='runsignup' and line.length>30 and accum.length==3 then accum.unshift('') end # people who have claimed with their icon have a missing line
   accum = accum.push(line.strip)
   if accum.length==lines_per_person then
     table = table.push(accum)

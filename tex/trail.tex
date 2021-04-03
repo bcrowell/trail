@@ -270,20 +270,22 @@ the model. It was possible to find courses with a variety of elevation profiles,
 a test of the dependence of the predictions on the amount of hill climbing.
 
 \begin{table}[h]\label{table:courses}
-\caption{Courses}
+\caption{Courses used in this study. Notes: 1.~Times up to 2:00 used. 2.~Times up to 1:00 used.}
 \begin{tabular}{lp{60mm}rrrl}
                  &       & dist.  & gain &  &  years \\
                  &       & (km)      &  (km) & CF & (20xx) \\
 W & Mount Wilson Trail Race         & 12.7 & 0.70 & 20\%        & 18-19\\
 B & Mount Baldy Run to the Top      & 10.3 & 1.21 & 47\%        & 17-18\\
 V & Broken Arrow Vertical Kilometer & 5.0  & 0.85 & 58\%        & 19 \\
-P & Pasadena Half Marathon          & 21.1 & 0.17 & 1\%         & 20 \\
+P & Pasadena Half Marathon\textsuperscript{1}
+                                    & 21.1 & 0.17 & 1\%         & 17-20 \\
 C & Agoura Hills Chesebro Half Marathon & 21.1 & 0.34 & 5\%     & 19 \\
 H & Into the Wild OC Half Marathon & 21.1 & 0.57 & 8\% & 17-18\\
-I & Irvine Half Marathon           & 21.1 & 0.09 & 0.2\% & 19\\
+I & Irvine Half Marathon           & 21.1 & 0.09 & 0.2\% & 19-20\\
 G & Griffith Park 30k               & 28.5 & 1.07 & 11\%        & 18-19 \\
 X & Revel Big Bear Half Marathon    & 21.1 & 0    & -27\% & 18-19 \\
-Y & Revel Canyon City Half Marathon    & 21.1 & 0    & -4\% & 14-17
+Y & Revel Canyon City Half Marathon    & 21.1 & 0    & -4\% & 14-17\\
+S & Santa Monica 10k Classic\textsuperscript{2}        & 10 & & & 19\\
 \end{tabular}
 \label{table:courses}
 \end{table}
@@ -363,8 +365,9 @@ In the gain-based model $C_g$, however, the effect of the hills on course P is
 6 times its elevation gain, which is equivalent to adding 1.0 km to its length. The effect for I would
 be half as much, causing the model to predict a considerable difference in the times on
 the two courses. In the figure we see that Baumel's approximation is a good one here. The median
-error for $C_t$ (open circles) is only +1.6\%, while that for $C_g$ (filled circles) is +6.4\%,
-the positive sign showing that the effect of the small hills is considerably over-predicted.
+error for $C_t$ (open circles) is only -1.3\%, while that for $C_g$ (filled circles) is +3.4\%,
+the positive sign showing that the effect of the small hills is over-predicted.
+
 
 The sample size $n=17$ in this test is the smallest of the four presented in Fig \ref{fig:test-hockey},
 but this median systematic error in the $C_g$ model is significant with two-tailed $p=0.04$ (see Appendix 1).
@@ -577,13 +580,31 @@ speed is only 8\% lower in the marathon than in the 1500 m. This can only be rep
 is roughly marathon distance for him.
 For high-level running competitions, Gardner and Purdy give a
 method of comparing with a standard performance curve, based on a compilation of world
-records.\cite{gardner} A convenient closed-form approximation has been found by Cameron,\cite{cameron}
-which is of the form $V\propto 1-Ad+Bd^{-C}$, shown as the red curve in figure \ref{fig:my-times}.
+records.\cite{gardner} A convenient closed-form approximation found by Cameron\cite{cameron} is
+\begin{equation}\label{eq:cameron}
+  v\propto 1-Ad+Bd^{-C},
+\end{equation}
+shown as the red curve in figure \ref{fig:my-times}. The parameters are given in Table \ref{table:cameron-parameters}
+
+\begin{table}[h]
+\caption{Parameters for Eq \eqref{eq:cameron}, for $d$ in meters.}
+\begin{tabular}{lll}
+$A$ & $B$ & $C$ \\
+$2.25\times10^{-6}$ & 61.9 & 0.790
+\end{tabular}
+\label{table:cameron-parameters}
+\end{table}
+
+% calc -e "A=13.49681; B=0.000030363; C=835.7114; D=0.7905; B/A; C/A"
+%    2.24964269334754*10^-6
+%    61.919179420915
+
 
 Although fitting parameters to individual runners' characteristics is not the main purpose of this work, doing
-so is very easy with this model, due to its purely multiplicative structure.
+so is very easy with the model \ref{eq:kappa}, due to its purely multiplicative structure.
 When data are viewed in the format used in Fig \ref{fig:my-times}, as a log-log plot of speed versus distance,
-the standard curve $\kappa(d)$ is simply slid around horizontally and vertically to match the runner's $v_m$ and $d_c$.
+the standard curve $\kappa(d)$ is simply slid around horizontally and vertically to match the data, which
+has the effect of determining the runner's $v_m$ and $d_c$.
 
 \subsection*{Appendix 1. Statistical distribution of the ratio of times}
 
@@ -602,8 +623,8 @@ Godsey\cite{godsey} used log-normal distributions successfully to describe times
 field events. This would be convenient for our purposes since it would imply that $\mathcal{E}$
 was normally distributed. In reality, this did not appear to be the case for the mostly recreational
 athletes and the heterogeneous races considered here, as opposed to Godsey's modeling of
-the fastest times in the tails of the distribution for high-level athletes. For the data considered here,
-Q-Q plots showed that the distribution of $\mathcal{E_{jk}}$ was not normal, but that
+the fastest times in the tails of the distribution for high-level athletes on flat tracks. For the data considered here,
+Q-Q plots showed that the distribution of $\mathcal{E}_{jk}$ was not normal, but that
 the distribution of $t_j/t_k$ was closer to normal, although strongly leptokurtic
 (Pearson $\kappa\approx 5$ to 20), i.e., it had fatter tails than a normal distribution.
 
@@ -618,7 +639,7 @@ Because $\nu=4$ is greater than 2, this distribution has a well-defined variance
 the central limit theorem holds. Therefore if we observe a sample of $n$ ratios $t_1/t_2$,
 the population standard deviation being $\sigma$, then the sample mean should be well
 approximated as having a normal distribution with standard deviation $\sigma/\sqrt{n}$,
-and the sample median as a normal with standard deviation $\sqrt{\pi/2n}\sigma$.
+and the sample median as a normal with standard deviation $\sigma\sqrt{\pi/2n}$.
 
 
 \bibliography{trail}

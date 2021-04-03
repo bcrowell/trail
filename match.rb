@@ -23,7 +23,7 @@ def filename_to_race(filename)
   if filename=~/big_bear/ then return 'big_bear' end
   if filename=~/canyon_city/ then return 'canyon_city' end
   if filename=~/irvine_half/ then return 'irvine_half' end
-  if filename=~// then return 'irvine_half' end
+  if filename=~/santa_monica_classic_10k/ then return 'sm_10k' end
   die("error parsing filename, #{filename}")
 end
 
@@ -109,6 +109,7 @@ matched_names.keys.sort.each { |who|
   }
   if races.keys.length>1 then
     final_data[who] = races
+    #if races.keys.length>2 then $stderr.print who,races,"\n" end
   end
 }
 

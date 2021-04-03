@@ -270,8 +270,10 @@ the model. It was possible to find courses with a variety of elevation profiles,
 a test of the dependence of the predictions on the amount of hill climbing.
 
 \begin{table}[h]\label{table:courses}
-\caption{Courses used in this study. Notes: 1.~Times up to 2:30 used. 2.~Times up to 1:00 used.
-3.~Times up to 3:33 used.}
+\caption{Courses used in this study. Notes: 1.~Times up to 2:30 used. 
+2.~Times up to 3:33 used.
+3.~Times up to 1:11 used.
+}
 \begin{tabular}{lp{60mm}rrrl}
                  &       & dist.  & gain &  &  years \\
                  &       & (km)      &  (km) & CF & (20xx) \\
@@ -286,13 +288,13 @@ H & Into the Wild OC Half Marathon\textsuperscript{1}
                                     & 21.1 & 0.57 & 8\% & 17-18\\
 I & Irvine Half Marathon\textsuperscript{1}
                                     & 21.1 & 0.09 & 0.2\% & 19-20\\
-G & Griffith Park 30k\textsuperscript{3}
+G & Griffith Park 30k\textsuperscript{2}
                                     & 28.5 & 1.07 & 11\%        & 18-19 \\
 X & Revel Big Bear Half Marathon\textsuperscript{1}
                                     & 21.1 & 0    & -27\% & 18-19 \\
 Y & Revel Canyon City Half Marathon\textsuperscript{1}
                                     & 21.1 & 0    & -4\% & 14-17\\
-S & Santa Monica 10k Classic\textsuperscript{2}        & 10 & & & 19\\
+S & Santa Monica 10k Classic\textsuperscript{3}        & 10 & & & 19\\
 \end{tabular}
 \label{table:courses}
 \end{table}
@@ -315,15 +317,17 @@ When a runner ran the same race more than once, their best time was used.
 To avoid biases in comparisons of times in different races, it is necessary here to define
 an upper limit on the times that will be used from a given race, and to do so in some
 consistent and unbiased way. Some such limit is in any case
-defined by race organizers, and is different for different races and usually quite long,
+defined by race organizers, but is different for different races and usually quite long,
 often about 4-5 hours for a half-marathon. Competitors who clock the longer times are generally
 either walking the entire race or alternating between walking and jogging, and especially in
 more casual races may be pushing a stroller, running alongside their tween-age child, or staying
 in a costumed group for fun and emotional support. Because the physiological data and models
 used in this work are not applicable to walking, I impose a somewhat arbitrary time limit of 2.5 hours
 on half-marathon times. These limits, as well as others, where imposed,
-are described in the notes in Table \ref{table:courses}. For course G the time limit was derived by
+are described in the notes in Table \ref{table:courses}. For courses G and S, the time limit was derived by
 scaling up the half-marathon time limit in proportion to the distance.
+The other courses in this study are of a qualitatively different character, so for them I simply
+used the race organizers' cut-off. The resulting bias is an inherent limitation of this work.
 
 In table \ref{table:courses}, two measures of hilliness are given. The total elevation gain
 is the only parameter needed in order to calculate an energy expenditure using the function
@@ -355,12 +359,13 @@ courses (B and V). We then find every case where the same runner did a run $j$ f
 list and a run $k$ from the second, and compute the error $\mathcal{E}_{jk}$, which will be
 positive if the runner's time in the uphill race $k$ is overpredicted by the model relative
 to their time in the flat race $j$. From the resulting list of $\mathcal{E}$ values for
-this sample, we find the median $\widetilde{\mathcal{E}}$ and the mean absolute value $\langle|\mathcal{E}|\rangle$.
+this sample, we find the median $\widetilde{\mathcal{E}}$.
 
 \subsection*{Comparison of the models $C_g$ and $C_t$ of the effect of hills}
 
 Fig \ref{fig:test-hockey} shows a comparison of the quality of the predictions of the functions
 $C_g$ and $C_t$ as descriptions of the effects of going up and down hills on the time in a race.
+The third model $C_r$ is a hybrid of these, introduced later in the text.
 Each of the four sub-figures a through d has been constructed so as to test a particular
 feature of these models. We discuss each in turn.
 
@@ -368,7 +373,8 @@ feature of these models. We discuss each in turn.
 \includegraphics[width=132mm]{figs/test-hockey/test-hockey.pdf}
 \centering
 \caption{Tests of the predictions of the functions $C_t$ derived from treadmill data (open circles)
-and $C_g$ based on eleveation gain (filled circles). Each point is a cross-ratio of a single runner's
+and $C_g$ based on eleveation gain (black circles), and the hybrid ``recreational'' model
+$C_r$ (gray circles). Each point is a cross-ratio of a single runner's
 times in two different races. The statistic $\mathcal{E}$, defined in equation \ref{eq:define-e},
 is essentially the relative error, expressed as a percentage, in the model's prediction of the
 ratio of the times in one race relative to another. Positive $\mathcal{E}$ means that the runner's

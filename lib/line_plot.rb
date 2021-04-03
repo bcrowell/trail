@@ -11,7 +11,11 @@ def make_line_plot(data,opt)
   max = opt['max']
   tick_interval = opt['tick_interval']
   y0 = 10.0
-  if opt['fill_black'] then fill = '#000000;' else fill = 'none' end
+  if opt['fill_black'] then 
+    fill = '#000000;'
+  else
+    if opt['fill_gray'] then fill = '#888888;' else fill = 'none' end
+  end
   template = <<-"SVG"
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
   <svg

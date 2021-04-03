@@ -37,7 +37,7 @@ def main()
   tex = ""
   scatt = "scatt/" # prefix for filenames of scatterplot files
 
-  if true then four_cases(data,m,hockey,categories,scatt) end
+  if true then four_cases(data,m,hockey,rec,categories,scatt) end
 
   if false then
   compare_rec("flat / uphill",flat,uphill,data,m,rec,tex,[scatt,"fu"],{})
@@ -57,34 +57,35 @@ def main()
   print tex
 end
 
-def four_cases(data,m,hockey,categories,scatt)
+def four_cases(data,m,hockey,rec,categories,scatt)
   all,ultra_flat,flat,uphill,downhill,not_very_flat = categories
   tex = ""
+  # ----- Ultra-flat versus nearly flat, seem to clearly show that hockey is wrong in this limit, although the sample is small.
+  compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey,rec,tex,[scatt,"a"],{})
+
+  # --- Both Minetti and hockey predict wilson times that are about 20% too short. I suspect this is safety and etiquette at work.
+  compare_hockey("flat / wilson",flat,["wilson"],data,m,hockey,rec,tex,[scatt,"b"],{})
+
   # --- Hockey is poor for steep uphill; this is because minetti is curved, not linear. This is mainly a comparison with baldy, only one VK point.
   #     I checked the mapping of Baldy pretty carefully, see notes in meki. Gain is just slightly more than the elevation gain from manker
   #     to the summit (1.8%, or 72'), which makes sense. There is a 500 m steep downhill section at the start, which is mapped accurately.
-  compare_hockey("flat / uphill",flat,uphill,data,m,hockey,tex,[scatt,"fu"],{})
-
-  # --- Both Minetti and hockey predict wilson times that are about 20% too short. I suspect this is safety and etiquette at work.
-  compare_hockey("flat / wilson",flat,["wilson"],data,m,hockey,tex,[scatt,"fw"],{})
+  compare_hockey("flat / uphill",flat,uphill,data,m,hockey,rec,tex,[scatt,"c"],{})
 
   # ----- Good comparison of flattish with downhill. Hockey much better than Minetti. I suspect this is because of the extreme amount
   #       of eccentric work on quads, also possibly TFLs. Nice big sample.
-  compare_hockey("flattish / downhill",flat,["big_bear"],data,m,hockey,tex,[scatt,"fd"],{})
-
-  # ----- Ultra-flat versus nearly flat, seem to clearly show that hockey is wrong in this limit, although the sample is small.
-  compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey,tex,[scatt,"uf"],{})
+  compare_hockey("flattish / downhill",flat,["big_bear"],data,m,hockey,rec,tex,[scatt,"d"],{})
 end
 
 def describe_list_with_mnemonics(courses)
   return courses.map {|c| mnemonic(c)}.join(',')
 end
 
-def compare_hockey(title,courses1,courses2,data,model,hockey,tex,scatt,opt)
+def compare_hockey(title,courses1,courses2,data,model,hockey,rec,tex,scatt,opt)
   print "comparing Minetti with hockey, #{title}\n"
   tex.replace(tex+title+", "+describe_list_with_mnemonics(courses1)+" / "+describe_list_with_mnemonics(courses2)+"\n")
   do_stats("  Minetti",courses1,courses2,data,model,tex,[scatt[0],scatt[1]+'_m'],{},opt)
   do_stats("  hockey ",courses1,courses2,data,model.merge(hockey),tex,[scatt[0],scatt[1]+'_h'],{'fill_black'=>true},opt)
+  do_stats("  rec    ",courses1,courses2,data,model.merge(rec),tex,[scatt[0],scatt[1]+'_r'],{'fill_gray'=>true},opt)
 end
 
 def compare_rec(title,courses1,courses2,data,model,rec,tex,scatt,opt)

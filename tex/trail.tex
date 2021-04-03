@@ -155,7 +155,7 @@ meaning that we can predict the time for course A divided by the time for course
 
 Traditionally, runners and hikers have described a trail using two numbers, the horizontal distance and the total elevation gain.
 For example, if the route is an out-and-back voyage consisting of steady climbing to a peak and
-a return, then the total elevation is simply the elevation of the peak minus the elevation of
+a return, then the total elevation gain is simply the elevation of the peak minus the elevation of
 the trailhead. If the elevation profile of the trip consisted of multiple clearly defined ascents and descents,
 then one would add up the ascents. Although this two-parameter description of the route is
 easy to derive from a paper topographic map, knowledge of the two numbers is not sufficient
@@ -166,7 +166,7 @@ time among the officials who measure road races that the effect
 of elevation change is a nonlinear function of the grade. The following argument 
 was advocated by R.~Baumel.\cite{baumel}
 Consider a closed course whose elevation
-profile is described by some function $y(x)$, whose derivative $y'$ is the slope of the trail $i$.
+profile is described by some function $y(x)$, whose derivative $y'$ is the trail's slope $i$.
 The total energy expenditure is an integrated effect of the slope, of the form $\int_0^L C(i)dx$,
 where $C$ is a function that describes the energetic cost of running up or down a hill.
 We will see that $C$ has been measured in laboratory experiments, but for the moment we assume
@@ -180,7 +180,7 @@ a factor of \emph{four}, not two (in the low-slope limit, on a closed course).
 From conversations with runners and hikers, I have found that the result of Baumel's argument almost
 always elicits total disbelief, especially when presented as a numerical example showing the extreme smallness
 of the slope effect when the slope is small. One of the goals of this paper is to test this empirically.
-As an alternative hypothesis, it is commonly believed that one can get a good approximation
+As an alternative hypothesis, it is commonly believed that one can get a good measure
 of the relative energy cost by taking the horizontal distance and adding in a term proportional to the total elevation gain.
 If the total gain is determined down to a fine enough scale (which with modern technology has become
 more practical), then this hypothesis is equivalent to the assumption that the cost of running is
@@ -221,7 +221,7 @@ It is convenient to describe Minetti's function $C(i)$ using a fit to the form
   C_t(i) = a\left[(|i|^p+b)^{1/p}+\frac{i}{c}+d\right],
 \end{equation}
 where the subscript $t$ stands for treadmill.
-Parameters fitted to the results of ref.~\cite{minetti} are given in table \ref{table:minetti-params}.
+Parameters fitted to the results of ref.~\cite{minetti} are given in Table \ref{table:minetti-params}.
 The purpose of using this form, rather than the polynomial fit given by \cite{minetti}, is
 to make the computations degrade gracefully in cases where the limitations of GPS tracks or data from digital elevation models
 produce unrealistically steep slopes. In such cases, this expression approaches the physiologically
@@ -271,8 +271,7 @@ a test of the dependence of the predictions on the amount of hill climbing.
 
 \begin{table}[h]\label{table:courses}
 \caption{Courses used in this study. Notes: 1.~Times up to 2:30 used. 
-2.~Times up to 5:00 used.
-3.~Times up to 1:11 used.
+2.~Times up to 1:11 used.
 }
 \begin{tabular}{lp{60mm}rrrl}
                  &       & dist.  & gain &  &  years \\
@@ -288,19 +287,17 @@ H & Into the Wild OC Half Marathon\textsuperscript{1}
                                     & 21.1 & 0.57 & 8\% & 17-18\\
 I & Irvine Half Marathon\textsuperscript{1}
                                     & 21.1 & 0.09 & 0.2\% & 19-20\\
-G & Griffith Park 30k\textsuperscript{2}
+G & Griffith Park 30k
                                     & 28.5 & 1.07 & 11\%        & 18-19 \\
 X & Revel Big Bear Half Marathon\textsuperscript{1}
                                     & 21.1 & 0    & -27\% & 18-19 \\
-Y & Revel Canyon City Half Marathon\textsuperscript{1}
-                                    & 21.1 & 0    & -4\% & 14-17\\
-S & Santa Monica 10k Classic\textsuperscript{3}        & 10 & & & 19\\
+S & Santa Monica 10k Classic\textsuperscript{2}        & 10 & & & 19\\
 \end{tabular}
 \label{table:courses}
 \end{table}
 
-Table \ref{table:courses} lists the race results used as sources of data.
-One-character mnemonics are used so that courses can be referred to succinctly in the text.
+Table \ref{table:courses} lists the races used as sources of data.
+One-letter mnemonics are defined so that courses can be referred to succinctly in the text.
 Because a runner's performance can change over time due to training and aging,
 the time period of the study was restricted as much as possible to January 2017 through March 2020
 (before the COVID epidemic ended races other than virtual ones in California).
@@ -310,7 +307,8 @@ were obtained from publicly available digital elevation models (SRTM1) having a 
 resolution of 30 meters. (Elevation data from handheld GPS units are more difficult to
 obtain from public sources, and are in any case of questionable reliability
 for this purpose, since the uncertainty can be very large when all satellites are near the
-horizon.) Runners' names and times were obtained by web-scraping public race results,
+horizon or when the terrain is rough, causing radio echoes from the walls of canyons.)
+Runners' names and times were obtained by web-scraping public race results,
 and runners were assumed to be the same person if their first and last names matched.
 When a runner ran the same race more than once, their best time was used.
 
@@ -347,7 +345,7 @@ the model predicts the ratio of the energy consumption $E_1/E_2$. Define
 \begin{equation}\label{eq:define-e}
   \mathcal{E} = 100 \ln\left(\frac{t_1}{t_2}\cdot\frac{E_2}{E_1}\right).
 \end{equation}
-For small errors, $\mathcal{E}$ is the relative error in the prediction, expressed
+For small errors, $\mathcal{E}$ is approximately the relative error in the prediction, expressed
 as a percentage. The use of the logarithm transforms multiplicative sources of
 error into additive quantities.
 
@@ -363,7 +361,7 @@ to their time in the flat race $j$.
 \subsection*{Comparison of the models $C_g$ and $C_t$ of the effect of hills}
 
 Fig \ref{fig:test-hockey} shows a comparison of the quality of the predictions of the functions
-$C_g$ and $C_t$ as descriptions of the effects of going up and down hills on the time in a race.
+$C_g$ and $C_t$ as descriptions of the effects of going up and down hills.
 The third model $C_r$ is a hybrid of these, introduced later in the text.
 Each of the four sub-figures a through d has been constructed so as to test a particular
 feature of these models. We discuss each in turn.
@@ -416,15 +414,16 @@ considerable underestimate. Additional factors leading to $\mathcal{E}<0$ in bot
 are certain to include the aerobic challenge of finishing the race at an elevation of over 3000 m,
 as well as the difficult footing on the final section.
 
-(d) Here we compare the same set of fairly flat half-marathons with a road half-marathon, course X, consisting entirely
+(d) Here we compare the same set of fairly flat half-marathons with a road half-marathon, course X,
+which consists entirely
 of running \emph{down} a mountain. The downhill race is run along with a marathon, which
 the race's organizers advertise as being extremely fast and a good way to achieve a ``BQ'' or
 qualifying time for the Boston Marathon. Surprisingly, most runners' times in the downhill
 half-marathon were only about 10 minutes shorter than in the flat ones, and quite a few runners in
 the sample actually took longer for the downhill race. We have already seen evidence in part
 b above that the high physiological efficiencies observed in the lab for downhill running may
-not translate proportionately into speed. There the issues may have been safety and courtesy,
-which would not have been an issue in this race on a wide asphalt road. A more likely explanation
+not translate proportionately into speed. In W, the issues may have been safety and courtesy,
+which would not have been relevant in this race on a wide asphalt road. A more likely explanation
 here is that for recreational runners who have not trained extensively on steep hills, a long downhill of this
 length can be physically difficult due to the strong eccentric strain on the quadriceps, as well as
 testing the tensor fascia latae.
@@ -576,9 +575,8 @@ The black curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to 
 The red curve is a 
 fit to world-record times.\cite{cameron} 
 The green and red violin plots show the distribution of speeds in races S and G relative to the same runners
-in half-marathon race P.
-The gray dots are the author's personal-record times
-from a mixture of road and trail courses, and a mixture of races and running against the clock.
+in half-marathon race P (sample sizes 1303 and 11, respectively).
+The gray dots are the author's personal-record times from a variety of courses.
 The equivalent distances were determined from the horizontal distances using the curvilinear
 function $C_t(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data. }
 \label{fig:my-times}
@@ -586,10 +584,11 @@ function $C_t(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data. 
 
 Empirically, for the mostly recreational runners studied here, a reasonable description of the data is achieved when
 $d_c$ is set to the half-marathon distance, which is the value adopted in this work.
-Fig \ref{fig:my-times} shows the quality of the fit for some real-world data.
-Setting $d_c$ to half-marathon distance gives a good fit to the data.
+Fig \ref{fig:my-times} shows that
+setting $d_c$ to half-marathon distance gives a good fit to some real-world data.
 
-On the other hand, much higher values of $d_c$ might be more appropriate for higher-level endurance runners.
+Although the fit in Fig \ref{fig:my-times} is rather good,
+much higher values of $d_c$ might be more appropriate for higher-level endurance runners.
 For example, Eliud Kipchoge's personal-record
 speed is only 8\% lower in the marathon than in the 1500 m. This can only be reproduced in this model if $d_c$
 is roughly marathon distance for him.
@@ -626,7 +625,7 @@ has the effect of determining the runner's $v_m$ and $d_c$.
 Most of the tests in this study showed modeling errors that were big enough to be clearly
 visible on the kind of scatter plots used in Fig \ref{fig:test-hockey}, with no serious doubt
 as to their statistical significance. The exception is test a, which had a sample size of
-only 55 and was probing small errors. We therefore need to know enough about the relevant probability distributions to
+only 55 and was probing small effects. We therefore need to know enough about the relevant probability distributions to
 be able to do significance tests. For this purpose, I looked for courses $j$ and $k$ such
 that a significant number of runners had times recorded on both $j$ and $k$, allowing
 the random variables $t_j/t_k$ and $\mathcal{E}_{jk}$ to be observed many times. The following four
@@ -651,6 +650,7 @@ Student's $t$ with $\nu=3$, and Student's $t$ with $\nu=2$.
 
 Because $\nu=4$ is greater than 2, this distribution has a well-defined variance, so that
 the central limit theorem holds. Therefore if we observe a sample of $n$ ratios $t_1/t_2$,
+and $n$ is reasonably large,
 the population standard deviation being $\sigma$, then the sample mean should be well
 approximated as having a normal distribution with standard deviation $\sigma/\sqrt{n}$,
 and the sample median as a normal with standard deviation $\sigma\sqrt{\pi/2n}$.

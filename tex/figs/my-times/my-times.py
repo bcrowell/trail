@@ -7,16 +7,25 @@ import numpy as np
 import copy
 import subprocess
 
+half_marathon_in_km = 21.1 # kilometers
+
+with open('./sm_half_ratios.py') as f: exec(f.read())
+sm_half_ratios = [x * (10.0/half_marathon_in_km) for x in sm_half_ratios]
+with open('./griffith_half_ratios.py') as f: exec(f.read())
+griffith_half_ratios = [x * (28.5/half_marathon_in_km) for x in griffith_half_ratios]
+ #...28.5 km is my measured distance
+
 mi_to_km = 1.609344
 
 dc = 13.1*mi_to_km # critical distance, in km; set it to a half marathon
-vm = 1.0/6.62 # speed in miles per minute
+# vm = 1.0/6.62 # speed in miles per minute; my best at mile
+vm = 13.1/(60*1.64694444444444) # my best at half marathon
 outfile = "my-times.svg"
 
 x_min = 1.0 # distance in km
 x_max = 30.0*mi_to_km
 
-draft = False
+draft = True
 if draft:
   dx = 1
 else:
@@ -38,8 +47,8 @@ def cameron(d_km):
   return A-B*d+C*d**-p
 
 for j in range(len(x)):
-  y[j] = kappa(x[j],dc)/kappa(1.61,dc)
-  y_cameron[j] = cameron(x[j])/cameron(1.61)
+  y[j] = kappa(x[j],dc)/kappa(half_marathon_in_km,dc)
+  y_cameron[j] = cameron(x[j])/cameron(half_marathon_in_km)
 
 fig, ax = plt.subplots()
 width = 132.0/25.4 # 132 mm->inches (PLOS column size)
@@ -73,7 +82,15 @@ with open('pr.csv') as csvfile:
 
 print(x_real)
 print(y_real)
-ax.plot(x_real, y_real, 'o', color='tab:blue')
+ax.plot(x_real, y_real, 'o', color='tab:gray',markersize=3)
+
+scale_widths = 0.33
+ax.violinplot(sm_half_ratios,positions=[10.1],widths=[scale_widths*10.1],showextrema=True,
+                  showmeans=False,
+                  showmedians=True)
+ax.violinplot(griffith_half_ratios,positions=[28.5],widths=[scale_widths*28.5],showextrema=True,
+                  showmeans=False,
+                  showmedians=True)
 
 ax.set(xlabel='equivalent distance (km)', ylabel='speed (relative units)')
 ax.grid()

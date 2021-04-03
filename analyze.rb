@@ -37,14 +37,7 @@ def main()
   tex = ""
   scatt = "scatt/" # prefix for filenames of scatterplot files
 
-  if true then four_cases(data,m,hockey,rec,categories,scatt) end
-
-  if false then
-  compare_rec("flat / uphill",flat,uphill,data,m,rec,tex,[scatt,"fu"],{})
-  compare_rec("flat / wilson",flat,["wilson"],data,m,rec,tex,[scatt,"fw"],{})
-  compare_rec("flattish / downhill",flat,["big_bear"],data,m,rec,tex,[scatt,"fd"],{})
-  compare_rec("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,rec,tex,[scatt,"uf"],{})
-  end
+  if false then four_cases(data,m,hockey,rec,categories,scatt) end
 
   # ----- test endurance correction; small sample size, but does seem to improve results
   if false then
@@ -52,9 +45,19 @@ def main()
     do_stats("short / 30k, endurance correction",["pasadena","wilson"],["griffith_park_30k"],data,m,tex,[scatt,"en"],{})
   end
 
-  do_time_ratios("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,{})
+  if false then
+    do_time_ratios("half / 10k"        ,["pasadena"],["sm_10k"],data,{})
+  end
 
-  print tex
+  if true then
+    do_time_ratios("half / 30k"        ,["pasadena"],["griffith_park_30k"],data,{})
+  end
+
+  if false then
+    do_time_ratios("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,{})
+  end
+
+  #print tex
 end
 
 def four_cases(data,m,hockey,rec,categories,scatt)
@@ -86,13 +89,6 @@ def compare_hockey(title,courses1,courses2,data,model,hockey,rec,tex,scatt,opt)
   do_stats("  Minetti",courses1,courses2,data,model,tex,[scatt[0],scatt[1]+'_m'],{},opt)
   do_stats("  hockey ",courses1,courses2,data,model.merge(hockey),tex,[scatt[0],scatt[1]+'_h'],{'fill_black'=>true},opt)
   do_stats("  rec    ",courses1,courses2,data,model.merge(rec),tex,[scatt[0],scatt[1]+'_r'],{'fill_gray'=>true},opt)
-end
-
-def compare_rec(title,courses1,courses2,data,model,rec,tex,scatt,opt)
-  print "comparing Minetti with recreational parameters, #{title}\n"
-  tex.replace(tex+title+", "+describe_list_with_mnemonics(courses1)+" / "+describe_list_with_mnemonics(courses2)+"\n")
-  do_stats("  Minetti",courses1,courses2,data,model,tex,[scatt[0],scatt[1]+'_m'],{},opt)
-  do_stats("  rec    ",courses1,courses2,data,model.merge(rec),tex,[scatt[0],scatt[1]+'_h'],{'fill_black'=>true},opt)
 end
 
 def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt,opt)
@@ -141,15 +137,17 @@ def do_time_ratios(title,courses1,courses2,data,opt)
     if flat.empty? or uphill.empty? then next end
     flat.each { |c1|
       uphill.each { |c2|
-        n = n+1
         t1 = times[c1]
         t2 = times[c2]
         if t1>special_max_time or t2>special_max_time or t1>max_time(c1) or t2>max_time(c2) then next end
+        print "#{pname(who)} #{ptime(t1)} #{ptime(t2)}\n"
+        n = n+1
         ratios.push(t1/t2)
       }
     }
   }
   median,mean_abs,spread,kurtosis = stats(ratios)
+  print ratios,"\n"
   print "      median ratio=#{pf(median,8,4)}            sd=#{pf(spread,8,4)}         n=#{n}\n"
 end
 

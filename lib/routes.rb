@@ -41,7 +41,7 @@ def max_time(label)
     "irvine_half"           =>2.5,
     "big_bear"              =>2.5,
     "canyon_city"           =>2.5,
-    "griffith_park_30k"     =>3.555,
+#    "griffith_park_30k"     =>3.555,
     "sm_10k"                =>1.185
   }[label]
   if t.nil? then return 999999.9 else return t end

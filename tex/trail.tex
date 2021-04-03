@@ -290,7 +290,7 @@ One-letter mnemonics are defined so that courses can be referred to succinctly i
 Because a runner's performance can change over time due to training and aging,
 the time period of the study was restricted as much as possible to January 2017 through March 2020
 (before the COVID epidemic ended races other than virtual ones in California).
-Distance and elevation data were analyzed as described in Appendix 4.
+Distance and elevation data were analyzed as described in Appendix 3.
 
 Runners' names and times were obtained by web-scraping public race results,
 and runners were assumed to be the same person if their first and last names matched.
@@ -349,7 +349,7 @@ list and a run $k$ from the second, and compute the error $\mathcal{E}_{jk}$, wh
 positive if the runner's time in the uphill race $k$ is overpredicted by the model relative
 to their time in the flat race $j$.
 
-\subsection{Comparison of models for the effect of hills}
+\subsection{Comparison of models for the effect of hills}\label{subsec:hills}
 
 Fig \ref{fig:test-hockey} shows a comparison of the quality of the predictions of the functions
 $C_g$ and $C_t$ as descriptions of the effects of going up and down hills.
@@ -379,11 +379,12 @@ be half as much, causing the model to predict a considerable difference in the t
 the two courses. In the figure we see that Baumel's approximation is a good one here. The median
 error for $C_t$ (open circles) is only 1.7\%, while that for $C_g$ (filled circles) is +6.4\%,
 the positive sign showing that the effect of the small hills is over-predicted.
-This median systematic error in the $C_g$ model is statistically significant
-at the 3.1-$\sigma$ level, or two-tailed $p=.002$ (see Appendix 3).
 
-% see analyze.rb, do_time_ratios().
-% calc -e "s=.111; n=17; sm=sqrt(pi/(2n))s; .066/.033"
+Of the four tests a-d, this is the only one where the effect being probed is small enough to
+require statistical analysis rather than simple visual inspection.
+Such an analysis (Appendix 4)
+show that systematic error in $C_g$ is significant ($p=3\times10^{-6}$), while any such evidence against
+$C_t$ is statistically marginal.
 
 (b) In this portion of Fig \ref{fig:test-hockey}, we compare times in a set of fairly flat half-marathons
 (with CF values ranging from 0.2\% to 8\%) with course W, a trail race up and down half of Mount Wilson, $CF=20\%$.
@@ -666,42 +667,7 @@ $2.25\times10^{-6}$ & 61.9 & 0.790
 %    61.919179420915
 
 
-\subsection*{Appendix 3. Statistical distribution of the ratio of times}
-
-Most of the tests in this study showed modeling errors that were big enough to be clearly
-visible on the kind of scatter plots used in Fig \ref{fig:test-hockey}, with no serious doubt
-as to their statistical significance. The exception is test a, which had a sample size of
-only 55 and was probing small effects. We therefore need to know enough about the relevant probability distributions to
-be able to do significance tests. For this purpose, I looked for courses $j$ and $k$ such
-that a significant number of runners had times recorded on both $j$ and $k$, allowing
-the random variables $t_j/t_k$ and $\mathcal{E}_{jk}$ to be observed many times. The following four
-combinations had good sample sizes and didn't overlap too much with each other, making them
-mostly statistically independent: X / Y, X / P, B / W, and I / P.
-
-Godsey\cite{godsey} used log-normal distributions successfully to describe times in track and
-field events. This would be convenient for our purposes since it would imply that $\mathcal{E}$
-was normally distributed. In reality, this did not appear to be the case for the mostly recreational
-athletes and the heterogeneous races considered here, as opposed to Godsey's modeling of
-the fastest times in the tails of the distribution for high-level athletes on flat tracks. For the data considered here,
-Q-Q plots showed that the distribution of $\mathcal{E}_{jk}$ was not normal, but that
-the distribution of $t_j/t_k$ was closer to normal, although strongly leptokurtic
-(Pearson $\kappa\approx 5$ to 20), i.e., it had fatter tails than a normal distribution.
-
-This motivates the consideration of a non-standardized Student's $t$-distribution for $t_j/t_k$, since that
-distribution has fat tails and arises naturally in problems involving the quotient of two random variables.
-On a Q-Q plot, the most satisfactory description of the data was obtained with a Student's
-$t$-distribution with $\nu=4$ degrees of freedom.
-Each of the following alternatives gave a worse fit in most cases: a normal distribution,
-Student's $t$ with $\nu=3$, and Student's $t$ with $\nu=2$.
-
-Because $\nu=4$ is greater than 2, this distribution has a well-defined variance, so that
-the central limit theorem holds. Therefore if we observe a sample of $n$ ratios $t_1/t_2$,
-and $n$ is reasonably large,
-the population standard deviation being $\sigma$, then the sample mean should be well
-approximated as having a normal distribution with standard deviation $\sigma/\sqrt{n}$,
-and the sample median as a normal with standard deviation $\sigma\sqrt{\pi/2n}$.
-
-\subsection*{Appendix 4: Analysis of elevation data}
+\subsection*{Appendix 3: Analysis of elevation data}
 Digital maps projected into a horizontal plane were obtained from the race organizers' web site
 or in some cases by tracing roads and trails in a Google Maps application. Elevation data
 were obtained from publicly available digital elevation models (SRTM1) having a horizontal
@@ -733,6 +699,25 @@ that were advertised as 5k or half-marathon races, I have therefore used the adv
 as shown in Table \ref{table:courses},
 in order to calculate the first-order estimate of the energy, but have used the elevation gain and
 CF value derived from the actual GNSS data.
+
+\subsection*{Appendix 4: Statistical analysis}
+
+In section \ref{subsec:hills}, test (a) probes an effect small enough that visual inspection of the scatter plots is
+not a satisfactory way of testing hypotheses. Specifically, we want to know whether
+the apparent systematic error in the model $C_g$ is statistically consistent with zero.
+
+We do not know a priori the underlying probaility distribution of the ratio of times or of its
+logarithm $\mathcal{E}$. One might have expected based on
+previous work\cite{godsey} that the times would be log-normal, in which case $\mathcal{E}$ would
+be normally distributed. However, a Q-Q plot shows that this is not the case for the present
+data-set, and in fact the distribution of $\mathcal{E}$ is asymmetric. The ratio of times,
+however, has a symmetric and leptokurtic distribution. Its symmetry allows the use of the
+one-sample Wilcoxon test.
+For $C_g$ the null hypothesis is rejected with $p=4\times10^{-6}$, while
+for $C_t$, $p=0.07$. Thus the defect in $C_g$ is significant, while any such evidence against
+$C_t$ is statistically marginal.
+
+% see significance.r
 
 \section*{Acknowledgements}
 

@@ -57,10 +57,11 @@ def main()
     do_time_ratios("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,{})
   end
 
-  if false then
+  if true then
     # generate list of error values for statistical analysis
     # see significance.r
-    print_error_list("error list for ultra-flat / nearly flat",ultra_flat,["pasadena"],data,m.merge(hockey))
+    #print_error_list("error list for ultra-flat / nearly flat",ultra_flat,["pasadena"],data,m.merge(hockey))
+    print_error_list("error list for ultra-flat / nearly flat",ultra_flat,["pasadena"],data,m)
   end
 
   #print tex

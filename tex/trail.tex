@@ -571,22 +571,23 @@ and we set $Q=0.05$.
 \begin{figure}[h]
 \includegraphics[width=8cm]{figs/my-times/my-times.pdf}
 \centering
-\caption{The author's personal-best speeds $v$ on various courses, versus equivalent distance $d$.
-The curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to a half-marathon distance.
-The times are from a mixture of road and trail courses, and a mixture of races and running against the clock.
+\caption{Relative speed versus equivalent distance $d$. All speeds are normalized relative to the speed at half-marathon distance.
+The black curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to a half-marathon distance.
+The red curve is a 
+fit to world-record times.\cite{cameron} 
+The green and red violin plots show the distribution of speeds in races S and G relative to the same runners
+in half-marathon race P.
+The gray dots are the author's personal-record times
+from a mixture of road and trail courses, and a mixture of races and running against the clock.
 The equivalent distances were determined from the horizontal distances using the curvilinear
-function $C_t(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data. The red curve is a 
-fit to world-record times.\cite{cameron} All speeds are normalized to 1 at a distance of one mile.}
+function $C_t(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data. }
 \label{fig:my-times}
 \end{figure}
 
 Empirically, for the mostly recreational runners studied here, a reasonable description of the data is achieved when
 $d_c$ is set to the half-marathon distance, which is the value adopted in this work.
 Fig \ref{fig:my-times} shows the quality of the fit for some real-world data.
-A reduction of $d_c$ by about 25\% gave somewhat better agreement (zero median error) with the data in the sample of runners studied
-here,  when times in the hilly 30k trail race G were
-predicted based on times in shorter races in which the energy expenditure was roughly equivalent to that of
-a flat half marathon.
+Setting $d_c$ to half-marathon distance gives a good fit to the data.
 
 On the other hand, much higher values of $d_c$ might be more appropriate for higher-level endurance runners.
 For example, Eliud Kipchoge's personal-record

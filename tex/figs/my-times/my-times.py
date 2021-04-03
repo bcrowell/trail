@@ -11,9 +11,12 @@ half_marathon_in_km = 21.1 # kilometers
 
 with open('./sm_half_ratios.py') as f: exec(f.read())
 sm_half_ratios = [x * (10.0/half_marathon_in_km) for x in sm_half_ratios]
+
+griffith_park_actual_d = 28.5
+griffith_park_equiv_d = 32.0
+#...28.5 km is my measured distance; divide by 1-.11 for CF of 11%
 with open('./griffith_half_ratios.py') as f: exec(f.read())
-griffith_half_ratios = [x * (28.5/half_marathon_in_km) for x in griffith_half_ratios]
- #...28.5 km is my measured distance
+griffith_half_ratios = [x * (griffith_park_actual_d/half_marathon_in_km) for x in griffith_half_ratios]
 
 mi_to_km = 1.609344
 
@@ -56,7 +59,7 @@ fig.set_size_inches(width,width)
 
 ax.set_xscale("log")
 ax.set_yscale("log")
-ax.set_ylim(0.4,1.2)
+ax.set_ylim(0.5,1.2)
 #ax.set_xticks(np.arange(x_min, x_max, 0.2) , minor=True)
 ax.grid(which='both',axis='both')
 lines = ax.plot(x, y)
@@ -88,7 +91,7 @@ scale_widths = 0.33
 ax.violinplot(sm_half_ratios,positions=[10.1],widths=[scale_widths*10.1],showextrema=True,
                   showmeans=False,
                   showmedians=True)
-ax.violinplot(griffith_half_ratios,positions=[28.5],widths=[scale_widths*28.5],showextrema=True,
+ax.violinplot(griffith_half_ratios,positions=[griffith_park_equiv_d],widths=[scale_widths*griffith_park_equiv_d],showextrema=True,
                   showmeans=False,
                   showmedians=True)
 

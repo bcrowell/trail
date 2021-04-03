@@ -49,7 +49,7 @@ def main()
     do_time_ratios("half / 10k"        ,["pasadena"],["sm_10k"],data,{})
   end
 
-  if true then
+  if false then
     do_time_ratios("half / 30k"        ,["pasadena"],["griffith_park_30k"],data,{})
   end
 
@@ -57,7 +57,17 @@ def main()
     do_time_ratios("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,{})
   end
 
+  if false then
+    # generate list of error values for statistical analysis
+    # see significance.r
+    print_error_list("error list for ultra-flat / nearly flat",ultra_flat,["pasadena"],data,m.merge(hockey))
+  end
+
   #print tex
+end
+
+def print_error_list(title,courses1,courses2,data,model)
+  do_stats(title,courses1,courses2,data,model,nil,nil,nil,{'print_error_list'=>true})
 end
 
 def four_cases(data,m,hockey,rec,categories,scatt)
@@ -94,6 +104,7 @@ end
 def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt,opt)
   d,course_horiz,course_cf,course_gain,course_cf_r = data
   if opt.has_key?('max_time') then special_max_time=opt['max_time'] else special_max_time=999999.9 end
+  print_error_list = opt.has_key?('print_error_list')
   if model.has_key?('rec') then cf=course_cf_r else cf=course_cf end
   print "#{title}, err>0 means 1st is slow in reality\n"
   errors = []
@@ -114,14 +125,19 @@ def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt,opt)
       }
     }
   }
+  if print_error_list then print errors,"\n" end
   median,mean_abs,spread,kurtosis = stats(errors)
   mean = mean_value(errors)
   if $use_mean then center=mean else center=median end
   print "      mean/median error=#{pf(center,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n"
-  tex.replace(tex+"#{title}   mean/median error=#{pf(center,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n")
-  File.open(scatt[0]+scatt[1]+".svg",'w') { |f|
-    f.print make_line_plot(errors,line_plot_opt)
-  }
+  if not tex.nil? then
+    tex.replace(tex+"#{title}   mean/median error=#{pf(center,5,1)}       mean abs err=#{pf(mean_abs,5,1)}      spread=#{pf(spread,5,1)}         n=#{n}\n")
+  end
+  if not scatt.nil? then
+    File.open(scatt[0]+scatt[1]+".svg",'w') { |f|
+      f.print make_line_plot(errors,line_plot_opt)
+    }
+  end
 end
 
 def do_time_ratios(title,courses1,courses2,data,opt)

@@ -358,8 +358,7 @@ that are relatively flat (P, C, H, and I), and a list of some that are steep uph
 courses (B and V). We then find every case where the same runner did a run $j$ from the first
 list and a run $k$ from the second, and compute the error $\mathcal{E}_{jk}$, which will be
 positive if the runner's time in the uphill race $k$ is overpredicted by the model relative
-to their time in the flat race $j$. From the resulting list of $\mathcal{E}$ values for
-this sample, we find the median $\widetilde{\mathcal{E}}$.
+to their time in the flat race $j$.
 
 \subsection*{Comparison of the models $C_g$ and $C_t$ of the effect of hills}
 
@@ -372,12 +371,9 @@ feature of these models. We discuss each in turn.
 \begin{figure}[h]
 \includegraphics[width=132mm]{figs/test-hockey/test-hockey.pdf}
 \centering
-\caption{Tests of the predictions of the functions $C_t$ derived from treadmill data (open circles)
-and $C_g$ based on eleveation gain (black circles), and the hybrid ``recreational'' model
-$C_r$ (gray circles). Each point is a cross-ratio of a single runner's
-times in two different races. The statistic $\mathcal{E}$, defined in equation \ref{eq:define-e},
-is essentially the relative error, expressed as a percentage, in the model's prediction of the
-ratio of the times in one race relative to another. Positive $\mathcal{E}$ means that the runner's
+\caption{Tests of the predictions of the functions $C_t$ derived from treadmill data (open circles),
+$C_g$ based on eleveation gain (black circles), and the hybrid ``recreational'' model
+$C_r$ (gray circles). Positive $\mathcal{E}$ means that the runner's
 time in the first-listed race is greater in reality than in the model.
 }
 \label{fig:test-hockey}
@@ -438,14 +434,14 @@ Fig \ref{fig:features} presents a graphical summary of the interpretation of the
 \begin{figure}[h]
 \includegraphics[width=73mm]{figs/features/features.pdf}
 \centering
-\caption{A graphical summary of the interpretation of the systematic errors observed
-in parts a, b, c, and d of Fig \ref{fig:test-hockey}. Portions of each model that are
+\caption{A graphical summary of the interpretation of the systematic errors in the models $C_t$ and $C_g$, observed
+in parts a, b, c, and d of Fig \ref{fig:test-hockey}. Portions of the model that are
 interpreted as being inaccurate are circled and labeled with the test that provides the
 evidence for the inaccuracy. The interpretation is more conjectural for b, since both
 models had similar errors, but hypothetically for different reasons.
 The solid line is the treadmill-based function $C_t$ and the dashed one $C_g$.
 The dotted line is a modified version $C_r$ of the treadmill function, defined in Eq \ref{eq:rec} and found
-empirically to be more appropriate for recreational runners in real-world trail conditions.}
+here empirically to be more appropriate for recreational runners in real-world trail conditions.}
 \label{fig:features}
 \end{figure}
 
@@ -463,13 +459,13 @@ especially recreational athletes, with scientific advice that would
 give an unrealistically rosy picture of the difficulty of a run.
 
 I have therefore investigated some possible modifications to the function
-$C_t$, such as adjusting the values of the parameters $p$ and $d$
+$C_t$. A modification that did not work well was to adjust the values of the parameters $p$ and $d$
 given in Table \ref{table:minetti-params} so as to shift the minimum of
-the function up and to the right. This did not work well, because the smooth
+the function up and to the right. This was unsuccessful, because the smooth
 analytic character of Eq \eqref{eq:minetti-fit} makes it impossible, by varying its parameters, to 
 dramatically modify the function's behavior for $-0.06\lesssim i \lesssim -0.03$
 while retaining its apparently correct behavior at $-0.03 \lesssim i \lesssim 0$.
-The most successful ad hoc recipe was simply to introduce a cut-off in $C$, i.e.,
+A more successful ad hoc recipe was simply to introduce a cut-off in $C$, i.e.,
 to define a ``recreational'' version of the function,
 \begin{equation}\label{eq:rec}
   C_r =   \begin{cases}
@@ -481,17 +477,11 @@ where $i_0=-0.03$.
 In other words, we simply chop the bottom off of the curve of $C_t$, at the dotted
 line in Fig \ref{fig:features}.
 
-\begin{table}[h]
-\begin{tabular}{rrrrr}
-       & $\widetilde{\mathcal{E}}_a$ & $\widetilde{\mathcal{E}}_b$ & $\widetilde{\mathcal{E}}_c$ & $\widetilde{\mathcal{E}}_d$  \\
-$C_t$  & 2 & $-20$ & $-16$ & $-18$ \\
-$C_g$  & 6 & $-24$ & $-38$ & $-2$ \\
-$C_r$  & 3 & $-14$ & $-17$ & $-9$ \\
-\end{tabular}
-\label{table:goodness}
-\caption{Median errors for the four tests described in Fig \ref{fig:test-hockey}, for the three models
-$C_t$, $C_g$, and $C_r$.}
-\end{table}
+The results of the hybrid model $C_r$ are shown as gray circles in Fig \ref{fig:test-hockey}
+and are in general fairly good. The main remaining inaccuracy is the underprediction of the
+effect of steep hills in test c. It would be tempting to modify the function $C$ to give it
+an even more severe curvature for $i\gtrsim 0.3$. This does not seem warranted by the present
+data, since other factors may be at work, including altitude and rough footing.
 
 \subsection*{Model of endurance}
 

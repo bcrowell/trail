@@ -35,9 +35,14 @@ end
 
 def max_time(label)
   t = {
+    "into_the_wild"         =>2.5,
+    "chesebro"              =>2.5,
     "pasadena"              =>2.5,
     "irvine_half"           =>2.5,
-    "sm_10k"                =>1.0
+    "big_bear"              =>2.5,
+    "canyon_city"           =>2.5,
+    "griffith_park_30k"     =>3.555,
+    "sm_10k"                =>1.185
   }[label]
   if t.nil? then return 999999.9 else return t end
 end

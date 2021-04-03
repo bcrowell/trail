@@ -270,7 +270,8 @@ the model. It was possible to find courses with a variety of elevation profiles,
 a test of the dependence of the predictions on the amount of hill climbing.
 
 \begin{table}[h]\label{table:courses}
-\caption{Courses used in this study. Notes: 1.~Times up to 2:30 used. 2.~Times up to 1:00 used.}
+\caption{Courses used in this study. Notes: 1.~Times up to 2:30 used. 2.~Times up to 1:00 used.
+3.~Times up to 3:33 used.}
 \begin{tabular}{lp{60mm}rrrl}
                  &       & dist.  & gain &  &  years \\
                  &       & (km)      &  (km) & CF & (20xx) \\
@@ -279,12 +280,18 @@ B & Mount Baldy Run to the Top      & 10.3 & 1.21 & 47\%        & 17-18\\
 V & Broken Arrow Vertical Kilometer & 5.0  & 0.85 & 58\%        & 19 \\
 P & Pasadena Half Marathon\textsuperscript{1}
                                     & 21.1 & 0.17 & 1\%         & 17-20 \\
-C & Agoura Hills Chesebro Half Marathon & 21.1 & 0.34 & 5\%     & 19 \\
-H & Into the Wild OC Half Marathon & 21.1 & 0.57 & 8\% & 17-18\\
-I & Irvine Half Marathon           & 21.1 & 0.09 & 0.2\% & 19-20\\
-G & Griffith Park 30k               & 28.5 & 1.07 & 11\%        & 18-19 \\
-X & Revel Big Bear Half Marathon    & 21.1 & 0    & -27\% & 18-19 \\
-Y & Revel Canyon City Half Marathon    & 21.1 & 0    & -4\% & 14-17\\
+C & Agoura Hills Chesebro Half Marathon\textsuperscript{1}
+                                    & 21.1 & 0.34 & 5\%     & 19 \\
+H & Into the Wild OC Half Marathon\textsuperscript{1}
+                                    & 21.1 & 0.57 & 8\% & 17-18\\
+I & Irvine Half Marathon\textsuperscript{1}
+                                    & 21.1 & 0.09 & 0.2\% & 19-20\\
+G & Griffith Park 30k\textsuperscript{3}
+                                    & 28.5 & 1.07 & 11\%        & 18-19 \\
+X & Revel Big Bear Half Marathon\textsuperscript{1}
+                                    & 21.1 & 0    & -27\% & 18-19 \\
+Y & Revel Canyon City Half Marathon\textsuperscript{1}
+                                    & 21.1 & 0    & -4\% & 14-17\\
 S & Santa Monica 10k Classic\textsuperscript{2}        & 10 & & & 19\\
 \end{tabular}
 \label{table:courses}
@@ -304,6 +311,19 @@ for this purpose, since the uncertainty can be very large when all satellites ar
 horizon.) Runners' names and times were obtained by web-scraping public race results,
 and runners were assumed to be the same person if their first and last names matched.
 When a runner ran the same race more than once, their best time was used.
+
+To avoid biases in comparisons of times in different races, it is necessary here to define
+an upper limit on the times that will be used from a given race, and to do so in some
+consistent and unbiased way. Some such limit is in any case
+defined by race organizers, and is different for different races and usually quite long,
+often about 4-5 hours for a half-marathon. Competitors who clock the longer times are generally
+either walking the entire race or alternating between walking and jogging, and especially in
+more casual races may be pushing a stroller, running alongside their tween-age child, or staying
+in a costumed group for fun and emotional support. Because the physiological data and models
+used in this work are not applicable to walking, I impose a somewhat arbitrary time limit of 2.5 hours
+on half-marathon times. These limits, as well as others, where imposed,
+are described in the notes in Table \ref{table:courses}. For course G the time limit was derived by
+scaling up the half-marathon time limit in proportion to the distance.
 
 In table \ref{table:courses}, two measures of hilliness are given. The total elevation gain
 is the only parameter needed in order to calculate an energy expenditure using the function

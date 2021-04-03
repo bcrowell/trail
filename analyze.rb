@@ -32,26 +32,12 @@ def main()
   uphill = ["baldy","broken_arrow"]
   downhill = ["big_bear","canyon_city"]
   not_very_flat = ["wilson","into_the_wild","big_bear","baldy","broken_arrow","griffith_park_30k","chesebro"]
+  categories = all,ultra_flat,flat,uphill,downhill,not_very_flat
 
   tex = ""
   scatt = "scatt/" # prefix for filenames of scatterplot files
 
-  if true then
-  # --- Hockey is poor for steep uphill; this is because minetti is curved, not linear. This is mainly a comparison with baldy, only one VK point.
-  #     I checked the mapping of Baldy pretty carefully, see notes in meki. Gain is just slightly more than the elevation gain from manker
-  #     to the summit (1.8%, or 72'), which makes sense. There is a 500 m steep downhill section at the start, which is mapped accurately.
-  compare_hockey("flat / uphill",flat,uphill,data,m,hockey,tex,[scatt,"fu"],{})
-
-  # --- Both Minetti and hockey predict wilson times that are about 20% too short. I suspect this is safety and etiquette at work.
-  compare_hockey("flat / wilson",flat,["wilson"],data,m,hockey,tex,[scatt,"fw"],{})
-
-  # ----- Good comparison of flattish with downhill. Hockey much better than Minetti. I suspect this is because of the extreme amount
-  #       of eccentric work on quads, also possibly TFLs. Nice big sample.
-  compare_hockey("flattish / downhill",flat,["big_bear"],data,m,hockey,tex,[scatt,"fd"],{})
-
-  # ----- Ultra-flat versus nearly flat, seem to clearly show that hockey is wrong in this limit, although the sample is small.
-  compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey,tex,[scatt,"uf"],{})
-  end
+  if true then four_cases(data,m,hockey,categories,scatt) end
 
   if false then
   compare_rec("flat / uphill",flat,uphill,data,m,rec,tex,[scatt,"fu"],{})
@@ -69,6 +55,25 @@ def main()
   do_time_ratios("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,{})
 
   print tex
+end
+
+def four_cases(data,m,hockey,categories,scatt)
+  all,ultra_flat,flat,uphill,downhill,not_very_flat = categories
+  tex = ""
+  # --- Hockey is poor for steep uphill; this is because minetti is curved, not linear. This is mainly a comparison with baldy, only one VK point.
+  #     I checked the mapping of Baldy pretty carefully, see notes in meki. Gain is just slightly more than the elevation gain from manker
+  #     to the summit (1.8%, or 72'), which makes sense. There is a 500 m steep downhill section at the start, which is mapped accurately.
+  compare_hockey("flat / uphill",flat,uphill,data,m,hockey,tex,[scatt,"fu"],{})
+
+  # --- Both Minetti and hockey predict wilson times that are about 20% too short. I suspect this is safety and etiquette at work.
+  compare_hockey("flat / wilson",flat,["wilson"],data,m,hockey,tex,[scatt,"fw"],{})
+
+  # ----- Good comparison of flattish with downhill. Hockey much better than Minetti. I suspect this is because of the extreme amount
+  #       of eccentric work on quads, also possibly TFLs. Nice big sample.
+  compare_hockey("flattish / downhill",flat,["big_bear"],data,m,hockey,tex,[scatt,"fd"],{})
+
+  # ----- Ultra-flat versus nearly flat, seem to clearly show that hockey is wrong in this limit, although the sample is small.
+  compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey,tex,[scatt,"uf"],{})
 end
 
 def describe_list_with_mnemonics(courses)
@@ -106,7 +111,7 @@ def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt,opt)
         t1,t2,d1,d2,err,e2e1,endurance_corr = cross_ratio(c1,c2,times,course_horiz,cf,course_gain,model)
         if t1>special_max_time or t2>special_max_time or t1>max_time(c1) or t2>max_time(c2) then next end
         n = n+1
-        print "    #{pname(who)}       #{pcourse(c1)}=#{ptime(t1)}        #{pcourse(c2)}=#{ptime(t2)}          err=#{pf(err,5,1)}",
+        print "    #{pname(who)}  #{pcourse(c1)}=#{ptime(t1)}        #{pcourse(c2)}=#{ptime(t2)}          err=#{pf(err,5,1)}",
                    "             e2/e1=#{pf(e2e1,4,2)}   endurance=#{pf(endurance_corr,4,2)}\n"
         errors.push(err)
       }
@@ -201,7 +206,7 @@ def pf(x,m,n)
 end
 
 def pname(name)
-  return "%-20s" % [name]
+  return "%-25s" % [name]
 end
 
 def pcourse(course)

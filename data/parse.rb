@@ -157,7 +157,7 @@ if format=='agoura' then
     x = person[0]
     x.gsub!(/[^\w\d \/:\t]/,'')
     a = x.split(/\s*\t/)
-    if a.length==12 then a.delete_at(5) end # e.g., matthew glynn has "Sumac"
+    if a.length==12 then a.delete_at(5) end # e.g., matthew glynn has "Sumac"; these are names of clubs
     bib,name,address,time,crap1,crap2,crap3,age,crap4,sex,crap5 = a
     row = {'name'=>name,'time'=>time,'sex'=>sex,'age'=>age,'address'=>address}
     print output_record(row),"\n"

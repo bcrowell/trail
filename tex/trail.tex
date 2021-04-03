@@ -164,7 +164,7 @@ Again, this is impossible without some model of the effect of hill climbing.
 % almost triple the time that would be expected for a state-champion high school runner in
 % a 5k road race.
 
-\section*{Introduction}
+\section{Introduction}
 
 This paper presents a method for predicting relative performance on trail runs --- ``relative''
 meaning that we can predict the time for course A divided by the time for course B.
@@ -230,22 +230,9 @@ The function $C(i)$ resembles a hyperbola, with a
 minimum occurring at $i\approx -0.1$ to $-0.2$. 
 The asymptotes
 at large positive and negative values of $i$ are interpreted in \cite{minetti} as being determined by the
-efficiency of eccentric and concentric muscle contraction. 
-
-It is convenient to describe Minetti's function $C(i)$ using a fit to the form
-\begin{equation}\label{eq:minetti-fit}
-  C_t(i) = a\left[(|i|^p+b)^{1/p}+\frac{i}{c}+d\right],
-\end{equation}
-where the subscript $t$ stands for treadmill.
-Parameters fitted to the results of ref.~\cite{minetti} are given in Table \ref{table:minetti-params}.
-The purpose of using this form, rather than the polynomial fit given by \cite{minetti}, is
-to make the computations degrade gracefully in cases where the limitations of GPS tracks or data from digital elevation models
-produce unrealistically steep slopes. In such cases, this expression approaches the physiologically
-expected asymptotic behavior. Although the present work focuses only on running, parameters for walking
-are presented as well. The results for running are empirically found to be nearly independent of speed,
-whereas the ones for walking are not. For walking, ref.~\cite{minetti} measured the energy consumption
-at the speed that was found to be most efficient for that
-particular subject.
+efficiency of eccentric and concentric muscle contraction. For the purposes of this work, a new analytic
+approximation to the curve found by ref.~\cite{minetti} is used (Appendix 1), and is referred to as
+$C_t$, where ``t'' stands for ``treadmill.''
 
 \begin{figure}[h]
 \includegraphics[width=8cm]{figs/minetti/minetti.pdf}
@@ -255,27 +242,12 @@ the function $C_g$, Eq \ref{eq:gain-only}, with $c_0$ chosen to agree with Minet
 \label{fig:minetti}
 \end{figure}
 
-\begin{table}[h]
-\caption{Parameters for Eq \eqref{eq:minetti-fit}. These parameters were found by constraining
-Eq \ref{eq:minetti-fit} to agree with the polynomial fits in ref.~\cite{minetti} on the following
-degrees of freedom: the function is minimized at the same $i$, and has the same value of $C$ there;
-the functions agree at $i=0$. Furthermore, the slopes at $\pm\infty$ were constrained to have the asymptotic values
-found in that work.}
-\begin{tabular}{lll}
-   & \emph{running} & \emph{walking} \\
-$a$  & 26.07 $\textup{J}/\textup{kg}\cdot\textup{m}$ & 22.91 $\textup{J}/\textup{kg}\cdot\textup{m}$ \\
-$b$  & 0.03104 & 0.02621 \\
-$c$ & 1.381 & 1.315 \\
-$d$ & -0.06547 & -0.08317 \\
-$p$ & 2.181 & 2.209
-\end{tabular}
-\label{table:minetti-params}
-\end{table}
-
 Nearly all real-world walking and running is
 done at $-0.2 \lesssim i \lesssim 0.2$, where the graph of $C(i)$ is nearly parabolic.
 
-\subsection*{Empirical testing}
+\section{Results}
+
+\subsection{Empirical testing}
 
 To test these models, I use publicly available race results from the Los Angeles area.
 This area has a large population and tall mountains. The large population makes it possible
@@ -374,7 +346,7 @@ list and a run $k$ from the second, and compute the error $\mathcal{E}_{jk}$, wh
 positive if the runner's time in the uphill race $k$ is overpredicted by the model relative
 to their time in the flat race $j$.
 
-\subsection*{Comparison of the models $C_g$ and $C_t$ of the effect of hills}
+\subsection{Comparison of models for the effect of hills}
 
 Fig \ref{fig:test-hockey} shows a comparison of the quality of the predictions of the functions
 $C_g$ and $C_t$ as descriptions of the effects of going up and down hills.
@@ -404,7 +376,7 @@ the two courses. In the figure we see that Baumel's approximation is a good one 
 error for $C_t$ (open circles) is only 1.7\%, while that for $C_g$ (filled circles) is +6.4\%,
 the positive sign showing that the effect of the small hills is over-predicted.
 This median systematic error in the $C_g$ model is statistically significant
-at the 3.1-$\sigma$ level, or two-tailed $p=.002$ (see Appendix 1).
+at the 3.1-$\sigma$ level, or two-tailed $p=.002$ (see Appendix 3).
 
 % see analyze.rb, do_time_ratios().
 % calc -e "s=.111; n=17; sm=sqrt(pi/(2n))s; .066/.033"
@@ -498,7 +470,7 @@ effect of steep hills in test c. It would be tempting to modify the function $C$
 an even more severe curvature for $i\gtrsim 0.3$. This does not seem warranted by the present
 data, since other factors may be at work, including altitude and rough footing.
 
-\subsection*{Model of endurance}
+\subsection{Model of endurance}
 
 Animals run more slowly at long distances, and mathematical modeling of this fact dates back
 about a century.\cite{hill}  Recent workers have described methods for fitting parameters
@@ -610,11 +582,57 @@ speed is only 8\% lower in the marathon than in the 1500 m. This can only be rep
 is roughly marathon distance for him.
 For high-level running competitions, Gardner and Purdy give a
 method of comparing with a standard performance curve, based on a compilation of world
-records.\cite{gardner} A convenient closed-form approximation found by Cameron\cite{cameron} is
-\begin{equation}\label{eq:cameron}
-  v\propto 1-Ad+Bd^{-C},
+records.\cite{gardner} 
+The red curve is an approximation to the locus of world-record times (Appendix 2).
+
+Although fitting parameters to individual runners' characteristics is not the main purpose of this work, doing
+so is very easy with the model \ref{eq:kappa}, due to its purely multiplicative structure.
+When data are viewed in the format used in Fig \ref{fig:my-times}, as a log-log plot of speed versus distance,
+the standard curve $\kappa(d)$ is simply slid around horizontally and vertically to match the data, which
+has the effect of determining the runner's $v_m$ and $d_c$.
+
+\subsection*{Appendix 1. Some analytic approximations}
+
+It is convenient to describe the function $C(i)$ using a fit to the form
+\begin{equation}\label{eq:minetti-fit}
+  C_t(i) = a\left[(|i|^p+b)^{1/p}+\frac{i}{c}+d\right],
 \end{equation}
-shown as the red curve in figure \ref{fig:my-times}. The parameters are given in Table \ref{table:cameron-parameters}
+where the subscript $t$ stands for treadmill.
+Parameters fitted to the results of ref.~\cite{minetti} are given in Table \ref{table:minetti-params}.
+The purpose of using this form, rather than the polynomial fit given by \cite{minetti}, is
+to make the computations degrade gracefully in cases where the limitations of GPS tracks or data from digital elevation models
+produce unrealistically steep slopes. In such cases, this expression approaches the physiologically
+expected asymptotic behavior. Although the present work focuses only on running, parameters for walking
+are presented as well. The results for running are empirically found to be nearly independent of speed,
+whereas the ones for walking are not. For walking, ref.~\cite{minetti} measured the energy consumption
+at the speed that was found to be most efficient for that
+particular subject.
+
+\begin{table}[h]
+\caption{Parameters for Eq \eqref{eq:minetti-fit}. These parameters were found by constraining
+Eq \ref{eq:minetti-fit} to agree with the polynomial fits in ref.~\cite{minetti} on the following
+degrees of freedom: the function is minimized at the same $i$, and has the same value of $C$ there;
+the functions agree at $i=0$. Furthermore, the slopes at $\pm\infty$ were constrained to have the asymptotic values
+found in that work.}
+\begin{tabular}{lll}
+   & \emph{running} & \emph{walking} \\
+$a$  & 26.07 $\textup{J}/\textup{kg}\cdot\textup{m}$ & 22.91 $\textup{J}/\textup{kg}\cdot\textup{m}$ \\
+$b$  & 0.03104 & 0.02621 \\
+$c$ & 1.381 & 1.315 \\
+$d$ & -0.06547 & -0.08317 \\
+$p$ & 2.181 & 2.209
+\end{tabular}
+\label{table:minetti-params}
+\end{table}
+
+\subsection*{Appendix 2. Analytic approximation to world-record speeds}
+
+Cameron\cite{cameron} has given a
+convenient closed-form approximation to world-record speeds of runners at various distances,
+\begin{equation}\label{eq:cameron}
+  v\propto 1-Ad+Bd^{-C}.
+\end{equation}
+This is shown as the red curve in figure \ref{fig:my-times}. The parameters are given in Table \ref{table:cameron-parameters}
 
 \begin{table}[h]
 \caption{Parameters for Eq \eqref{eq:cameron}, for $d$ in meters.}
@@ -630,13 +648,7 @@ $2.25\times10^{-6}$ & 61.9 & 0.790
 %    61.919179420915
 
 
-Although fitting parameters to individual runners' characteristics is not the main purpose of this work, doing
-so is very easy with the model \ref{eq:kappa}, due to its purely multiplicative structure.
-When data are viewed in the format used in Fig \ref{fig:my-times}, as a log-log plot of speed versus distance,
-the standard curve $\kappa(d)$ is simply slid around horizontally and vertically to match the data, which
-has the effect of determining the runner's $v_m$ and $d_c$.
-
-\subsection*{Appendix 1. Statistical distribution of the ratio of times}
+\subsection*{Appendix 3. Statistical distribution of the ratio of times}
 
 Most of the tests in this study showed modeling errors that were big enough to be clearly
 visible on the kind of scatter plots used in Fig \ref{fig:test-hockey}, with no serious doubt
@@ -671,6 +683,26 @@ the population standard deviation being $\sigma$, then the sample mean should be
 approximated as having a normal distribution with standard deviation $\sigma/\sqrt{n}$,
 and the sample median as a normal with standard deviation $\sigma\sqrt{\pi/2n}$.
 
+\section{Conclusions}
+This paper presents a model that can be used to predict the time of a runner on a
+course, given their time on some other course. This model is a hybrid of two others that have been previously
+proposed. Testing against a sample of times
+clocked by mostly recreational athletes shows that
+the model usually gives predict corrections
+to within about 10-20\%, even when the route includes extreme climbing or descents.
+It would be desirable for future work to refine this work by controlling better for factors such
+as altitude, training, and the quality of footing on mountain trails.
+
+\section*{Acknowledgements}
+
+The author thanks Wendy Yen for helpful conversations.
+
+\section*{Data availability statement}
+
+The compilation
+of race times was derived from public sources and is itself publicly available at \url{https://github.com/bcrowell/trail}, along with the
+code used to analyze it. I have also used Zenodo to
+assign a DOI to the repository: 10.5281/zenodo.4661554.
 
 \bibliography{trail}
 

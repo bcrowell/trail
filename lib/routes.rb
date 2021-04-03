@@ -32,3 +32,12 @@ def mnemonic(label)
     "irvine_half"           =>'I'
   }[label]
 end
+
+def max_time(label)
+  t = {
+    "pasadena"              =>2.5,
+    "irvine_half"           =>2.5,
+    "sm_10k"                =>1.0
+  }[label]
+  if t.nil? then return 999999.9 else return t end
+end

@@ -80,6 +80,7 @@ if format=='athlinks' then
   table.each { |person|
     crap0,name,about,crap1,crap2,crap3,crap4,crap5,time = person
     # MICHAEL EASTBURN;M 29Bib 1Porter Ranch, CA, USA;1:04:38
+    # time fails sanity check, {"name"=>"Antonius Gunawan", "time"=>"", "sex"=>"NOT SPECIFIED", "age"=>"36", "bib"=>"6559", "address"=>"Pasadena, CA, USA"}
     if about=~/(M|F|NOT SPECIFIED)\s*(\d*)Bib\s+(\d+)(.*)/ then
       sex,age,bib,address = $1,$2,$3,$4
     else

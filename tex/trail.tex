@@ -270,7 +270,7 @@ the model. It was possible to find courses with a variety of elevation profiles,
 a test of the dependence of the predictions on the amount of hill climbing.
 
 \begin{table}[h]\label{table:courses}
-\caption{Courses used in this study. Notes: 1.~Times up to 2:00 used. 2.~Times up to 1:00 used.}
+\caption{Courses used in this study. Notes: 1.~Times up to 2:30 used. 2.~Times up to 1:00 used.}
 \begin{tabular}{lp{60mm}rrrl}
                  &       & dist.  & gain &  &  years \\
                  &       & (km)      &  (km) & CF & (20xx) \\
@@ -365,12 +365,10 @@ In the gain-based model $C_g$, however, the effect of the hills on course P is
 6 times its elevation gain, which is equivalent to adding 1.0 km to its length. The effect for I would
 be half as much, causing the model to predict a considerable difference in the times on
 the two courses. In the figure we see that Baumel's approximation is a good one here. The median
-error for $C_t$ (open circles) is only -1.3\%, while that for $C_g$ (filled circles) is +3.4\%,
+error for $C_t$ (open circles) is only 1.7\%, while that for $C_g$ (filled circles) is +6.4\%,
 the positive sign showing that the effect of the small hills is over-predicted.
-
-
-The sample size $n=17$ in this test is the smallest of the four presented in Fig \ref{fig:test-hockey},
-but this median systematic error in the $C_g$ model is significant with two-tailed $p=0.04$ (see Appendix 1).
+This median systematic error in the $C_g$ model is statistically significant
+at the 3.1-$\sigma$ level, or two-tailed $p=.002$ (see Appendix 1).
 
 % see analyze.rb, do_time_ratios().
 % calc -e "s=.111; n=17; sm=sqrt(pi/(2n))s; .066/.033"

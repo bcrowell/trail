@@ -36,9 +36,7 @@ def main()
   tex = ""
   scatt = "scatt/" # prefix for filenames of scatterplot files
 
-  compare_hockey("flat / hilly",      ["pasadena","irvine_half"],["chesebro"],data,m,hockey,tex,[scatt,"uf"],{'max_time'=>2.0})
-
-  if false then
+  if true then
   # --- Hockey is poor for steep uphill; this is because minetti is curved, not linear. This is mainly a comparison with baldy, only one VK point.
   #     I checked the mapping of Baldy pretty carefully, see notes in meki. Gain is just slightly more than the elevation gain from manker
   #     to the summit (1.8%, or 72'), which makes sense. There is a 500 m steep downhill section at the start, which is mapped accurately.
@@ -52,7 +50,7 @@ def main()
   compare_hockey("flattish / downhill",flat,["big_bear"],data,m,hockey,tex,[scatt,"fd"],{})
 
   # ----- Ultra-flat versus nearly flat, seem to clearly show that hockey is wrong in this limit, although the sample is small.
-  compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey,tex,[scatt,"uf"],{'max_time'=>2.0})
+  compare_hockey("ultra-flat / nearly flat",        ultra_flat,["pasadena"],data,m,hockey,tex,[scatt,"uf"],{})
   end
 
   if false then
@@ -93,7 +91,7 @@ end
 
 def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt,opt)
   d,course_horiz,course_cf,course_gain,course_cf_r = data
-  if opt.has_key?('max_time') then max_time=opt['max_time'] else max_time=999999.9 end
+  if opt.has_key?('max_time') then special_max_time=opt['max_time'] else special_max_time=999999.9 end
   if model.has_key?('rec') then cf=course_cf_r else cf=course_cf end
   print "#{title}, err>0 means 1st is slow in reality\n"
   errors = []
@@ -106,7 +104,7 @@ def do_stats(title,courses1,courses2,data,model,tex,scatt,line_plot_opt,opt)
     flat.each { |c1|
       uphill.each { |c2|
         t1,t2,d1,d2,err,e2e1,endurance_corr = cross_ratio(c1,c2,times,course_horiz,cf,course_gain,model)
-        if t1>max_time or t2>max_time then next end
+        if t1>special_max_time or t2>special_max_time or t1>max_time(c1) or t2>max_time(c2) then next end
         n = n+1
         print "    #{pname(who)}       #{pcourse(c1)}=#{ptime(t1)}        #{pcourse(c2)}=#{ptime(t2)}          err=#{pf(err,5,1)}",
                    "             e2/e1=#{pf(e2e1,4,2)}   endurance=#{pf(endurance_corr,4,2)}\n"
@@ -126,7 +124,7 @@ end
 
 def do_time_ratios(title,courses1,courses2,data,opt)
   d,course_horiz,course_cf,course_gain,course_cf_r = data
-  if opt.has_key?('max_time') then max_time=opt['max_time'] else max_time=999999.9 end
+  if opt.has_key?('max_time') then special_max_time=opt['max_time'] else special_max_time=999999.9 end
   print "#{title}, ratio>1 means 1st is slow\n"
   ratios = []
   n = 0
@@ -140,7 +138,7 @@ def do_time_ratios(title,courses1,courses2,data,opt)
         n = n+1
         t1 = times[c1]
         t2 = times[c2]
-        if t1>max_time or t2>max_time then next end
+        if t1>special_max_time or t2>special_max_time or t1>max_time(c1) or t2>max_time(c2) then next end
         ratios.push(t1/t2)
       }
     }

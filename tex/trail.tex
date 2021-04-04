@@ -205,9 +205,10 @@ given by a function of the form
    C_g(i) = 
   \begin{cases}
      c_0, & i\le0 \\
-     c_0(1+c_g i), & i\ge 0.
+     c_0(1+c_g i), & i\ge 0,
   \end{cases}
 \end{equation}
+whose graph is shaped like a hockey stick.
 Popularly proposed rules are that 100 m of elevation gain is equivalent to either 400 m or 800 m of horizontal distance,
 so that $c_g$ is said to be approximately in the range from 4 to 8. There is nothing mathematically impossible
 about this hypothesis. A function $C(i)$ of this form evades Baumel's argument because its hockey-stick shape
@@ -315,7 +316,7 @@ from other factors, which are often weaker. For this reason, distance is a confo
 in this study and has been controlled for as much as possible by using races at a consistent
 distance, the half marathon (21.1 km), or distances that, taking extreme climbing into account,
 result in similar times. These are the distances at which the largest sample sizes are available for
-mountain trail races. Section \ref{subsec:endurance} describes how the remaining inevitable
+mountain trail races. Section \ref{sec:endurance} describes how the remaining inevitable
 variations in distance have been taken into account, as much as possible.
 
 In table \ref{table:courses}, two measures of hilliness are given. The total elevation gain
@@ -354,7 +355,7 @@ to their time in the flat race $j$.
 Fig \ref{fig:test-hockey} shows a comparison of the quality of the predictions of the functions
 $C_g$ and $C_t$ as descriptions of the effects of going up and down hills.
 The third model $C_r$ is a hybrid of these, introduced in section \ref{sec:hybrid}.
-All predictions were corrected for distance as described in section \ref{subsec:endurance}.
+All predictions were corrected for distance as described in section \ref{sec:endurance}.
 Each of the four sub-figures a through d has been constructed so as to test a particular
 feature of these models. We discuss each in turn.
 
@@ -479,7 +480,7 @@ effect of steep hills in test c. It would be tempting to modify the function $C$
 an even more severe upward curve for $i\gtrsim 0.3$. This does not seem warranted by the present
 data, since other factors may be at work, including altitude and rough footing.
 
-\subsection{Model of endurance}\label{subsec:endurance}
+\section{Model of endurance}\label{sec:endurance}
 
 Animals run more slowly at long distances, and mathematical modeling of this fact dates back
 about a century.\cite{hill}  Recent workers have described methods for fitting parameters

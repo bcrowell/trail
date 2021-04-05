@@ -147,7 +147,7 @@ and conditions vary so much.
 An extreme example is the relatively new genre
 of ``vertical'' races, in which runners race up a mountain.
 In a typical example, the competitors cover a horizontal distance of 5 km,
-while clibing about 1000 m. The winner in one such race had a time
+while climbing about 1000 m. The winner in one such race had a time
 almost triple that expected for a state-champion high school runner in
 a 5k road race. Clearly no comparison can be made here without taking into account
 the amount of climbing.
@@ -173,16 +173,16 @@ Traditionally, runners and hikers have described a trail using two numbers, the 
 For example, if the route is an out-and-back voyage consisting of steady climbing to a peak and
 a return, then the total elevation gain is simply the elevation of the peak minus the elevation of
 the trailhead. If the elevation profile of the trip consists of multiple clearly defined ascents and descents,
-then adds up the ascents. Although this two-parameter description of the route is
+then one adds up the ascents. Although this two-parameter description of the route is
 easy to derive from a paper topographic map, knowledge of the two numbers is not sufficient
 to make a very useful estimate of the total energy expenditure.
 
 It has been known for a long
 time among the officials who measure road races that the effect
-of elevation change is a nonlinear function of the grade. The following argument 
+of elevation change has a nonlinear dependence on the grade. The following argument 
 was advocated by R.~Baumel.\cite{baumel}
 Consider a closed course whose elevation
-profile is described by some function $y(x)$, whose derivative $y'$ is the trail's slope $i$.
+profile is described by some function $y(x)$. The derivative $y'$ is the trail's slope $i$.
 The total energy expenditure is an integrated effect of the slope, of the form $\int_0^L C(i)dx$,
 where $C$ is a function that describes the energetic cost of running up or down a hill.
 We will see that $C$ has been measured in laboratory experiments, but for the moment we assume
@@ -192,6 +192,14 @@ the contribution from the $c_1$ term vanishes, and the energy cost is $c_0 L+c_2
 The dependence on the slope is therefore quadratic rather than linear. For example, if we were to exaggerate the
 elevation profile by a factor of 2, $y\rightarrow 2y$, then the size of the $c_2$ term would go up by
 a factor of \emph{four}, not two (in the low-slope limit, on a closed course).
+
+\begin{figure}[h]
+\includegraphics[width=8cm]{figs/minetti/minetti.pdf}
+\centering
+\caption{The cost of running as a function of slope. Solid line: the function $C_t$, fit to Minetti's treadmill data, Eq \ref{eq:minetti-fit}. Dashed line:
+the function $C_g$, Eq \ref{eq:gain-only}, with $c_0$ chosen to agree with Minetti's $C(0)$ and $c_g=6.0$.}
+\label{fig:minetti}
+\end{figure}
 
 From conversations with runners and hikers, I have found that the result of Baumel's argument almost
 always elicits total disbelief, especially when presented as a numerical example showing the extreme smallness
@@ -208,7 +216,7 @@ given by a function of the form
      c_0(1+c_g i), & i\ge 0,
   \end{cases}
 \end{equation}
-whose graph is shaped like a hockey stick.
+whose graph is shaped like a hockey stick (dashed line in Fig \ref{fig:minetti}).
 Popularly proposed rules are that 100 m of elevation gain is equivalent to either 400 m or 800 m of horizontal distance,
 so that $c_g$ is said to be approximately in the range from 4 to 8. There is nothing mathematically impossible
 about this hypothesis. A function $C(i)$ of this form evades Baumel's argument because its hockey-stick shape
@@ -223,26 +231,18 @@ usually differs negligibly from the increment of horizontal distance $d \ell$.
 $C$ has units of $\textup{J}/\textup{kg}\cdot\textup{m}$. The correctness of the factor
 of $1/m$ has empirical support.\cite{shaw}
 
-Efficiency varies by $\sim25\%$ even among elite athletes,\cite{minett}\cite{lucia}
+Efficiency varies by $\sim25\%$ even among elite athletes,\cite{minetti}\cite{lucia}
 and differences are also to be expected between elite and recreational athletes. This is one
 of the reasons why this study presents a comparative technique, rather than an absolute method for
 determining a particular runner's actual energy expenditure in units of kilocalories.
 
-The function $C(i)$, shown in Fig \ref{fig:minetti}, resembles a hyperbola, with a
+The function $C(i)$, shown as the solid line in Fig \ref{fig:minetti}, resembles a hyperbola, with a
 minimum occurring at $i\approx -0.1$ to $-0.2$. 
 The asymptotes
 at large positive and negative values of $i$ are interpreted in \cite{minetti} as being determined by the
 efficiency of eccentric and concentric muscle contraction. For the purposes of this work, a new analytic
 approximation to the curve found by ref.~\cite{minetti} is used (Appendix 1), and is referred to as
 $C_t$, where ``t'' stands for ``treadmill.''
-
-\begin{figure}[h]
-\includegraphics[width=8cm]{figs/minetti/minetti.pdf}
-\centering
-\caption{The cost of running as a function of slope. Solid line: the function $C_t$, fit to Minetti's treadmill data, Eq \ref{eq:minetti-fit}. Dashed line:
-the function $C_g$, Eq \ref{eq:gain-only}, with $c_0$ chosen to agree with Minetti's $C(0)$ and $c_g=6.0$.}
-\label{fig:minetti}
-\end{figure}
 
 Nearly all real-world walking and running is
 done at $-0.2 \lesssim i \lesssim 0.2$, where the graph of $C(i)$ is nearly parabolic.
@@ -260,7 +260,7 @@ the model. It was possible to find courses with a variety of elevation profiles,
 a test of the dependence of the predictions on the amount of hill climbing.
 
 \begin{table}[h]\label{table:courses}
-\caption{Courses used in this study. Notes: 1.~Times up to 2:30 used. 
+\caption{Courses used in this study. Notes: 1.~Times up to 2:30 were used. 
 2.~Times up to 1:11 were used for course S. A map of course S was not available, so a flat elevation profile was
 assumed.
 }
@@ -332,7 +332,7 @@ would have been required if the race had been perfectly flat, then
 Inverting this equation gives $E=E_0/(1-CF)$, so that if the horizontal distance is
 known, a measure of effort can be found by dividing the distance by $1-CF$.
 
-To define measures of the accuracy and precision of the model, consider a comparison
+To define quantitative tests of the models, consider a comparison
 of courses 1 and 2. The observed data are the runner's times $t_1$ and $t_2$, and
 the model predicts the ratio of the energy consumption $E_1/E_2$. Define
 \begin{equation}\label{eq:define-e}
@@ -363,8 +363,9 @@ with the total energy expenditure being close to that of a flat half-marathon ro
 But the endurance required for these races does vary, and this makes it desirable to have
 some rough method of compensating for the variation in pace with distance. Here I describe
 a very simple model that has the following characteristics that make it suitable for this
-study: (1) its parameters are universal rather than fits to the characteristics of an individual;
-(2) its output is purely multiplicative, i.e., it gives a correction factor $\kappa$ to the predicted speed.
+study: (1) its two parameters are universal rather than fits to the characteristics of an individual;
+(2) its dependence on the parameters is purely multiplicative, i.e., varying the parameters only
+rescales the axes on a graph of speed versus distance.
 The model is essentially a simplification of the one constructed by Rapoport,\cite{rapoport} with modifications
 to suit these purposes.
 
@@ -420,6 +421,21 @@ However, for the sample of recreational athletes studied here, I hypothesize tha
 around the half-marathon distance, and find a reasonable description of
 real-world data.
 
+\begin{figure}[h]
+\includegraphics[width=8cm]{figs/my-times/my-times.pdf}
+\centering
+\caption{Relative speed versus equivalent distance $d$. All speeds are normalized relative to the speed at half-marathon distance.
+The black curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to a half-marathon distance.
+The red curve is a 
+fit to world-record times.\cite{cameron} 
+The green and red violin plots show the distribution of speeds in races S and G relative to the same runners
+in half-marathon race P (sample sizes 1303 and 11, respectively).
+The gray dots are the author's personal-record times from a variety of courses.
+The equivalent distances were determined from the horizontal distances using the curvilinear
+function $C_t(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data. }
+\label{fig:my-times}
+\end{figure}
+
 It is not true in reality that runners can maintain the same pace at any of the distances below
 $d_c$, for which glycogen suffices. As the distance increases from 5 km to the half-marathon
 distace of 21 km, one observes a decrease in speed which, as originally observed by Hill,\cite{hill} appears
@@ -435,21 +451,6 @@ controlled by a small parameter $Q$:
 \end{equation}
 The factor of 3 is introuced so that $Q$ is approximately equal to the reduction in speed between a 5k and a half-marathon,
 and we set $Q=0.05$.
-
-\begin{figure}[h]
-\includegraphics[width=8cm]{figs/my-times/my-times.pdf}
-\centering
-\caption{Relative speed versus equivalent distance $d$. All speeds are normalized relative to the speed at half-marathon distance.
-The black curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to a half-marathon distance.
-The red curve is a 
-fit to world-record times.\cite{cameron} 
-The green and red violin plots show the distribution of speeds in races S and G relative to the same runners
-in half-marathon race P (sample sizes 1303 and 11, respectively).
-The gray dots are the author's personal-record times from a variety of courses.
-The equivalent distances were determined from the horizontal distances using the curvilinear
-function $C_t(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data. }
-\label{fig:my-times}
-\end{figure}
 
 Empirically, for the mostly recreational runners studied here, a reasonable description of the data is achieved when
 $d_c$ is set to the half-marathon distance, which is the value adopted in this work.
@@ -516,7 +517,7 @@ models greatly underpredict the runners' times in the mountain race. Most of the
 on slopes with $|i|\approx 0.10$ to 0.15. A likely interpretation is that on the uphills, $C_g$ is an
 underestimate (see c, below), while on the downhills $C_t$ is an underestimate. The race is run on a trail that is
 mostly a narrow single track, with steep hillsides on the climber's right. Safety is likely to inhibit
-many runners from going downhill at anything like the pace exhibited in ref.~\cite{minetti} by elite mountain runners
+many runners from going downhill at anything like the pace that would be possible for the   elite mountain runners in ref.~\cite{minetti}
 on a treadmill, and trail etiquette dictates that they yield the right of way when encountering
 people who are still on their way up.
 

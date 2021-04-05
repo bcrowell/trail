@@ -220,10 +220,11 @@ running and walking.
 The results are expressed as $C=(1/m)d E/d s$, where $m$ is the person's body mass,
 $E$ is the energy expended, and $d s$ is the increment of three-dimensional distance, which
 usually differs negligibly from the increment of horizontal distance $d \ell$.
-$C$ has units of $\textup{J}/\textup{kg}\cdot\textup{m}$.
+$C$ has units of $\textup{J}/\textup{kg}\cdot\textup{m}$. The correctness of the factor
+of $1/m$ has empirical support.\cite{shaw}
 
-Ref.~\cite{minetti} found significant differences in efficiency within their group of elite mountain
-runners, and differences are also to be expected between this group and other athletes. This is one
+Efficiency varies by $\sim25\%$ even among elite athletes,\cite{minett}\cite{lucia}
+and differences are also to be expected between elite and recreational athletes. This is one
 of the reasons why this study presents a comparative technique, rather than an absolute method for
 determining a particular runner's actual energy expenditure in units of kilocalories.
 
@@ -246,9 +247,9 @@ the function $C_g$, Eq \ref{eq:gain-only}, with $c_0$ chosen to agree with Minet
 Nearly all real-world walking and running is
 done at $-0.2 \lesssim i \lesssim 0.2$, where the graph of $C(i)$ is nearly parabolic.
 
-\section{Results}
+\section{Methods}
 
-\subsection{Empirical testing}
+\subsection{Analysis of publicly available race data}
 
 To test these models, I use publicly available race results from the Los Angeles area.
 This area has a large population and tall mountains. The large population makes it possible
@@ -350,137 +351,7 @@ list and a run $k$ from the second, and compute the error $\mathcal{E}_{jk}$, wh
 positive if the runner's time in the uphill race $k$ is overpredicted by the model relative
 to their time in the flat race $j$.
 
-\subsection{Comparison of models for the effect of hills}\label{subsec:hills}
-
-Fig \ref{fig:test-hockey} shows a comparison of the quality of the predictions of the functions
-$C_g$ and $C_t$ as descriptions of the effects of going up and down hills.
-The third model $C_r$ is a hybrid of these, introduced in section \ref{sec:hybrid}.
-All predictions were corrected for distance as described in section \ref{sec:endurance}.
-Each of the four sub-figures a through d has been constructed so as to test a particular
-feature of these models. We discuss each in turn.
-
-\begin{figure}[h]
-\includegraphics[width=132mm]{figs/test-hockey/test-hockey.pdf}
-\centering
-\caption{Tests of the predictions of the functions $C_t$ derived from treadmill data (open circles),
-$C_g$ based on eleveation gain (black circles), and the hybrid ``recreational'' model
-$C_r$ (gray circles). Positive $\mathcal{E}$ means that the runner's
-time in the first-listed race is greater in reality than in the model.
-}
-\label{fig:test-hockey}
-\end{figure}
-
-(a) Here we compare the extremely flat half-marathon I, having only 90 m of elevation gain,
-to half-marathon P, which is slightly more hilly with 170 m of gain, or about twice as much.
-According to the treadmill-based model $C_t$, the effects of climbing and descending
-nearly cancel out, giving a negligible $CF<1\%$ for each run, as expected from Baumel's argument.
-In the gain-based model $C_g$, however, the effect of the hills on course P is
-6 times its elevation gain, which is equivalent to adding 1.0 km to its length. The effect for I would
-be half as much, causing the model to predict a considerable difference in the times on
-the two courses. In the figure we see that Baumel's approximation is a good one here. The median
-error for $C_t$ (open circles) is only 1.7\%, while that for $C_g$ (filled circles) is +6.4\%,
-the positive sign showing that the effect of the small hills is over-predicted.
-
-Of the four tests a-d, this is the only one where the effect being probed is small enough to
-require statistical analysis rather than simple visual inspection.
-Such an analysis (Appendix 4)
-show that systematic error in $C_g$ is significant ($p=3\times10^{-6}$), while any such evidence against
-$C_t$ is statistically marginal.
-
-(b) In this portion of Fig \ref{fig:test-hockey}, we compare times in a set of fairly flat half-marathons
-(with CF values ranging from 0.2\% to 8\%) with course W, a trail race up and down half of Mount Wilson, $CF=20\%$.
-Although the distance of W is much shorter, most runners' times are only slightly lower. We see that both
-models greatly underpredict the runners' times in the mountain race. Most of the running in this race is
-on slopes with $|i|\approx 0.10$ to 0.15. A likely interpretation is that on the uphills, $C_g$ is an
-underestimate (see c, below), while on the downhills $C_t$ is an underestimate. The race is run on a trail that is
-mostly a narrow single track, with steep hillsides on the climber's right. Safety is likely to inhibit
-many runners from going downhill at anything like the pace exhibited in ref.~\cite{minetti} by elite mountain runners
-on a treadmill, and trail etiquette dictates that they yield the right of way when encountering
-people who are still on their way up.
-
-(c) This test compares runners' times on the same flattish half-marathons with their performances in
-two races, B and V, in which runners go up a mountain and finish at the top. Of the sample size of $n=32$, only
-one person was on course V, a ``vertical kilometer''-style race which was run in Northern California.
-Although both models systematically underestimated the difficulty of the uphill races ($\mathcal{E}<0$),
-the underestimate is far more severe for $C_g$ than for $C_t$. Course B consists almost
-entirely of climbing on grades $0.05<i<0.25$, at which $C_g$ is less than $C_t$ and is apparently a
-considerable underestimate. Additional factors leading to $\mathcal{E}<0$ in both cases
-are certain to include the aerobic challenge of finishing the race at an elevation of over 3000 m,
-as well as the difficult footing on the final section.
-
-(d) Here we compare the same set of fairly flat half-marathons with a road half-marathon, course X,
-which consists entirely
-of running \emph{down} a mountain. The downhill race is run along with a marathon, which
-the race's organizers advertise as being extremely fast and a good way to achieve a ``BQ'' or
-qualifying time for the Boston Marathon. Surprisingly, most runners' times in the downhill
-half-marathon were only about 10 minutes shorter than in the flat ones, and quite a few runners in
-the sample actually took longer for the downhill race. We have already seen evidence in part
-b above that the high physiological efficiencies observed in the lab for downhill running may
-not translate proportionately into speed. In W, the issues may have been safety and courtesy,
-which would not have been relevant in this race on a wide asphalt road. A more likely explanation
-here is that for recreational runners who have not trained extensively on steep hills, a long downhill of this
-length can be physically difficult due to the strong eccentric strain on the quadriceps, as well as
-testing the tensor fascia latae.
-
-\section{Interpretation}
-
-Fig \ref{fig:features} presents a graphical summary of the interpretation of these results.
-
-\begin{figure}[h]
-\includegraphics[width=73mm]{figs/features/features.pdf}
-\centering
-\caption{A graphical summary of the interpretation of the systematic errors in the models $C_t$ and $C_g$, observed
-in parts a, b, c, and d of Fig \ref{fig:test-hockey}. Portions of the model that are
-interpreted as being inaccurate are circled and labeled with the test that provides the
-evidence for the inaccuracy. The interpretation is more conjectural for b, since both
-models had similar errors, but hypothetically for different reasons.
-The solid line is the treadmill-based function $C_t$ and the dashed one $C_g$.
-The dotted line is a modified version $C_r$ of the treadmill function, defined in Eq \ref{eq:rec} and found
-here empirically to be more appropriate for recreational runners in real-world trail conditions.}
-\label{fig:features}
-\end{figure}
-
-The observations mainly support the model $C_t$, except that as
-downhill grades get steeper and steeper, it appears that most
-recreational runners in real-world conditions reach a point of
-diminishing returns far earlier than is the case in treadmill studies.
-The results for course X, which has an average $i\approx -0.05$,
-suggest that this point of diminishing returns is reached at relatively
-small negative slopes, perhaps $i\approx -0.03$.
-The factors causing this effect probably have as much to do with safety and etiquette as
-with physiology, so that they cannot be quantified in any
-universal way. However, it would be irresponsible to provide runners,
-especially recreational athletes, with scientific advice that would
-give an unrealistically rosy picture of the difficulty of a run.
-
-\section{Hybrid model}\label{sec:hybrid}
-
-I have therefore investigated some possible modifications to the function
-$C_t$. A modification that did not work well was to adjust the values of the parameters $p$ and $d$
-given in Table \ref{table:minetti-params} so as to shift the minimum of
-the function up and to the right. This was unsuccessful, because the smooth
-analytic character of Eq \eqref{eq:minetti-fit} makes it impossible, by varying its parameters, to 
-dramatically modify the function's behavior for $-0.06\lesssim i \lesssim -0.03$
-while retaining its apparently correct behavior at $-0.03 \lesssim i \lesssim 0$.
-A more successful ad hoc recipe was simply to introduce a cut-off in $C$, i.e.,
-to define a ``recreational'' version of the function,
-\begin{equation}\label{eq:rec}
-  C_r =   \begin{cases}
-     C_t(i), & C_t(i)>C_t(i_0) \\
-     C_t(i_0), & \text{otherwise},
-  \end{cases}
-\end{equation}
-where $i_0=-0.03$.
-In other words, we simply chop the bottom off of the curve of $C_t$, at the dotted
-line in Fig \ref{fig:features}.
-
-The results of the hybrid model $C_r$ are shown as gray circles in Fig \ref{fig:test-hockey}
-and are in general fairly good. The main remaining inaccuracy is the underprediction of the
-effect of steep hills in test c. It would be tempting to modify the function $C$ to give it
-an even more severe upward curve for $i\gtrsim 0.3$. This does not seem warranted by the present
-data, since other factors may be at work, including altitude and rough footing.
-
-\section{Model of endurance}\label{sec:endurance}
+\subsection{Model of endurance}\label{sec:endurance}
 
 Animals run more slowly at long distances, and mathematical modeling of this fact dates back
 about a century.\cite{hill}  Recent workers have described methods for fitting parameters
@@ -601,6 +472,138 @@ When data are viewed in the format used in Fig \ref{fig:my-times}, as a log-log 
 the standard curve $\kappa(d)$ is simply slid around horizontally and vertically to match the data, which
 has the effect of determining the runner's $v_m$ and $d_c$.
 
+\section{Results}\label{subsec:hills}
+
+Fig \ref{fig:test-hockey} shows a comparison of the quality of the predictions of the functions
+$C_g$ and $C_t$ as descriptions of the effects of going up and down hills.
+The third model $C_r$ is a hybrid of these, introduced in section \ref{sec:hybrid}.
+All predictions were corrected for distance as described in section \ref{sec:endurance}.
+Each of the four sub-figures a through d has been constructed so as to test a particular
+feature of these models. We discuss each in turn.
+
+\begin{figure}[h]
+\includegraphics[width=132mm]{figs/test-hockey/test-hockey.pdf}
+\centering
+\caption{Tests of the predictions of the functions $C_t$ derived from treadmill data (open circles),
+$C_g$ based on eleveation gain (black circles), and the hybrid ``recreational'' model
+$C_r$ (gray circles). Positive $\mathcal{E}$ means that the runner's
+time in the first-listed race is greater in reality than in the model.
+}
+\label{fig:test-hockey}
+\end{figure}
+
+(a) Here we compare the extremely flat half-marathon I, having only 90 m of elevation gain,
+to half-marathon P, which is slightly more hilly with 170 m of gain, or about twice as much.
+According to the treadmill-based model $C_t$, the effects of climbing and descending
+nearly cancel out, giving a negligible $CF<1\%$ for each run, as expected from Baumel's argument.
+In the gain-based model $C_g$, however, the effect of the hills on course P is
+6 times its elevation gain, which is equivalent to adding 1.0 km to its length. The effect for I would
+be half as much, causing the model to predict a considerable difference in the times on
+the two courses. In the figure we see that Baumel's approximation is a good one here. The median
+error for $C_t$ (open circles) is only 1.7\%, while that for $C_g$ (filled circles) is +6.4\%,
+the positive sign showing that the effect of the small hills is over-predicted.
+
+Of the four tests a-d, this is the only one where the effect being probed is small enough to
+require statistical analysis rather than simple visual inspection.
+Such an analysis (Appendix 4)
+show that systematic error in $C_g$ is significant ($p=3\times10^{-6}$), while any such evidence against
+$C_t$ is statistically marginal.
+
+(b) In this portion of Fig \ref{fig:test-hockey}, we compare times in a set of fairly flat half-marathons
+(with CF values ranging from 0.2\% to 8\%) with course W, a trail race up and down half of Mount Wilson, $CF=20\%$.
+Although the distance of W is much shorter, most runners' times are only slightly lower. We see that both
+models greatly underpredict the runners' times in the mountain race. Most of the running in this race is
+on slopes with $|i|\approx 0.10$ to 0.15. A likely interpretation is that on the uphills, $C_g$ is an
+underestimate (see c, below), while on the downhills $C_t$ is an underestimate. The race is run on a trail that is
+mostly a narrow single track, with steep hillsides on the climber's right. Safety is likely to inhibit
+many runners from going downhill at anything like the pace exhibited in ref.~\cite{minetti} by elite mountain runners
+on a treadmill, and trail etiquette dictates that they yield the right of way when encountering
+people who are still on their way up.
+
+(c) This test compares runners' times on the same flattish half-marathons with their performances in
+two races, B and V, in which runners go up a mountain and finish at the top. Of the sample size of $n=32$, only
+one person was on course V, a ``vertical kilometer''-style race which was run in Northern California.
+Although both models systematically underestimated the difficulty of the uphill races ($\mathcal{E}<0$),
+the underestimate is far more severe for $C_g$ than for $C_t$. Course B consists almost
+entirely of climbing on grades $0.05<i<0.25$, at which $C_g$ is less than $C_t$ and is apparently a
+considerable underestimate. Additional factors leading to $\mathcal{E}<0$ in both cases
+are certain to include the aerobic challenge of finishing the race at an elevation of over 3000 m,
+as well as the difficult footing on the final section.
+
+(d) Here we compare the same set of fairly flat half-marathons with a road half-marathon, course X,
+which consists entirely
+of running \emph{down} a mountain. The downhill race is run along with a marathon, which
+the race's organizers advertise as being extremely fast and a good way to achieve a ``BQ'' or
+qualifying time for the Boston Marathon. Surprisingly, most runners' times in the downhill
+half-marathon were only about 10 minutes shorter than in the flat ones, and quite a few runners in
+the sample actually took longer for the downhill race. We have already seen evidence in part
+b above that the high physiological efficiencies observed in the lab for downhill running may
+not translate proportionately into speed. In W, the issues may have been safety and courtesy,
+which would not have been relevant in this race on a wide asphalt road. A more likely explanation
+here is that for recreational runners who have not trained extensively on steep hills, a long downhill of this
+length can be physically difficult due to the strong eccentric strain on the quadriceps, as well as
+testing the tensor fascia latae.
+
+\section{Discussion}
+
+\subsection{Interpretation of results}
+
+Fig \ref{fig:features} presents a graphical summary of the interpretation of these results.
+
+\begin{figure}[h]
+\includegraphics[width=73mm]{figs/features/features.pdf}
+\centering
+\caption{A graphical summary of the interpretation of the systematic errors in the models $C_t$ and $C_g$, observed
+in parts a, b, c, and d of Fig \ref{fig:test-hockey}. Portions of the model that are
+interpreted as being inaccurate are circled and labeled with the test that provides the
+evidence for the inaccuracy. The interpretation is more conjectural for b, since both
+models had similar errors, but hypothetically for different reasons.
+The solid line is the treadmill-based function $C_t$ and the dashed one $C_g$.
+The dotted line is a modified version $C_r$ of the treadmill function, defined in Eq \ref{eq:rec} and found
+here empirically to be more appropriate for recreational runners in real-world trail conditions.}
+\label{fig:features}
+\end{figure}
+
+The observations mainly support the model $C_t$, except that as
+downhill grades get steeper and steeper, it appears that most
+recreational runners in real-world conditions reach a point of
+diminishing returns far earlier than is the case in treadmill studies.
+The results for course X, which has an average $i\approx -0.05$,
+suggest that this point of diminishing returns is reached at relatively
+small negative slopes, perhaps $i\approx -0.03$.
+The factors causing this effect probably have as much to do with safety and etiquette as
+with physiology, so that they cannot be quantified in any
+universal way. However, it would be irresponsible to provide runners,
+especially recreational athletes, with scientific advice that would
+give an unrealistically rosy picture of the difficulty of a run.
+
+\subsection{Hybrid model}\label{sec:hybrid}
+
+I have therefore investigated some possible modifications to the function
+$C_t$. A modification that did not work well was to adjust the values of the parameters $p$ and $d$
+given in Table \ref{table:minetti-params} so as to shift the minimum of
+the function up and to the right. This was unsuccessful, because the smooth
+analytic character of Eq \eqref{eq:minetti-fit} makes it impossible, by varying its parameters, to 
+dramatically modify the function's behavior for $-0.06\lesssim i \lesssim -0.03$
+while retaining its apparently correct behavior at $-0.03 \lesssim i \lesssim 0$.
+A more successful ad hoc recipe was simply to introduce a cut-off in $C$, i.e.,
+to define a ``recreational'' version of the function,
+\begin{equation}\label{eq:rec}
+  C_r =   \begin{cases}
+     C_t(i), & C_t(i)>C_t(i_0) \\
+     C_t(i_0), & \text{otherwise},
+  \end{cases}
+\end{equation}
+where $i_0=-0.03$.
+In other words, we simply chop the bottom off of the curve of $C_t$, at the dotted
+line in Fig \ref{fig:features}.
+
+The results of the hybrid model $C_r$ are shown as gray circles in Fig \ref{fig:test-hockey}
+and are in general fairly good. The main remaining inaccuracy is the underprediction of the
+effect of steep hills in test c. It would be tempting to modify the function $C$ to give it
+an even more severe upward curve for $i\gtrsim 0.3$. This does not seem warranted by the present
+data, since other factors may be at work, including altitude and rough footing.
+
 \section{Conclusions}
 This paper presents a model that can be used to predict the time of a runner on a
 course, given their time on some other course. This model is a hybrid of two others that have been previously
@@ -611,7 +614,7 @@ to within about 10-20\%, even when the route includes extreme climbing or descen
 It would be desirable for future work to refine this work by controlling better for factors such
 as altitude, training, and the quality of footing on mountain trails.
 
-\subsection*{Appendix 1. Some analytic approximations}
+\subsection*{Appendix 1. Analytic approximation to the treadmill function $C_t$}
 
 It is convenient to describe the function $C(i)$ using a fit to the form
 \begin{equation}\label{eq:minetti-fit}
@@ -752,6 +755,20 @@ Baumel R. Hill effect to second order.
       Energy cost of walking and running at extreme uphill and downhill slopes.
       J Applied Physiology.
       2002;93:1039.
+
+\bibitem{shaw}
+      Shaw AJ, Ingham SA, Folland JP.
+      The valid measurement of running economy in runners 
+       Med Sci Sports Exerc.
+       2014 Oct;46(10):1968-73.
+
+\bibitem{lucia}
+      Lucia A, Olivan J, Bravo J, Gonzalez-Freire M, and Foster C.
+      The key to top-level endurance running performance: a unique example.
+      British Journal of Sports Medicine.
+      2008;42(3):172.
+
+, 42(3), 172–174. doi:10.1136/bjsm.2007.040725 
 
 \bibitem{godsey} Godsey B. Comparing and forecasting performances in different events of athletics using a probabilistic model.
         Journal of Quantitative Analysis in Sports.

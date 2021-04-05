@@ -11,7 +11,7 @@ draft = False
 minetti_r = 0
 #----------------------
 
-
+matplotlib.rcParams.update({'font.size': 14})
 
 mi_to_km = 1.609344
 

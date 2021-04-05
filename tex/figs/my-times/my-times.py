@@ -7,6 +7,8 @@ import numpy as np
 import copy
 import subprocess
 
+matplotlib.rcParams.update({'font.size': 14})
+
 half_marathon_in_km = 21.1 # kilometers
 
 with open('./sm_half_ratios.py') as f: exec(f.read())

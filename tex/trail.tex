@@ -249,15 +249,15 @@ done at $-0.2 \lesssim i \lesssim 0.2$, where the graph of $C(i)$ is nearly para
 
 \section{Methods}
 
-\subsection{Analysis of publicly available race data}
-
 To test these models, I use publicly available race results from the Los Angeles area.
 This area has a large population and tall mountains. The large population makes it possible
 to pick out a significant number of runners who have competed in several different races.
 If the ratio of the runner's time on courses 1 and 2 is $t_2/t_1$, then we take this
 as a measure of the ratio $E_2/E_1$ of the energy expenditure, which can be compared with
 the model. It was possible to find courses with a variety of elevation profiles, allowing
-a test of the dependence of the predictions on the amount of hill climbing.
+a test of the dependence of the predictions on the amount of hill climbing. The
+proportionality of time to energy is found to be good for level and uphill running, but
+less valid for downhill running,\cite{vernillo} and indeed we will see that these observations seem to hold for the data investigated here.
 
 \begin{table}[h]\label{table:courses}
 \caption{Courses used in this study. Notes: 1.~Times up to 2:30 were used. 
@@ -317,7 +317,7 @@ from other factors, which are often weaker. For this reason, distance is a confo
 in this study and has been controlled for as much as possible by using races at a consistent
 distance, the half marathon (21.1 km), or distances that, taking extreme climbing into account,
 result in similar times. These are the distances at which the largest sample sizes are available for
-mountain trail races. Section \ref{sec:endurance} describes how the remaining inevitable
+mountain trail races. Appendix 5 describes how the remaining inevitable
 variations in distance have been taken into account, as much as possible.
 
 In table \ref{table:courses}, two measures of hilliness are given. The total elevation gain
@@ -351,129 +351,7 @@ list and a run $k$ from the second, and compute the error $\mathcal{E}_{jk}$, wh
 positive if the runner's time in the uphill race $k$ is overpredicted by the model relative
 to their time in the flat race $j$.
 
-\subsection{Model of endurance}\label{sec:endurance}
-
-Animals run more slowly at long distances, and mathematical modeling of this fact dates back
-about a century.\cite{hill}  Recent workers have described methods for fitting parameters
-to the data for individual runners,\cite{rapoport}\cite{emig} which for example allows
-a first-time marathon runner to estimate an appropriate pace. In the present work, there are
-not enough data available to allow this kind of individualized description of the runners.
-For this reason, I have concentrated on data from a narrow range of middle distances,
-with the total energy expenditure being close to that of a flat half-marathon road race.
-But the endurance required for these races does vary, and this makes it desirable to have
-some rough method of compensating for the variation in pace with distance. Here I describe
-a very simple model that has the following characteristics that make it suitable for this
-study: (1) its two parameters are universal rather than fits to the characteristics of an individual;
-(2) its dependence on the parameters is purely multiplicative, i.e., varying the parameters only
-rescales the axes on a graph of speed versus distance.
-The model is essentially a simplification of the one constructed by Rapoport,\cite{rapoport} with modifications
-to suit these purposes.
-
-First we compute an equivalent distance $d$, which is the distance of flat running that would
-require the same energy expenditure as the actual run. If the runner's time is $t$, then
-$v=d/t$ has dimensions of speed, but is in fact a measure of energy per unit time, or power.
-We then have
-\begin{equation}\label{eq:fuel-model-1}
-  Pt=d/\epsilon,
-\end{equation}
-where $P$ is the power and $\epsilon$ is a measure of the runner's efficiency. For example,
-a recreational runner with a slight roll of belly fat will have a lower value of $\epsilon$ because of
-the increased energetic cost of transporting the additional body weight. Although it would seem that
-we are now introducing an individualized parameter $\epsilon$, the model is designed so that at the
-end of the calculation, cancellations occur that allow $\kappa$ to be predicted on a universal basis.
-
-The power $P$ depends on aerobic fitness and on the proportions of fat and carbohydrates being
-burned in aerobic metabolism. Fat burning is slower than carbohydrate burning by a factor $\beta\approx 0.4$.\cite{rapoport}
-If we let $f$ be the fraction of energy production from carbohydrates, then
-\begin{equation}\label{eq:fuel-model-2}
-  P = A[f+\beta(1-f)],
-\end{equation}
-where the proportionality constant $A$ is another per-individual parameter that it will be
-possible to normalize away later. This expression's linearity in $f$ is an approximation to
-results from real-world data that provide evidence for slightly nonlinear behavior.\cite{rapoport}
-
-The runner's supply of carbohydrates $c$ is limited by the amount of glycogen that can be stored
-in the liver and the leg muscles. If $f$ is chosen optimally, then there will be some distance
-$d_c=c\epsilon$ that can be run with pure carbohydrate fuel, while longer distances will require $f<1$.
-Thus,
-\begin{equation}\label{eq:fuel-model-3}
-  f = \begin{cases}
-    1, & d\le d_c \\
-    c/At, & d\ge d_c.
-\end{cases}
-\end{equation}
-Under these assumptions, the runner's speed will be the same in races at all distances less than $d_c$,
-which is unrealistic. We will first work out the consequences of Eq \ref{eq:fuel-model-1}-\ref{eq:fuel-model-3}
-and the introduce a simple elaboration that more realistically reproduces the effects of fatigue.
-
-Solving Eq \ref{eq:fuel-model-1}-\ref{eq:fuel-model-3} and expressing $\kappa$ as a correction factor
-relative to the short-distance maximum speed $v_m=A\epsilon$, we find
-\begin{equation}\label{eq:kappa-simple}
-  \kappa_0 = \begin{cases}
-    1, & d\le d_c \\
-    \frac{\beta}{1-(1-\beta)d_c/d}, & d\ge d_c.
-  \end{cases}
-\end{equation}
-This depends on the universal parameter $\beta\approx0.4$ and also on the critical distance $d_c$.
-The latter is a measure of endurance and does depend on individual factors such as
-body composition and training, as well as on strategies such as carbohydrate loading.
-However, for the sample of recreational athletes studied here, I hypothesize that one can fix a universal value of $d_c$ lying somewhere
-around the half-marathon distance, and find a reasonable description of
-real-world data.
-
-\begin{figure}[h]
-\includegraphics[width=8cm]{figs/my-times/my-times.pdf}
-\centering
-\caption{Relative speed versus equivalent distance $d$. All speeds are normalized relative to the speed at half-marathon distance.
-The black curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to a half-marathon distance.
-The red curve is a 
-fit to world-record times.\cite{cameron} 
-The green and red violin plots show the distribution of speeds in races S and G relative to the same runners
-in half-marathon race P (sample sizes 1303 and 11, respectively).
-The gray dots are the author's personal-record times from a variety of courses.
-The equivalent distances were determined from the horizontal distances using the curvilinear
-function $C_t(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data. }
-\label{fig:my-times}
-\end{figure}
-
-It is not true in reality that runners can maintain the same pace at any of the distances below
-$d_c$, for which glycogen suffices. As the distance increases from 5 km to the half-marathon
-distace of 21 km, one observes a decrease in speed which, as originally observed by Hill,\cite{hill} appears
-linear on a graph of speed versus the logarithm of distance. In the men's and women's world-record
-times, this decrease is about 5\%. The graph then shows a knee, like the one described by Eq \ref{eq:kappa-simple}.
-The more gradual decrease for distances before the knee is generically described as being due to fatigue, which is
-a complicated and poorly understood phenomenon involving a variety of factors, many of which are mediated
-by the central nervous system rather than by any change at the chemical or tissue level. As an \emph{ad hoc}
-correction, we multiply the result of Eq \ref{eq:kappa-simple} by a factor
-controlled by a small parameter $Q$:
-\begin{equation}\label{eq:kappa}
-  \kappa = \left(\frac{1+(1-3Q)d/d_c}{1+d/d_c}\right) \kappa_0.
-\end{equation}
-The factor of 3 is introduced so that $Q$ is approximately equal to the reduction in speed between a 5k and a half-marathon,
-and we set $Q=0.05$.
-
-Empirically, for the mostly recreational runners studied here, a reasonable description of the data is achieved when
-$d_c$ is set to the half-marathon distance, which is the value adopted in this work.
-Fig \ref{fig:my-times} shows that
-setting $d_c$ to half-marathon distance gives a good fit to some real-world data.
-
-Although the fit in Fig \ref{fig:my-times} is rather good,
-much higher values of $d_c$ might be more appropriate for higher-level endurance runners.
-For example, Eliud Kipchoge's personal-record
-speed is only 8\% lower in the marathon than in the 1500 m. This can only be reproduced in this model if $d_c$
-is roughly marathon distance for him.
-For high-level running competitions, Gardner and Purdy give a
-method of comparing with a standard performance curve, based on a compilation of world
-records.\cite{gardner} 
-The red curve in Fig \ref{fig:my-times} is an approximation to the locus of world-record times (Appendix 2).
-
-Although fitting parameters to individual runners' characteristics is not the main purpose of this work, doing
-so is very easy with the model \ref{eq:kappa}, due to its purely multiplicative structure.
-When data are viewed in the format used in Fig \ref{fig:my-times}, as a log-log plot of speed versus distance,
-the standard curve $\kappa(d)$ is simply slid around horizontally and vertically to match the data, which
-has the effect of determining the runner's $v_m$ and $d_c$.
-
-\section{Results}\label{subsec:hills}
+\section{Results}\label{sec:hills}
 
 Fig \ref{fig:test-hockey} shows a comparison of the quality of the predictions of the functions
 $C_g$ and $C_t$ as descriptions of the effects of going up and down hills.
@@ -707,7 +585,7 @@ CF value derived from the actual GNSS data.
 
 \subsection*{Appendix 4: Statistical analysis}
 
-In section \ref{subsec:hills}, test (a) probes an effect small enough that visual inspection of the scatter plots is
+In section \ref{sec:hills}, test (a) probes an effect small enough that visual inspection of the scatter plots is
 not a satisfactory way of testing hypotheses. Specifically, we want to know whether
 the apparent systematic error in the model $C_g$ is statistically consistent with zero.
 
@@ -724,9 +602,131 @@ $C_t$ is statistically marginal.
 
 % see significance.r
 
+\subsection*{Appendix 5: Model of endurance}
+
+Animals run more slowly at long distances, and mathematical modeling of this fact dates back
+about a century.\cite{hill}  Recent workers have described methods for fitting parameters
+to the data for individual runners,\cite{rapoport}\cite{emig} which for example allows
+a first-time marathon runner to estimate an appropriate pace. In the present work, there are
+not enough data available to allow this kind of individualized description of the runners.
+For this reason, I have concentrated on data from a narrow range of middle distances,
+with the total energy expenditure being close to that of a flat half-marathon road race.
+But the endurance required for these races does vary, and this makes it desirable to have
+some rough method of compensating for the variation in pace with distance. Here I describe
+a very simple model that has the following characteristics that make it suitable for this
+study: (1) its two parameters are universal rather than fits to the characteristics of an individual;
+(2) its dependence on the parameters is purely multiplicative, i.e., varying the parameters only
+rescales the axes on a graph of speed versus distance.
+The model is essentially a simplification of the one constructed by Rapoport,\cite{rapoport} with modifications
+to suit these purposes.
+
+First we compute an equivalent distance $d$, which is the distance of flat running that would
+require the same energy expenditure as the actual run. If the runner's time is $t$, then
+$v=d/t$ has dimensions of speed, but is in fact a measure of energy per unit time, or power.
+We then have
+\begin{equation}\label{eq:fuel-model-1}
+  Pt=d/\epsilon,
+\end{equation}
+where $P$ is the power and $\epsilon$ is a measure of the runner's efficiency. For example,
+a recreational runner with a slight roll of belly fat will have a lower value of $\epsilon$ because of
+the increased energetic cost of transporting the additional body weight. Although it would seem that
+we are now introducing an individualized parameter $\epsilon$, the model is designed so that at the
+end of the calculation, cancellations occur that allow $\kappa$ to be predicted on a universal basis.
+
+The power $P$ depends on aerobic fitness and on the proportions of fat and carbohydrates being
+burned in aerobic metabolism. Fat burning is slower than carbohydrate burning by a factor $\beta\approx 0.4$.\cite{rapoport}
+If we let $f$ be the fraction of energy production from carbohydrates, then
+\begin{equation}\label{eq:fuel-model-2}
+  P = A[f+\beta(1-f)],
+\end{equation}
+where the proportionality constant $A$ is another per-individual parameter that it will be
+possible to normalize away later. This expression's linearity in $f$ is an approximation to
+results from real-world data that provide evidence for slightly nonlinear behavior.\cite{rapoport}
+
+The runner's supply of carbohydrates $c$ is limited by the amount of glycogen that can be stored
+in the liver and the leg muscles. If $f$ is chosen optimally, then there will be some distance
+$d_c=c\epsilon$ that can be run with pure carbohydrate fuel, while longer distances will require $f<1$.
+Thus,
+\begin{equation}\label{eq:fuel-model-3}
+  f = \begin{cases}
+    1, & d\le d_c \\
+    c/At, & d\ge d_c.
+\end{cases}
+\end{equation}
+Under these assumptions, the runner's speed will be the same in races at all distances less than $d_c$,
+which is unrealistic. We will first work out the consequences of Eq \ref{eq:fuel-model-1}-\ref{eq:fuel-model-3}
+and the introduce a simple elaboration that more realistically reproduces the effects of fatigue.
+
+Solving Eq \ref{eq:fuel-model-1}-\ref{eq:fuel-model-3} and expressing $\kappa$ as a correction factor
+relative to the short-distance maximum speed $v_m=A\epsilon$, we find
+\begin{equation}\label{eq:kappa-simple}
+  \kappa_0 = \begin{cases}
+    1, & d\le d_c \\
+    \frac{\beta}{1-(1-\beta)d_c/d}, & d\ge d_c.
+  \end{cases}
+\end{equation}
+This depends on the universal parameter $\beta\approx0.4$ and also on the critical distance $d_c$.
+The latter is a measure of endurance and does depend on individual factors such as
+body composition and training, as well as on strategies such as carbohydrate loading.
+However, for the sample of recreational athletes studied here, I hypothesize that one can fix a universal value of $d_c$ lying somewhere
+around the half-marathon distance, and find a reasonable description of
+real-world data.
+
+\begin{figure}[h]
+\includegraphics[width=8cm]{figs/my-times/my-times.pdf}
+\centering
+\caption{Relative speed versus equivalent distance $d$. All speeds are normalized relative to the speed at half-marathon distance.
+The black curve is the function defined by Eq \ref{eq:kappa}, with $d_c$ set to a half-marathon distance.
+The red curve is a 
+fit to world-record times.\cite{cameron} 
+The green and red violin plots show the distribution of speeds in races S and G relative to the same runners
+in half-marathon race P (sample sizes 1303 and 11, respectively).
+The gray dots are the author's personal-record times from a variety of courses.
+The equivalent distances were determined from the horizontal distances using the curvilinear
+function $C_t(i)$ in Eq \ref{eq:minetti-fit}, which is based on treadmill data. }
+\label{fig:my-times}
+\end{figure}
+
+It is not true in reality that runners can maintain the same pace at any of the distances below
+$d_c$, for which glycogen suffices. As the distance increases from 5 km to the half-marathon
+distace of 21 km, one observes a decrease in speed which, as originally observed by Hill,\cite{hill} appears
+linear on a graph of speed versus the logarithm of distance. In the men's and women's world-record
+times, this decrease is about 5\%. The graph then shows a knee, like the one described by Eq \ref{eq:kappa-simple}.
+The more gradual decrease for distances before the knee is generically described as being due to fatigue, which is
+a complicated and poorly understood phenomenon involving a variety of factors, many of which are mediated
+by the central nervous system rather than by any change at the chemical or tissue level. As an \emph{ad hoc}
+correction, we multiply the result of Eq \ref{eq:kappa-simple} by a factor
+controlled by a small parameter $Q$:
+\begin{equation}\label{eq:kappa}
+  \kappa = \left(\frac{1+(1-3Q)d/d_c}{1+d/d_c}\right) \kappa_0.
+\end{equation}
+The factor of 3 is introduced so that $Q$ is approximately equal to the reduction in speed between a 5k and a half-marathon,
+and we set $Q=0.05$.
+
+Empirically, for the mostly recreational runners studied here, a reasonable description of the data is achieved when
+$d_c$ is set to the half-marathon distance, which is the value adopted in this work.
+Fig \ref{fig:my-times} shows that
+setting $d_c$ to half-marathon distance gives a good fit to some real-world data.
+
+Although the fit in Fig \ref{fig:my-times} is rather good,
+much higher values of $d_c$ might be more appropriate for higher-level endurance runners.
+For example, Eliud Kipchoge's personal-record
+speed is only 8\% lower in the marathon than in the 1500 m. This can only be reproduced in this model if $d_c$
+is roughly marathon distance for him.
+For high-level running competitions, Gardner and Purdy give a
+method of comparing with a standard performance curve, based on a compilation of world
+records.\cite{gardner} 
+The red curve in Fig \ref{fig:my-times} is an approximation to the locus of world-record times (Appendix 2).
+
+Although fitting parameters to individual runners' characteristics is not the main purpose of this work, doing
+so is very easy with the model \ref{eq:kappa}, due to its purely multiplicative structure.
+When data are viewed in the format used in Fig \ref{fig:my-times}, as a log-log plot of speed versus distance,
+the standard curve $\kappa(d)$ is simply slid around horizontally and vertically to match the data, which
+has the effect of determining the runner's $v_m$ and $d_c$.
+
 \section*{Acknowledgements}
 
-The author thanks Wendy Yen for helpful conversations.
+The author thanks Wendy Yen for helpful conversations about statistical tests.
 
 \section*{Data availability statement}
 
@@ -751,36 +751,10 @@ Baumel R. Hill effect to second order.
     1989 Jan;33:36.
     %Available from: \url{http://www.runscore.com/coursemeasurement/MeasurementNews/033_89a.pdf}
 
-\bibitem{minetti}
-      Minetti AE, Moia C, Roi GS, Susta D, and Ferretti G.
-      Energy cost of walking and running at extreme uphill and downhill slopes.
-      J Applied Physiology.
-      2002;93:1039.
-
-\bibitem{shaw}
-      Shaw AJ, Ingham SA, Folland JP.
-      The valid measurement of running economy in runners 
-       Med Sci Sports Exerc.
-       2014 Oct;46(10):1968-73.
-
-\bibitem{lucia}
-      Lucia A, Olivan J, Bravo J, Gonzalez-Freire M, and Foster C.
-      The key to top-level endurance running performance: a unique example.
-      British Journal of Sports Medicine.
-      2008;42(3):172.
-
-, 42(3), 172–174. doi:10.1136/bjsm.2007.040725 
-
-\bibitem{godsey} Godsey B. Comparing and forecasting performances in different events of athletics using a probabilistic model.
-        Journal of Quantitative Analysis in Sports.
-        2012 Jun;8(2):1. doi:10.1515/1559-0410.1434
-
-\bibitem{hill} Hill AV. The physiological basis of athletic records. 
-         Lancet. 1925;5:481-486.
-
-\bibitem{rapoport} Rapoport BI. Metabolic factors limiting performance in marathon runners.
-      PLoS Comput Biol.
-       2010 Oct;6(10):e1000960.
+\bibitem{cameron}
+     Cameron DF. Time-equivalence Model. 
+     1998 Jun.
+     Available from: \url{http://www.cs.uml.edu/~phoffman/cammod.html}
 
 \bibitem{emig} Emig T and Peltonen J. Human running performance from real-world big data.
         Nat Commun.
@@ -791,12 +765,39 @@ Baumel R. Hill effect to second order.
         Medicine and science in sports. 2, 152–161.
         1970;2(3):152.
 
-\bibitem{cameron}
-     Cameron DF. Time-equivalence Model. 
-     1998 Jun.
-     Available from: \url{http://www.cs.uml.edu/~phoffman/cammod.html}
+\bibitem{godsey} Godsey B. Comparing and forecasting performances in different events of athletics using a probabilistic model.
+        Journal of Quantitative Analysis in Sports.
+        2012 Jun;8(2):1. doi:10.1515/1559-0410.1434
 
+\bibitem{hill} Hill AV. The physiological basis of athletic records. 
+         Lancet. 1925;5:481-486.
 
+\bibitem{lucia}
+      Lucia A, Olivan J, Bravo J, Gonzalez-Freire M, and Foster C.
+      The key to top-level endurance running performance: a unique example.
+      British Journal of Sports Medicine.
+      2008;42(3):172.
+
+\bibitem{minetti}
+      Minetti AE, Moia C, Roi GS, Susta D, and Ferretti G.
+      Energy cost of walking and running at extreme uphill and downhill slopes.
+      J Applied Physiology.
+      2002;93:1039.
+
+\bibitem{rapoport} Rapoport BI. Metabolic factors limiting performance in marathon runners.
+      PLoS Comput Biol.
+       2010 Oct;6(10):e1000960.
+
+\bibitem{shaw}
+      Shaw AJ, Ingham SA, Folland JP.
+      The valid measurement of running economy in runners 
+       Med Sci Sports Exerc.
+       2014 Oct;46(10):1968-73.
+
+\bibitem{vernillo}
+     Vernillo G, Giandolini M, Edwards WB, Morin JB, Samozino P, Horvais N, Millet GY. 
+     Biomechanics and physiology of uphill and downhill running. 
+     Sports Medicine. 2017 Apr;47(4):615-29.
 
 
 \end{thebibliography}
